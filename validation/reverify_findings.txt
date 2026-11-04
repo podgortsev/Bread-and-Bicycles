@@ -1,0 +1,75 @@
+==============================================================================
+1. e1 CHANNEL A: the interaction that carries the paper
+==============================================================================
+  [ok  ] qwen: 17 conditions x 600 tasks
+  [ok  ] llama: 17 conditions x 600 tasks
+  [ok  ] mistral: 17 conditions x 600 tasks
+  [ok  ] llama stated x stated, order a = +0.0383  +0.0383
+  [ok  ] llama stated x stated, order b = +0.0717  +0.0717
+  [ok  ] both orders POSITIVE, so the pair costs LESS than its parts
+  [ok  ] llama order b is significant on a hand-written sign test too  68 up, 32 down of 100, p=0.00041
+  [ok  ] llama form x form is near zero, not super-additive  -0.0100
+  [ok  ] llama main effect S01_s1 = -0.0500  -0.0500
+  [ok  ] llama main effect S08_s1 = -0.0650  -0.0650
+  [ok  ] qwen main effect S01_s1 = +0.0033  +0.0033
+  [ok  ] mistral main effect S01_s1 = +0.0083  +0.0083
+  [ok  ] qwen floor on channel A is exactly zero  +0.0000
+
+==============================================================================
+2. e1 CHANNEL C: why its interaction contrast is invalid
+==============================================================================
+  [ok  ] qwen ALT1 margin = -4.386  -4.3856
+  [ok  ] qwen ALT2_ONLY margin = -1.817  -1.8166
+  [ok  ] qwen ALT_BOTH margin = -2.638  -2.6381
+  [ok  ] the both-cell sits BETWEEN the two singles, not below their sum  -4.39 < -2.64 < -1.82
+  [ok  ] an additive model predicts -6.20 and the data give -2.64  predicted -6.20, observed -2.64
+  [ok  ] so the reported floor of +3.56 is arithmetic, not a finding  +3.5641
+  [ok  ] mistral screen reader HELPS, replicating Paper 2 method 6b (+7.14)  checked below
+  [ok  ]   mistral S01_s2 = +7.145 against Paper 2's +7.14  +7.1454
+
+==============================================================================
+3. e1 CHANNEL B: the floor that failed
+==============================================================================
+  [ok  ] qwen channel B floor = +0.5533  +0.5533
+  [ok  ] the floor is comparable with a social contrast, so the channel is unusable  floor +0.5533 against stated x stated +0.3998
+
+==============================================================================
+4. e2b: Liu et al. do not replicate
+==============================================================================
+  [ok  ] llama arm B (task corrupted) interaction = +0.0533  +0.0533
+  [ok  ] llama arm A (task clean) interaction = -0.0100  -0.0100
+  [ok  ] arm B minus arm A = +0.0633  +0.0633
+  [ok  ] arm B is SUB-additive, the opposite of the published claim
+  [ok  ] corrupting the task does cost accuracy on its own  typo 31.3% against std 37.8%
+
+==============================================================================
+5. e3: a credential does not buy back age
+==============================================================================
+  [ok  ] llama RATING: age alone -6.71, with credential -6.56  -6.707 and -6.560, recovered 0.02
+  [ok  ] llama RATING: recovery is essentially zero  0.022
+  [ok  ] mistral SCORE: age alone -39.28, with credential -37.16  -39.282 and -37.157, recovered 0.05
+  [ok  ] mistral SCORE: recovery is essentially zero  0.054
+
+==============================================================================
+6. e5: llama's self-report is a constant
+==============================================================================
+  [ok  ] llama produced 840 ratings  840
+  [ok  ] every one of them is exactly 0  min 0.0, max 0.0
+  [ok  ] qwen claims 9.65 for cues it was never told about  9.650
+  [ok  ] qwen claims 3.15 for the disclosures it WAS told about  3.146
+  [ok  ] qwen rates the unstated cue HIGHER than the stated one
+
+==============================================================================
+7. e1 CHANNEL C2: the rebuilt contrast, and why it cannot work
+==============================================================================
+  [ok  ] qwen rebuilt floor, both directions, as reported  +0.6469 and +6.4400
+  [ok  ] qwen: the same neutral clause FLIPS SIGN with its neighbour  cycling alone -4.386, cycling next to bread +2.054
+  [ok  ] qwen: floor-corrected form pair disagrees in sign between directions  +4.938 and -2.389, so the correction is not a stable reference
+  [ok  ] llama rebuilt floor, both directions, as reported  +0.6303 and +0.7013
+  [ok  ] llama: the same neutral clause FLIPS SIGN with its neighbour  cycling alone -0.326, cycling next to bread +0.375
+  [ok  ] llama: floor-corrected form pair disagrees in sign between directions  -0.089 and +0.686, so the correction is not a stable reference
+
+==============================================================================
+43 passed, 0 failed
+every headline number re-derived independently of the analysers.
+==============================================================================

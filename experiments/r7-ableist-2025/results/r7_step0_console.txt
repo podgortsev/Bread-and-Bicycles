@@ -1,0 +1,48 @@
+==============================================================================
+R7 ABLEIST STEP 0: Table 6, open models (Addendum 7)
+==============================================================================
+
+reading A: Llama-3.1-8B 4/12, OLMo-2-7B 4/12   fail
+  Llama-3.1-8B  dis     ->dis_gen      ours   30.88  0.28  theirs   19.61  0.19  n 30/60
+  Llama-3.1-8B  dis     ->dis_cas      ours   -5.88 -0.10  theirs  -10.29 -0.19  n 30/30
+  Llama-3.1-8B  dis     ->dis_nat      ours   13.24  0.10  theirs   13.24  0.10  n 30/60
+  Llama-3.1-8B  dis     ->dis_gen_cas  ours   51.47  0.47  theirs   51.47  0.47  n 30/60
+  Llama-3.1-8B  dis_gen ->dis_gen_cas  ours   15.73  0.15  theirs   26.64  0.26  n 60/60
+  Llama-3.1-8B  dis_cas ->dis_gen_cas  ours   60.94  0.46  theirs   68.85  0.42  n 30/60
+  OLMo-2-7B     dis     ->dis_gen      ours   27.91  0.29  theirs   32.56  0.37  n 30/60
+  OLMo-2-7B     dis     ->dis_cas      ours   39.53  0.38  theirs   23.26  0.25  n 30/30
+  OLMo-2-7B     dis     ->dis_nat      ours   20.93  0.22  theirs   20.93  0.22  n 30/60
+  OLMo-2-7B     dis     ->dis_gen_cas  ours   53.49  0.58  theirs   53.49  0.58  n 30/60
+  OLMo-2-7B     dis_gen ->dis_gen_cas  ours   20.00  0.24  theirs   15.79  0.22  n 60/60
+  OLMo-2-7B     dis_cas ->dis_gen_cas  ours   10.00  0.18  theirs   24.53  0.31  n 30/60
+
+reading B: Llama-3.1-8B 1/12, OLMo-2-7B 1/12   fail
+  Llama-3.1-8B  dis     ->dis_gen      ours    6.90  0.28  theirs   19.61  0.19  n 30/60
+  Llama-3.1-8B  dis     ->dis_cas      ours   -1.72 -0.07  theirs  -10.29 -0.19  n 30/30
+  Llama-3.1-8B  dis     ->dis_nat      ours    2.30  0.10  theirs   13.24  0.10  n 30/60
+  Llama-3.1-8B  dis     ->dis_gen_cas  ours   10.34  0.45  theirs   51.47  0.47  n 30/60
+  Llama-3.1-8B  dis_gen ->dis_gen_cas  ours    3.23  0.12  theirs   26.64  0.26  n 60/60
+  Llama-3.1-8B  dis_cas ->dis_gen_cas  ours   12.28  0.45  theirs   68.85  0.42  n 30/60
+  OLMo-2-7B     dis     ->dis_gen      ours    4.29  0.11  theirs   32.56  0.37  n 30/60
+  OLMo-2-7B     dis     ->dis_cas      ours   12.00  0.38  theirs   23.26  0.25  n 30/30
+  OLMo-2-7B     dis     ->dis_nat      ours    6.86  0.20  theirs   20.93  0.22  n 30/60
+  OLMo-2-7B     dis     ->dis_gen_cas  ours   16.29  0.58  theirs   53.49  0.58  n 30/60
+  OLMo-2-7B     dis_gen ->dis_gen_cas  ours   11.51  0.36  theirs   15.79  0.22  n 60/60
+  OLMo-2-7B     dis_cas ->dis_gen_cas  ours    3.83  0.13  theirs   24.53  0.31  n 30/60
+
+reading C: Llama-3.1-8B 6/12, OLMo-2-7B 6/12   fail
+  Llama-3.1-8B  dis     ->dis_gen      ours   19.61  0.19  theirs   19.61  0.19  n 30/90
+  Llama-3.1-8B  dis     ->dis_cas      ours  -10.29 -0.19  theirs  -10.29 -0.19  n 30/60
+  Llama-3.1-8B  dis     ->dis_nat      ours   13.24  0.10  theirs   13.24  0.10  n 30/60
+  Llama-3.1-8B  dis     ->dis_gen_cas  ours   46.57  0.48  theirs   51.47  0.47  n 30/180
+  Llama-3.1-8B  dis_gen ->dis_gen_cas  ours   22.54  0.23  theirs   26.64  0.26  n 90/180
+  Llama-3.1-8B  dis_cas ->dis_gen_cas  ours   63.39  0.48  theirs   68.85  0.42  n 60/180
+  OLMo-2-7B     dis     ->dis_gen      ours   32.56  0.37  theirs   32.56  0.37  n 30/90
+  OLMo-2-7B     dis     ->dis_cas      ours   23.26  0.25  theirs   23.26  0.25  n 30/60
+  OLMo-2-7B     dis     ->dis_nat      ours   20.93  0.22  theirs   20.93  0.22  n 30/60
+  OLMo-2-7B     dis     ->dis_gen_cas  ours   49.61  0.61  theirs   53.49  0.58  n 30/180
+  OLMo-2-7B     dis_gen ->dis_gen_cas  ours   12.87  0.18  theirs   15.79  0.22  n 90/180
+  OLMo-2-7B     dis_cas ->dis_gen_cas  ours   21.38  0.33  theirs   24.53  0.31  n 60/180
+
+VERDICT: FAIL: Table 6 not reproduced from their data
+==============================================================================

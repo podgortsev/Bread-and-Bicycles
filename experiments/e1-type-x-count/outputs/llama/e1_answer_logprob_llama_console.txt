@@ -1,0 +1,234 @@
+==============================================================================
+from run_floor_llama_output
+==============================================================================
+STEP e1a2: answer log probability, all 23 conditions
+==============================================================================
+  13800 answers to score across 23 conditions
+  checking answer scoring against a plain forward pass
+    answer 90             tokens 1  batched   -0.3383  alone   -0.3927  reference   -0.3927
+    answer 1669           tokens 2  batched   -5.4179  alone   -5.4068  reference   -5.4068
+    answer 597            tokens 1  batched   -9.0409  alone   -9.0820  reference   -9.0820
+Traceback (most recent call last):
+  File "/content/work/run_p3_floor.py", line 137, in main
+    collect(model)
+    ~~~~~~~^^^^^^^
+  File "/content/work/run_p3_floor.py", line 76, in <lambda>
+    lambda m: ANS.collect(m),
+              ~~~~~~~~~~~^^^
+  File "/content/work/run_e1_answer_logprob.py", line 126, in collect
+    model.check_answer_scoring([j[4] for j in sample], [j[3] for j in sample])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/work/p3_model.py", line 283, in check_answer_scoring
+    raise RuntimeError(
+        f"answer scoring disagrees with the reference by {worst:.4f}, "
+        f"more than {tolerance}. Nothing was written. Send this output.")
+RuntimeError: answer scoring disagrees with the reference by 0.0544, more than 0.05. Nothing was written. Send this output.
+  step e1a2 FAILED. The remaining steps still run.
+
+==============================================================================
+
+==============================================================================
+session summary, run_floor_llama_output
+==============================================================================
+COLLECTION SUMMARY, MODEL llama
+==============================================================================
+  e1c_floor done           10.6 min
+  e1p_floor done            7.2 min
+  e1b_floor done           20.0 min
+  e1a2      failed          0.0 min
+  e1a_floor done           14.7 min
+
+==========================================================================
+e1_choice, llama: first look
+==========================================================================
+
+  letter mass: mean 0.992, 0 of 2400 reads below 0.5 (0.0%)
+  raw first-slot advantage, all rows: +1.408 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1 CHOICE PAIRS, llama: first look
+==========================================================================
+
+  letter mass mean 0.988, 0 of 1600 below 0.5 (0.0%)
+
+  margin of the both-cell against one of its singles
+  negative = adding the second signal COSTS on top of the first
+
+    FLOOR2_ALTxALT        vs_a  n=  400    -0.2972
+    FLOOR2_ALTxALT        vs_b  n=  400    +0.0759
+    FLOOR3_ALTxALT        vs_a  n=  400    -1.1516
+    FLOOR3_ALTxALT        vs_b  n=  400    -0.0047
+
+  Run analyse_e1_choice_pairs.py with BOTH this file and the
+  first choice run: the interaction needs one term from each.
+
+==========================================================================
+e1 CHANNEL B, llama: first look
+==========================================================================
+
+  favourability = mean log prob over six positive trait words
+  higher is better for the person
+
+    NONE                -8.7015   vs NONE +0.0000
+    ALT3                -8.6540   vs NONE +0.0475
+    ALT4_ONLY           -8.5136   vs NONE +0.1879
+    ALT_BOTH_34         -8.7196   vs NONE -0.0181
+    ALT5                -8.9929   vs NONE -0.2913
+    ALT6_ONLY           -8.7465   vs NONE -0.0449
+    ALT_BOTH_56         -8.8297   vs NONE -0.1282
+
+  Run analyse_e1_continuous.py for interactions with intervals,
+  the floor check, the coherence check and the phrasing spread.
+  no results at /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_llama.csv
+
+==========================================================================
+e1 CHANNEL A, llama: first look
+==========================================================================
+
+  condition            n   correct   refused
+  NONE               600    37.8%      0.0%
+  ALT3               600    37.2%      0.0%
+  ALT4_ONLY          600    38.8%      0.0%
+  ALT_BOTH_34        600    36.8%      0.0%
+  ALT5               600    35.7%      0.0%
+  ALT6_ONLY          600    37.5%      0.0%
+  ALT_BOTH_56        600    36.8%      0.0%
+
+  interaction per contrast, mean of (both - A) - (B - none)
+  positive = costs LESS than the sum of parts (sub-additive)
+    FLOOR2_ALTxALT        floor             n= 600  mean -0.0133
+    FLOOR3_ALTxALT        floor             n= 600  mean +0.0150
+
+  Run analyse_e1_accuracy.py for the tested read with intervals,
+  the minimum detectable interaction and the floor check.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_floor_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_pairs_floor_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_traits_floor_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_accuracy_floor_llama.csv
+  and the console text from the first ==== line onwards.
+
+==============================================================================
+from run_a2_llama_output
+==============================================================================
+STEP e1a2: answer log probability, all 23 conditions
+==============================================================================
+  13800 answers to score across 23 conditions
+  checking answer scoring against a plain forward pass
+    answer 90             tokens 1  scorer   -0.3927  rerun   -0.3927  reference   -0.3927
+    answer 1402.5         tokens 4  scorer  -10.7460  rerun  -10.7460  reference  -10.7460
+    answer 1669           tokens 2  scorer   -5.4068  rerun   -5.4068  reference   -5.4068
+    answer 08 October 202 tokens 5  scorer   -9.4957  rerun   -9.4957  reference   -9.4957
+    answer 597            tokens 1  scorer   -9.0820  rerun   -9.0820  reference   -9.0820
+    answer scoring agrees with the reference, largest gap 0.0000
+    32 / 13800
+    1632 / 13800
+    3232 / 13800
+    4832 / 13800
+    6432 / 13800
+    8032 / 13800
+    9632 / 13800
+    11232 / 13800
+    12832 / 13800
+  saved to /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_llama.csv
+
+==============================================================================
+COLLECTION SUMMARY, MODEL llama
+==============================================================================
+  e1a2      done           56.3 min
+
+==========================================================================
+e1 CHANNEL A2, llama: first look
+==========================================================================
+  mean log P(correct answer), and the paired difference from NONE
+  negative = the condition makes the right answer LESS likely
+
+    NONE          n= 600    -4.2840   vs NONE +0.0000
+    ALT1          n= 600    -4.2771   vs NONE +0.0069
+    ALT2_ONLY     n= 600    -3.9411   vs NONE +0.3430
+    ALT_BOTH      n= 600    -3.7940   vs NONE +0.4900
+    S01_s1        n= 600    -4.1354   vs NONE +0.1486
+    S01_s2        n= 600    -4.3486   vs NONE -0.0646
+    S08_s1        n= 600    -4.9283   vs NONE -0.6443
+    S08_s2        n= 600    -4.5229   vs NONE -0.2389
+    F01           n= 600    -4.3724   vs NONE -0.0884
+    F04           n= 600    -4.0786   vs NONE +0.2054
+    P1_F01F04     n= 600    -4.1305   vs NONE +0.1535
+    P2_S01S08     n= 600    -4.4916   vs NONE -0.2076
+    P2_S08S01     n= 600    -4.5798   vs NONE -0.2958
+    P3_F01S01_s1  n= 600    -4.1176   vs NONE +0.1665
+    P3_F01S01_s2  n= 600    -4.1180   vs NONE +0.1661
+    P4_F04S08_s1  n= 600    -4.6951   vs NONE -0.4110
+    P4_F04S08_s2  n= 600    -4.2474   vs NONE +0.0366
+    ALT3          n= 600    -4.4496   vs NONE -0.1655
+    ALT4_ONLY     n= 600    -3.9632   vs NONE +0.3208
+    ALT_BOTH_34   n= 600    -3.9935   vs NONE +0.2906
+    ALT5          n= 600    -4.5699   vs NONE -0.2859
+    ALT6_ONLY     n= 600    -3.9335   vs NONE +0.3505
+    ALT_BOTH_56   n= 600    -4.0055   vs NONE +0.2785
+
+  Run analyse_e1_answer_logprob.py for the floors, the validity check
+  against channel A and the interactions.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+    /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_llama.csv
+  and the console text from the first ==== line onwards.
+
+==============================================================================
+session summary, run_a2_llama_output
+==============================================================================
+COLLECTION SUMMARY, MODEL llama
+==============================================================================
+  e1a2      done           56.3 min
+
+==========================================================================
+e1 CHANNEL A2, llama: first look
+==========================================================================
+  mean log P(correct answer), and the paired difference from NONE
+  negative = the condition makes the right answer LESS likely
+
+    NONE          n= 600    -4.2840   vs NONE +0.0000
+    ALT1          n= 600    -4.2771   vs NONE +0.0069
+    ALT2_ONLY     n= 600    -3.9411   vs NONE +0.3430
+    ALT_BOTH      n= 600    -3.7940   vs NONE +0.4900
+    S01_s1        n= 600    -4.1354   vs NONE +0.1486
+    S01_s2        n= 600    -4.3486   vs NONE -0.0646
+    S08_s1        n= 600    -4.9283   vs NONE -0.6443
+    S08_s2        n= 600    -4.5229   vs NONE -0.2389
+    F01           n= 600    -4.3724   vs NONE -0.0884
+    F04           n= 600    -4.0786   vs NONE +0.2054
+    P1_F01F04     n= 600    -4.1305   vs NONE +0.1535
+    P2_S01S08     n= 600    -4.4916   vs NONE -0.2076
+    P2_S08S01     n= 600    -4.5798   vs NONE -0.2958
+    P3_F01S01_s1  n= 600    -4.1176   vs NONE +0.1665
+    P3_F01S01_s2  n= 600    -4.1180   vs NONE +0.1661
+    P4_F04S08_s1  n= 600    -4.6951   vs NONE -0.4110
+    P4_F04S08_s2  n= 600    -4.2474   vs NONE +0.0366
+    ALT3          n= 600    -4.4496   vs NONE -0.1655
+    ALT4_ONLY     n= 600    -3.9632   vs NONE +0.3208
+    ALT_BOTH_34   n= 600    -3.9935   vs NONE +0.2906
+    ALT5          n= 600    -4.5699   vs NONE -0.2859
+    ALT6_ONLY     n= 600    -3.9335   vs NONE +0.3505
+    ALT_BOTH_56   n= 600    -4.0055   vs NONE +0.2785
+
+  Run analyse_e1_answer_logprob.py for the floors, the validity check
+  against channel A and the interactions.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+    /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_llama.csv
+  and the console text from the first ==== line onwards.

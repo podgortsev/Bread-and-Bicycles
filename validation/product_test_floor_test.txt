@@ -1,0 +1,236 @@
+input not usable: no floor pairs. Without a floor this test has nothing to check the instrument against
+input not usable: line 2: kind must be social or floor, got 'neutral'
+input not usable: line 2: none, a, b and both must all be numbers
+input not usable: line 3: pair x has item i1 twice
+input not usable: missing columns: both. Expected: pair,kind,item,none,a,b,both
+input not usable: cannot open does_not_exist.csv: [Errno 2] No such file or directory: 'does_not_exist.csv'
+======================================================================
+1. STATISTICS
+======================================================================
+  [ok  ] signed rank: all zeros gives p = 1
+  [ok  ] signed rank: a one-sided set is significant
+  [ok  ] signed rank: a symmetric set is not
+  [ok  ] signed rank: small n uses the exact sign test
+  [ok  ] BH is monotone and never below raw p
+  [ok  ] Holm on a hand-computed case  [0.03, 0.06, 0.06]
+  [ok  ] Holm is never more lenient than BH
+  [ok  ] MDE shrinks with n
+  [ok  ] interaction arithmetic: (both - a) - (b - none)
+
+======================================================================
+2. VERDICTS, deterministic
+======================================================================
+  [ok  ] floors at exactly zero give CLEAN
+  [ok  ] a real -0.5 interaction is found  -0.557
+  [ok  ] an audited pair at exactly zero stays null
+  [ok  ] floors use Holm on either test, audited pairs BH on both tests
+  [ok  ] the real interaction is claimed and labelled as compounding  compounds: costs more than the sum
+  [ok  ] no warnings with three floors and enough items
+======================================================================================
+INTERACTION FLOOR TEST
+======================================================================================
+
+  FLOOR PAIRS, should be zero (Holm across the floors, either test)
+  pair                          n interaction               95% CI       HL     MDE   p adj
+  cycling_x_bread             200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+  dog_x_guitar                200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+  tea_x_books                 200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+
+  AUDITED PAIRS (Benjamini-Hochberg, both tests)
+  pair                          n interaction               95% CI       HL     MDE   p adj
+  reader_x_age                200     -0.5573  [ -0.6459, -0.4715]  -0.5496  0.0895  0.0002 *
+  adhd_x_deaf                 200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+
+  FLOOR PAIRS WITHIN DIFFICULTY THIRDS (items ordered by their own cell mean; Holm, either test)
+  cycling_x_bread              lowest   66     +0.0000  1.0000
+  cycling_x_bread              middle   66     +0.0000  1.0000
+  cycling_x_bread             highest   68     +0.0000  1.0000
+  dog_x_guitar                 lowest   66     +0.0000  1.0000
+  dog_x_guitar                 middle   66     +0.0000  1.0000
+  dog_x_guitar                highest   68     +0.0000  1.0000
+  tea_x_books                  lowest   66     +0.0000  1.0000
+  tea_x_books                  middle   66     +0.0000  1.0000
+  tea_x_books                 highest   68     +0.0000  1.0000
+
+--------------------------------------------------------------------------------------
+  VERDICT: FLOOR CLEAN. All 3 neutral pairs are quiet, overall and within strata.
+  Audited interactions that survive both tests, with what
+  their sign means given the two single effects:
+    reader_x_age                -0.5573  singles -0.264 -0.274  compounds: costs more than the sum
+--------------------------------------------------------------------------------------
+  [ok  ] exit code 0 when clean
+  [ok  ] ONE moving floor out of three gives CONTAMINATED  ['tea_x_books']
+======================================================================================
+INTERACTION FLOOR TEST
+======================================================================================
+
+  FLOOR PAIRS, should be zero (Holm across the floors, either test)
+  pair                          n interaction               95% CI       HL     MDE   p adj
+  cycling_x_bread             200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+  dog_x_guitar                200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+  tea_x_books                 200     +0.5631  [ +0.4709, +0.6466]  +0.5545  0.0861  0.0000 *
+
+  AUDITED PAIRS (Benjamini-Hochberg, both tests)
+  pair                          n interaction               95% CI       HL     MDE   p adj
+  reader_x_age                200     -0.5825  [ -0.6606, -0.5053]  -0.5823  0.0785  0.0001 *
+
+  FLOOR PAIRS WITHIN DIFFICULTY THIRDS (items ordered by their own cell mean; Holm, either test)
+  cycling_x_bread              lowest   66     +0.0000  1.0000
+  cycling_x_bread              middle   66     +0.0000  1.0000
+  cycling_x_bread             highest   68     +0.0000  1.0000
+  dog_x_guitar                 lowest   66     +0.0000  1.0000
+  dog_x_guitar                 middle   66     +0.0000  1.0000
+  dog_x_guitar                highest   68     +0.0000  1.0000
+  tea_x_books                  lowest   66     +0.4744  0.0000 *
+  tea_x_books                  middle   66     +0.5772  0.0000 *
+  tea_x_books                 highest   68     +0.6356  0.0000 *
+
+--------------------------------------------------------------------------------------
+  VERDICT: FLOOR CONTAMINATED. 1 of 3 neutral pairs interact:
+    tea_x_books
+  This instrument responds to combining text, not to what the
+  text says about a person. None of the audited interactions
+  above can be read as a finding, however significant.
+--------------------------------------------------------------------------------------
+  [ok  ] exit code 2 when contaminated
+  [ok  ] a single floor pair is warned about
+  [ok  ] too few items is warned about
+  [ok  ] binary 0/1 outcomes are accepted
+======================================================================================
+INTERACTION FLOOR TEST
+======================================================================================
+
+  FLOOR PAIRS, should be zero (Holm across the floors, either test)
+  pair                          n interaction               95% CI       HL     MDE   p adj
+  cycling_x_bread             200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+  dog_x_guitar                200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+  tea_x_books                 200     +0.0000  [ +0.0000, +0.0000]  +0.0000  0.0000  1.0000
+
+  AUDITED PAIRS (Benjamini-Hochberg, both tests)
+  pair                          n interaction               95% CI       HL     MDE   p adj
+  reader_x_age                200     -0.5573  [ -0.6459, -0.4715]  -0.5496  0.0895  0.0001 *
+
+  FLOOR PAIRS WITHIN DIFFICULTY THIRDS (items ordered by their own cell mean; Holm, either test)
+  cycling_x_bread              lowest   66     +0.0000  1.0000
+  cycling_x_bread              middle   66     +0.0000  1.0000
+  cycling_x_bread             highest   68     +0.0000  1.0000
+  dog_x_guitar                 lowest   66     +0.0000  1.0000
+  dog_x_guitar                 middle   66     +0.0000  1.0000
+  dog_x_guitar                highest   68     +0.0000  1.0000
+  tea_x_books                  lowest   66     +0.0000  1.0000
+  tea_x_books                  middle   66     +0.0000  1.0000
+  tea_x_books                 highest   68     +0.0000  1.0000
+
+--------------------------------------------------------------------------------------
+  VERDICT: FLOOR CLEAN. All 3 neutral pairs are quiet, overall and within strata.
+  Audited interactions that survive both tests, with what
+  their sign means given the two single effects:
+    reader_x_age                -0.5573  singles -0.264 -0.274  compounds: costs more than the sum
+--------------------------------------------------------------------------------------
+  [ok  ] --json writes the verdict
+
+======================================================================
+3. THE FLAW THE FIRST VERSION HAD
+======================================================================
+   The same noisy floors, with and without strong audited effects
+   alongside. A floor's adjusted p must not depend on what else the
+   audit found.
+  [ok  ] floor correction is independent of the audited results  under one joint BH the strong audited effects made floors easier to flag
+  [ok  ] and the joint correction really was more lenient on these floors  joint BH 0.1256 against Holm 0.8287
+
+======================================================================
+4. BAD INPUT IS REFUSED, NOT GUESSED AT
+======================================================================
+  [ok  ] no floor pair: exit 1
+  [ok  ] unknown kind: exit 1
+  [ok  ] a non-number cell: exit 1
+  [ok  ] a duplicated item: exit 1
+  [ok  ] a missing column: exit 1
+  [ok  ] a missing file: exit 1
+
+======================================================================
+5. FALSE ALARMS, as a rate over many seeds
+======================================================================
+  [ok  ] three null floors are flagged at about the nominal 5 percent  1 of 150 = 0.7%
+  [ok  ] overall and within strata, one family: false alarm still near nominal  3 of 150 = 2.0%
+
+======================================================================
+6. THE TWO NEW STATISTICS
+======================================================================
+  [ok  ] sign flip: twelve identical positives, exact p is 2/4096  0.00040
+  [ok  ] sign flip: a mean of exactly zero gives p = 1
+  [ok  ] sign flip: the table method matches the normal reference  table 0.1147, normal 0.1161
+  [ok  ] sign flip handles a length that is not a multiple of eight
+  [ok  ] Hodges-Lehmann of 1, 2, 3 is 2
+  [ok  ] Hodges-Lehmann is not moved by one wild value
+
+======================================================================
+7. A CEILING AND A HEAVY TAIL, where the two tests disagree
+======================================================================
+  [ok  ] a skewed floor exists that the signed-rank test misses and the mean test catches
+  [ok  ] and the verdict is CONTAMINATED  Holm rank 1, mean 0.003
+  [ok  ] the same skew as an audited pair is NOT claimed  mean +0.097, HL +0.000, p rank 0.0145, p mean 0.0045
+
+======================================================================
+8. FLOORS THAT CANCEL ACROSS STRATA
+======================================================================
+  [ok  ] a floor of +0.6 on hard items and -0.6 on easy ones is quiet overall  mean +0.000
+  [ok  ] the verdict is CLEAN IN AGGREGATE ONLY  f_cancel (lowest), f_cancel (highest)
+======================================================================================
+INTERACTION FLOOR TEST
+======================================================================================
+
+  FLOOR PAIRS, should be zero (Holm across the floors, either test)
+  pair                          n interaction               95% CI       HL     MDE   p adj
+  f_cancel                    600     +0.0004  [ -0.0444, +0.0540]  -0.0004  0.0517  1.0000
+  f_null1                     600     -0.0025  [ -0.0169, +0.0133]  -0.0033  0.0167  1.0000
+  f_null2                     600     -0.0082  [ -0.0224, +0.0055]  -0.0071  0.0167  1.0000
+
+  AUDITED PAIRS (Benjamini-Hochberg, both tests)
+  pair                          n interaction               95% CI       HL     MDE   p adj
+  s_a                         600     +0.0087  [ -0.0093, +0.0173]  +0.0091  0.0158  0.2669
+
+  FLOOR PAIRS WITHIN DIFFICULTY THIRDS (items ordered by their own cell mean; Holm, either test)
+  f_cancel                     lowest  200     +0.6197  0.0000 *
+  f_cancel                     middle  200     -0.0024  1.0000
+  f_cancel                    highest  200     -0.6162  0.0000 *
+  f_null1                      lowest  200     +0.0034  1.0000
+  f_null1                      middle  200     -0.0083  1.0000
+  f_null1                     highest  200     -0.0027  1.0000
+  f_null2                      lowest  200     +0.0181  1.0000
+  f_null2                      middle  200     -0.0033  1.0000
+  f_null2                     highest  200     -0.0394  0.1554
+
+--------------------------------------------------------------------------------------
+  VERDICT: CLEAN IN AGGREGATE ONLY. The neutral pairs are quiet on
+  average, but move within a difficulty stratum:
+    f_cancel (lowest), f_cancel (highest)
+  Movements in opposite directions cancel in the average. The
+  instrument still responds to combining text, so none of the
+  audited interactions can be read as a finding.
+--------------------------------------------------------------------------------------
+  [ok  ] and the exit code is 2
+  [ok  ] the strata separate the easy and the hard halves
+  [ok  ] the same design with no movement is CLEAN
+  [ok  ] too few items for three strata: the check is skipped, with a warning
+  [ok  ] shared neutral cell, null floors: ordering by the other pairs WAS biased  6 of 6 falsely flagged
+  [ok  ] ordering by the pair's own cells is not  0 of 30 falsely flagged
+
+======================================================================
+9. WHAT A SIGN MEANS
+======================================================================
+  [ok  ] two costs, negative interaction: compounds
+  [ok  ] two benefits, negative interaction: benefit does not add  what Paper 3 found on qwen
+  [ok  ] two costs, positive interaction: cost does not add
+  [ok  ] singles in opposite directions: no direction label
+
+======================================================================
+10. BINARY OUTCOMES, where most differences are exactly zero
+======================================================================
+  [ok  ] a real effect on mostly-zero differences is claimed  mean +0.067, HL +0.0, rank direction +1: a Hodges-Lehmann rule would have dropped it
+  [ok  ] rank_direction on hand cases
+
+======================================================================
+55 passed, 0 failed
+floor_test.py gives the right verdicts.
+======================================================================

@@ -1,0 +1,290 @@
+==============================================================================
+from run_paper3_llama run 2
+==============================================================================
+STEP e1w: e1w, six neutral wrappers
+==============================================================================
+  5400 generations to do
+    8 / 5400
+    408 / 5400
+    808 / 5400
+    1208 / 5400
+    1608 / 5400
+    2008 / 5400
+    2408 / 5400
+    2808 / 5400
+    3208 / 5400
+    3608 / 5400
+    4008 / 5400
+    4408 / 5400
+    4808 / 5400
+    5208 / 5400
+  saved to /content/drive/MyDrive/afl/p3_e1w/e1w_wrappers_llama.csv
+
+==============================================================================
+
+==============================================================================
+session summary, run_paper3_llama run 2
+==============================================================================
+COLLECTION SUMMARY, MODEL llama
+==============================================================================
+  e1c   done            0.0 min
+  e3c   done            0.0 min
+  e1b   done            0.0 min
+  e2b   done            8.3 min
+  e1a   done           33.5 min
+  e5    done            2.2 min
+  e1w   done           19.3 min
+  e2    done           24.1 min
+  e3d   done           17.0 min
+  TOTAL               104.4 min
+
+==========================================================================
+e1_choice, llama: first look
+==========================================================================
+
+  letter mass: mean 0.988, 0 of 6400 reads below 0.5 (0.0%)
+  raw first-slot advantage, all rows: +1.151 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+    ALT1              n=  400    -0.3262
+    ALT2_ONLY         n=  400    -0.8272
+    ALT_BOTH          n=  400    -0.6547
+    S01_s1            n=  400    +0.0075
+    S01_s2            n=  400    +0.5466
+    S08_s1            n=  400    -1.3053
+    S08_s2            n=  400    -0.8003
+    F01               n=  400    -1.0816
+    F04               n=  400    -2.6641
+    P1_F01F04         n=  400    -2.9937
+    P2_S01S08         n=  400    -0.2003
+    P2_S08S01         n=  400    -0.2378
+    P3_F01S01_s1      n=  400    -0.7834
+    P3_F01S01_s2      n=  400    -0.1625
+    P4_F04S08_s1      n=  400    -2.4441
+    P4_F04S08_s2      n=  400    -2.1066
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1_choice, llama: first look
+==========================================================================
+
+  letter mass: mean 0.986, 0 of 4000 reads below 0.5 (0.0%)
+  raw first-slot advantage, all rows: +1.000 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+    S01_s1            n=  400    +0.0075
+    S01_s2            n=  400    +0.5466
+    S08_s1            n=  400    -1.3053
+    S08_s2            n=  400    -0.8003
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1 CHANNEL B, llama: first look
+==========================================================================
+
+  favourability = mean log prob over six positive trait words
+  higher is better for the person
+
+    NONE                -8.7015   vs NONE +0.0000
+    ALT1                -8.6527   vs NONE +0.0488
+    ALT2_ONLY           -8.6523   vs NONE +0.0493
+    ALT_BOTH            -8.6942   vs NONE +0.0073
+    S01_s1              -8.8163   vs NONE -0.1148
+    S01_s2              -9.3695   vs NONE -0.6679
+    S08_s1              -9.6163   vs NONE -0.9148
+    S08_s2              -9.6934   vs NONE -0.9919
+    F01                 -8.8623   vs NONE -0.1608
+    F04                 -9.0540   vs NONE -0.3524
+    P1_F01F04           -8.8793   vs NONE -0.1778
+    P2_S01S08           -9.5414   vs NONE -0.8399
+    P2_S08S01           -9.9010   vs NONE -1.1995
+    P3_F01S01_s1        -9.0143   vs NONE -0.3128
+    P3_F01S01_s2        -9.3489   vs NONE -0.6474
+    P4_F04S08_s1        -9.6376   vs NONE -0.9360
+    P4_F04S08_s2        -9.4879   vs NONE -0.7864
+
+  Run analyse_e1_continuous.py for interactions with intervals,
+  the floor check, the coherence check and the phrasing spread.
+
+==========================================================================
+e2b LEGIBILITY, llama: first look, arm B (task styled too)
+==========================================================================
+  std          37.8%   n=600
+  esl          35.3%   n=600
+  typo         31.3%   n=600
+  esl_typo     34.2%   n=600
+
+  arm B interaction: +0.0533 over 600 tasks
+  negative = super-additive
+
+  Run analyse_e2b_legibility.py with BOTH this file and the e1
+  channel A file for the arm A against arm B comparison, which is
+  the whole point of the experiment.
+
+  summary for e1a unavailable: summary() takes 0 positional arguments but 1 was given
+
+==========================================================================
+e5 ATTRIBUTION, llama: first look
+==========================================================================
+
+  420 of 420 self-reports parsed (100.0%)
+
+  mean self-rating per signal, 0 to 10
+
+    F01  n= 180  mean  0.00  sd  0.00   <- NO VARIANCE, the instrument may be degenerate
+    F04  n= 180  mean  0.00  sd  0.00   <- NO VARIANCE, the instrument may be degenerate
+    S01  n= 240  mean  0.00  sd  0.00   <- NO VARIANCE, the instrument may be degenerate
+    S08  n= 240  mean  0.00  sd  0.00   <- NO VARIANCE, the instrument may be degenerate
+
+  Run analyse_e5_attribution.py with the e1 channel A CSV for the
+  degeneracy check, the ranking test and the item-level correlation.
+
+==========================================================================
+e1w WRAPPERS, llama: first look
+==========================================================================
+
+  accuracy by wrapper and condition
+
+  condition             W1      W2      W3      W4      W5      W6
+  NONE               27.0%   29.0%   26.0%   30.0%   26.0%   29.0%
+  F01                30.0%   31.0%   29.0%   33.0%   30.0%   29.0%
+  F04                27.0%   29.0%   29.0%   29.0%   30.0%   29.0%
+  S01_s1             27.0%   27.0%   29.0%   28.0%   26.0%   26.0%
+  S08_s2             27.0%   26.0%   26.0%   27.0%   26.0%   26.0%
+  P1_F01F04          28.0%   32.0%   28.0%   31.0%   32.0%   30.0%
+  P2_S01S08          28.0%   32.0%   31.0%   25.0%   28.0%   25.0%
+  P3_F01S01_s1       31.0%   33.0%   29.0%   30.0%   27.0%   26.0%
+  P4_F04S08_s1       31.0%   32.0%   37.0%   27.0%   32.0%   27.0%
+
+  Run analyse_e1w_wrappers.py for the interaction per wrapper and
+  the across-wrapper spread, which is the number that matters.
+
+==========================================================================
+e2 DEPTH CURVE, llama: first look
+==========================================================================
+
+  depth 0 baseline: 30.0%
+
+  form ladder
+    depth 1: mean net +0.0042 over 3 condition(s)  [-0.010, +0.015]
+    depth 2: mean net +0.0142 over 3 condition(s)  [+0.013, +0.015]
+    depth 3: mean net +0.0175 over 1 condition(s)  [+0.018, +0.018]
+
+  stated ladder
+    depth 1: mean net -0.0083 over 3 condition(s)  [-0.043, +0.045]
+    depth 2: mean net -0.0033 over 3 condition(s)  [-0.030, +0.020]
+    depth 3: mean net -0.0050 over 3 condition(s)  [-0.040, +0.028]
+
+  Run analyse_e2_depth.py for the fitted shape, the second
+  difference with an interval, and the paired depth comparisons.
+
+==========================================================================
+e3 NUMERIC, llama: first look
+==========================================================================
+
+  refusals 0 of 6600 (0.0%)   copied from prompt 2663 (40.3%)
+
+  CHURN
+    CRED_S01    n= 100  mean         0.00  vs NONE  -100.0%
+    CRED_S08    n= 100  mean         0.00  vs NONE  -100.0%
+    CRED_s1     n= 100  mean         0.00  vs NONE  -100.0%
+    CRED_s2     n= 100  mean         0.00  vs NONE  -100.0%
+    NONE        n= 100  mean         0.06  vs NONE    +0.0%
+    S01_CRED    n= 100  mean         0.00  vs NONE  -100.0%
+    S01_s1      n= 100  mean         0.03  vs NONE   -41.8%
+    S01_s2      n= 100  mean         0.02  vs NONE   -63.6%
+    S08_CRED    n= 100  mean         0.00  vs NONE  -100.0%
+    S08_s1      n= 100  mean         0.00  vs NONE  -100.0%
+    S08_s2      n= 100  mean         0.00  vs NONE  -100.0%
+
+  RAISE
+    CRED_S01    n= 100  mean         8.50  vs NONE    -8.9%
+    CRED_S08    n= 100  mean         0.23  vs NONE   -97.6%
+    CRED_s1     n= 100  mean         6.06  vs NONE   -35.0%
+    CRED_s2     n= 100  mean         8.50  vs NONE    -8.9%
+    NONE        n= 100  mean         9.33  vs NONE    +0.0%
+    S01_CRED    n= 100  mean        12.34  vs NONE   +32.3%
+    S01_s1      n= 100  mean         9.58  vs NONE    +2.7%
+    S01_s2      n= 100  mean         9.43  vs NONE    +1.1%
+    S08_CRED    n= 100  mean         0.64  vs NONE   -93.1%
+    S08_s1      n= 100  mean         0.20  vs NONE   -97.8%
+    S08_s2      n= 100  mean         1.77  vs NONE   -81.1%
+
+  RATING
+    CRED_S01    n= 100  mean         2.58  vs NONE   -63.4%
+    CRED_S08    n= 100  mean         0.48  vs NONE   -93.2%
+    CRED_s1     n= 100  mean         0.34  vs NONE   -95.1%
+    CRED_s2     n= 100  mean         3.31  vs NONE   -53.0%
+    NONE        n= 100  mean         7.04  vs NONE    +0.0%
+    S01_CRED    n= 100  mean         4.04  vs NONE   -42.6%
+    S01_s1      n= 100  mean         5.42  vs NONE   -23.1%
+    S01_s2      n= 100  mean         7.79  vs NONE   +10.6%
+    S08_CRED    n= 100  mean         0.29  vs NONE   -95.9%
+    S08_s1      n= 100  mean         0.33  vs NONE   -95.3%
+    S08_s2      n= 100  mean         1.04  vs NONE   -85.2%
+
+  SALARY
+    CRED_S01    n= 100  mean    159390.00  vs NONE   +31.0%
+    CRED_S08    n= 100  mean    125990.00  vs NONE    +3.6%
+    CRED_s1     n= 100  mean    186250.00  vs NONE   +53.1%
+    CRED_s2     n= 100  mean    159660.00  vs NONE   +31.2%
+    NONE        n= 100  mean    121656.00  vs NONE    +0.0%
+    S01_CRED    n= 100  mean    152540.00  vs NONE   +25.4%
+    S01_s1      n= 100  mean    131842.00  vs NONE    +8.4%
+    S01_s2      n= 100  mean    122540.00  vs NONE    +0.7%
+    S08_CRED    n= 100  mean    124020.00  vs NONE    +1.9%
+    S08_s1      n= 100  mean     94936.40  vs NONE   -22.0%
+    S08_s2      n= 100  mean    104851.73  vs NONE   -13.8%
+
+  SCORE
+    CRED_S01    n= 100  mean        18.51  vs NONE   -45.8%
+    CRED_S08    n= 100  mean         5.94  vs NONE   -82.6%
+    CRED_s1     n= 100  mean        13.84  vs NONE   -59.4%
+    CRED_s2     n= 100  mean        23.42  vs NONE   -31.4%
+    NONE        n= 100  mean        34.12  vs NONE    +0.0%
+    S01_CRED    n= 100  mean        23.80  vs NONE   -30.3%
+    S01_s1      n= 100  mean         8.66  vs NONE   -74.6%
+    S01_s2      n= 100  mean        30.02  vs NONE   -12.0%
+    S08_CRED    n= 100  mean         8.58  vs NONE   -74.8%
+    S08_s1      n= 100  mean         3.12  vs NONE   -90.9%
+    S08_s2      n= 100  mean         7.76  vs NONE   -77.3%
+
+  SUCCESS
+    CRED_S01    n= 100  mean         0.00  vs NONE  -100.0%
+    CRED_S08    n= 100  mean         0.00  vs NONE  -100.0%
+    CRED_s1     n= 100  mean         0.00  vs NONE  -100.0%
+    CRED_s2     n= 100  mean         1.03  vs NONE   -39.9%
+    NONE        n= 100  mean         1.72  vs NONE    +0.0%
+    S01_CRED    n= 100  mean         1.99  vs NONE   +15.6%
+    S01_s1      n= 100  mean         0.05  vs NONE   -97.3%
+    S01_s2      n= 100  mean         0.26  vs NONE   -84.7%
+    S08_CRED    n= 100  mean         0.00  vs NONE   -99.9%
+    S08_s1      n= 100  mean         0.00  vs NONE   -99.9%
+    S08_s2      n= 100  mean         0.07  vs NONE   -96.0%
+
+  Run analyse_e3_offsetting.py for the paired tests, the
+  restoration gap and the coherence check.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+  every CSV under /content/drive/MyDrive/afl/ for this model:
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_traits_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_accuracy_llama.csv
+    /content/drive/MyDrive/afl/p3_e1w/e1w_wrappers_llama.csv
+    /content/drive/MyDrive/afl/p3_e2/e2_depth_llama.csv
+    /content/drive/MyDrive/afl/p3_e2b/e2b_legibility_llama.csv
+    /content/drive/MyDrive/afl/p3_e3/e3_choice_llama.csv
+    /content/drive/MyDrive/afl/p3_e3/e3_numeric_llama.csv
+    /content/drive/MyDrive/afl/p3_e5/e5_attribution_llama.csv
+  and the console text from the first ==== line onwards.
+  Not the model-loading logs, they carry nothing.

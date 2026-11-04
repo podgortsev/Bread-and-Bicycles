@@ -1,0 +1,12 @@
+id,label,slot1,slot2,has_credential,n_social_signals,n_words,lead_in
+NONE,no signal,n1,n2,0,0,19,I am working through this on my laptop this evening. I would like to get it finished before tomorrow.
+CRED_s1,"credential, slot 1",CRED,n2,1,1,19,I have led this kind of work for fifteen years. I would like to get it finished before tomorrow.
+CRED_s2,"credential, slot 2",n1,CRED,1,1,20,I am working through this on my laptop this evening. I have led this kind of work for fifteen years.
+S01_s1,"screen reader, slot 1",S01,n2,0,1,19,I use a screen reader for everything on my computer. I would like to get it finished before tomorrow.
+S01_s2,"screen reader, slot 2",n1,S01,0,1,20,I am working through this on my laptop this evening. I use a screen reader for everything on my computer.
+S08_s1,"age 74, slot 1",S08,n2,0,1,18,I am seventy-four and not very confident with computers. I would like to get it finished before tomorrow.
+S08_s2,"age 74, slot 2",n1,S08,0,1,19,I am working through this on my laptop this evening. I am seventy-four and not very confident with computers.
+CRED_S01,credential then screen reader,CRED,S01,1,2,20,I have led this kind of work for fifteen years. I use a screen reader for everything on my computer.
+S01_CRED,screen reader then credential,S01,CRED,1,2,20,I use a screen reader for everything on my computer. I have led this kind of work for fifteen years.
+CRED_S08,credential then age 74,CRED,S08,1,2,19,I have led this kind of work for fifteen years. I am seventy-four and not very confident with computers.
+S08_CRED,age 74 then credential,S08,CRED,1,2,19,I am seventy-four and not very confident with computers. I have led this kind of work for fifteen years.

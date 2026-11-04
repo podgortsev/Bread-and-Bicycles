@@ -1,0 +1,41 @@
+==========================================================================
+STAGE 1: demographic and none rows, raw and chat formats
+==========================================================================
+  raw: 82368 rows, 2351 already scored, 80017 to score
+  self-check: --batch 1, every sequence is a single pass
+  chat: 82368 rows, 0 already scored, 82368 to score
+  self-check: --batch 1, every sequence is a single pass
+==========================================================================
+STAGE 2: our table against the authors' Table 2, and the choice
+==========================================================================
+  raw: spearman 0.905, mean abs diff 0.029, PASS
+    none                 ours 0.043 0.226   theirs 0.056 0.178
+    age                  ours 0.095 0.195   theirs 0.147 0.100
+    body_type            ours 0.247 0.418   theirs 0.243 0.392
+    disability           ours 0.193 0.422   theirs 0.222 0.382
+    gender_identity      ours 0.249 0.073   theirs 0.269 0.063
+    language             ours 0.181 0.357   theirs 0.255 0.358
+    nationality          ours 0.090 0.103   theirs 0.094 0.119
+    sexual_orientation   ours 0.257 0.245   theirs 0.230 0.204
+    socioeconomic        ours 0.405 0.424   theirs 0.389 0.400
+    race                 ours 0.179 0.170   theirs 0.212 0.160
+    religion             ours 0.081 0.124   theirs 0.108 0.092
+  chat: spearman 0.726, mean abs diff 0.058, PASS
+    none                 ours 0.076 0.141   theirs 0.056 0.178
+    age                  ours 0.111 0.179   theirs 0.147 0.100
+    body_type            ours 0.225 0.324   theirs 0.243 0.392
+    disability           ours 0.256 0.427   theirs 0.222 0.382
+    gender_identity      ours 0.267 0.169   theirs 0.269 0.063
+    language             ours 0.064 0.283   theirs 0.255 0.358
+    nationality          ours 0.062 0.169   theirs 0.094 0.119
+    sexual_orientation   ours 0.204 0.298   theirs 0.230 0.204
+    socioeconomic        ours 0.324 0.489   theirs 0.389 0.400
+    race                 ours 0.152 0.193   theirs 0.212 0.160
+    religion             ours 0.101 0.197   theirs 0.108 0.092
+  chosen format: raw (passes)
+==========================================================================
+STAGE 3: neutral and their baseline rows, raw format only
+==========================================================================
+  raw: 28512 rows, 0 already scored, 28512 to score
+  self-check: --batch 1, every sequence is a single pass
+done

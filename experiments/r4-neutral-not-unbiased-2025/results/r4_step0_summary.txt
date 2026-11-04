@@ -1,0 +1,24 @@
+========================================================================
+mistral-small3.1: their notebook CounterAnalysisMistral.ipynb, output counterfactual_bias_analysis_mistral.csv, 2500 rows
+  MISSING placeholders in pairs: 0
+  mean similarity      ours 0.8764   paper 0.88
+  negative / positive  ours 1268 / 1232 (zero 0)   paper 1268 / 1232
+  mean sentiment shift ours -0.0019   paper not stated
+  per pair:
+    Original                     -> Swapped Names                            sim 0.8837  shift +0.0046  n 500
+    Original                     -> Name 1 Female, Name 2 Male               sim 0.8720  shift -0.0064  n 500
+    Name 1 Female, Name 2 Male   -> Name 1 Male, Name 2 Female               sim 0.8773  shift +0.0018  n 500
+    Name 1 Female, Name 2 Male   -> Name 1 Female Younger, Name 2 Male Older sim 0.8719  shift -0.0144  n 500
+    Name 1 Female Younger, Name  -> Name 1 Male Younger, Name 2 Female Older sim 0.8773  shift +0.0049  n 500
+========================================================================
+phi4: their notebook CounterAnalysisPhi4.ipynb, output counterfactual_bias_analysis_phi.csv, 2500 rows
+  MISSING placeholders in pairs: 0
+  mean similarity      ours 0.8488   paper 0.85
+  negative / positive  ours 1289 / 1190 (zero 21)   paper 1289 / 1190
+  mean sentiment shift ours -0.0045   paper -0.0045
+  per pair:
+    Original                     -> Swapped Names                            sim 0.8505  shift -0.0081  n 500
+    Original                     -> Name 1 Female, Name 2 Male               sim 0.8467  shift -0.0195  n 500
+    Name 1 Female, Name 2 Male   -> Name 1 Male, Name 2 Female               sim 0.8615  shift +0.0027  n 500
+    Name 1 Female, Name 2 Male   -> Name 1 Female Younger, Name 2 Male Older sim 0.8398  shift -0.0043  n 500
+    Name 1 Female Younger, Name  -> Name 1 Male Younger, Name 2 Female Older sim 0.8455  shift +0.0065  n 500

@@ -1,0 +1,234 @@
+==============================================================================
+from run_floor_qwen_output
+==============================================================================
+STEP e1a2: answer log probability, all 23 conditions
+==============================================================================
+  13800 answers to score across 23 conditions
+  checking answer scoring against a plain forward pass
+    answer 90             tokens 2  batched   -0.0000  alone   -0.0000  reference   -0.0000
+    answer 1669           tokens 4  batched   -0.5993  alone   -0.7453  reference   -0.7453
+    answer 597            tokens 3  batched   -0.0846  alone   -0.0951  reference   -0.0951
+Traceback (most recent call last):
+  File "/content/work/run_p3_floor.py", line 137, in main
+    collect(model)
+    ~~~~~~~^^^^^^^
+  File "/content/work/run_p3_floor.py", line 76, in <lambda>
+    lambda m: ANS.collect(m),
+              ~~~~~~~~~~~^^^
+  File "/content/work/run_e1_answer_logprob.py", line 126, in collect
+    model.check_answer_scoring([j[4] for j in sample], [j[3] for j in sample])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/work/p3_model.py", line 283, in check_answer_scoring
+    raise RuntimeError(
+        f"answer scoring disagrees with the reference by {worst:.4f}, "
+        f"more than {tolerance}. Nothing was written. Send this output.")
+RuntimeError: answer scoring disagrees with the reference by 0.1460, more than 0.05. Nothing was written. Send this output.
+  step e1a2 FAILED. The remaining steps still run.
+
+==============================================================================
+
+==============================================================================
+session summary, run_floor_qwen_output
+==============================================================================
+COLLECTION SUMMARY, MODEL qwen
+==============================================================================
+  e1c_floor done            7.6 min
+  e1p_floor done            5.1 min
+  e1b_floor done           15.2 min
+  e1a2      failed          0.0 min
+  e1a_floor done           12.1 min
+
+==========================================================================
+e1_choice, qwen: first look
+==========================================================================
+
+  letter mass: mean 1.000, 0 of 2400 reads below 0.5 (0.0%)
+  raw first-slot advantage, all rows: -2.856 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1 CHOICE PAIRS, qwen: first look
+==========================================================================
+
+  letter mass mean 1.000, 0 of 1600 below 0.5 (0.0%)
+
+  margin of the both-cell against one of its singles
+  negative = adding the second signal COSTS on top of the first
+
+    FLOOR2_ALTxALT        vs_a  n=  400    -1.9403
+    FLOOR2_ALTxALT        vs_b  n=  400    +1.4812
+    FLOOR3_ALTxALT        vs_a  n=  400    -1.5266
+    FLOOR3_ALTxALT        vs_b  n=  400    -1.0741
+
+  Run analyse_e1_choice_pairs.py with BOTH this file and the
+  first choice run: the interaction needs one term from each.
+
+==========================================================================
+e1 CHANNEL B, qwen: first look
+==========================================================================
+
+  favourability = mean log prob over six positive trait words
+  higher is better for the person
+
+    NONE                -9.8885   vs NONE +0.0000
+    ALT3               -10.6698   vs NONE -0.7813
+    ALT4_ONLY          -10.6966   vs NONE -0.8081
+    ALT_BOTH_34        -11.0984   vs NONE -1.2099
+    ALT5               -10.6388   vs NONE -0.7503
+    ALT6_ONLY          -10.4809   vs NONE -0.5924
+    ALT_BOTH_56        -10.7673   vs NONE -0.8788
+
+  Run analyse_e1_continuous.py for interactions with intervals,
+  the floor check, the coherence check and the phrasing spread.
+  no results at /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_qwen.csv
+
+==========================================================================
+e1 CHANNEL A, qwen: first look
+==========================================================================
+
+  condition            n   correct   refused
+  NONE               600    59.2%      0.0%
+  ALT3               600    57.3%      0.0%
+  ALT4_ONLY          600    56.5%      0.0%
+  ALT_BOTH_34        600    55.2%      0.0%
+  ALT5               600    55.0%      0.0%
+  ALT6_ONLY          600    58.7%      0.0%
+  ALT_BOTH_56        600    53.0%      0.0%
+
+  interaction per contrast, mean of (both - A) - (B - none)
+  positive = costs LESS than the sum of parts (sub-additive)
+    FLOOR2_ALTxALT        floor             n= 600  mean +0.0050
+    FLOOR3_ALTxALT        floor             n= 600  mean -0.0150
+
+  Run analyse_e1_accuracy.py for the tested read with intervals,
+  the minimum detectable interaction and the floor check.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_floor_qwen.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_pairs_floor_qwen.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_traits_floor_qwen.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_qwen.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_accuracy_floor_qwen.csv
+  and the console text from the first ==== line onwards.
+
+==============================================================================
+from run_a2_qwen_output
+==============================================================================
+STEP e1a2: answer log probability, all 23 conditions
+==============================================================================
+  13800 answers to score across 23 conditions
+  checking answer scoring against a plain forward pass
+    answer 90             tokens 2  scorer   -0.0000  rerun   -0.0000  reference   -0.0000
+    answer 1402.5         tokens 6  scorer  -13.7279  rerun  -13.7279  reference  -13.7279
+    answer 1669           tokens 4  scorer   -0.7453  rerun   -0.7453  reference   -0.7453
+    answer 08 October 202 tokens 8  scorer   -7.5727  rerun   -7.5727  reference   -7.5727
+    answer 597            tokens 3  scorer   -0.0951  rerun   -0.0951  reference   -0.0951
+    answer scoring agrees with the reference, largest gap 0.0000
+    32 / 13800
+    1632 / 13800
+    3232 / 13800
+    4832 / 13800
+    6432 / 13800
+    8032 / 13800
+    9632 / 13800
+    11232 / 13800
+    12832 / 13800
+  saved to /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_qwen.csv
+
+==============================================================================
+COLLECTION SUMMARY, MODEL qwen
+==============================================================================
+  e1a2      done           57.7 min
+
+==========================================================================
+e1 CHANNEL A2, qwen: first look
+==========================================================================
+  mean log P(correct answer), and the paired difference from NONE
+  negative = the condition makes the right answer LESS likely
+
+    NONE          n= 600    -2.5037   vs NONE +0.0000
+    ALT1          n= 600    -2.9772   vs NONE -0.4735
+    ALT2_ONLY     n= 600    -2.6337   vs NONE -0.1299
+    ALT_BOTH      n= 600    -2.9253   vs NONE -0.4216
+    S01_s1        n= 600    -2.3039   vs NONE +0.1998
+    S01_s2        n= 600    -2.3010   vs NONE +0.2027
+    S08_s1        n= 600    -2.3507   vs NONE +0.1530
+    S08_s2        n= 600    -2.4664   vs NONE +0.0373
+    F01           n= 600    -2.6064   vs NONE -0.1027
+    F04           n= 600    -2.3847   vs NONE +0.1190
+    P1_F01F04     n= 600    -2.6527   vs NONE -0.1490
+    P2_S01S08     n= 600    -2.5214   vs NONE -0.0177
+    P2_S08S01     n= 600    -2.6850   vs NONE -0.1813
+    P3_F01S01_s1  n= 600    -2.3506   vs NONE +0.1531
+    P3_F01S01_s2  n= 600    -2.4467   vs NONE +0.0570
+    P4_F04S08_s1  n= 600    -2.3935   vs NONE +0.1102
+    P4_F04S08_s2  n= 600    -2.3845   vs NONE +0.1193
+    ALT3          n= 600    -3.0034   vs NONE -0.4997
+    ALT4_ONLY     n= 600    -2.8804   vs NONE -0.3767
+    ALT_BOTH_34   n= 600    -3.2471   vs NONE -0.7433
+    ALT5          n= 600    -3.4335   vs NONE -0.9297
+    ALT6_ONLY     n= 600    -2.6905   vs NONE -0.1868
+    ALT_BOTH_56   n= 600    -3.6353   vs NONE -1.1315
+
+  Run analyse_e1_answer_logprob.py for the floors, the validity check
+  against channel A and the interactions.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+    /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_qwen.csv
+  and the console text from the first ==== line onwards.
+
+==============================================================================
+session summary, run_a2_qwen_output
+==============================================================================
+COLLECTION SUMMARY, MODEL qwen
+==============================================================================
+  e1a2      done           57.7 min
+
+==========================================================================
+e1 CHANNEL A2, qwen: first look
+==========================================================================
+  mean log P(correct answer), and the paired difference from NONE
+  negative = the condition makes the right answer LESS likely
+
+    NONE          n= 600    -2.5037   vs NONE +0.0000
+    ALT1          n= 600    -2.9772   vs NONE -0.4735
+    ALT2_ONLY     n= 600    -2.6337   vs NONE -0.1299
+    ALT_BOTH      n= 600    -2.9253   vs NONE -0.4216
+    S01_s1        n= 600    -2.3039   vs NONE +0.1998
+    S01_s2        n= 600    -2.3010   vs NONE +0.2027
+    S08_s1        n= 600    -2.3507   vs NONE +0.1530
+    S08_s2        n= 600    -2.4664   vs NONE +0.0373
+    F01           n= 600    -2.6064   vs NONE -0.1027
+    F04           n= 600    -2.3847   vs NONE +0.1190
+    P1_F01F04     n= 600    -2.6527   vs NONE -0.1490
+    P2_S01S08     n= 600    -2.5214   vs NONE -0.0177
+    P2_S08S01     n= 600    -2.6850   vs NONE -0.1813
+    P3_F01S01_s1  n= 600    -2.3506   vs NONE +0.1531
+    P3_F01S01_s2  n= 600    -2.4467   vs NONE +0.0570
+    P4_F04S08_s1  n= 600    -2.3935   vs NONE +0.1102
+    P4_F04S08_s2  n= 600    -2.3845   vs NONE +0.1193
+    ALT3          n= 600    -3.0034   vs NONE -0.4997
+    ALT4_ONLY     n= 600    -2.8804   vs NONE -0.3767
+    ALT_BOTH_34   n= 600    -3.2471   vs NONE -0.7433
+    ALT5          n= 600    -3.4335   vs NONE -0.9297
+    ALT6_ONLY     n= 600    -2.6905   vs NONE -0.1868
+    ALT_BOTH_56   n= 600    -3.6353   vs NONE -1.1315
+
+  Run analyse_e1_answer_logprob.py for the floors, the validity check
+  against channel A and the interactions.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+    /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_qwen.csv
+  and the console text from the first ==== line onwards.

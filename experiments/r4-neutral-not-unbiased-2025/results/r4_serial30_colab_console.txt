@@ -1,0 +1,15 @@
+# Colab console, serial diagnostic, 2026-09-21
+
+## step 5
+phi4:latest digest ac896e5b8b34a1f4efa7b14d7520725140d5512484457fab45d2a4ea14c69dba
+digest matches
+
+## step 6 (second session)
+model phi4:latest: 150 of 300 answers present, 150 to generate with 1 worker(s)
+  175/300  106 answers/hour, about 1.2 h left
+  200/300  113 answers/hour, about 0.9 h left
+  225/300  114 answers/hour, about 0.7 h left
+  250/300  115 answers/hour, about 0.4 h left
+  275/300  116 answers/hour, about 0.2 h left
+  300/300  116 answers/hour, about 0.0 h left
+present: 300 of 300; failed requests this run: 0

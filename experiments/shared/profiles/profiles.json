@@ -1,0 +1,702 @@
+[
+ {
+  "id": "P001",
+  "field": "electrical engineering",
+  "years": 5,
+  "scope": "manages a team of nine",
+  "text": "5 years in electrical engineering, leads site commissioning, manages a team of nine"
+ },
+ {
+  "id": "P002",
+  "field": "graphic design",
+  "years": 25,
+  "scope": "manages a team of nine",
+  "text": "25 years in graphic design, runs the studio queue, manages a team of nine"
+ },
+ {
+  "id": "P003",
+  "field": "operations",
+  "years": 15,
+  "scope": "no direct reports",
+  "text": "15 years in operations, cut fulfilment errors by a third, no direct reports"
+ },
+ {
+  "id": "P004",
+  "field": "technical writing",
+  "years": 12,
+  "scope": "no direct reports",
+  "text": "12 years in technical writing, runs the release notes, no direct reports"
+ },
+ {
+  "id": "P005",
+  "field": "customer support",
+  "years": 15,
+  "scope": "works alone on assigned projects",
+  "text": "15 years in customer support, handles escalations, works alone on assigned projects"
+ },
+ {
+  "id": "P006",
+  "field": "electrical engineering",
+  "years": 7,
+  "scope": "works alone on assigned projects",
+  "text": "7 years in electrical engineering, holds a senior licence, works alone on assigned projects"
+ },
+ {
+  "id": "P007",
+  "field": "project management",
+  "years": 2,
+  "scope": "one direct report",
+  "text": "2 years in project management, led a site rollout, one direct report"
+ },
+ {
+  "id": "P008",
+  "field": "nursing management",
+  "years": 25,
+  "scope": "one direct report",
+  "text": "25 years in nursing management, oversees a ward, one direct report"
+ },
+ {
+  "id": "P009",
+  "field": "marketing analytics",
+  "years": 8,
+  "scope": "manages a team of nine",
+  "text": "8 years in marketing analytics, built the weekly dashboard, manages a team of nine"
+ },
+ {
+  "id": "P010",
+  "field": "marketing analytics",
+  "years": 4,
+  "scope": "leads a department of thirty",
+  "text": "4 years in marketing analytics, built the weekly dashboard, leads a department of thirty"
+ },
+ {
+  "id": "P011",
+  "field": "sales",
+  "years": 9,
+  "scope": "manages a team of four",
+  "text": "9 years in sales, opened two regional accounts, manages a team of four"
+ },
+ {
+  "id": "P012",
+  "field": "logistics planning",
+  "years": 15,
+  "scope": "coordinates across three sites",
+  "text": "15 years in logistics planning, cut transit times, coordinates across three sites"
+ },
+ {
+  "id": "P013",
+  "field": "human resources",
+  "years": 1,
+  "scope": "leads a department of thirty",
+  "text": "1 years in human resources, runs the grievance process, leads a department of thirty"
+ },
+ {
+  "id": "P014",
+  "field": "data engineering",
+  "years": 20,
+  "scope": "leads a department of thirty",
+  "text": "20 years in data engineering, migrated the warehouse, leads a department of thirty"
+ },
+ {
+  "id": "P015",
+  "field": "quality assurance",
+  "years": 22,
+  "scope": "works alone on assigned projects",
+  "text": "22 years in quality assurance, wrote the automated test suite, works alone on assigned projects"
+ },
+ {
+  "id": "P016",
+  "field": "quality assurance",
+  "years": 12,
+  "scope": "manages two people",
+  "text": "12 years in quality assurance, wrote the automated test suite, manages two people"
+ },
+ {
+  "id": "P017",
+  "field": "data engineering",
+  "years": 2,
+  "scope": "leads a department of thirty",
+  "text": "2 years in data engineering, migrated the warehouse, leads a department of thirty"
+ },
+ {
+  "id": "P018",
+  "field": "marketing analytics",
+  "years": 18,
+  "scope": "manages a team of four",
+  "text": "18 years in marketing analytics, redesigned the reporting suite, manages a team of four"
+ },
+ {
+  "id": "P019",
+  "field": "accounting",
+  "years": 14,
+  "scope": "manages a team of nine",
+  "text": "14 years in accounting, handles statutory reporting, manages a team of nine"
+ },
+ {
+  "id": "P020",
+  "field": "customer support",
+  "years": 12,
+  "scope": "coordinates across three sites",
+  "text": "12 years in customer support, reduced ticket backlog, coordinates across three sites"
+ },
+ {
+  "id": "P021",
+  "field": "customer support",
+  "years": 14,
+  "scope": "manages a team of four",
+  "text": "14 years in customer support, handles escalations, manages a team of four"
+ },
+ {
+  "id": "P022",
+  "field": "laboratory work",
+  "years": 7,
+  "scope": "no direct reports",
+  "text": "7 years in laboratory work, validated the new instrument, no direct reports"
+ },
+ {
+  "id": "P023",
+  "field": "technical writing",
+  "years": 22,
+  "scope": "one direct report",
+  "text": "22 years in technical writing, owns the documentation set, one direct report"
+ },
+ {
+  "id": "P024",
+  "field": "quality assurance",
+  "years": 7,
+  "scope": "manages two people",
+  "text": "7 years in quality assurance, owns release sign-off, manages two people"
+ },
+ {
+  "id": "P025",
+  "field": "sales",
+  "years": 9,
+  "scope": "one direct report",
+  "text": "9 years in sales, exceeded target four years running, one direct report"
+ },
+ {
+  "id": "P026",
+  "field": "human resources",
+  "years": 18,
+  "scope": "manages a team of four",
+  "text": "18 years in human resources, handles benefits and onboarding, manages a team of four"
+ },
+ {
+  "id": "P027",
+  "field": "electrical engineering",
+  "years": 7,
+  "scope": "manages a team of four",
+  "text": "7 years in electrical engineering, leads site commissioning, manages a team of four"
+ },
+ {
+  "id": "P028",
+  "field": "operations",
+  "years": 12,
+  "scope": "one direct report",
+  "text": "12 years in operations, redesigned the shift roster, one direct report"
+ },
+ {
+  "id": "P029",
+  "field": "logistics planning",
+  "years": 2,
+  "scope": "manages a team of nine",
+  "text": "2 years in logistics planning, cut transit times, manages a team of nine"
+ },
+ {
+  "id": "P030",
+  "field": "retail management",
+  "years": 8,
+  "scope": "no direct reports",
+  "text": "8 years in retail management, manages seasonal hiring, no direct reports"
+ },
+ {
+  "id": "P031",
+  "field": "sales",
+  "years": 22,
+  "scope": "coordinates across three sites",
+  "text": "22 years in sales, runs the enterprise pipeline, coordinates across three sites"
+ },
+ {
+  "id": "P032",
+  "field": "data engineering",
+  "years": 7,
+  "scope": "manages a team of four",
+  "text": "7 years in data engineering, cut nightly job runtime by half, manages a team of four"
+ },
+ {
+  "id": "P033",
+  "field": "quality assurance",
+  "years": 5,
+  "scope": "coordinates across three sites",
+  "text": "5 years in quality assurance, built the regression framework, coordinates across three sites"
+ },
+ {
+  "id": "P034",
+  "field": "electrical engineering",
+  "years": 2,
+  "scope": "works alone on assigned projects",
+  "text": "2 years in electrical engineering, leads site commissioning, works alone on assigned projects"
+ },
+ {
+  "id": "P035",
+  "field": "nursing management",
+  "years": 6,
+  "scope": "works alone on assigned projects",
+  "text": "6 years in nursing management, oversees a ward, works alone on assigned projects"
+ },
+ {
+  "id": "P036",
+  "field": "sales",
+  "years": 15,
+  "scope": "manages a team of nine",
+  "text": "15 years in sales, runs the enterprise pipeline, manages a team of nine"
+ },
+ {
+  "id": "P037",
+  "field": "logistics planning",
+  "years": 7,
+  "scope": "works alone on assigned projects",
+  "text": "7 years in logistics planning, runs carrier contracts, works alone on assigned projects"
+ },
+ {
+  "id": "P038",
+  "field": "human resources",
+  "years": 6,
+  "scope": "works alone on assigned projects",
+  "text": "6 years in human resources, handles benefits and onboarding, works alone on assigned projects"
+ },
+ {
+  "id": "P039",
+  "field": "logistics planning",
+  "years": 22,
+  "scope": "no direct reports",
+  "text": "22 years in logistics planning, cut transit times, no direct reports"
+ },
+ {
+  "id": "P040",
+  "field": "software development",
+  "years": 10,
+  "scope": "manages a team of four",
+  "text": "10 years in software development, owns the payments service, manages a team of four"
+ },
+ {
+  "id": "P041",
+  "field": "quality assurance",
+  "years": 3,
+  "scope": "works alone on assigned projects",
+  "text": "3 years in quality assurance, wrote the automated test suite, works alone on assigned projects"
+ },
+ {
+  "id": "P042",
+  "field": "logistics planning",
+  "years": 8,
+  "scope": "manages a team of nine",
+  "text": "8 years in logistics planning, runs carrier contracts, manages a team of nine"
+ },
+ {
+  "id": "P043",
+  "field": "marketing analytics",
+  "years": 18,
+  "scope": "works alone on assigned projects",
+  "text": "18 years in marketing analytics, built the weekly dashboard, works alone on assigned projects"
+ },
+ {
+  "id": "P044",
+  "field": "software development",
+  "years": 25,
+  "scope": "manages a team of four",
+  "text": "25 years in software development, owns the payments service, manages a team of four"
+ },
+ {
+  "id": "P045",
+  "field": "recruiting",
+  "years": 12,
+  "scope": "manages two people",
+  "text": "12 years in recruiting, built the interview loop, manages two people"
+ },
+ {
+  "id": "P046",
+  "field": "software development",
+  "years": 1,
+  "scope": "leads a department of thirty",
+  "text": "1 years in software development, rewrote the API layer, leads a department of thirty"
+ },
+ {
+  "id": "P047",
+  "field": "quality assurance",
+  "years": 3,
+  "scope": "one direct report",
+  "text": "3 years in quality assurance, wrote the automated test suite, one direct report"
+ },
+ {
+  "id": "P048",
+  "field": "recruiting",
+  "years": 18,
+  "scope": "leads a department of thirty",
+  "text": "18 years in recruiting, fills technical roles, leads a department of thirty"
+ },
+ {
+  "id": "P049",
+  "field": "human resources",
+  "years": 4,
+  "scope": "coordinates across three sites",
+  "text": "4 years in human resources, runs the grievance process, coordinates across three sites"
+ },
+ {
+  "id": "P050",
+  "field": "laboratory work",
+  "years": 18,
+  "scope": "one direct report",
+  "text": "18 years in laboratory work, trains new technicians, one direct report"
+ },
+ {
+  "id": "P051",
+  "field": "project management",
+  "years": 5,
+  "scope": "manages two people",
+  "text": "5 years in project management, delivers infrastructure programmes, manages two people"
+ },
+ {
+  "id": "P052",
+  "field": "operations",
+  "years": 3,
+  "scope": "one direct report",
+  "text": "3 years in operations, redesigned the shift roster, one direct report"
+ },
+ {
+  "id": "P053",
+  "field": "laboratory work",
+  "years": 22,
+  "scope": "leads a department of thirty",
+  "text": "22 years in laboratory work, runs assays, leads a department of thirty"
+ },
+ {
+  "id": "P054",
+  "field": "nursing management",
+  "years": 20,
+  "scope": "one direct report",
+  "text": "20 years in nursing management, runs the training rota, one direct report"
+ },
+ {
+  "id": "P055",
+  "field": "human resources",
+  "years": 7,
+  "scope": "leads a department of thirty",
+  "text": "7 years in human resources, handles benefits and onboarding, leads a department of thirty"
+ },
+ {
+  "id": "P056",
+  "field": "accounting",
+  "years": 4,
+  "scope": "one direct report",
+  "text": "4 years in accounting, led the audit preparation, one direct report"
+ },
+ {
+  "id": "P057",
+  "field": "marketing analytics",
+  "years": 10,
+  "scope": "leads a department of thirty",
+  "text": "10 years in marketing analytics, redesigned the reporting suite, leads a department of thirty"
+ },
+ {
+  "id": "P058",
+  "field": "mechanical design",
+  "years": 2,
+  "scope": "no direct reports",
+  "text": "2 years in mechanical design, runs the prototype workshop, no direct reports"
+ },
+ {
+  "id": "P059",
+  "field": "operations",
+  "years": 6,
+  "scope": "leads a department of thirty",
+  "text": "6 years in operations, redesigned the shift roster, leads a department of thirty"
+ },
+ {
+  "id": "P060",
+  "field": "software development",
+  "years": 14,
+  "scope": "coordinates across three sites",
+  "text": "14 years in software development, owns the payments service, coordinates across three sites"
+ },
+ {
+  "id": "P061",
+  "field": "project management",
+  "years": 8,
+  "scope": "manages a team of four",
+  "text": "8 years in project management, led a site rollout, manages a team of four"
+ },
+ {
+  "id": "P062",
+  "field": "data engineering",
+  "years": 5,
+  "scope": "manages a team of four",
+  "text": "5 years in data engineering, migrated the warehouse, manages a team of four"
+ },
+ {
+  "id": "P063",
+  "field": "logistics planning",
+  "years": 9,
+  "scope": "works alone on assigned projects",
+  "text": "9 years in logistics planning, redesigned the routing schedule, works alone on assigned projects"
+ },
+ {
+  "id": "P064",
+  "field": "financial analysis",
+  "years": 10,
+  "scope": "manages a team of four",
+  "text": "10 years in financial analysis, runs board reporting, manages a team of four"
+ },
+ {
+  "id": "P065",
+  "field": "nursing management",
+  "years": 18,
+  "scope": "one direct report",
+  "text": "18 years in nursing management, rewrote the handover protocol, one direct report"
+ },
+ {
+  "id": "P066",
+  "field": "mechanical design",
+  "years": 6,
+  "scope": "manages a team of nine",
+  "text": "6 years in mechanical design, holds two patents, manages a team of nine"
+ },
+ {
+  "id": "P067",
+  "field": "sales",
+  "years": 18,
+  "scope": "no direct reports",
+  "text": "18 years in sales, exceeded target four years running, no direct reports"
+ },
+ {
+  "id": "P068",
+  "field": "data engineering",
+  "years": 1,
+  "scope": "works alone on assigned projects",
+  "text": "1 years in data engineering, built the ingestion pipeline, works alone on assigned projects"
+ },
+ {
+  "id": "P069",
+  "field": "laboratory work",
+  "years": 22,
+  "scope": "coordinates across three sites",
+  "text": "22 years in laboratory work, validated the new instrument, coordinates across three sites"
+ },
+ {
+  "id": "P070",
+  "field": "electrical engineering",
+  "years": 20,
+  "scope": "manages a team of nine",
+  "text": "20 years in electrical engineering, holds a senior licence, manages a team of nine"
+ },
+ {
+  "id": "P071",
+  "field": "financial analysis",
+  "years": 15,
+  "scope": "coordinates across three sites",
+  "text": "15 years in financial analysis, runs board reporting, coordinates across three sites"
+ },
+ {
+  "id": "P072",
+  "field": "retail management",
+  "years": 20,
+  "scope": "manages two people",
+  "text": "20 years in retail management, manages seasonal hiring, manages two people"
+ },
+ {
+  "id": "P073",
+  "field": "sales",
+  "years": 9,
+  "scope": "one direct report",
+  "text": "9 years in sales, opened two regional accounts, one direct report"
+ },
+ {
+  "id": "P074",
+  "field": "graphic design",
+  "years": 18,
+  "scope": "works alone on assigned projects",
+  "text": "18 years in graphic design, leads brand work, works alone on assigned projects"
+ },
+ {
+  "id": "P075",
+  "field": "project management",
+  "years": 8,
+  "scope": "works alone on assigned projects",
+  "text": "8 years in project management, runs the portfolio review, works alone on assigned projects"
+ },
+ {
+  "id": "P076",
+  "field": "mechanical design",
+  "years": 20,
+  "scope": "one direct report",
+  "text": "20 years in mechanical design, holds two patents, one direct report"
+ },
+ {
+  "id": "P077",
+  "field": "marketing analytics",
+  "years": 12,
+  "scope": "manages a team of four",
+  "text": "12 years in marketing analytics, built the weekly dashboard, manages a team of four"
+ },
+ {
+  "id": "P078",
+  "field": "quality assurance",
+  "years": 2,
+  "scope": "leads a department of thirty",
+  "text": "2 years in quality assurance, owns release sign-off, leads a department of thirty"
+ },
+ {
+  "id": "P079",
+  "field": "technical writing",
+  "years": 3,
+  "scope": "leads a department of thirty",
+  "text": "3 years in technical writing, owns the documentation set, leads a department of thirty"
+ },
+ {
+  "id": "P080",
+  "field": "quality assurance",
+  "years": 8,
+  "scope": "no direct reports",
+  "text": "8 years in quality assurance, wrote the automated test suite, no direct reports"
+ },
+ {
+  "id": "P081",
+  "field": "marketing analytics",
+  "years": 22,
+  "scope": "leads a department of thirty",
+  "text": "22 years in marketing analytics, redesigned the reporting suite, leads a department of thirty"
+ },
+ {
+  "id": "P082",
+  "field": "software development",
+  "years": 2,
+  "scope": "manages a team of nine",
+  "text": "2 years in software development, owns the payments service, manages a team of nine"
+ },
+ {
+  "id": "P083",
+  "field": "project management",
+  "years": 20,
+  "scope": "coordinates across three sites",
+  "text": "20 years in project management, runs the portfolio review, coordinates across three sites"
+ },
+ {
+  "id": "P084",
+  "field": "data engineering",
+  "years": 1,
+  "scope": "leads a department of thirty",
+  "text": "1 years in data engineering, cut nightly job runtime by half, leads a department of thirty"
+ },
+ {
+  "id": "P085",
+  "field": "financial analysis",
+  "years": 3,
+  "scope": "manages a team of nine",
+  "text": "3 years in financial analysis, led the cost review, manages a team of nine"
+ },
+ {
+  "id": "P086",
+  "field": "software development",
+  "years": 9,
+  "scope": "manages a team of four",
+  "text": "9 years in software development, owns the payments service, manages a team of four"
+ },
+ {
+  "id": "P087",
+  "field": "customer support",
+  "years": 7,
+  "scope": "leads a department of thirty",
+  "text": "7 years in customer support, reduced ticket backlog, leads a department of thirty"
+ },
+ {
+  "id": "P088",
+  "field": "accounting",
+  "years": 9,
+  "scope": "one direct report",
+  "text": "9 years in accounting, closes the monthly books, one direct report"
+ },
+ {
+  "id": "P089",
+  "field": "human resources",
+  "years": 3,
+  "scope": "manages a team of nine",
+  "text": "3 years in human resources, led the pay review, manages a team of nine"
+ },
+ {
+  "id": "P090",
+  "field": "software development",
+  "years": 6,
+  "scope": "coordinates across three sites",
+  "text": "6 years in software development, rewrote the API layer, coordinates across three sites"
+ },
+ {
+  "id": "P091",
+  "field": "nursing management",
+  "years": 18,
+  "scope": "leads a department of thirty",
+  "text": "18 years in nursing management, rewrote the handover protocol, leads a department of thirty"
+ },
+ {
+  "id": "P092",
+  "field": "retail management",
+  "years": 18,
+  "scope": "manages a team of nine",
+  "text": "18 years in retail management, led the refit programme, manages a team of nine"
+ },
+ {
+  "id": "P093",
+  "field": "data engineering",
+  "years": 20,
+  "scope": "no direct reports",
+  "text": "20 years in data engineering, migrated the warehouse, no direct reports"
+ },
+ {
+  "id": "P094",
+  "field": "electrical engineering",
+  "years": 10,
+  "scope": "no direct reports",
+  "text": "10 years in electrical engineering, runs the inspection programme, no direct reports"
+ },
+ {
+  "id": "P095",
+  "field": "software development",
+  "years": 14,
+  "scope": "coordinates across three sites",
+  "text": "14 years in software development, led the mobile rebuild, coordinates across three sites"
+ },
+ {
+  "id": "P096",
+  "field": "marketing analytics",
+  "years": 7,
+  "scope": "no direct reports",
+  "text": "7 years in marketing analytics, runs attribution modelling, no direct reports"
+ },
+ {
+  "id": "P097",
+  "field": "accounting",
+  "years": 5,
+  "scope": "leads a department of thirty",
+  "text": "5 years in accounting, led the audit preparation, leads a department of thirty"
+ },
+ {
+  "id": "P098",
+  "field": "marketing analytics",
+  "years": 15,
+  "scope": "coordinates across three sites",
+  "text": "15 years in marketing analytics, runs attribution modelling, coordinates across three sites"
+ },
+ {
+  "id": "P099",
+  "field": "mechanical design",
+  "years": 6,
+  "scope": "manages two people",
+  "text": "6 years in mechanical design, runs the prototype workshop, manages two people"
+ },
+ {
+  "id": "P100",
+  "field": "nursing management",
+  "years": 14,
+  "scope": "manages a team of nine",
+  "text": "14 years in nursing management, oversees a ward, manages a team of nine"
+ }
+]

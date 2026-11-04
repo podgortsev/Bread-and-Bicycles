@@ -1,0 +1,519 @@
+==============================================================================
+from run_paper3_mistral run 2
+==============================================================================
+STEP e3d: e3 channel D, numeric estimates
+==============================================================================
+  6600 generations to do
+    16 / 6600
+    816 / 6600
+    1616 / 6600
+    2416 / 6600
+    3216 / 6600
+    4016 / 6600
+    4816 / 6600
+    5616 / 6600
+    6416 / 6600
+  saved to /content/drive/MyDrive/afl/p3_e3/e3_numeric_mistral.csv
+  refusals 4352 of 6600 (65.9%), answers copied from the prompt 249 (3.8%)
+
+==============================================================================
+COLLECTION SUMMARY, MODEL mistral
+==============================================================================
+  e1c   done            0.0 min
+  e3c   done            0.0 min
+  e1b   done            0.0 min
+  e2b   done            0.0 min
+  e1a   done           82.3 min
+  e5    done            5.2 min
+  e1w   done           38.7 min
+  e2    done           54.0 min
+  e3d   done           34.4 min
+  TOTAL               214.7 min
+
+==========================================================================
+e1_choice, mistral: first look
+==========================================================================
+
+  letter mass: mean 0.687, 1727 of 6400 reads below 0.5 (27.0%)
+  raw first-slot advantage, all rows: +4.090 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+    ALT1              n=  141    +0.1226
+    ALT2_ONLY         n=  391    -4.7062
+    ALT_BOTH          n=  287    -7.1205
+    S01_s1            n=  100    +5.8019
+    S01_s2            n=  260    +6.2123
+    S08_s1            n=  400    -5.9745
+    S08_s2            n=  400    -5.2980
+    F01               n=  249    -6.0846
+    F04               n=  273    -8.5084
+    P1_F01F04         n=  282    -8.8891
+    P2_S01S08         n=  315    -1.5085
+    P2_S08S01         n=  253    -1.5793
+    P3_F01S01_s1      n=  243    -0.0098
+    P3_F01S01_s2      n=  279    +2.5986
+    P4_F04S08_s1      n=  400    -8.0662
+    P4_F04S08_s2      n=  400    -7.5114
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1_choice, mistral: first look
+==========================================================================
+
+  letter mass: mean 0.715, 836 of 4000 reads below 0.5 (20.9%)
+  raw first-slot advantage, all rows: +1.525 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+    S01_s1            n=  100    +5.8019
+    S01_s2            n=  260    +6.2123
+    S08_s1            n=  400    -5.9745
+    S08_s2            n=  400    -5.2980
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1 CHANNEL B, mistral: first look
+==========================================================================
+
+  favourability = mean log prob over six positive trait words
+  higher is better for the person
+
+    NONE                -8.1020   vs NONE +0.0000
+    ALT1                -8.7952   vs NONE -0.6932
+    ALT2_ONLY           -8.2383   vs NONE -0.1363
+    ALT_BOTH            -8.5037   vs NONE -0.4018
+    S01_s1              -8.3986   vs NONE -0.2966
+    S01_s2              -9.1561   vs NONE -1.0541
+    S08_s1              -8.4161   vs NONE -0.3141
+    S08_s2              -8.3791   vs NONE -0.2771
+    F01                 -8.0954   vs NONE +0.0066
+    F04                 -7.5713   vs NONE +0.5307
+    P1_F01F04           -7.9786   vs NONE +0.1234
+    P2_S01S08           -8.7435   vs NONE -0.6415
+    P2_S08S01           -8.8122   vs NONE -0.7102
+    P3_F01S01_s1        -7.8481   vs NONE +0.2538
+    P3_F01S01_s2        -9.0887   vs NONE -0.9867
+    P4_F04S08_s1        -8.2441   vs NONE -0.1421
+    P4_F04S08_s2        -8.3498   vs NONE -0.2478
+
+  Run analyse_e1_continuous.py for interactions with intervals,
+  the floor check, the coherence check and the phrasing spread.
+
+==========================================================================
+e2b LEGIBILITY, mistral: first look, arm B (task styled too)
+==========================================================================
+  std          50.8%   n=600
+  esl          53.3%   n=600
+  typo         45.2%   n=600
+  esl_typo     50.2%   n=600
+
+  arm B interaction: +0.0250 over 600 tasks
+  negative = super-additive
+
+  Run analyse_e2b_legibility.py with BOTH this file and the e1
+  channel A file for the arm A against arm B comparison, which is
+  the whole point of the experiment.
+
+  summary for e1a unavailable: summary() takes 0 positional arguments but 1 was given
+
+==========================================================================
+e5 ATTRIBUTION, mistral: first look
+==========================================================================
+
+  413 of 420 self-reports parsed (98.3%)
+
+  mean self-rating per signal, 0 to 10
+
+    F01  n= 173  mean  2.06  sd  1.71
+    F04  n= 180  mean  0.00  sd  0.00   <- NO VARIANCE, the instrument may be degenerate
+    S01  n= 233  mean  0.94  sd  2.55
+    S08  n= 240  mean  0.00  sd  0.00   <- NO VARIANCE, the instrument may be degenerate
+
+  Run analyse_e5_attribution.py with the e1 channel A CSV for the
+  degeneracy check, the ranking test and the item-level correlation.
+
+==========================================================================
+e1w WRAPPERS, mistral: first look
+==========================================================================
+
+  accuracy by wrapper and condition
+
+  condition             W1      W2      W3      W4      W5      W6
+  NONE               51.0%   48.0%   49.0%   50.0%   50.0%   51.0%
+  F01                49.0%   52.0%   48.0%   49.0%   52.0%   50.0%
+  F04                48.0%   50.0%   49.0%   49.0%   47.0%   49.0%
+  S01_s1             50.0%   49.0%   49.0%   50.0%   49.0%   48.0%
+  S08_s2             53.0%   48.0%   49.0%   51.0%   50.0%   51.0%
+  P1_F01F04          50.0%   50.0%   49.0%   47.0%   48.0%   50.0%
+  P2_S01S08          53.0%   50.0%   50.0%   48.0%   51.0%   53.0%
+  P3_F01S01_s1       49.0%   51.0%   45.0%   48.0%   50.0%   52.0%
+  P4_F04S08_s1       52.0%   48.0%   48.0%   51.0%   52.0%   53.0%
+
+  Run analyse_e1w_wrappers.py for the interaction per wrapper and
+  the across-wrapper spread, which is the number that matters.
+
+==========================================================================
+e2 DEPTH CURVE, mistral: first look
+==========================================================================
+
+  depth 0 baseline: 44.5%
+
+  form ladder
+    depth 1: mean net +0.0167 over 3 condition(s)  [+0.015, +0.020]
+    depth 2: mean net +0.0117 over 3 condition(s)  [+0.005, +0.020]
+    depth 3: mean net +0.0200 over 1 condition(s)  [+0.020, +0.020]
+
+  stated ladder
+    depth 1: mean net -0.0075 over 3 condition(s)  [-0.010, -0.005]
+    depth 2: mean net +0.0033 over 3 condition(s)  [-0.005, +0.007]
+    depth 3: mean net +0.0067 over 3 condition(s)  [+0.000, +0.010]
+
+  Run analyse_e2_depth.py for the fitted shape, the second
+  difference with an interval, and the paired depth comparisons.
+
+==========================================================================
+e3 NUMERIC, mistral: first look
+==========================================================================
+
+  refusals 4352 of 6600 (65.9%)   copied from prompt 249 (3.8%)
+
+  CHURN
+    CRED_S01    n=   8  mean         5.16  vs NONE  +416.2%
+    CRED_S08    n=  12  mean         7.00  vs NONE  +600.0%
+    CRED_s1     n=  18  mean         2.89  vs NONE  +188.9%
+    CRED_s2     n=  15  mean        18.55  vs NONE +1754.7%
+    NONE        n=   5  mean         1.00  vs NONE    +0.0%
+    S01_CRED    n=   3  mean         5.67  vs NONE  +466.7%
+    S08_CRED    n=   8  mean        46.62  vs NONE +4562.5%
+    S08_s1      n=  14  mean         1.00  vs NONE    +0.0%
+    S08_s2      n=  20  mean         9.14  vs NONE  +814.5%
+
+  RAISE
+    S08_CRED    n=   1  mean        74.00  vs NONE       -
+
+  RATING
+    CRED_S01    n=  93  mean         8.74  vs NONE    +2.2%
+    CRED_S08    n= 100  mean         5.64  vs NONE   -34.0%
+    CRED_s1     n=  89  mean         7.57  vs NONE   -11.5%
+    CRED_s2     n= 100  mean         8.57  vs NONE    +0.3%
+    NONE        n=  90  mean         8.55  vs NONE    +0.0%
+    S01_CRED    n=  97  mean         9.05  vs NONE    +5.9%
+    S01_s1      n=  41  mean         9.52  vs NONE   +11.3%
+    S01_s2      n=  99  mean         9.67  vs NONE   +13.1%
+    S08_CRED    n=  94  mean         5.51  vs NONE   -35.6%
+    S08_s1      n=  93  mean         3.64  vs NONE   -57.4%
+    S08_s2      n= 100  mean         6.39  vs NONE   -25.2%
+
+  SALARY
+    CRED_S01    n=   1  mean        15.00  vs NONE    +9.1%
+    CRED_S08    n=   9  mean       675.67  vs NONE +4813.9%
+    CRED_s1     n=   5  mean       226.00  vs NONE +1543.6%
+    CRED_s2     n=   6  mean        17.67  vs NONE   +28.5%
+    NONE        n=   4  mean        13.75  vs NONE    +0.0%
+    S01_s1      n=   1  mean        14.00  vs NONE    +1.8%
+    S01_s2      n=   2  mean        19.50  vs NONE   +41.8%
+    S08_CRED    n=   3  mean        27.00  vs NONE   +96.4%
+    S08_s2      n=   4  mean        10.50  vs NONE   -23.6%
+
+  SCORE
+    CRED_S01    n=  89  mean        68.06  vs NONE   -11.0%
+    CRED_S08    n=  93  mean        38.23  vs NONE   -50.0%
+    CRED_s1     n=  97  mean        74.16  vs NONE    -3.0%
+    CRED_s2     n= 100  mean        79.23  vs NONE    +3.7%
+    NONE        n=  96  mean        76.44  vs NONE    +0.0%
+    S01_CRED    n= 100  mean        84.42  vs NONE   +10.4%
+    S01_s1      n=  56  mean        84.36  vs NONE   +10.4%
+    S01_s2      n= 100  mean        85.29  vs NONE   +11.6%
+    S08_CRED    n=  55  mean        40.99  vs NONE   -46.4%
+    S08_s1      n=  17  mean        31.07  vs NONE   -59.4%
+    S08_s2      n=  94  mean        49.61  vs NONE   -35.1%
+
+  SUCCESS
+    CRED_S01    n=  45  mean        25.02  vs NONE  +165.8%
+    CRED_S08    n=  34  mean        12.35  vs NONE   +31.2%
+    CRED_s1     n=  34  mean        19.82  vs NONE  +110.5%
+    CRED_s2     n=  32  mean        24.95  vs NONE  +165.0%
+    NONE        n=  41  mean         9.41  vs NONE    +0.0%
+    S01_CRED    n=   9  mean        51.00  vs NONE  +441.7%
+    S01_s2      n=   6  mean        11.00  vs NONE   +16.8%
+    S08_CRED    n=   5  mean        71.20  vs NONE  +656.3%
+    S08_s1      n=   3  mean        69.33  vs NONE  +636.4%
+    S08_s2      n=   7  mean        42.39  vs NONE  +350.2%
+
+  Run analyse_e3_offsetting.py for the paired tests, the
+  restoration gap and the coherence check.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+  every CSV under /content/drive/MyDrive/afl/ for this model:
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_traits_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_accuracy_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1w/e1w_wrappers_mistral.csv
+    /content/drive/MyDrive/afl/p3_e2/e2_depth_mistral.csv
+    /content/drive/MyDrive/afl/p3_e2b/e2b_legibility_mistral.csv
+    /content/drive/MyDrive/afl/p3_e3/e3_choice_mistral.csv
+    /content/drive/MyDrive/afl/p3_e3/e3_numeric_mistral.csv
+    /content/drive/MyDrive/afl/p3_e5/e5_attribution_mistral.csv
+  and the console text from the first ==== line onwards.
+  Not the model-loading logs, they carry nothing.
+
+==============================================================================
+session summary, run_paper3_mistral run 2
+==============================================================================
+COLLECTION SUMMARY, MODEL mistral
+==============================================================================
+  e1c   done            0.0 min
+  e3c   done            0.0 min
+  e1b   done            0.0 min
+  e2b   done            0.0 min
+  e1a   done           82.3 min
+  e5    done            5.2 min
+  e1w   done           38.7 min
+  e2    done           54.0 min
+  e3d   done           34.4 min
+  TOTAL               214.7 min
+
+==========================================================================
+e1_choice, mistral: first look
+==========================================================================
+
+  letter mass: mean 0.687, 1727 of 6400 reads below 0.5 (27.0%)
+  raw first-slot advantage, all rows: +4.090 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+    ALT1              n=  141    +0.1226
+    ALT2_ONLY         n=  391    -4.7062
+    ALT_BOTH          n=  287    -7.1205
+    S01_s1            n=  100    +5.8019
+    S01_s2            n=  260    +6.2123
+    S08_s1            n=  400    -5.9745
+    S08_s2            n=  400    -5.2980
+    F01               n=  249    -6.0846
+    F04               n=  273    -8.5084
+    P1_F01F04         n=  282    -8.8891
+    P2_S01S08         n=  315    -1.5085
+    P2_S08S01         n=  253    -1.5793
+    P3_F01S01_s1      n=  243    -0.0098
+    P3_F01S01_s2      n=  279    +2.5986
+    P4_F04S08_s1      n=  400    -8.0662
+    P4_F04S08_s2      n=  400    -7.5114
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1_choice, mistral: first look
+==========================================================================
+
+  letter mass: mean 0.715, 836 of 4000 reads below 0.5 (20.9%)
+  raw first-slot advantage, all rows: +1.525 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+    S01_s1            n=  100    +5.8019
+    S01_s2            n=  260    +6.2123
+    S08_s1            n=  400    -5.9745
+    S08_s2            n=  400    -5.2980
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1 CHANNEL B, mistral: first look
+==========================================================================
+
+  favourability = mean log prob over six positive trait words
+  higher is better for the person
+
+    NONE                -8.1020   vs NONE +0.0000
+    ALT1                -8.7952   vs NONE -0.6932
+    ALT2_ONLY           -8.2383   vs NONE -0.1363
+    ALT_BOTH            -8.5037   vs NONE -0.4018
+    S01_s1              -8.3986   vs NONE -0.2966
+    S01_s2              -9.1561   vs NONE -1.0541
+    S08_s1              -8.4161   vs NONE -0.3141
+    S08_s2              -8.3791   vs NONE -0.2771
+    F01                 -8.0954   vs NONE +0.0066
+    F04                 -7.5713   vs NONE +0.5307
+    P1_F01F04           -7.9786   vs NONE +0.1234
+    P2_S01S08           -8.7435   vs NONE -0.6415
+    P2_S08S01           -8.8122   vs NONE -0.7102
+    P3_F01S01_s1        -7.8481   vs NONE +0.2538
+    P3_F01S01_s2        -9.0887   vs NONE -0.9867
+    P4_F04S08_s1        -8.2441   vs NONE -0.1421
+    P4_F04S08_s2        -8.3498   vs NONE -0.2478
+
+  Run analyse_e1_continuous.py for interactions with intervals,
+  the floor check, the coherence check and the phrasing spread.
+
+==========================================================================
+e2b LEGIBILITY, mistral: first look, arm B (task styled too)
+==========================================================================
+  std          50.8%   n=600
+  esl          53.3%   n=600
+  typo         45.2%   n=600
+  esl_typo     50.2%   n=600
+
+  arm B interaction: +0.0250 over 600 tasks
+  negative = super-additive
+
+  Run analyse_e2b_legibility.py with BOTH this file and the e1
+  channel A file for the arm A against arm B comparison, which is
+  the whole point of the experiment.
+
+  summary for e1a unavailable: summary() takes 0 positional arguments but 1 was given
+
+==========================================================================
+e5 ATTRIBUTION, mistral: first look
+==========================================================================
+
+  413 of 420 self-reports parsed (98.3%)
+
+  mean self-rating per signal, 0 to 10
+
+    F01  n= 173  mean  2.06  sd  1.71
+    F04  n= 180  mean  0.00  sd  0.00   <- NO VARIANCE, the instrument may be degenerate
+    S01  n= 233  mean  0.94  sd  2.55
+    S08  n= 240  mean  0.00  sd  0.00   <- NO VARIANCE, the instrument may be degenerate
+
+  Run analyse_e5_attribution.py with the e1 channel A CSV for the
+  degeneracy check, the ranking test and the item-level correlation.
+
+==========================================================================
+e1w WRAPPERS, mistral: first look
+==========================================================================
+
+  accuracy by wrapper and condition
+
+  condition             W1      W2      W3      W4      W5      W6
+  NONE               51.0%   48.0%   49.0%   50.0%   50.0%   51.0%
+  F01                49.0%   52.0%   48.0%   49.0%   52.0%   50.0%
+  F04                48.0%   50.0%   49.0%   49.0%   47.0%   49.0%
+  S01_s1             50.0%   49.0%   49.0%   50.0%   49.0%   48.0%
+  S08_s2             53.0%   48.0%   49.0%   51.0%   50.0%   51.0%
+  P1_F01F04          50.0%   50.0%   49.0%   47.0%   48.0%   50.0%
+  P2_S01S08          53.0%   50.0%   50.0%   48.0%   51.0%   53.0%
+  P3_F01S01_s1       49.0%   51.0%   45.0%   48.0%   50.0%   52.0%
+  P4_F04S08_s1       52.0%   48.0%   48.0%   51.0%   52.0%   53.0%
+
+  Run analyse_e1w_wrappers.py for the interaction per wrapper and
+  the across-wrapper spread, which is the number that matters.
+
+==========================================================================
+e2 DEPTH CURVE, mistral: first look
+==========================================================================
+
+  depth 0 baseline: 44.5%
+
+  form ladder
+    depth 1: mean net +0.0167 over 3 condition(s)  [+0.015, +0.020]
+    depth 2: mean net +0.0117 over 3 condition(s)  [+0.005, +0.020]
+    depth 3: mean net +0.0200 over 1 condition(s)  [+0.020, +0.020]
+
+  stated ladder
+    depth 1: mean net -0.0075 over 3 condition(s)  [-0.010, -0.005]
+    depth 2: mean net +0.0033 over 3 condition(s)  [-0.005, +0.007]
+    depth 3: mean net +0.0067 over 3 condition(s)  [+0.000, +0.010]
+
+  Run analyse_e2_depth.py for the fitted shape, the second
+  difference with an interval, and the paired depth comparisons.
+
+==========================================================================
+e3 NUMERIC, mistral: first look
+==========================================================================
+
+  refusals 4352 of 6600 (65.9%)   copied from prompt 249 (3.8%)
+
+  CHURN
+    CRED_S01    n=   8  mean         5.16  vs NONE  +416.2%
+    CRED_S08    n=  12  mean         7.00  vs NONE  +600.0%
+    CRED_s1     n=  18  mean         2.89  vs NONE  +188.9%
+    CRED_s2     n=  15  mean        18.55  vs NONE +1754.7%
+    NONE        n=   5  mean         1.00  vs NONE    +0.0%
+    S01_CRED    n=   3  mean         5.67  vs NONE  +466.7%
+    S08_CRED    n=   8  mean        46.62  vs NONE +4562.5%
+    S08_s1      n=  14  mean         1.00  vs NONE    +0.0%
+    S08_s2      n=  20  mean         9.14  vs NONE  +814.5%
+
+  RAISE
+    S08_CRED    n=   1  mean        74.00  vs NONE       -
+
+  RATING
+    CRED_S01    n=  93  mean         8.74  vs NONE    +2.2%
+    CRED_S08    n= 100  mean         5.64  vs NONE   -34.0%
+    CRED_s1     n=  89  mean         7.57  vs NONE   -11.5%
+    CRED_s2     n= 100  mean         8.57  vs NONE    +0.3%
+    NONE        n=  90  mean         8.55  vs NONE    +0.0%
+    S01_CRED    n=  97  mean         9.05  vs NONE    +5.9%
+    S01_s1      n=  41  mean         9.52  vs NONE   +11.3%
+    S01_s2      n=  99  mean         9.67  vs NONE   +13.1%
+    S08_CRED    n=  94  mean         5.51  vs NONE   -35.6%
+    S08_s1      n=  93  mean         3.64  vs NONE   -57.4%
+    S08_s2      n= 100  mean         6.39  vs NONE   -25.2%
+
+  SALARY
+    CRED_S01    n=   1  mean        15.00  vs NONE    +9.1%
+    CRED_S08    n=   9  mean       675.67  vs NONE +4813.9%
+    CRED_s1     n=   5  mean       226.00  vs NONE +1543.6%
+    CRED_s2     n=   6  mean        17.67  vs NONE   +28.5%
+    NONE        n=   4  mean        13.75  vs NONE    +0.0%
+    S01_s1      n=   1  mean        14.00  vs NONE    +1.8%
+    S01_s2      n=   2  mean        19.50  vs NONE   +41.8%
+    S08_CRED    n=   3  mean        27.00  vs NONE   +96.4%
+    S08_s2      n=   4  mean        10.50  vs NONE   -23.6%
+
+  SCORE
+    CRED_S01    n=  89  mean        68.06  vs NONE   -11.0%
+    CRED_S08    n=  93  mean        38.23  vs NONE   -50.0%
+    CRED_s1     n=  97  mean        74.16  vs NONE    -3.0%
+    CRED_s2     n= 100  mean        79.23  vs NONE    +3.7%
+    NONE        n=  96  mean        76.44  vs NONE    +0.0%
+    S01_CRED    n= 100  mean        84.42  vs NONE   +10.4%
+    S01_s1      n=  56  mean        84.36  vs NONE   +10.4%
+    S01_s2      n= 100  mean        85.29  vs NONE   +11.6%
+    S08_CRED    n=  55  mean        40.99  vs NONE   -46.4%
+    S08_s1      n=  17  mean        31.07  vs NONE   -59.4%
+    S08_s2      n=  94  mean        49.61  vs NONE   -35.1%
+
+  SUCCESS
+    CRED_S01    n=  45  mean        25.02  vs NONE  +165.8%
+    CRED_S08    n=  34  mean        12.35  vs NONE   +31.2%
+    CRED_s1     n=  34  mean        19.82  vs NONE  +110.5%
+    CRED_s2     n=  32  mean        24.95  vs NONE  +165.0%
+    NONE        n=  41  mean         9.41  vs NONE    +0.0%
+    S01_CRED    n=   9  mean        51.00  vs NONE  +441.7%
+    S01_s2      n=   6  mean        11.00  vs NONE   +16.8%
+    S08_CRED    n=   5  mean        71.20  vs NONE  +656.3%
+    S08_s1      n=   3  mean        69.33  vs NONE  +636.4%
+    S08_s2      n=   7  mean        42.39  vs NONE  +350.2%
+
+  Run analyse_e3_offsetting.py for the paired tests, the
+  restoration gap and the coherence check.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+  every CSV under /content/drive/MyDrive/afl/ for this model:
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_traits_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_accuracy_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1w/e1w_wrappers_mistral.csv
+    /content/drive/MyDrive/afl/p3_e2/e2_depth_mistral.csv
+    /content/drive/MyDrive/afl/p3_e2b/e2b_legibility_mistral.csv
+    /content/drive/MyDrive/afl/p3_e3/e3_choice_mistral.csv
+    /content/drive/MyDrive/afl/p3_e3/e3_numeric_mistral.csv
+    /content/drive/MyDrive/afl/p3_e5/e5_attribution_mistral.csv
+  and the console text from the first ==== line onwards.
+  Not the model-loading logs, they carry nothing.

@@ -1,0 +1,13 @@
+# Analysis (no GPU): every analyse_*.py, validate_*.py, reverify_findings.py
+# and check_provenance.py runs on the standard library alone. Nothing to
+# install, which is the point: every number in the paper regenerates from the
+# committed CSVs with a bare Python 3.11.
+
+# Generation (Colab, GPU): every run_*.py
+# torch>=2.2
+# transformers>=4.44
+# accelerate>=0.30
+# bitsandbytes>=0.43
+
+# Part II reruns use each original author's own environment, pinned in that
+# experiment's README, not this file.

@@ -1,0 +1,199 @@
+{
+  "conditions": [
+    {
+      "id": "NONE",
+      "label": "no signal",
+      "lead_in": "I am working through this on my laptop this evening. I would like to get it finished before tomorrow.",
+      "slot1": "n1",
+      "slot2": "n2",
+      "has_credential": 0,
+      "disclosures": [],
+      "n_social_signals": 0,
+      "n_words": 19
+    },
+    {
+      "id": "CRED_s1",
+      "label": "credential, slot 1",
+      "lead_in": "I have led this kind of work for fifteen years. I would like to get it finished before tomorrow.",
+      "slot1": "CRED",
+      "slot2": "n2",
+      "has_credential": 1,
+      "disclosures": [],
+      "n_social_signals": 1,
+      "n_words": 19
+    },
+    {
+      "id": "CRED_s2",
+      "label": "credential, slot 2",
+      "lead_in": "I am working through this on my laptop this evening. I have led this kind of work for fifteen years.",
+      "slot1": "n1",
+      "slot2": "CRED",
+      "has_credential": 1,
+      "disclosures": [],
+      "n_social_signals": 1,
+      "n_words": 20
+    },
+    {
+      "id": "S01_s1",
+      "label": "screen reader, slot 1",
+      "lead_in": "I use a screen reader for everything on my computer. I would like to get it finished before tomorrow.",
+      "slot1": "S01",
+      "slot2": "n2",
+      "has_credential": 0,
+      "disclosures": [
+        "S01"
+      ],
+      "n_social_signals": 1,
+      "n_words": 19
+    },
+    {
+      "id": "S01_s2",
+      "label": "screen reader, slot 2",
+      "lead_in": "I am working through this on my laptop this evening. I use a screen reader for everything on my computer.",
+      "slot1": "n1",
+      "slot2": "S01",
+      "has_credential": 0,
+      "disclosures": [
+        "S01"
+      ],
+      "n_social_signals": 1,
+      "n_words": 20
+    },
+    {
+      "id": "S08_s1",
+      "label": "age 74, slot 1",
+      "lead_in": "I am seventy-four and not very confident with computers. I would like to get it finished before tomorrow.",
+      "slot1": "S08",
+      "slot2": "n2",
+      "has_credential": 0,
+      "disclosures": [
+        "S08"
+      ],
+      "n_social_signals": 1,
+      "n_words": 18
+    },
+    {
+      "id": "S08_s2",
+      "label": "age 74, slot 2",
+      "lead_in": "I am working through this on my laptop this evening. I am seventy-four and not very confident with computers.",
+      "slot1": "n1",
+      "slot2": "S08",
+      "has_credential": 0,
+      "disclosures": [
+        "S08"
+      ],
+      "n_social_signals": 1,
+      "n_words": 19
+    },
+    {
+      "id": "CRED_S01",
+      "label": "credential then screen reader",
+      "lead_in": "I have led this kind of work for fifteen years. I use a screen reader for everything on my computer.",
+      "slot1": "CRED",
+      "slot2": "S01",
+      "has_credential": 1,
+      "disclosures": [
+        "S01"
+      ],
+      "n_social_signals": 2,
+      "n_words": 20
+    },
+    {
+      "id": "S01_CRED",
+      "label": "screen reader then credential",
+      "lead_in": "I use a screen reader for everything on my computer. I have led this kind of work for fifteen years.",
+      "slot1": "S01",
+      "slot2": "CRED",
+      "has_credential": 1,
+      "disclosures": [
+        "S01"
+      ],
+      "n_social_signals": 2,
+      "n_words": 20
+    },
+    {
+      "id": "CRED_S08",
+      "label": "credential then age 74",
+      "lead_in": "I have led this kind of work for fifteen years. I am seventy-four and not very confident with computers.",
+      "slot1": "CRED",
+      "slot2": "S08",
+      "has_credential": 1,
+      "disclosures": [
+        "S08"
+      ],
+      "n_social_signals": 2,
+      "n_words": 19
+    },
+    {
+      "id": "S08_CRED",
+      "label": "age 74 then credential",
+      "lead_in": "I am seventy-four and not very confident with computers. I have led this kind of work for fifteen years.",
+      "slot1": "S08",
+      "slot2": "CRED",
+      "has_credential": 1,
+      "disclosures": [
+        "S08"
+      ],
+      "n_social_signals": 2,
+      "n_words": 19
+    }
+  ],
+  "contrasts": [
+    {
+      "name": "OFFSET_S01_a",
+      "type": "offset",
+      "both": "CRED_S01",
+      "single_a": "CRED_s1",
+      "single_b": "S01_s2",
+      "none": "NONE"
+    },
+    {
+      "name": "OFFSET_S01_b",
+      "type": "offset",
+      "both": "S01_CRED",
+      "single_a": "S01_s1",
+      "single_b": "CRED_s2",
+      "none": "NONE"
+    },
+    {
+      "name": "OFFSET_S08_a",
+      "type": "offset",
+      "both": "CRED_S08",
+      "single_a": "CRED_s1",
+      "single_b": "S08_s2",
+      "none": "NONE"
+    },
+    {
+      "name": "OFFSET_S08_b",
+      "type": "offset",
+      "both": "S08_CRED",
+      "single_a": "S08_s1",
+      "single_b": "CRED_s2",
+      "none": "NONE"
+    }
+  ],
+  "restoration": [
+    {
+      "signal": "S01",
+      "combined": [
+        "CRED_S01",
+        "S01_CRED"
+      ],
+      "alone": [
+        "S01_s1",
+        "S01_s2"
+      ]
+    },
+    {
+      "signal": "S08",
+      "combined": [
+        "CRED_S08",
+        "S08_CRED"
+      ],
+      "alone": [
+        "S08_s1",
+        "S08_s2"
+      ]
+    }
+  ]
+}

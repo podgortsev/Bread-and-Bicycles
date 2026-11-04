@@ -1,0 +1,271 @@
+{
+  "conditions": [
+    {
+      "id": "D0",
+      "label": "no signal",
+      "ladder": "both",
+      "depth": 0,
+      "route": "-",
+      "form_signals": [],
+      "stated_signals": [],
+      "n_social_signals": 0,
+      "n_clauses": 3,
+      "n_words": 28,
+      "lead_in": "I am working through this on my laptop this evening. I would like to get it finished before tomorrow. I have been putting this off since the weekend."
+    },
+    {
+      "id": "FORM_D1_01",
+      "label": "form depth 1: F01",
+      "ladder": "form",
+      "depth": 1,
+      "route": "-",
+      "form_signals": [
+        "F01"
+      ],
+      "stated_signals": [],
+      "n_social_signals": 1,
+      "n_clauses": 3,
+      "n_words": 28,
+      "lead_in": "I am doing this work on my laptop in evening. I want to finish it before the tomorrow comes. I am putting this off from the weekend already."
+    },
+    {
+      "id": "FORM_D1_04",
+      "label": "form depth 1: F04",
+      "ladder": "form",
+      "depth": 1,
+      "route": "-",
+      "form_signals": [
+        "F04"
+      ],
+      "stated_signals": [],
+      "n_social_signals": 1,
+      "n_clauses": 3,
+      "n_words": 28,
+      "lead_in": "I am working throguh this on my laptop this evening. I wolud like to get it finished before tomorrow. I have been puttnig this off since the weekend."
+    },
+    {
+      "id": "FORM_D1_07",
+      "label": "form depth 1: F07",
+      "ladder": "form",
+      "depth": 1,
+      "route": "-",
+      "form_signals": [
+        "F07"
+      ],
+      "stated_signals": [],
+      "n_social_signals": 1,
+      "n_clauses": 3,
+      "n_words": 26,
+      "lead_in": "im just messing about with this on my laptop tonight. kinda wanna get it sorted before tomorrow tbh. been putting this off since the weekend lol."
+    },
+    {
+      "id": "FORM_D2_0104",
+      "label": "form depth 2: F01+F04",
+      "ladder": "form",
+      "depth": 2,
+      "route": "-",
+      "form_signals": [
+        "F01",
+        "F04"
+      ],
+      "stated_signals": [],
+      "n_social_signals": 2,
+      "n_clauses": 3,
+      "n_words": 28,
+      "lead_in": "I am doing this work on my laptop in eevning. I want to fniish it before the tomorrow comes. I am putting this off from the weekend already."
+    },
+    {
+      "id": "FORM_D2_0107",
+      "label": "form depth 2: F01+F07",
+      "ladder": "form",
+      "depth": 2,
+      "route": "-",
+      "form_signals": [
+        "F01",
+        "F07"
+      ],
+      "stated_signals": [],
+      "n_social_signals": 2,
+      "n_clauses": 3,
+      "n_words": 27,
+      "lead_in": "im just doing this stuff on my laptop in evening. i wanna finish it before the tomorrow comes. im putting this off from the weekend already lol."
+    },
+    {
+      "id": "FORM_D2_0407",
+      "label": "form depth 2: F04+F07",
+      "ladder": "form",
+      "depth": 2,
+      "route": "-",
+      "form_signals": [
+        "F04",
+        "F07"
+      ],
+      "stated_signals": [],
+      "n_social_signals": 2,
+      "n_clauses": 3,
+      "n_words": 26,
+      "lead_in": "im just messing abuot with this on my laptop tonight. kinda wanna get it sorted bfeore tomorrow tbh. been putitng this off since the weekend lol."
+    },
+    {
+      "id": "FORM_D3_010407",
+      "label": "form depth 3: F01+F04+F07",
+      "ladder": "form",
+      "depth": 3,
+      "route": "-",
+      "form_signals": [
+        "F01",
+        "F04",
+        "F07"
+      ],
+      "stated_signals": [],
+      "n_social_signals": 3,
+      "n_clauses": 3,
+      "n_words": 27,
+      "lead_in": "im just donig this stuff on my laptop in evening. i wanna finish it before the tomorrow coems. im puttnig this off from the weekend already lol."
+    },
+    {
+      "id": "STATED_D1_R1",
+      "label": "stated depth 1, route 1: S01",
+      "ladder": "stated",
+      "depth": 1,
+      "route": "R1",
+      "form_signals": [],
+      "stated_signals": [
+        "S01"
+      ],
+      "n_social_signals": 1,
+      "n_clauses": 3,
+      "n_words": 28,
+      "lead_in": "I use a screen reader for everything on my computer. I would like to get it finished before tomorrow. I have been putting this off since the weekend."
+    },
+    {
+      "id": "STATED_D2_R1",
+      "label": "stated depth 2, route 1: S01+S08",
+      "ladder": "stated",
+      "depth": 2,
+      "route": "R1",
+      "form_signals": [],
+      "stated_signals": [
+        "S01",
+        "S08"
+      ],
+      "n_social_signals": 2,
+      "n_clauses": 3,
+      "n_words": 28,
+      "lead_in": "I use a screen reader for everything on my computer. I am seventy-four and not very confident with computers. I have been putting this off since the weekend."
+    },
+    {
+      "id": "STATED_D3_R1",
+      "label": "stated depth 3, route 1: S01+S08+S04",
+      "ladder": "stated",
+      "depth": 3,
+      "route": "R1",
+      "form_signals": [],
+      "stated_signals": [
+        "S01",
+        "S08",
+        "S04"
+      ],
+      "n_social_signals": 3,
+      "n_clauses": 3,
+      "n_words": 29,
+      "lead_in": "I use a screen reader for everything on my computer. I am seventy-four and not very confident with computers. I have ADHD and lose focus with a long answer."
+    },
+    {
+      "id": "STATED_D1_R2",
+      "label": "stated depth 1, route 2: S08",
+      "ladder": "stated",
+      "depth": 1,
+      "route": "R2",
+      "form_signals": [],
+      "stated_signals": [
+        "S08"
+      ],
+      "n_social_signals": 1,
+      "n_clauses": 3,
+      "n_words": 27,
+      "lead_in": "I am seventy-four and not very confident with computers. I would like to get it finished before tomorrow. I have been putting this off since the weekend."
+    },
+    {
+      "id": "STATED_D2_R2",
+      "label": "stated depth 2, route 2: S08+S04",
+      "ladder": "stated",
+      "depth": 2,
+      "route": "R2",
+      "form_signals": [],
+      "stated_signals": [
+        "S08",
+        "S04"
+      ],
+      "n_social_signals": 2,
+      "n_clauses": 3,
+      "n_words": 28,
+      "lead_in": "I am seventy-four and not very confident with computers. I have ADHD and lose focus with a long answer. I have been putting this off since the weekend."
+    },
+    {
+      "id": "STATED_D3_R2",
+      "label": "stated depth 3, route 2: S08+S04+S01",
+      "ladder": "stated",
+      "depth": 3,
+      "route": "R2",
+      "form_signals": [],
+      "stated_signals": [
+        "S08",
+        "S04",
+        "S01"
+      ],
+      "n_social_signals": 3,
+      "n_clauses": 3,
+      "n_words": 29,
+      "lead_in": "I am seventy-four and not very confident with computers. I have ADHD and lose focus with a long answer. I use a screen reader for everything on my computer."
+    },
+    {
+      "id": "STATED_D1_R3",
+      "label": "stated depth 1, route 3: S04",
+      "ladder": "stated",
+      "depth": 1,
+      "route": "R3",
+      "form_signals": [],
+      "stated_signals": [
+        "S04"
+      ],
+      "n_social_signals": 1,
+      "n_clauses": 3,
+      "n_words": 28,
+      "lead_in": "I have ADHD and lose focus with a long answer. I would like to get it finished before tomorrow. I have been putting this off since the weekend."
+    },
+    {
+      "id": "STATED_D2_R3",
+      "label": "stated depth 2, route 3: S04+S01",
+      "ladder": "stated",
+      "depth": 2,
+      "route": "R3",
+      "form_signals": [],
+      "stated_signals": [
+        "S04",
+        "S01"
+      ],
+      "n_social_signals": 2,
+      "n_clauses": 3,
+      "n_words": 29,
+      "lead_in": "I have ADHD and lose focus with a long answer. I use a screen reader for everything on my computer. I have been putting this off since the weekend."
+    },
+    {
+      "id": "STATED_D3_R3",
+      "label": "stated depth 3, route 3: S04+S01+S08",
+      "ladder": "stated",
+      "depth": 3,
+      "route": "R3",
+      "form_signals": [],
+      "stated_signals": [
+        "S04",
+        "S01",
+        "S08"
+      ],
+      "n_social_signals": 3,
+      "n_clauses": 3,
+      "n_words": 29,
+      "lead_in": "I have ADHD and lose focus with a long answer. I use a screen reader for everything on my computer. I am seventy-four and not very confident with computers."
+    }
+  ]
+}

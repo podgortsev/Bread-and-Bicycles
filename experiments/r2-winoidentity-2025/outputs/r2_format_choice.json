@@ -1,0 +1,18 @@
+{
+  "chosen_format": "raw",
+  "passed": true,
+  "fidelity": {
+    "raw": {
+      "n": 22,
+      "spearman": 0.9051383399209486,
+      "mad": 0.029264340165536463,
+      "pass": true
+    },
+    "chat": {
+      "n": 22,
+      "spearman": 0.7255787690570299,
+      "mad": 0.057800198683897054,
+      "pass": true
+    }
+  }
+}

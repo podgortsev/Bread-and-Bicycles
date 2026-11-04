@@ -1,0 +1,200 @@
+==============================================================================
+e2: does the penalty grow with the NUMBER of signals
+models: llama, mistral, qwen
+==============================================================================
+
+------------------------------------------------------------------------------
+llama   depth 0 baseline 30.0% on 400 tasks
+------------------------------------------------------------------------------
+
+  FORM LADDER
+    depth 1  routes=3  route mean +0.0042 [-0.0100, +0.0150]
+             pooled per task +0.0042 [-0.0092, +0.0183]  p rank 0.5584 mean 0.6337  MDE +/-0.0140
+    depth 2  routes=3  route mean +0.0142 [+0.0125, +0.0150]
+             pooled per task +0.0142 [-0.0008, +0.0292]  p rank 0.0652 mean 0.08059  MDE +/-0.0150
+    depth 3  routes=1  route mean +0.0175 one route, no spread
+             pooled per task +0.0175 [-0.0125, +0.0475]  p rank 0.2498 mean 0.318  MDE +/-0.0298
+
+    SHAPE
+      depth means: 0.0000  +0.0042  +0.0142  +0.0175
+      second difference (D3-D2)-(D2-D1): -0.0067 [-0.0283, +0.0142]  p rank 0.64 mean 0.6027
+      interval covers zero: NO SHAPE CAN BE CLAIMED
+      quadratic term -0.00021, SSE linear 0.00001 -> quadratic 0.00001
+      Four points and three free parameters, so the
+      quadratic fit cannot fail to improve. Read the
+      second difference, not the SSE.
+
+      depth 3 against depth 1 not tested: 1 route(s) at depth 3. The form ladder has one by construction.
+
+  STATED LADDER
+    depth 1  routes=3  route mean -0.0083 [-0.0425, +0.0450]
+             pooled per task -0.0083 [-0.0275, +0.0117]  p rank 0.4111 mean 0.4699  MDE +/-0.0199
+    depth 2  routes=3  route mean -0.0033 [-0.0300, +0.0200]
+             pooled per task -0.0033 [-0.0258, +0.0200]  p rank 0.7705 mean 0.8244  MDE +/-0.0224
+    depth 3  routes=3  route mean -0.0050 [-0.0400, +0.0275]
+             pooled per task -0.0050 [-0.0292, +0.0183]  p rank 0.6744 mean 0.7281  MDE +/-0.0233
+
+    SHAPE
+      depth means: 0.0000  -0.0083  -0.0033  -0.0050
+      second difference (D3-D2)-(D2-D1): -0.0067 [-0.0392, +0.0233]  p rank 0.7269 mean 0.7147
+      interval covers zero: NO SHAPE CAN BE CLAIMED
+      quadratic term +0.00167, SSE linear 0.00003 -> quadratic 0.00002
+      Four points and three free parameters, so the
+      quadratic fit cannot fail to improve. Read the
+      second difference, not the SSE.
+
+      depth 3 against depth 1, PAIRED over 3 routes: p rank 0.75, p mean 0.7471
+      Method 3b used an unpaired Mann-Whitney here
+      and its headline p moved from 0.031 to 0.0625
+      once corrected.
+
+------------------------------------------------------------------------------
+mistral   depth 0 baseline 44.5% on 400 tasks
+------------------------------------------------------------------------------
+
+  FORM LADDER
+    depth 1  routes=3  route mean +0.0167 [+0.0150, +0.0200]
+             pooled per task +0.0167 [+0.0008, +0.0325]  p rank 0.03706 mean 0.0481  MDE +/-0.0156
+    depth 2  routes=3  route mean +0.0117 [+0.0050, +0.0200]
+             pooled per task +0.0117 [-0.0042, +0.0275]  p rank 0.1487 mean 0.1818  MDE +/-0.0158
+    depth 3  routes=1  route mean +0.0200 one route, no spread
+             pooled per task +0.0200 [-0.0075, +0.0475]  p rank 0.1573 mean 0.2205  MDE +/-0.0277
+
+    SHAPE
+      depth means: 0.0000  +0.0167  +0.0117  +0.0200
+      second difference (D3-D2)-(D2-D1): +0.0133 [-0.0100, +0.0375]  p rank 0.3691 mean 0.2938
+      interval covers zero: NO SHAPE CAN BE CLAIMED
+      quadratic term -0.00208, SSE linear 0.00008 -> quadratic 0.00006
+      Four points and three free parameters, so the
+      quadratic fit cannot fail to improve. Read the
+      second difference, not the SSE.
+
+      depth 3 against depth 1 not tested: 1 route(s) at depth 3. The form ladder has one by construction.
+
+  STATED LADDER
+    depth 1  routes=3  route mean -0.0075 [-0.0100, -0.0050]
+             pooled per task -0.0075 [-0.0242, +0.0100]  p rank 0.393 mean 0.4482  MDE +/-0.0172
+    depth 2  routes=3  route mean +0.0033 [-0.0050, +0.0075]
+             pooled per task +0.0033 [-0.0167, +0.0242]  p rank 0.7488 mean 0.8087  MDE +/-0.0204
+    depth 3  routes=3  route mean +0.0067 [+0.0000, +0.0100]
+             pooled per task +0.0067 [-0.0125, +0.0267]  p rank 0.5108 mean 0.5645  MDE +/-0.0199
+
+    SHAPE
+      depth means: 0.0000  -0.0075  +0.0033  +0.0067
+      second difference (D3-D2)-(D2-D1): -0.0075 [-0.0358, +0.0200]  p rank 0.6529 mean 0.6332
+      interval covers zero: NO SHAPE CAN BE CLAIMED
+      quadratic term +0.00271, SSE linear 0.00006 -> quadratic 0.00003
+      Four points and three free parameters, so the
+      quadratic fit cannot fail to improve. Read the
+      second difference, not the SSE.
+
+      depth 3 against depth 1, PAIRED over 3 routes: p rank 0.25, p mean 0.2486
+      Method 3b used an unpaired Mann-Whitney here
+      and its headline p moved from 0.031 to 0.0625
+      once corrected.
+
+------------------------------------------------------------------------------
+qwen   depth 0 baseline 53.2% on 400 tasks
+------------------------------------------------------------------------------
+
+  FORM LADDER
+    depth 1  routes=3  route mean +0.0083 [-0.0150, +0.0275]
+             pooled per task +0.0083 [-0.0067, +0.0233]  p rank 0.2695 mean 0.3251  MDE +/-0.0148
+    depth 2  routes=3  route mean -0.0017 [-0.0150, +0.0075]
+             pooled per task -0.0017 [-0.0167, +0.0133]  p rank 0.8292 mean 0.9085  MDE +/-0.0152
+    depth 3  routes=1  route mean -0.0025 one route, no spread
+             pooled per task -0.0025 [-0.0300, +0.0250]  p rank 0.8575 mean 1  MDE +/-0.0273
+
+    SHAPE
+      depth means: 0.0000  +0.0083  -0.0017  -0.0025
+      second difference (D3-D2)-(D2-D1): +0.0092 [-0.0133, +0.0333]  p rank 0.8279 mean 0.4921
+      interval covers zero: NO SHAPE CAN BE CLAIMED
+      quadratic term -0.00229, SSE linear 0.00006 -> quadratic 0.00004
+      Four points and three free parameters, so the
+      quadratic fit cannot fail to improve. Read the
+      second difference, not the SSE.
+
+      depth 3 against depth 1 not tested: 1 route(s) at depth 3. The form ladder has one by construction.
+
+  STATED LADDER
+    depth 1  routes=3  route mean -0.0083 [-0.0225, +0.0100]
+             pooled per task -0.0083 [-0.0250, +0.0075]  p rank 0.3173 mean 0.3627  MDE +/-0.0163
+    depth 2  routes=3  route mean -0.0317 [-0.0450, -0.0225]
+             pooled per task -0.0317 [-0.0500, -0.0133]  p rank 0.001028 mean 0.0013  MDE +/-0.0188
+    depth 3  routes=3  route mean -0.0342 [-0.0375, -0.0300]
+             pooled per task -0.0342 [-0.0542, -0.0133]  p rank 0.0009176 mean 0.0009999  MDE +/-0.0201
+
+    SHAPE
+      depth means: 0.0000  -0.0083  -0.0317  -0.0342
+      second difference (D3-D2)-(D2-D1): +0.0208 [-0.0083, +0.0508]  p rank 0.2876 mean 0.1723
+      interval covers zero: NO SHAPE CAN BE CLAIMED
+      quadratic term +0.00146, SSE linear 0.00007 -> quadratic 0.00006
+      Four points and three free parameters, so the
+      quadratic fit cannot fail to improve. Read the
+      second difference, not the SSE.
+
+      depth 3 against depth 1, PAIRED over 3 routes: p rank 0.25, p mean 0.2486
+      Method 3b used an unpaired Mann-Whitney here
+      and its headline p moved from 0.031 to 0.0625
+      once corrected.
+
+------------------------------------------------------------------------------
+MULTIPLICITY. Every depth against depth 0, corrected together.
+Method 3b applied no correction at depth and said so.
+------------------------------------------------------------------------------
+  model    ladder    depth       net        BH
+  llama    form          1   +0.0042    0.8775
+  llama    form          2   +0.0142    0.3627
+  llama    form          3   +0.0175    0.7253
+  llama    stated        1   -0.0083    0.7689
+  llama    stated        2   -0.0033    0.9275
+  llama    stated        3   -0.0050    0.9275
+  mistral  form          1   +0.0167    0.2886
+  mistral  form          2   +0.0117    0.6544
+  mistral  form          3   +0.0200    0.6614
+  mistral  stated        1   -0.0075    0.7689
+  mistral  stated        2   +0.0033    0.9275
+  mistral  stated        3   +0.0067    0.8468
+  qwen     form          1   +0.0083    0.7253
+  qwen     form          2   -0.0017    0.9620
+  qwen     form          3   -0.0025    1.0000
+  qwen     stated        1   -0.0083    0.7253
+  qwen     stated        2   -0.0317    0.0117 *
+  qwen     stated        3   -0.0342    0.0117 *
+
+------------------------------------------------------------------------------
+REFUSAL against depth. Counted separately, never scored as wrong.
+------------------------------------------------------------------------------
+
+  llama
+    both    depth 0    0.00% (0 of 400)
+    form    depth 1    0.00% (0 of 1200)
+    form    depth 2    0.00% (0 of 1200)
+    form    depth 3    0.00% (0 of 400)
+    stated  depth 1    0.00% (0 of 1200)
+    stated  depth 2    0.00% (0 of 1200)
+    stated  depth 3    0.00% (0 of 1200)
+
+  mistral
+    both    depth 0    0.00% (0 of 400)
+    form    depth 1    0.00% (0 of 1200)
+    form    depth 2    0.00% (0 of 1200)
+    form    depth 3    0.00% (0 of 400)
+    stated  depth 1    0.00% (0 of 1200)
+    stated  depth 2    0.00% (0 of 1200)
+    stated  depth 3    0.00% (0 of 1200)
+
+  qwen
+    both    depth 0    0.00% (0 of 400)
+    form    depth 1    0.00% (0 of 1200)
+    form    depth 2    0.00% (0 of 1200)
+    form    depth 3    0.00% (0 of 400)
+    stated  depth 1    0.00% (0 of 1200)
+    stated  depth 2    0.00% (0 of 1200)
+    stated  depth 3    0.00% (0 of 1200)
+
+==============================================================================
+The thesis predicts the two ladders have DIFFERENT shapes: the form
+ladder bending downward, the stated ladder flat or saturating. Read
+the second differences side by side, and read their intervals.
+==============================================================================

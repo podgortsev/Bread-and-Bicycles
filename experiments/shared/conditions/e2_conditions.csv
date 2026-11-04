@@ -1,0 +1,18 @@
+id,label,ladder,depth,route,n_social_signals,n_words,lead_in
+D0,no signal,both,0,-,0,28,I am working through this on my laptop this evening. I would like to get it finished before tomorrow. I have been putting this off since the weekend.
+FORM_D1_01,form depth 1: F01,form,1,-,1,28,I am doing this work on my laptop in evening. I want to finish it before the tomorrow comes. I am putting this off from the weekend already.
+FORM_D1_04,form depth 1: F04,form,1,-,1,28,I am working throguh this on my laptop this evening. I wolud like to get it finished before tomorrow. I have been puttnig this off since the weekend.
+FORM_D1_07,form depth 1: F07,form,1,-,1,26,im just messing about with this on my laptop tonight. kinda wanna get it sorted before tomorrow tbh. been putting this off since the weekend lol.
+FORM_D2_0104,form depth 2: F01+F04,form,2,-,2,28,I am doing this work on my laptop in eevning. I want to fniish it before the tomorrow comes. I am putting this off from the weekend already.
+FORM_D2_0107,form depth 2: F01+F07,form,2,-,2,27,im just doing this stuff on my laptop in evening. i wanna finish it before the tomorrow comes. im putting this off from the weekend already lol.
+FORM_D2_0407,form depth 2: F04+F07,form,2,-,2,26,im just messing abuot with this on my laptop tonight. kinda wanna get it sorted bfeore tomorrow tbh. been putitng this off since the weekend lol.
+FORM_D3_010407,form depth 3: F01+F04+F07,form,3,-,3,27,im just donig this stuff on my laptop in evening. i wanna finish it before the tomorrow coems. im puttnig this off from the weekend already lol.
+STATED_D1_R1,"stated depth 1, route 1: S01",stated,1,R1,1,28,I use a screen reader for everything on my computer. I would like to get it finished before tomorrow. I have been putting this off since the weekend.
+STATED_D2_R1,"stated depth 2, route 1: S01+S08",stated,2,R1,2,28,I use a screen reader for everything on my computer. I am seventy-four and not very confident with computers. I have been putting this off since the weekend.
+STATED_D3_R1,"stated depth 3, route 1: S01+S08+S04",stated,3,R1,3,29,I use a screen reader for everything on my computer. I am seventy-four and not very confident with computers. I have ADHD and lose focus with a long answer.
+STATED_D1_R2,"stated depth 1, route 2: S08",stated,1,R2,1,27,I am seventy-four and not very confident with computers. I would like to get it finished before tomorrow. I have been putting this off since the weekend.
+STATED_D2_R2,"stated depth 2, route 2: S08+S04",stated,2,R2,2,28,I am seventy-four and not very confident with computers. I have ADHD and lose focus with a long answer. I have been putting this off since the weekend.
+STATED_D3_R2,"stated depth 3, route 2: S08+S04+S01",stated,3,R2,3,29,I am seventy-four and not very confident with computers. I have ADHD and lose focus with a long answer. I use a screen reader for everything on my computer.
+STATED_D1_R3,"stated depth 1, route 3: S04",stated,1,R3,1,28,I have ADHD and lose focus with a long answer. I would like to get it finished before tomorrow. I have been putting this off since the weekend.
+STATED_D2_R3,"stated depth 2, route 3: S04+S01",stated,2,R3,2,29,I have ADHD and lose focus with a long answer. I use a screen reader for everything on my computer. I have been putting this off since the weekend.
+STATED_D3_R3,"stated depth 3, route 3: S04+S01+S08",stated,3,R3,3,29,I have ADHD and lose focus with a long answer. I use a screen reader for everything on my computer. I am seventy-four and not very confident with computers.

@@ -1,0 +1,32 @@
+==============================================================================
+R3 LABE STEP 0: their Table 1 against ours (Addendum 5)
+==============================================================================
+classifier validation accuracy at the last epoch evaluated:
+  classifier 0: ours 0.944   theirs (epoch 9) 0.933
+  classifier 1: ours 0.933   theirs (epoch 9) 0.933
+  classifier 2: ours 0.941   theirs (epoch 9) 0.917
+
+  model   task                            gender            race      intersect.
+  mistral llm_bios        theirs           60.29           29.99           61.36
+                          ours             50.53           47.00           71.12
+                          largest: theirs intersectional, ours intersectional
+  mistral llm_professor   theirs           36.61           48.33           63.14
+                          ours             89.06           98.06          140.83
+                          largest: theirs intersectional, ours intersectional
+  mistral llm_rec_letter  theirs           59.06            7.90           45.63
+                          ours             53.09           13.75           44.28
+                          largest: theirs gender, ours gender
+  llama3  llm_bios        theirs           37.10           26.82           47.40
+                          ours             34.42           55.98           69.84
+                          largest: theirs intersectional, ours intersectional
+  llama3  llm_professor   theirs           68.31           85.51          125.00
+                          ours             66.35          114.66          150.50
+                          largest: theirs intersectional, ours intersectional
+  llama3  llm_rec_letter  theirs           44.93           26.29           49.94
+                          ours             28.16           32.38           45.39
+                          largest: theirs intersectional, ours intersectional
+
+  Spearman over 18 values 0.688 (pass >= 0.6)
+  median absolute relative difference 0.286 (pass <= 0.25)
+  VERDICT: FAIL: instrument not shown equivalent
+==============================================================================

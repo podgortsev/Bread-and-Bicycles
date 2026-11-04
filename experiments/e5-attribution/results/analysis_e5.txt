@@ -1,0 +1,97 @@
+C:\Users\podgortsev123\Documents\Projects\average-fit-research\github\paper-3-stacked-human-ai-fit\experiments\e5-attribution\scripts\analyse_e5_attribution.py:89: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r = sps.spearmanr(xs, ys)
+==============================================================================
+e5: can the model say WHICH of two signals moved it
+models: llama, mistral, qwen
+==============================================================================
+
+------------------------------------------------------------------------------
+0. DEGENERACY CHECK. Read this before anything else.
+------------------------------------------------------------------------------
+  llama    parsed 100.0%  n=  840  mean  0.00  sd  0.00  most common value 0 in 100% of answers
+           EXCLUDED: this is a constant, not a judgement. 'The model does not admit it' would be the WRONG reading;
+           the instrument said nothing. Method 7 met exactly this on Llama.
+  mistral  parsed 98.3%  n=  826  mean  0.70  sd  1.76  most common value 0 in 74% of answers
+  qwen     parsed 100.0%  n=  840  mean  5.93  sd  4.86  most common value 10 in 58% of answers
+
+------------------------------------------------------------------------------
+1. WHAT THE MODEL CLAIMS, per signal, 0 to 10.
+------------------------------------------------------------------------------
+
+  mistral
+    F01  form (never stated)   n= 173  claimed  2.06 [ 1.81,  2.32]
+    F04  form (never stated)   n= 180  claimed  0.00 [ 0.00,  0.00]
+    S01  stated                n= 233  claimed  0.94 [ 0.63,  1.29]
+    S08  stated                n= 240  claimed  0.00 [ 0.00,  0.00]
+
+  qwen
+    F01  form (never stated)   n= 180  claimed  9.42 [ 9.09,  9.72]
+    F04  form (never stated)   n= 180  claimed  9.88 [ 9.73,  9.99]
+    S01  stated                n= 240  claimed  5.67 [ 5.06,  6.29]
+    S08  stated                n= 240  claimed  0.62 [ 0.33,  0.96]
+
+------------------------------------------------------------------------------
+2. THE RANKING TEST. Within a pair, does the model rate the signal
+   that actually moved the answer more than the one that did not.
+   Ties in the measured effect are excluded, not counted as wins.
+------------------------------------------------------------------------------
+
+  mistral
+    P1_F01F04          1 right    2 wrong   57 tied   33.3%  p=1
+    P2_S01S08       no informative items (60 tied)
+    P2_S08S01       no informative items (60 tied)
+    P3_F01S01_s1       1 right    1 wrong   52 tied   50.0%  p=1
+    P3_F01S01_s2       0 right    4 wrong   55 tied    0.0%  p=0.125
+    P4_F04S08_s1    no informative items (60 tied)
+    P4_F04S08_s2    no informative items (60 tied)
+    POOLED             2 right    7 wrong        22.2%  p=0.1797
+
+  qwen
+    P1_F01F04          1 right    0 wrong   59 tied   100.0%  p=1
+    P2_S01S08          5 right    2 wrong   53 tied   71.4%  p=0.4531
+    P2_S08S01       no informative items (60 tied)
+    P3_F01S01_s1       1 right    0 wrong   59 tied   100.0%  p=1
+    P3_F01S01_s2       2 right    0 wrong   58 tied   100.0%  p=0.5
+    P4_F04S08_s1       3 right    2 wrong   55 tied   60.0%  p=1
+    P4_F04S08_s2       4 right    2 wrong   54 tied   66.7%  p=0.6875
+    POOLED            16 right    6 wrong        72.7%  p=0.05248
+
+  after correction across models:
+    mistral  BH=0.1797  not distinguishable from guessing
+    qwen     BH=0.105  not distinguishable from guessing
+
+------------------------------------------------------------------------------
+3. ITEM LEVEL. Does the rating on task T track the measured change
+   on task T. Method 7 found this in ZERO of nine cells.
+------------------------------------------------------------------------------
+
+  mistral
+    F01  n=  173  rho +0.097  p=0.2051
+    F04  n=  180  DEGENERATE: no variance in the ratings or in the measured change
+    S01  n=  233  rho +0.026  p=0.6878
+    S08  n=  240  DEGENERATE: no variance in the ratings or in the measured change
+
+  qwen
+    F01  n=  180  rho -0.229  p=0.001978
+    F04  n=  180  rho +0.000  p=1
+    S01  n=  240  rho +0.002  p=0.9813
+    S08  n=  240  rho +0.085  p=0.1881
+
+  after correction: 1 of 6 testable cells significant, 2 degenerate cell(s) excluded
+    qwen     F01  rho -0.229  BH=0.01187
+  Reminder: per-item accuracy change is in {-1, 0, +1}, so this
+  correlation is attenuated by construction and a null here is
+  weaker evidence than a null on a continuous outcome.
+
+------------------------------------------------------------------------------
+4. UNSTATED CUES. The person never SAID anything about phrasing or
+   typing. Does the model attribute anything to them.
+------------------------------------------------------------------------------
+  mistral  form cues claimed  1.01   stated cues claimed  0.46   difference -0.55
+  qwen     form cues claimed  9.65   stated cues claimed  3.15   difference -6.50
+
+==============================================================================
+Method 7's finding was that a model knows a disclosure was there and
+not what it did. This asks the harder version: with two present, can
+it tell them apart. Section 2 is the answer.
+==============================================================================

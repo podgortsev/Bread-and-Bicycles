@@ -1,0 +1,601 @@
+id,family,question,answer,answer_kind
+T001,percentage,A price of 2400 dollars increases by 45 percent. What is the new price?,3480,number
+T002,percentage,What is 25 percent of 1250?,312.5,number
+T003,percentage,What is 40 percent of 720?,288,number
+T004,percentage,A price of 720 dollars increases by 45 percent. What is the new price?,1044,number
+T005,percentage,What is 40 percent of 1250?,500,number
+T006,percentage,What is 22 percent of 120?,26.4,number
+T007,percentage,A price of 850 dollars decreases by 18 percent. What is the new price?,697,number
+T008,percentage,A price of 720 dollars decreases by 25 percent. What is the new price?,540,number
+T009,percentage,What is 15 percent of 850?,127.5,number
+T010,percentage,A price of 120 dollars increases by 25 percent. What is the new price?,150,number
+T011,percentage,A price of 1600 dollars decreases by 12 percent. What is the new price?,1408,number
+T012,percentage,What is 35 percent of 340?,119,number
+T013,percentage,What is 22 percent of 2400?,528,number
+T014,percentage,A price of 120 dollars decreases by 75 percent. What is the new price?,30,number
+T015,percentage,A price of 850 dollars decreases by 35 percent. What is the new price?,552.5,number
+T016,percentage,A price of 480 dollars increases by 40 percent. What is the new price?,672,number
+T017,percentage,A price of 1600 dollars increases by 60 percent. What is the new price?,2560,number
+T018,percentage,A price of 480 dollars decreases by 12 percent. What is the new price?,422.4,number
+T019,percentage,A price of 480 dollars decreases by 60 percent. What is the new price?,192,number
+T020,percentage,A price of 120 dollars decreases by 75 percent. What is the new price?,30,number
+T021,percentage,What is 15 percent of 720?,108,number
+T022,percentage,A price of 240 dollars decreases by 18 percent. What is the new price?,196.8,number
+T023,percentage,What is 18 percent of 1250?,225,number
+T024,percentage,What is 75 percent of 120?,90,number
+T025,percentage,What is 40 percent of 1250?,500,number
+T026,percentage,What is 22 percent of 1600?,352,number
+T027,percentage,What is 60 percent of 1600?,960,number
+T028,percentage,What is 45 percent of 720?,324,number
+T029,percentage,What is 75 percent of 560?,420,number
+T030,percentage,A price of 720 dollars increases by 18 percent. What is the new price?,849.6,number
+T031,percentage,A price of 560 dollars decreases by 15 percent. What is the new price?,476,number
+T032,percentage,A price of 1250 dollars decreases by 12 percent. What is the new price?,1100,number
+T033,percentage,A price of 2400 dollars decreases by 35 percent. What is the new price?,1560,number
+T034,percentage,What is 35 percent of 560?,196,number
+T035,percentage,A price of 240 dollars decreases by 35 percent. What is the new price?,156,number
+T036,word_problem,A team of 9 people works 9 hours a day for 3 days. Each person is paid 18 dollars an hour. What is the total wage bill?,4374,number
+T037,word_problem,A team of 7 people works 10 hours a day for 2 days. Each person is paid 25 dollars an hour. What is the total wage bill?,3500,number
+T038,word_problem,A team of 4 people works 5 hours a day for 4 days. Each person is paid 42 dollars an hour. What is the total wage bill?,3360,number
+T039,word_problem,A team of 5 people works 6 hours a day for 4 days. Each person is paid 35 dollars an hour. What is the total wage bill?,4200,number
+T040,word_problem,A team of 6 people works 8 hours a day for 2 days. Each person is paid 18 dollars an hour. What is the total wage bill?,1728,number
+T041,word_problem,A team of 4 people works 6 hours a day for 6 days. Each person is paid 25 dollars an hour. What is the total wage bill?,3600,number
+T042,word_problem,A team of 5 people works 12 hours a day for 6 days. Each person is paid 35 dollars an hour. What is the total wage bill?,12600,number
+T043,word_problem,A team of 5 people works 11 hours a day for 3 days. Each person is paid 22 dollars an hour. What is the total wage bill?,3630,number
+T044,word_problem,A team of 8 people works 12 hours a day for 2 days. Each person is paid 42 dollars an hour. What is the total wage bill?,8064,number
+T045,word_problem,A team of 7 people works 12 hours a day for 6 days. Each person is paid 25 dollars an hour. What is the total wage bill?,12600,number
+T046,word_problem,A team of 8 people works 7 hours a day for 4 days. Each person is paid 35 dollars an hour. What is the total wage bill?,7840,number
+T047,word_problem,A team of 8 people works 7 hours a day for 4 days. Each person is paid 30 dollars an hour. What is the total wage bill?,6720,number
+T048,word_problem,A team of 5 people works 12 hours a day for 4 days. Each person is paid 25 dollars an hour. What is the total wage bill?,6000,number
+T049,word_problem,A team of 8 people works 9 hours a day for 5 days. Each person is paid 18 dollars an hour. What is the total wage bill?,6480,number
+T050,word_problem,A team of 5 people works 7 hours a day for 5 days. Each person is paid 25 dollars an hour. What is the total wage bill?,4375,number
+T051,word_problem,A team of 6 people works 5 hours a day for 5 days. Each person is paid 18 dollars an hour. What is the total wage bill?,2700,number
+T052,word_problem,A team of 5 people works 4 hours a day for 2 days. Each person is paid 42 dollars an hour. What is the total wage bill?,1680,number
+T053,word_problem,A team of 3 people works 11 hours a day for 6 days. Each person is paid 35 dollars an hour. What is the total wage bill?,6930,number
+T054,word_problem,A team of 6 people works 12 hours a day for 3 days. Each person is paid 22 dollars an hour. What is the total wage bill?,4752,number
+T055,word_problem,A team of 6 people works 10 hours a day for 6 days. Each person is paid 18 dollars an hour. What is the total wage bill?,6480,number
+T056,word_problem,A team of 9 people works 9 hours a day for 2 days. Each person is paid 18 dollars an hour. What is the total wage bill?,2916,number
+T057,word_problem,A team of 8 people works 6 hours a day for 4 days. Each person is paid 18 dollars an hour. What is the total wage bill?,3456,number
+T058,word_problem,A team of 8 people works 4 hours a day for 6 days. Each person is paid 25 dollars an hour. What is the total wage bill?,4800,number
+T059,word_problem,A team of 6 people works 10 hours a day for 2 days. Each person is paid 35 dollars an hour. What is the total wage bill?,4200,number
+T060,word_problem,A team of 5 people works 5 hours a day for 5 days. Each person is paid 42 dollars an hour. What is the total wage bill?,5250,number
+T061,word_problem,A team of 6 people works 7 hours a day for 3 days. Each person is paid 35 dollars an hour. What is the total wage bill?,4410,number
+T062,word_problem,A team of 8 people works 11 hours a day for 3 days. Each person is paid 18 dollars an hour. What is the total wage bill?,4752,number
+T063,word_problem,A team of 4 people works 10 hours a day for 5 days. Each person is paid 30 dollars an hour. What is the total wage bill?,6000,number
+T064,word_problem,A team of 5 people works 10 hours a day for 4 days. Each person is paid 25 dollars an hour. What is the total wage bill?,5000,number
+T065,word_problem,A team of 5 people works 12 hours a day for 4 days. Each person is paid 42 dollars an hour. What is the total wage bill?,10080,number
+T066,conversion,How many seconds are there in 36 minutes?,2160,number
+T067,conversion,How many hours are there in 48 days?,1152,number
+T068,conversion,How many days are there in 90 weeks?,630,number
+T069,conversion,How many millilitres are there in 48 litres?,48000,number
+T070,conversion,How many seconds are there in 15 minutes?,900,number
+T071,conversion,How many minutes are there in 12 hours?,720,number
+T072,conversion,How many grams are there in 125 kilograms?,125000,number
+T073,conversion,How many minutes are there in 24 hours?,1440,number
+T074,conversion,How many hours are there in 36 days?,864,number
+T075,conversion,How many kilograms are there in 12 tonnes?,12000,number
+T076,conversion,How many kilograms are there in 24 tonnes?,24000,number
+T077,conversion,How many kilograms are there in 125 tonnes?,125000,number
+T078,conversion,How many hours are there in 125 days?,3000,number
+T079,conversion,How many minutes are there in 12 hours?,720,number
+T080,conversion,How many millilitres are there in 3 litres?,3000,number
+T081,conversion,How many grams are there in 60 kilograms?,60000,number
+T082,conversion,How many millilitres are there in 36 litres?,36000,number
+T083,conversion,How many metres are there in 15 kilometres?,15000,number
+T084,conversion,How many millilitres are there in 12 litres?,12000,number
+T085,conversion,How many days are there in 15 weeks?,105,number
+T086,conversion,How many hours are there in 15 days?,360,number
+T087,conversion,How many kilograms are there in 7 tonnes?,7000,number
+T088,conversion,How many hours are there in 3 days?,72,number
+T089,conversion,How many kilograms are there in 48 tonnes?,48000,number
+T090,conversion,How many seconds are there in 12 minutes?,720,number
+T091,date,A project starts on 11 April 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.,25 April 2026,text
+T092,date,A project starts on 12 March 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,10 June 2026,text
+T093,date,A project starts on 13 April 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.,27 April 2026,text
+T094,date,A project starts on 05 November 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.,26 November 2026,text
+T095,date,A project starts on 10 July 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,08 October 2026,text
+T096,date,A project starts on 28 October 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.,11 November 2026,text
+T097,date,A project starts on 02 March 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.,16 March 2026,text
+T098,date,A project starts on 18 March 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.,01 June 2026,text
+T099,date,A project starts on 02 August 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.,16 October 2026,text
+T100,date,A project starts on 13 May 2026 and runs for 30 days. On what date does it end? Answer in the format DD Month YYYY.,12 June 2026,text
+T101,date,A project starts on 25 April 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,24 June 2026,text
+T102,date,A project starts on 26 April 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,25 July 2026,text
+T103,date,A project starts on 24 October 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.,14 November 2026,text
+T104,date,A project starts on 23 December 2026 and runs for 45 days. On what date does it end? Answer in the format DD Month YYYY.,06 February 2027,text
+T105,date,A project starts on 09 March 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,08 May 2026,text
+T106,date,A project starts on 16 October 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.,30 October 2026,text
+T107,date,A project starts on 07 March 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,05 June 2026,text
+T108,date,A project starts on 24 September 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.,08 October 2026,text
+T109,date,A project starts on 27 May 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.,10 August 2026,text
+T110,date,A project starts on 03 October 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.,17 December 2026,text
+T111,date,A project starts on 14 November 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,13 January 2027,text
+T112,date,A project starts on 09 July 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,07 October 2026,text
+T113,date,A project starts on 12 July 2026 and runs for 45 days. On what date does it end? Answer in the format DD Month YYYY.,26 August 2026,text
+T114,date,A project starts on 05 January 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.,26 January 2026,text
+T115,date,A project starts on 28 August 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.,18 September 2026,text
+T116,table,Quarterly units sold. South: 314; North: 574; West: 239; Central: 482. Which region sold the most?,North,text
+T117,table,Quarterly units sold. North: 338; East: 785; West: 375; South: 171. What is the total across all regions?,1669,number
+T118,table,Quarterly units sold. North: 785; West: 843; Central: 434; East: 185. Which region sold the most?,West,text
+T119,table,Quarterly units sold. South: 837; North: 720; Central: 737; West: 753. Which region sold the least?,North,text
+T120,table,Quarterly units sold. North: 547; South: 215; East: 106; West: 683. Which region sold the most?,West,text
+T121,table,Quarterly units sold. East: 621; Central: 390; South: 718; West: 893. What is the difference between the highest and the lowest region?,503,number
+T122,table,Quarterly units sold. West: 737; North: 598; Central: 832; South: 726. Which region sold the most?,Central,text
+T123,table,Quarterly units sold. East: 710; West: 510; South: 340; Central: 689. Which region sold the least?,South,text
+T124,table,Quarterly units sold. West: 371; North: 681; South: 425; East: 437. What is the total across all regions?,1914,number
+T125,table,Quarterly units sold. Central: 376; North: 236; South: 652; West: 735. What is the difference between the highest and the lowest region?,499,number
+T126,table,Quarterly units sold. South: 299; East: 499; West: 634; Central: 433. What is the total across all regions?,1865,number
+T127,table,Quarterly units sold. Central: 105; North: 803; South: 193; East: 868. Which region sold the least?,Central,text
+T128,table,Quarterly units sold. North: 780; South: 615; Central: 880; West: 348. What is the total across all regions?,2623,number
+T129,table,Quarterly units sold. West: 837; East: 220; North: 814; South: 270. What is the difference between the highest and the lowest region?,617,number
+T130,table,Quarterly units sold. Central: 212; North: 171; West: 659; South: 507. Which region sold the most?,West,text
+T131,table,Quarterly units sold. West: 325; Central: 613; South: 854; North: 757. What is the difference between the highest and the lowest region?,529,number
+T132,table,Quarterly units sold. Central: 625; West: 313; North: 883; East: 335. What is the total across all regions?,2156,number
+T133,table,Quarterly units sold. North: 788; South: 337; East: 892; Central: 522. Which region sold the most?,East,text
+T134,table,Quarterly units sold. West: 469; East: 526; North: 123; South: 627. What is the difference between the highest and the lowest region?,504,number
+T135,table,Quarterly units sold. South: 823; Central: 381; North: 335; East: 775. Which region sold the most?,South,text
+T136,table,Quarterly units sold. East: 143; North: 149; South: 625; Central: 780. What is the difference between the highest and the lowest region?,637,number
+T137,table,Quarterly units sold. South: 603; East: 775; Central: 407; West: 886. What is the difference between the highest and the lowest region?,479,number
+T138,table,Quarterly units sold. South: 837; North: 181; Central: 392; West: 382. What is the total across all regions?,1792,number
+T139,table,Quarterly units sold. East: 361; South: 829; West: 736; North: 853. What is the difference between the highest and the lowest region?,492,number
+T140,table,Quarterly units sold. Central: 393; North: 103; East: 566; West: 863. What is the difference between the highest and the lowest region?,760,number
+T141,table,Quarterly units sold. West: 340; Central: 486; North: 487; South: 813. What is the difference between the highest and the lowest region?,473,number
+T142,table,Quarterly units sold. Central: 461; East: 142; South: 109; North: 431. Which region sold the most?,Central,text
+T143,table,Quarterly units sold. West: 485; North: 817; South: 265; East: 754. Which region sold the least?,South,text
+T144,table,Quarterly units sold. Central: 673; South: 653; East: 379; North: 620. What is the difference between the highest and the lowest region?,294,number
+T145,table,Quarterly units sold. West: 664; North: 543; Central: 622; East: 504. What is the difference between the highest and the lowest region?,160,number
+T146,logic,Alex is older than Devon. Devon is older than Frankie. Frankie is older than Bailey. Who is the second oldest?,Devon,text
+T147,logic,Bailey is older than Alex. Frankie is older than Gray. Gray is older than Bailey. Who is the youngest?,Alex,text
+T148,logic,Gray is older than Bailey. Bailey is older than Alex. Alex is older than Devon. Who is the oldest?,Gray,text
+T149,logic,Gray is older than Frankie. Alex is older than Gray. Devon is older than Alex. Who is the youngest?,Frankie,text
+T150,logic,Alex is older than Devon. Bailey is older than Alex. Devon is older than Casey. Who is the youngest?,Casey,text
+T151,logic,Devon is older than Bailey. Alex is older than Devon. Bailey is older than Frankie. Who is the second oldest?,Devon,text
+T152,logic,Gray is older than Bailey. Frankie is older than Ellis. Bailey is older than Frankie. Who is the oldest?,Gray,text
+T153,logic,Casey is older than Devon. Devon is older than Alex. Ellis is older than Casey. Who is the second oldest?,Casey,text
+T154,logic,Ellis is older than Casey. Gray is older than Ellis. Casey is older than Devon. Who is the oldest?,Gray,text
+T155,logic,Bailey is older than Devon. Alex is older than Gray. Gray is older than Bailey. Who is the oldest?,Alex,text
+T156,logic,Alex is older than Gray. Casey is older than Bailey. Gray is older than Casey. Who is the youngest?,Bailey,text
+T157,logic,Gray is older than Casey. Alex is older than Gray. Casey is older than Bailey. Who is the youngest?,Bailey,text
+T158,logic,Casey is older than Devon. Ellis is older than Casey. Frankie is older than Ellis. Who is the youngest?,Devon,text
+T159,logic,Frankie is older than Bailey. Ellis is older than Alex. Bailey is older than Ellis. Who is the youngest?,Alex,text
+T160,logic,Casey is older than Bailey. Bailey is older than Ellis. Ellis is older than Devon. Who is the second oldest?,Bailey,text
+T161,logic,Devon is older than Bailey. Bailey is older than Gray. Casey is older than Devon. Who is the second oldest?,Devon,text
+T162,logic,Bailey is older than Ellis. Alex is older than Bailey. Ellis is older than Devon. Who is the oldest?,Alex,text
+T163,logic,Gray is older than Casey. Frankie is older than Gray. Alex is older than Frankie. Who is the second oldest?,Frankie,text
+T164,logic,Frankie is older than Gray. Casey is older than Frankie. Bailey is older than Casey. Who is the oldest?,Bailey,text
+T165,logic,Alex is older than Bailey. Devon is older than Frankie. Frankie is older than Alex. Who is the youngest?,Bailey,text
+T166,logic,Alex is older than Ellis. Casey is older than Gray. Ellis is older than Casey. Who is the youngest?,Gray,text
+T167,logic,Bailey is older than Devon. Alex is older than Gray. Gray is older than Bailey. Who is the oldest?,Alex,text
+T168,logic,Casey is older than Frankie. Frankie is older than Gray. Gray is older than Bailey. Who is the oldest?,Casey,text
+T169,logic,Devon is older than Frankie. Bailey is older than Gray. Gray is older than Devon. Who is the oldest?,Bailey,text
+T170,logic,Gray is older than Alex. Bailey is older than Gray. Alex is older than Casey. Who is the oldest?,Bailey,text
+T171,rate,A vehicle travels 120 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?,2,number
+T172,rate,A vehicle travels 300 kilometres at a steady 30 kilometres per hour. How many hours does the journey take?,10,number
+T173,rate,A vehicle travels 300 kilometres at a steady 75 kilometres per hour. How many hours does the journey take?,4,number
+T174,rate,A vehicle travels 150 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?,3.33333,number
+T175,rate,A vehicle travels for 3 hours at a steady 60 kilometres per hour. How far does it travel?,180,number
+T176,rate,A vehicle travels 90 kilometres at a steady 75 kilometres per hour. How many hours does the journey take?,1.2,number
+T177,rate,A vehicle covers 120 kilometres in 4 hours. What is its average speed in kilometres per hour?,30,number
+T178,rate,A vehicle travels for 3 hours at a steady 30 kilometres per hour. How far does it travel?,90,number
+T179,rate,A vehicle travels 120 kilometres at a steady 40 kilometres per hour. How many hours does the journey take?,3,number
+T180,rate,A vehicle travels 180 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?,4,number
+T181,rate,A vehicle travels 240 kilometres at a steady 75 kilometres per hour. How many hours does the journey take?,3.2,number
+T182,rate,A vehicle covers 80 kilometres in 2 hours. What is its average speed in kilometres per hour?,40,number
+T183,rate,A vehicle travels 150 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?,3.33333,number
+T184,rate,A vehicle travels for 2 hours at a steady 75 kilometres per hour. How far does it travel?,150,number
+T185,rate,A vehicle travels for 2 hours at a steady 45 kilometres per hour. How far does it travel?,90,number
+T186,rate,A vehicle covers 180 kilometres in 4 hours. What is its average speed in kilometres per hour?,45,number
+T187,rate,A vehicle travels 300 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?,5,number
+T188,rate,A vehicle covers 240 kilometres in 4 hours. What is its average speed in kilometres per hour?,60,number
+T189,rate,A vehicle travels 150 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?,3.33333,number
+T190,rate,A vehicle travels for 6 hours at a steady 45 kilometres per hour. How far does it travel?,270,number
+T191,rate,A vehicle travels 240 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?,5.33333,number
+T192,rate,A vehicle covers 180 kilometres in 4 hours. What is its average speed in kilometres per hour?,45,number
+T193,rate,A vehicle travels 120 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?,2.66667,number
+T194,rate,A vehicle travels 240 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?,5.33333,number
+T195,rate,A vehicle covers 180 kilometres in 6 hours. What is its average speed in kilometres per hour?,30,number
+T196,rate,A vehicle travels 180 kilometres at a steady 40 kilometres per hour. How many hours does the journey take?,4.5,number
+T197,rate,A vehicle covers 150 kilometres in 5 hours. What is its average speed in kilometres per hour?,30,number
+T198,rate,A vehicle travels for 2 hours at a steady 30 kilometres per hour. How far does it travel?,60,number
+T199,rate,A vehicle travels for 6 hours at a steady 45 kilometres per hour. How far does it travel?,270,number
+T200,rate,A vehicle covers 120 kilometres in 3 hours. What is its average speed in kilometres per hour?,40,number
+T201,percentage,A price of 260 dollars increases by 20 percent. What is the new price?,312,number
+T202,percentage,A price of 180 dollars decreases by 20 percent. What is the new price?,144,number
+T203,percentage,A price of 560 dollars increases by 35 percent. What is the new price?,756,number
+T204,percentage,A price of 110 dollars increases by 18 percent. What is the new price?,129.8,number
+T205,percentage,What is 60 percent of 150?,90,number
+T206,percentage,A price of 520 dollars decreases by 45 percent. What is the new price?,286,number
+T207,percentage,What is 20 percent of 3200?,640,number
+T208,percentage,A price of 1850 dollars decreases by 45 percent. What is the new price?,1017.5,number
+T209,percentage,A price of 520 dollars increases by 24 percent. What is the new price?,644.8,number
+T210,percentage,A price of 135 dollars decreases by 8 percent. What is the new price?,124.2,number
+T211,percentage,A price of 520 dollars increases by 12 percent. What is the new price?,582.4,number
+T212,percentage,A price of 640 dollars decreases by 18 percent. What is the new price?,524.8,number
+T213,percentage,What is 8 percent of 320?,25.6,number
+T214,percentage,A price of 150 dollars increases by 20 percent. What is the new price?,180,number
+T215,percentage,A price of 135 dollars decreases by 35 percent. What is the new price?,87.75,number
+T216,percentage,A price of 380 dollars increases by 30 percent. What is the new price?,494,number
+T217,percentage,What is 15 percent of 110?,16.5,number
+T218,percentage,A price of 210 dollars increases by 22 percent. What is the new price?,256.2,number
+T219,percentage,A price of 340 dollars increases by 8 percent. What is the new price?,367.2,number
+T220,percentage,A price of 380 dollars increases by 60 percent. What is the new price?,608,number
+T221,percentage,A price of 340 dollars increases by 75 percent. What is the new price?,595,number
+T222,percentage,A price of 1100 dollars decreases by 35 percent. What is the new price?,715,number
+T223,percentage,A price of 940 dollars decreases by 65 percent. What is the new price?,329,number
+T224,percentage,A price of 940 dollars increases by 70 percent. What is the new price?,1598,number
+T225,percentage,A price of 240 dollars increases by 16 percent. What is the new price?,278.4,number
+T226,percentage,What is 45 percent of 120?,54,number
+T227,percentage,What is 55 percent of 120?,66,number
+T228,percentage,A price of 150 dollars increases by 80 percent. What is the new price?,270,number
+T229,percentage,A price of 940 dollars decreases by 45 percent. What is the new price?,517,number
+T230,percentage,What is 40 percent of 320?,128,number
+T231,percentage,A price of 1100 dollars decreases by 70 percent. What is the new price?,330,number
+T232,percentage,What is 25 percent of 1600?,400,number
+T233,percentage,A price of 2100 dollars decreases by 50 percent. What is the new price?,1050,number
+T234,percentage,What is 20 percent of 180?,36,number
+T235,percentage,A price of 180 dollars increases by 5 percent. What is the new price?,189,number
+T236,percentage,A price of 520 dollars increases by 65 percent. What is the new price?,858,number
+T237,percentage,A price of 150 dollars decreases by 70 percent. What is the new price?,45,number
+T238,percentage,What is 80 percent of 850?,680,number
+T239,percentage,What is 65 percent of 2100?,1365,number
+T240,percentage,A price of 420 dollars decreases by 15 percent. What is the new price?,357,number
+T241,percentage,What is 8 percent of 110?,8.8,number
+T242,percentage,A price of 560 dollars increases by 70 percent. What is the new price?,952,number
+T243,percentage,A price of 3600 dollars decreases by 45 percent. What is the new price?,1980,number
+T244,percentage,A price of 560 dollars increases by 40 percent. What is the new price?,784,number
+T245,percentage,A price of 210 dollars increases by 8 percent. What is the new price?,226.8,number
+T246,percentage,What is 8 percent of 260?,20.8,number
+T247,percentage,A price of 180 dollars increases by 12 percent. What is the new price?,201.6,number
+T248,percentage,What is 55 percent of 240?,132,number
+T249,percentage,A price of 850 dollars increases by 65 percent. What is the new price?,1402.5,number
+T250,percentage,A price of 420 dollars increases by 20 percent. What is the new price?,504,number
+T251,percentage,A price of 210 dollars decreases by 12 percent. What is the new price?,184.8,number
+T252,percentage,A price of 560 dollars increases by 22 percent. What is the new price?,683.2,number
+T253,percentage,A price of 150 dollars decreases by 25 percent. What is the new price?,112.5,number
+T254,percentage,What is 55 percent of 135?,74.25,number
+T255,percentage,What is 80 percent of 1600?,1280,number
+T256,percentage,What is 65 percent of 210?,136.5,number
+T257,percentage,What is 15 percent of 3200?,480,number
+T258,percentage,What is 25 percent of 480?,120,number
+T259,percentage,A price of 380 dollars decreases by 24 percent. What is the new price?,288.8,number
+T260,percentage,What is 75 percent of 1250?,937.5,number
+T261,percentage,A price of 1100 dollars increases by 40 percent. What is the new price?,1540,number
+T262,percentage,What is 30 percent of 2750?,825,number
+T263,percentage,What is 30 percent of 340?,102,number
+T264,percentage,What is 45 percent of 150?,67.5,number
+T265,percentage,What is 65 percent of 1850?,1202.5,number
+T266,percentage,A price of 940 dollars decreases by 80 percent. What is the new price?,188,number
+T267,percentage,A price of 420 dollars increases by 18 percent. What is the new price?,495.6,number
+T268,percentage,A price of 1850 dollars increases by 50 percent. What is the new price?,2775,number
+T269,percentage,What is 22 percent of 210?,46.2,number
+T270,percentage,What is 8 percent of 1420?,113.6,number
+T271,word_problem,A team of 12 people works 8 hours a day for 3 days. Each person is paid 45 dollars an hour. What is the total wage bill?,12960,number
+T272,word_problem,A team of 3 people works 9 hours a day for 5 days. Each person is paid 45 dollars an hour. What is the total wage bill?,6075,number
+T273,word_problem,A team of 9 people works 8 hours a day for 2 days. Each person is paid 20 dollars an hour. What is the total wage bill?,2880,number
+T274,word_problem,A team of 4 people works 6 hours a day for 2 days. Each person is paid 35 dollars an hour. What is the total wage bill?,1680,number
+T275,word_problem,A team of 8 people works 11 hours a day for 5 days. Each person is paid 35 dollars an hour. What is the total wage bill?,15400,number
+T276,word_problem,A team of 6 people works 5 hours a day for 8 days. Each person is paid 28 dollars an hour. What is the total wage bill?,6720,number
+T277,word_problem,A team of 7 people works 7 hours a day for 9 days. Each person is paid 42 dollars an hour. What is the total wage bill?,18522,number
+T278,word_problem,A team of 9 people works 8 hours a day for 5 days. Each person is paid 42 dollars an hour. What is the total wage bill?,15120,number
+T279,word_problem,A team of 6 people works 11 hours a day for 9 days. Each person is paid 42 dollars an hour. What is the total wage bill?,24948,number
+T280,word_problem,A team of 12 people works 5 hours a day for 6 days. Each person is paid 20 dollars an hour. What is the total wage bill?,7200,number
+T281,word_problem,A team of 6 people works 6 hours a day for 2 days. Each person is paid 22 dollars an hour. What is the total wage bill?,1584,number
+T282,word_problem,A team of 3 people works 11 hours a day for 7 days. Each person is paid 20 dollars an hour. What is the total wage bill?,4620,number
+T283,word_problem,A team of 4 people works 6 hours a day for 5 days. Each person is paid 20 dollars an hour. What is the total wage bill?,2400,number
+T284,word_problem,A team of 5 people works 7 hours a day for 2 days. Each person is paid 22 dollars an hour. What is the total wage bill?,1540,number
+T285,word_problem,A team of 4 people works 11 hours a day for 9 days. Each person is paid 42 dollars an hour. What is the total wage bill?,16632,number
+T286,word_problem,A team of 4 people works 6 hours a day for 9 days. Each person is paid 20 dollars an hour. What is the total wage bill?,4320,number
+T287,word_problem,A team of 4 people works 10 hours a day for 9 days. Each person is paid 20 dollars an hour. What is the total wage bill?,7200,number
+T288,word_problem,A team of 9 people works 5 hours a day for 7 days. Each person is paid 38 dollars an hour. What is the total wage bill?,11970,number
+T289,word_problem,A team of 3 people works 12 hours a day for 3 days. Each person is paid 35 dollars an hour. What is the total wage bill?,3780,number
+T290,word_problem,A team of 10 people works 5 hours a day for 8 days. Each person is paid 35 dollars an hour. What is the total wage bill?,14000,number
+T291,word_problem,A team of 5 people works 11 hours a day for 9 days. Each person is paid 15 dollars an hour. What is the total wage bill?,7425,number
+T292,word_problem,A team of 3 people works 6 hours a day for 9 days. Each person is paid 22 dollars an hour. What is the total wage bill?,3564,number
+T293,word_problem,A team of 9 people works 8 hours a day for 4 days. Each person is paid 22 dollars an hour. What is the total wage bill?,6336,number
+T294,word_problem,A team of 5 people works 7 hours a day for 3 days. Each person is paid 28 dollars an hour. What is the total wage bill?,2940,number
+T295,word_problem,A team of 6 people works 7 hours a day for 5 days. Each person is paid 18 dollars an hour. What is the total wage bill?,3780,number
+T296,word_problem,A team of 11 people works 12 hours a day for 2 days. Each person is paid 35 dollars an hour. What is the total wage bill?,9240,number
+T297,word_problem,A team of 11 people works 9 hours a day for 2 days. Each person is paid 42 dollars an hour. What is the total wage bill?,8316,number
+T298,word_problem,A team of 7 people works 8 hours a day for 7 days. Each person is paid 25 dollars an hour. What is the total wage bill?,9800,number
+T299,word_problem,A team of 4 people works 10 hours a day for 2 days. Each person is paid 22 dollars an hour. What is the total wage bill?,1760,number
+T300,word_problem,A team of 12 people works 9 hours a day for 2 days. Each person is paid 30 dollars an hour. What is the total wage bill?,6480,number
+T301,word_problem,A team of 12 people works 9 hours a day for 8 days. Each person is paid 38 dollars an hour. What is the total wage bill?,32832,number
+T302,word_problem,A team of 4 people works 9 hours a day for 9 days. Each person is paid 18 dollars an hour. What is the total wage bill?,5832,number
+T303,word_problem,A team of 4 people works 9 hours a day for 6 days. Each person is paid 15 dollars an hour. What is the total wage bill?,3240,number
+T304,word_problem,A team of 9 people works 11 hours a day for 8 days. Each person is paid 22 dollars an hour. What is the total wage bill?,17424,number
+T305,word_problem,A team of 11 people works 5 hours a day for 4 days. Each person is paid 28 dollars an hour. What is the total wage bill?,6160,number
+T306,word_problem,A team of 10 people works 11 hours a day for 2 days. Each person is paid 18 dollars an hour. What is the total wage bill?,3960,number
+T307,word_problem,A team of 12 people works 5 hours a day for 3 days. Each person is paid 45 dollars an hour. What is the total wage bill?,8100,number
+T308,word_problem,A team of 3 people works 10 hours a day for 6 days. Each person is paid 20 dollars an hour. What is the total wage bill?,3600,number
+T309,word_problem,A team of 12 people works 9 hours a day for 8 days. Each person is paid 42 dollars an hour. What is the total wage bill?,36288,number
+T310,word_problem,A team of 5 people works 12 hours a day for 5 days. Each person is paid 45 dollars an hour. What is the total wage bill?,13500,number
+T311,word_problem,A team of 8 people works 8 hours a day for 7 days. Each person is paid 45 dollars an hour. What is the total wage bill?,20160,number
+T312,word_problem,A team of 7 people works 12 hours a day for 3 days. Each person is paid 28 dollars an hour. What is the total wage bill?,7056,number
+T313,word_problem,A team of 10 people works 9 hours a day for 6 days. Each person is paid 18 dollars an hour. What is the total wage bill?,9720,number
+T314,word_problem,A team of 5 people works 8 hours a day for 7 days. Each person is paid 22 dollars an hour. What is the total wage bill?,6160,number
+T315,word_problem,A team of 5 people works 5 hours a day for 4 days. Each person is paid 15 dollars an hour. What is the total wage bill?,1500,number
+T316,word_problem,A team of 8 people works 6 hours a day for 2 days. Each person is paid 22 dollars an hour. What is the total wage bill?,2112,number
+T317,word_problem,A team of 11 people works 9 hours a day for 4 days. Each person is paid 38 dollars an hour. What is the total wage bill?,15048,number
+T318,word_problem,A team of 10 people works 9 hours a day for 8 days. Each person is paid 38 dollars an hour. What is the total wage bill?,27360,number
+T319,word_problem,A team of 5 people works 4 hours a day for 5 days. Each person is paid 15 dollars an hour. What is the total wage bill?,1500,number
+T320,word_problem,A team of 4 people works 8 hours a day for 7 days. Each person is paid 15 dollars an hour. What is the total wage bill?,3360,number
+T321,word_problem,A team of 11 people works 4 hours a day for 3 days. Each person is paid 45 dollars an hour. What is the total wage bill?,5940,number
+T322,word_problem,A team of 6 people works 5 hours a day for 3 days. Each person is paid 15 dollars an hour. What is the total wage bill?,1350,number
+T323,word_problem,A team of 4 people works 6 hours a day for 5 days. Each person is paid 42 dollars an hour. What is the total wage bill?,5040,number
+T324,word_problem,A team of 7 people works 5 hours a day for 6 days. Each person is paid 35 dollars an hour. What is the total wage bill?,7350,number
+T325,word_problem,A team of 7 people works 11 hours a day for 9 days. Each person is paid 20 dollars an hour. What is the total wage bill?,13860,number
+T326,word_problem,A team of 4 people works 8 hours a day for 2 days. Each person is paid 38 dollars an hour. What is the total wage bill?,2432,number
+T327,word_problem,A team of 4 people works 7 hours a day for 4 days. Each person is paid 35 dollars an hour. What is the total wage bill?,3920,number
+T328,word_problem,A team of 12 people works 9 hours a day for 8 days. Each person is paid 18 dollars an hour. What is the total wage bill?,15552,number
+T329,word_problem,A team of 12 people works 7 hours a day for 3 days. Each person is paid 20 dollars an hour. What is the total wage bill?,5040,number
+T330,word_problem,A team of 11 people works 8 hours a day for 4 days. Each person is paid 38 dollars an hour. What is the total wage bill?,13376,number
+T331,conversion,How many hours are there in 30 days?,720,number
+T332,conversion,How many days are there in 140 weeks?,980,number
+T333,conversion,How many minutes are there in 15 hours?,900,number
+T334,conversion,How many grams are there in 30 kilograms?,30000,number
+T335,conversion,How many metres are there in 30 kilometres?,30000,number
+T336,conversion,How many metres are there in 54 kilometres?,54000,number
+T337,conversion,How many seconds are there in 84 minutes?,5040,number
+T338,conversion,How many metres are there in 11 kilometres?,11000,number
+T339,conversion,How many grams are there in 24 kilograms?,24000,number
+T340,conversion,How many hours are there in 9 days?,216,number
+T341,conversion,How many seconds are there in 9 minutes?,540,number
+T342,conversion,How many minutes are there in 140 hours?,8400,number
+T343,conversion,How many days are there in 24 weeks?,168,number
+T344,conversion,How many seconds are there in 11 minutes?,660,number
+T345,conversion,How many millilitres are there in 7 litres?,7000,number
+T346,conversion,How many grams are there in 42 kilograms?,42000,number
+T347,conversion,How many millilitres are there in 30 litres?,30000,number
+T348,conversion,How many days are there in 12 weeks?,84,number
+T349,conversion,How many days are there in 84 weeks?,588,number
+T350,conversion,How many millilitres are there in 54 litres?,54000,number
+T351,conversion,How many minutes are there in 7 hours?,420,number
+T352,conversion,How many hours are there in 42 days?,1008,number
+T353,conversion,How many millilitres are there in 28 litres?,28000,number
+T354,conversion,How many kilograms are there in 5 tonnes?,5000,number
+T355,conversion,How many minutes are there in 30 hours?,1800,number
+T356,conversion,How many days are there in 36 weeks?,252,number
+T357,conversion,How many grams are there in 9 kilograms?,9000,number
+T358,conversion,How many millilitres are there in 90 litres?,90000,number
+T359,conversion,How many grams are there in 90 kilograms?,90000,number
+T360,conversion,How many kilograms are there in 36 tonnes?,36000,number
+T361,conversion,How many seconds are there in 60 minutes?,3600,number
+T362,conversion,How many millilitres are there in 42 litres?,42000,number
+T363,conversion,How many seconds are there in 5 minutes?,300,number
+T364,conversion,How many hours are there in 90 days?,2160,number
+T365,conversion,How many hours are there in 5 days?,120,number
+T366,conversion,How many metres are there in 42 kilometres?,42000,number
+T367,conversion,How many metres are there in 160 kilometres?,160000,number
+T368,conversion,How many millilitres are there in 84 litres?,84000,number
+T369,conversion,How many metres are there in 9 kilometres?,9000,number
+T370,conversion,How many days are there in 18 weeks?,126,number
+T371,conversion,How many metres are there in 36 kilometres?,36000,number
+T372,conversion,How many millilitres are there in 72 litres?,72000,number
+T373,conversion,How many days are there in 42 weeks?,294,number
+T374,conversion,How many seconds are there in 72 minutes?,4320,number
+T375,conversion,How many metres are there in 72 kilometres?,72000,number
+T376,conversion,How many kilograms are there in 84 tonnes?,84000,number
+T377,conversion,How many seconds are there in 21 minutes?,1260,number
+T378,conversion,How many grams are there in 12 kilograms?,12000,number
+T379,conversion,How many seconds are there in 90 minutes?,5400,number
+T380,conversion,How many minutes are there in 125 hours?,7500,number
+T381,date,A project starts on 17 May 2026 and runs for 70 days. On what date does it end? Answer in the format DD Month YYYY.,26 July 2026,text
+T382,date,A project starts on 23 October 2026 and runs for 40 days. On what date does it end? Answer in the format DD Month YYYY.,02 December 2026,text
+T383,date,A project starts on 10 June 2026 and runs for 50 days. On what date does it end? Answer in the format DD Month YYYY.,30 July 2026,text
+T384,date,A project starts on 20 April 2027 and runs for 9 days. On what date does it end? Answer in the format DD Month YYYY.,29 April 2027,text
+T385,date,A project starts on 26 June 2027 and runs for 9 days. On what date does it end? Answer in the format DD Month YYYY.,05 July 2027,text
+T386,date,A project starts on 15 February 2027 and runs for 30 days. On what date does it end? Answer in the format DD Month YYYY.,17 March 2027,text
+T387,date,A project starts on 22 May 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,21 July 2026,text
+T388,date,A project starts on 03 October 2026 and runs for 18 days. On what date does it end? Answer in the format DD Month YYYY.,21 October 2026,text
+T389,date,A project starts on 19 January 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.,02 February 2026,text
+T390,date,A project starts on 14 October 2026 and runs for 11 days. On what date does it end? Answer in the format DD Month YYYY.,25 October 2026,text
+T391,date,A project starts on 15 August 2027 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.,29 October 2027,text
+T392,date,A project starts on 19 August 2027 and runs for 40 days. On what date does it end? Answer in the format DD Month YYYY.,28 September 2027,text
+T393,date,A project starts on 27 March 2026 and runs for 50 days. On what date does it end? Answer in the format DD Month YYYY.,16 May 2026,text
+T394,date,A project starts on 27 September 2026 and runs for 50 days. On what date does it end? Answer in the format DD Month YYYY.,16 November 2026,text
+T395,date,A project starts on 20 December 2027 and runs for 11 days. On what date does it end? Answer in the format DD Month YYYY.,31 December 2027,text
+T396,date,A project starts on 26 August 2027 and runs for 45 days. On what date does it end? Answer in the format DD Month YYYY.,10 October 2027,text
+T397,date,A project starts on 17 April 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.,08 May 2026,text
+T398,date,A project starts on 23 July 2027 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,21 October 2027,text
+T399,date,A project starts on 24 February 2026 and runs for 80 days. On what date does it end? Answer in the format DD Month YYYY.,15 May 2026,text
+T400,date,A project starts on 11 June 2027 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,09 September 2027,text
+T401,date,A project starts on 24 March 2027 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.,14 April 2027,text
+T402,date,A project starts on 12 May 2027 and runs for 100 days. On what date does it end? Answer in the format DD Month YYYY.,20 August 2027,text
+T403,date,A project starts on 26 June 2027 and runs for 70 days. On what date does it end? Answer in the format DD Month YYYY.,04 September 2027,text
+T404,date,A project starts on 04 February 2027 and runs for 80 days. On what date does it end? Answer in the format DD Month YYYY.,25 April 2027,text
+T405,date,A project starts on 26 July 2026 and runs for 40 days. On what date does it end? Answer in the format DD Month YYYY.,04 September 2026,text
+T406,date,A project starts on 05 November 2027 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,03 February 2028,text
+T407,date,A project starts on 23 July 2027 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.,06 August 2027,text
+T408,date,A project starts on 26 June 2027 and runs for 80 days. On what date does it end? Answer in the format DD Month YYYY.,14 September 2027,text
+T409,date,A project starts on 11 November 2026 and runs for 18 days. On what date does it end? Answer in the format DD Month YYYY.,29 November 2026,text
+T410,date,A project starts on 28 May 2027 and runs for 100 days. On what date does it end? Answer in the format DD Month YYYY.,05 September 2027,text
+T411,date,A project starts on 21 October 2027 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,20 December 2027,text
+T412,date,A project starts on 20 July 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,18 September 2026,text
+T413,date,A project starts on 16 December 2026 and runs for 50 days. On what date does it end? Answer in the format DD Month YYYY.,04 February 2027,text
+T414,date,A project starts on 06 June 2027 and runs for 50 days. On what date does it end? Answer in the format DD Month YYYY.,26 July 2027,text
+T415,date,A project starts on 02 November 2027 and runs for 45 days. On what date does it end? Answer in the format DD Month YYYY.,17 December 2027,text
+T416,date,A project starts on 01 July 2027 and runs for 50 days. On what date does it end? Answer in the format DD Month YYYY.,20 August 2027,text
+T417,date,A project starts on 24 February 2026 and runs for 70 days. On what date does it end? Answer in the format DD Month YYYY.,05 May 2026,text
+T418,date,A project starts on 12 January 2027 and runs for 40 days. On what date does it end? Answer in the format DD Month YYYY.,21 February 2027,text
+T419,date,A project starts on 02 February 2026 and runs for 70 days. On what date does it end? Answer in the format DD Month YYYY.,13 April 2026,text
+T420,date,A project starts on 08 November 2027 and runs for 100 days. On what date does it end? Answer in the format DD Month YYYY.,16 February 2028,text
+T421,date,A project starts on 28 August 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,27 October 2026,text
+T422,date,A project starts on 02 October 2026 and runs for 30 days. On what date does it end? Answer in the format DD Month YYYY.,01 November 2026,text
+T423,date,A project starts on 12 August 2027 and runs for 70 days. On what date does it end? Answer in the format DD Month YYYY.,21 October 2027,text
+T424,date,A project starts on 26 May 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,25 July 2026,text
+T425,date,A project starts on 18 December 2027 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.,02 March 2028,text
+T426,date,A project starts on 27 November 2027 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.,25 February 2028,text
+T427,date,A project starts on 16 January 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.,01 April 2026,text
+T428,date,A project starts on 05 February 2027 and runs for 25 days. On what date does it end? Answer in the format DD Month YYYY.,02 March 2027,text
+T429,date,A project starts on 18 March 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.,17 May 2026,text
+T430,date,A project starts on 03 December 2027 and runs for 80 days. On what date does it end? Answer in the format DD Month YYYY.,21 February 2028,text
+T431,table,Quarterly units sold. West: 635; Central: 851; South: 303; East: 705. What is the total across all regions?,2494,number
+T432,table,Quarterly units sold. East: 380; Central: 403; North: 683; West: 687. What is the difference between the highest and the lowest region?,307,number
+T433,table,Quarterly units sold. North: 879; East: 413; Central: 872; West: 149. What is the difference between the highest and the lowest region?,730,number
+T434,table,Quarterly units sold. East: 277; Central: 556; West: 362; South: 545. What is the difference between the highest and the lowest region?,279,number
+T435,table,Quarterly units sold. Central: 182; South: 282; East: 172; West: 364. What is the difference between the highest and the lowest region?,192,number
+T436,table,Quarterly units sold. East: 647; South: 144; West: 614; Central: 535. Which region sold the least?,South,text
+T437,table,Quarterly units sold. West: 617; North: 694; Central: 311; South: 569. What is the total across all regions?,2191,number
+T438,table,Quarterly units sold. South: 685; East: 320; Central: 247; North: 727. Which region sold the most?,North,text
+T439,table,Quarterly units sold. North: 104; East: 736; West: 403; South: 700. What is the difference between the highest and the lowest region?,632,number
+T440,table,Quarterly units sold. West: 734; South: 454; Central: 197; East: 784. What is the total across all regions?,2169,number
+T441,table,Quarterly units sold. West: 350; East: 419; North: 356; South: 581. What is the total across all regions?,1706,number
+T442,table,Quarterly units sold. North: 869; East: 406; Central: 500; West: 690. What is the total across all regions?,2465,number
+T443,table,Quarterly units sold. South: 565; West: 461; East: 827; Central: 868. What is the total across all regions?,2721,number
+T444,table,Quarterly units sold. Central: 759; West: 132; South: 637; North: 230. What is the total across all regions?,1758,number
+T445,table,Quarterly units sold. East: 394; West: 376; South: 219; Central: 877. What is the difference between the highest and the lowest region?,658,number
+T446,table,Quarterly units sold. East: 286; North: 658; South: 397; Central: 337. Which region sold the least?,East,text
+T447,table,Quarterly units sold. East: 439; Central: 637; South: 440; West: 362. What is the difference between the highest and the lowest region?,275,number
+T448,table,Quarterly units sold. East: 494; Central: 278; North: 708; South: 146. What is the total across all regions?,1626,number
+T449,table,Quarterly units sold. Central: 461; North: 878; West: 179; East: 434. What is the total across all regions?,1952,number
+T450,table,Quarterly units sold. South: 697; West: 385; North: 369; Central: 636. What is the total across all regions?,2087,number
+T451,table,Quarterly units sold. West: 778; East: 279; North: 361; South: 222. What is the total across all regions?,1640,number
+T452,table,Quarterly units sold. Central: 573; South: 742; East: 300; North: 137. What is the total across all regions?,1752,number
+T453,table,Quarterly units sold. North: 242; South: 806; West: 693; Central: 859. Which region sold the least?,North,text
+T454,table,Quarterly units sold. East: 552; North: 426; Central: 765; South: 399. What is the difference between the highest and the lowest region?,366,number
+T455,table,Quarterly units sold. Central: 900; North: 592; West: 410; East: 834. Which region sold the least?,West,text
+T456,table,Quarterly units sold. Central: 633; South: 623; East: 534; North: 546. Which region sold the most?,Central,text
+T457,table,Quarterly units sold. South: 298; North: 899; West: 881; Central: 599. What is the difference between the highest and the lowest region?,601,number
+T458,table,Quarterly units sold. South: 409; Central: 729; West: 681; East: 451. Which region sold the most?,Central,text
+T459,table,Quarterly units sold. West: 110; Central: 654; South: 436; East: 210. Which region sold the least?,West,text
+T460,table,Quarterly units sold. West: 389; North: 425; East: 570; Central: 885. Which region sold the least?,West,text
+T461,table,Quarterly units sold. Central: 185; South: 627; North: 348; West: 274. Which region sold the least?,Central,text
+T462,table,Quarterly units sold. Central: 289; South: 575; North: 631; West: 641. Which region sold the least?,Central,text
+T463,table,Quarterly units sold. West: 864; East: 549; Central: 663; North: 793. What is the total across all regions?,2869,number
+T464,table,Quarterly units sold. Central: 718; North: 707; West: 264; South: 640. What is the total across all regions?,2329,number
+T465,table,Quarterly units sold. West: 265; Central: 539; North: 234; East: 712. Which region sold the least?,North,text
+T466,table,Quarterly units sold. North: 891; Central: 745; West: 856; East: 843. What is the difference between the highest and the lowest region?,146,number
+T467,table,Quarterly units sold. South: 431; West: 486; North: 439; Central: 682. Which region sold the least?,South,text
+T468,table,Quarterly units sold. East: 374; South: 838; Central: 290; North: 693. Which region sold the most?,South,text
+T469,table,Quarterly units sold. West: 183; South: 685; Central: 170; East: 211. Which region sold the most?,South,text
+T470,table,Quarterly units sold. South: 186; North: 732; Central: 889; East: 539. Which region sold the most?,Central,text
+T471,table,Quarterly units sold. Central: 367; North: 630; East: 116; West: 396. Which region sold the most?,North,text
+T472,table,Quarterly units sold. North: 352; Central: 825; West: 226; South: 214. Which region sold the most?,Central,text
+T473,table,Quarterly units sold. West: 575; Central: 321; East: 770; South: 696. What is the difference between the highest and the lowest region?,449,number
+T474,table,Quarterly units sold. Central: 163; North: 678; East: 873; South: 433. What is the total across all regions?,2147,number
+T475,table,Quarterly units sold. East: 644; North: 644; Central: 616; South: 559. What is the total across all regions?,2463,number
+T476,table,Quarterly units sold. West: 270; North: 601; Central: 409; East: 108. What is the difference between the highest and the lowest region?,493,number
+T477,table,Quarterly units sold. North: 570; East: 616; South: 544; Central: 319. Which region sold the least?,Central,text
+T478,table,Quarterly units sold. South: 710; North: 470; Central: 675; West: 382. Which region sold the most?,South,text
+T479,table,Quarterly units sold. Central: 854; West: 123; East: 416; North: 416. What is the difference between the highest and the lowest region?,731,number
+T480,table,Quarterly units sold. South: 766; East: 742; Central: 894; West: 879. Which region sold the least?,East,text
+T481,table,Quarterly units sold. Central: 172; West: 717; East: 366; South: 596. Which region sold the least?,Central,text
+T482,table,Quarterly units sold. West: 725; Central: 186; North: 641; East: 701. What is the difference between the highest and the lowest region?,539,number
+T483,table,Quarterly units sold. Central: 507; West: 445; South: 131; North: 828. What is the difference between the highest and the lowest region?,697,number
+T484,table,Quarterly units sold. South: 638; North: 245; Central: 458; West: 899. What is the total across all regions?,2240,number
+T485,table,Quarterly units sold. West: 655; East: 624; North: 190; Central: 171. Which region sold the most?,West,text
+T486,table,Quarterly units sold. North: 126; Central: 669; South: 204; West: 792. Which region sold the most?,West,text
+T487,table,Quarterly units sold. West: 354; North: 697; Central: 270; East: 417. What is the difference between the highest and the lowest region?,427,number
+T488,table,Quarterly units sold. West: 452; Central: 641; South: 811; East: 344. Which region sold the least?,East,text
+T489,table,Quarterly units sold. East: 459; South: 744; Central: 405; West: 653. What is the total across all regions?,2261,number
+T490,table,Quarterly units sold. South: 562; Central: 659; North: 247; East: 844. What is the difference between the highest and the lowest region?,597,number
+T491,logic,Ellis is older than Devon. Frankie is older than Ellis. Devon is older than Alex. Who is the oldest?,Frankie,text
+T492,logic,Alex is older than Ellis. Ellis is older than Gray. Casey is older than Alex. Who is the youngest?,Gray,text
+T493,logic,Gray is older than Ellis. Ellis is older than Frankie. Frankie is older than Alex. Who is the oldest?,Gray,text
+T494,logic,Gray is older than Bailey. Frankie is older than Alex. Alex is older than Gray. Who is the youngest?,Bailey,text
+T495,logic,Casey is older than Bailey. Bailey is older than Alex. Gray is older than Casey. Who is the second oldest?,Casey,text
+T496,logic,Alex is older than Ellis. Ellis is older than Casey. Casey is older than Frankie. Who is the youngest?,Frankie,text
+T497,logic,Devon is older than Ellis. Bailey is older than Gray. Ellis is older than Bailey. Who is the second oldest?,Ellis,text
+T498,logic,Ellis is older than Casey. Devon is older than Alex. Casey is older than Devon. Who is the youngest?,Alex,text
+T499,logic,Bailey is older than Ellis. Alex is older than Bailey. Frankie is older than Alex. Who is the youngest?,Ellis,text
+T500,logic,Gray is older than Ellis. Alex is older than Bailey. Ellis is older than Alex. Who is the second oldest?,Ellis,text
+T501,logic,Devon is older than Casey. Frankie is older than Devon. Casey is older than Bailey. Who is the oldest?,Frankie,text
+T502,logic,Gray is older than Casey. Ellis is older than Bailey. Casey is older than Ellis. Who is the oldest?,Gray,text
+T503,logic,Alex is older than Frankie. Ellis is older than Gray. Gray is older than Alex. Who is the oldest?,Ellis,text
+T504,logic,Gray is older than Frankie. Frankie is older than Alex. Alex is older than Devon. Who is the second oldest?,Frankie,text
+T505,logic,Alex is older than Frankie. Devon is older than Gray. Frankie is older than Devon. Who is the second oldest?,Frankie,text
+T506,logic,Gray is older than Devon. Devon is older than Alex. Alex is older than Ellis. Who is the second oldest?,Devon,text
+T507,logic,Bailey is older than Casey. Ellis is older than Bailey. Gray is older than Ellis. Who is the second oldest?,Ellis,text
+T508,logic,Casey is older than Devon. Alex is older than Bailey. Devon is older than Alex. Who is the second oldest?,Devon,text
+T509,logic,Casey is older than Gray. Devon is older than Bailey. Gray is older than Devon. Who is the youngest?,Bailey,text
+T510,logic,Devon is older than Ellis. Ellis is older than Alex. Alex is older than Bailey. Who is the oldest?,Devon,text
+T511,logic,Bailey is older than Ellis. Ellis is older than Gray. Gray is older than Casey. Who is the youngest?,Casey,text
+T512,logic,Casey is older than Devon. Frankie is older than Gray. Gray is older than Casey. Who is the oldest?,Frankie,text
+T513,logic,Frankie is older than Gray. Ellis is older than Frankie. Gray is older than Devon. Who is the youngest?,Devon,text
+T514,logic,Ellis is older than Alex. Devon is older than Gray. Alex is older than Devon. Who is the youngest?,Gray,text
+T515,logic,Ellis is older than Casey. Alex is older than Ellis. Casey is older than Gray. Who is the youngest?,Gray,text
+T516,logic,Alex is older than Frankie. Bailey is older than Devon. Frankie is older than Bailey. Who is the youngest?,Devon,text
+T517,logic,Gray is older than Bailey. Bailey is older than Casey. Casey is older than Frankie. Who is the second oldest?,Bailey,text
+T518,logic,Frankie is older than Casey. Devon is older than Gray. Gray is older than Frankie. Who is the oldest?,Devon,text
+T519,logic,Casey is older than Alex. Bailey is older than Frankie. Alex is older than Bailey. Who is the oldest?,Casey,text
+T520,logic,Devon is older than Alex. Bailey is older than Devon. Alex is older than Gray. Who is the oldest?,Bailey,text
+T521,logic,Alex is older than Ellis. Bailey is older than Alex. Devon is older than Bailey. Who is the oldest?,Devon,text
+T522,logic,Frankie is older than Alex. Gray is older than Frankie. Alex is older than Devon. Who is the oldest?,Gray,text
+T523,logic,Frankie is older than Alex. Alex is older than Ellis. Gray is older than Frankie. Who is the oldest?,Gray,text
+T524,logic,Gray is older than Devon. Bailey is older than Gray. Casey is older than Bailey. Who is the oldest?,Casey,text
+T525,logic,Frankie is older than Casey. Ellis is older than Devon. Devon is older than Frankie. Who is the youngest?,Casey,text
+T526,logic,Gray is older than Ellis. Devon is older than Gray. Casey is older than Devon. Who is the second oldest?,Devon,text
+T527,logic,Ellis is older than Devon. Devon is older than Frankie. Bailey is older than Ellis. Who is the second oldest?,Ellis,text
+T528,logic,Gray is older than Casey. Bailey is older than Gray. Casey is older than Alex. Who is the second oldest?,Gray,text
+T529,logic,Ellis is older than Devon. Casey is older than Ellis. Bailey is older than Casey. Who is the oldest?,Bailey,text
+T530,logic,Bailey is older than Gray. Frankie is older than Ellis. Ellis is older than Bailey. Who is the second oldest?,Ellis,text
+T531,logic,Ellis is older than Gray. Casey is older than Alex. Alex is older than Ellis. Who is the youngest?,Gray,text
+T532,logic,Alex is older than Ellis. Ellis is older than Frankie. Frankie is older than Gray. Who is the second oldest?,Ellis,text
+T533,logic,Bailey is older than Alex. Gray is older than Bailey. Alex is older than Frankie. Who is the youngest?,Frankie,text
+T534,logic,Devon is older than Bailey. Bailey is older than Gray. Gray is older than Ellis. Who is the youngest?,Ellis,text
+T535,logic,Bailey is older than Casey. Ellis is older than Devon. Devon is older than Bailey. Who is the oldest?,Ellis,text
+T536,logic,Gray is older than Frankie. Bailey is older than Alex. Frankie is older than Bailey. Who is the oldest?,Gray,text
+T537,logic,Devon is older than Frankie. Frankie is older than Alex. Bailey is older than Devon. Who is the oldest?,Bailey,text
+T538,logic,Gray is older than Alex. Alex is older than Bailey. Casey is older than Gray. Who is the oldest?,Casey,text
+T539,logic,Bailey is older than Devon. Frankie is older than Gray. Gray is older than Bailey. Who is the oldest?,Frankie,text
+T540,logic,Ellis is older than Devon. Devon is older than Bailey. Gray is older than Ellis. Who is the oldest?,Gray,text
+T541,rate,A vehicle travels for 8 hours at a steady 72 kilometres per hour. How far does it travel?,576,number
+T542,rate,A vehicle travels for 4 hours at a steady 25 kilometres per hour. How far does it travel?,100,number
+T543,rate,A vehicle travels 480 kilometres at a steady 80 kilometres per hour. How many hours does the journey take?,6,number
+T544,rate,A vehicle travels for 4 hours at a steady 100 kilometres per hour. How far does it travel?,400,number
+T545,rate,A vehicle travels for 7 hours at a steady 80 kilometres per hour. How far does it travel?,560,number
+T546,rate,A vehicle covers 400 kilometres in 5 hours. What is its average speed in kilometres per hour?,80,number
+T547,rate,A vehicle covers 60 kilometres in 2 hours. What is its average speed in kilometres per hour?,30,number
+T548,rate,A vehicle travels 180 kilometres at a steady 36 kilometres per hour. How many hours does the journey take?,5,number
+T549,rate,A vehicle travels 240 kilometres at a steady 25 kilometres per hour. How many hours does the journey take?,9.6,number
+T550,rate,A vehicle travels for 7 hours at a steady 60 kilometres per hour. How far does it travel?,420,number
+T551,rate,A vehicle covers 50 kilometres in 2 hours. What is its average speed in kilometres per hour?,25,number
+T552,rate,A vehicle travels for 5 hours at a steady 25 kilometres per hour. How far does it travel?,125,number
+T553,rate,A vehicle covers 375 kilometres in 5 hours. What is its average speed in kilometres per hour?,75,number
+T554,rate,A vehicle travels 480 kilometres at a steady 100 kilometres per hour. How many hours does the journey take?,4.8,number
+T555,rate,A vehicle travels 330 kilometres at a steady 75 kilometres per hour. How many hours does the journey take?,4.4,number
+T556,rate,A vehicle covers 216 kilometres in 6 hours. What is its average speed in kilometres per hour?,36,number
+T557,rate,A vehicle travels for 6 hours at a steady 36 kilometres per hour. How far does it travel?,216,number
+T558,rate,A vehicle travels 120 kilometres at a steady 75 kilometres per hour. How many hours does the journey take?,1.6,number
+T559,rate,A vehicle travels 480 kilometres at a steady 50 kilometres per hour. How many hours does the journey take?,9.6,number
+T560,rate,A vehicle travels 240 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?,4,number
+T561,rate,A vehicle covers 150 kilometres in 2 hours. What is its average speed in kilometres per hour?,75,number
+T562,rate,A vehicle travels for 5 hours at a steady 36 kilometres per hour. How far does it travel?,180,number
+T563,rate,A vehicle travels 60 kilometres at a steady 25 kilometres per hour. How many hours does the journey take?,2.4,number
+T564,rate,A vehicle travels 90 kilometres at a steady 100 kilometres per hour. How many hours does the journey take?,0.9,number
+T565,rate,A vehicle covers 270 kilometres in 6 hours. What is its average speed in kilometres per hour?,45,number
+T566,rate,A vehicle travels 420 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?,7,number
+T567,rate,A vehicle travels 120 kilometres at a steady 100 kilometres per hour. How many hours does the journey take?,1.2,number
+T568,rate,A vehicle travels 150 kilometres at a steady 50 kilometres per hour. How many hours does the journey take?,3,number
+T569,rate,A vehicle covers 225 kilometres in 5 hours. What is its average speed in kilometres per hour?,45,number
+T570,rate,A vehicle travels 90 kilometres at a steady 40 kilometres per hour. How many hours does the journey take?,2.25,number
+T571,rate,A vehicle covers 420 kilometres in 7 hours. What is its average speed in kilometres per hour?,60,number
+T572,rate,A vehicle travels 270 kilometres at a steady 90 kilometres per hour. How many hours does the journey take?,3,number
+T573,rate,A vehicle covers 240 kilometres in 6 hours. What is its average speed in kilometres per hour?,40,number
+T574,rate,A vehicle travels 135 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?,2.25,number
+T575,rate,A vehicle travels for 3 hours at a steady 25 kilometres per hour. How far does it travel?,75,number
+T576,rate,A vehicle travels for 8 hours at a steady 90 kilometres per hour. How far does it travel?,720,number
+T577,rate,A vehicle travels for 2 hours at a steady 36 kilometres per hour. How far does it travel?,72,number
+T578,rate,A vehicle travels for 4 hours at a steady 40 kilometres per hour. How far does it travel?,160,number
+T579,rate,A vehicle covers 270 kilometres in 3 hours. What is its average speed in kilometres per hour?,90,number
+T580,rate,A vehicle travels for 5 hours at a steady 80 kilometres per hour. How far does it travel?,400,number
+T581,rate,A vehicle travels 180 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?,3,number
+T582,rate,A vehicle travels 360 kilometres at a steady 90 kilometres per hour. How many hours does the journey take?,4,number
+T583,rate,A vehicle covers 180 kilometres in 2 hours. What is its average speed in kilometres per hour?,90,number
+T584,rate,A vehicle travels 420 kilometres at a steady 100 kilometres per hour. How many hours does the journey take?,4.2,number
+T585,rate,A vehicle covers 450 kilometres in 6 hours. What is its average speed in kilometres per hour?,75,number
+T586,rate,A vehicle covers 540 kilometres in 6 hours. What is its average speed in kilometres per hour?,90,number
+T587,rate,A vehicle travels 180 kilometres at a steady 80 kilometres per hour. How many hours does the journey take?,2.25,number
+T588,rate,A vehicle covers 320 kilometres in 8 hours. What is its average speed in kilometres per hour?,40,number
+T589,rate,A vehicle covers 75 kilometres in 3 hours. What is its average speed in kilometres per hour?,25,number
+T590,rate,A vehicle covers 160 kilometres in 4 hours. What is its average speed in kilometres per hour?,40,number
+T591,rate,A vehicle travels for 2 hours at a steady 100 kilometres per hour. How far does it travel?,200,number
+T592,rate,A vehicle travels for 8 hours at a steady 30 kilometres per hour. How far does it travel?,240,number
+T593,rate,A vehicle travels for 7 hours at a steady 50 kilometres per hour. How far does it travel?,350,number
+T594,rate,A vehicle travels for 8 hours at a steady 75 kilometres per hour. How far does it travel?,600,number
+T595,rate,A vehicle travels for 8 hours at a steady 36 kilometres per hour. How far does it travel?,288,number
+T596,rate,A vehicle travels 330 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?,5.5,number
+T597,rate,A vehicle covers 576 kilometres in 8 hours. What is its average speed in kilometres per hour?,72,number
+T598,rate,A vehicle travels 90 kilometres at a steady 72 kilometres per hour. How many hours does the journey take?,1.25,number
+T599,rate,A vehicle covers 300 kilometres in 5 hours. What is its average speed in kilometres per hour?,60,number
+T600,rate,A vehicle travels 60 kilometres at a steady 30 kilometres per hour. How many hours does the journey take?,2,number

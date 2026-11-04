@@ -1,0 +1,28 @@
+==========================================================================
+e1 CHOICE PAIRS, qwen: first look
+==========================================================================
+
+  letter mass mean 1.000, 0 of 6400 below 0.5 (0.0%)
+
+  margin of the both-cell against one of its singles
+  negative = adding the second signal COSTS on top of the first
+
+    FLOOR_ALTxALT         vs_a  n=  400    -1.1697
+    FLOOR_ALTxALT         vs_b  n=  400    +2.0544
+    P1_FORMxFORM          vs_a  n=  400    -1.0631
+    P1_FORMxFORM          vs_b  n=  400    -0.4250
+    P2a_STATEDxSTATED     vs_a  n=  400    -1.1375
+    P2a_STATEDxSTATED     vs_b  n=  400    +1.7044
+    P2b_STATEDxSTATED     vs_a  n=  400    +1.4966
+    P2b_STATEDxSTATED     vs_b  n=  400    -1.0000
+    P3a_CROSS             vs_a  n=  400    -0.0644
+    P3a_CROSS             vs_b  n=  400    -4.8206
+    P3b_CROSS             vs_a  n=  400    -0.1791
+    P3b_CROSS             vs_b  n=  400    -2.5825
+    P4a_CROSS             vs_a  n=  400    -1.9825
+    P4a_CROSS             vs_b  n=  400    -3.3303
+    P4b_CROSS             vs_a  n=  400    +0.1994
+    P4b_CROSS             vs_b  n=  400    -2.8234
+
+  Run analyse_e1_choice_pairs.py with BOTH this file and the
+  first choice run: the interaction needs one term from each.

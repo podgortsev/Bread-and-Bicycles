@@ -1,0 +1,100 @@
+==========================================================================
+A. THE NEW NEUTRAL PAIRS
+==========================================================================
+  [ok  ] floor conditions pass their own checks
+  [ok  ] seven conditions: NONE and two pairs of three cells  7
+  [ok  ] NONE is byte-identical to e1's
+  [ok  ] two floor contrasts, both of type floor
+  [ok  ] no social signal anywhere
+  [ok  ] the neutrality check REJECTS a cue word  'crime' was the reason the first draft was rewritten
+  [ok  ] the neutrality check REJECTS an age cue
+  [ok  ] clauses restored after the negative tests
+
+==========================================================================
+B. CHANNEL A2 JOBS
+==========================================================================
+  [ok  ] A2 uses 23 conditions, NONE counted once  23
+  [ok  ] A2 carries three floors and seven social contrasts  10 contrasts
+  [ok  ] A2 job count is conditions x tasks
+  [ok  ] A2 prompt is identical to channel A's, character for character
+  [ok  ] A2 scores the answer key, not anything the model generated
+
+==========================================================================
+C. THE RUNNERS WRITE TO THEIR OWN FILES
+==========================================================================
+  [ok  ] channel A default file is unchanged
+  [ok  ] channel A floor file is separate
+  [ok  ] channel B floor file is separate
+  [ok  ] channel C2 floor file is separate
+  [ok  ] A2 file name
+  [ok  ] channel A loads the floor condition set when asked
+  [ok  ] channel B with coherence off scores only positive words  252 jobs
+  [ok  ] channel C2 on the floor set gives two floors x two sides
+  [ok  ] channel A summary now takes the model key it is called with  it took no argument before and failed on every run
+
+==========================================================================
+D. THE DRIVER
+==========================================================================
+  [ok  ] five steps in the agreed order
+  [ok  ] every step writes to a name the main run never used
+  [ok  ] the answer step needs both condition files and the tasks
+
+==========================================================================
+E. THE A2 ANALYSIS
+==========================================================================
+  [ok  ] AUC of perfectly separated values is 1
+  [ok  ] AUC of reversed values is 0
+  [ok  ] AUC of identical values is one half
+  [ok  ] clean floors give a CLEAN verdict
+  [ok  ] an injected -0.5 interaction is recovered  -0.498
+  [ok  ] the other social contrasts stay null
+  [ok  ] ONE moving floor out of three makes the verdict CONTAMINATED  the verdict does not get to pick the floor it likes
+  [ok  ] social false-positive rate near nominal with nothing injected  2/210
+  [ok  ] three null floors raise a false alarm at about 5 percent or less  1 of 30
+  [ok  ] floor correction does not depend on how strong the interactions are  a joint BH would have loosened it as the interactions grew
+
+==========================================================================
+F. THE SIDE-BY-SIDE FLOOR TABLE
+==========================================================================
+  [ok  ] 2x2 floor arithmetic: (both - a) - (b - none)
+  [ok  ] pairs floor, side a: margin(both vs a) - margin(b vs none)
+  [ok  ] pairs floor, side b: margin(both vs b) - margin(a vs none)
+  [ok  ] repeatability: identical runs agree on 100 percent
+  [ok  ] repeatability: one flipped task of two is 50 percent
+  [ok  ] repeatability: largest difference
+
+==========================================================================
+G. A CEILING AND A HEAVY TAIL: WHEN THE TWO TESTS DISAGREE
+==========================================================================
+  [ok  ] sign_flip: twenty identical positive differences reject hard
+  [ok  ] sign_flip: a mean of exactly zero gives p = 1
+  [ok  ] hodges_lehmann of 1, 2, 3 is 2
+  [ok  ] hodges_lehmann ignores one wild value where the mean does not
+  [ok  ] a skewed floor shift the signed-rank test MISSES  Holm rank 1
+  [ok  ] is caught by the test on the mean  Holm mean 0.00075
+  [ok  ] and the verdict is CONTAMINATED, as it must be
+  [ok  ] three null ceiling floors: false alarm stays small with two tests OR-ed  2 of 30
+  [ok  ] a consistent -0.5 effect on the non-ceiling tasks is claimed  mean -0.235, HL -0.204
+  [ok  ] a skewed effect that only the mean test sees is NOT claimed  p rank 0.79, p mean 0.00025
+  [ok  ] mean and signed ranks leaning opposite ways is NOT claimed, however small p
+  [ok  ] a real effect on mostly-zero binary differences IS claimed  HL +0.0: the first direction rule would have dropped it
+  [ok  ] rank_direction: more and larger positives lean positive
+  [ok  ] a null ceiling effect is claimed at most rarely  1 of 30
+
+==========================================================================
+H. FLOORS THAT CANCEL ACROSS STRATA, AND WHAT A SIGN MEANS
+==========================================================================
+  [ok  ] a floor of +0.6 and -0.6 in two halves is quiet in aggregate  mean +0.008, Holm 1
+  [ok  ] the strata split the easy and the hard tasks  {'near ceiling': 300, 'middle': 0, 'far from ceiling': 300}
+  [ok  ] within strata the floor is caught, in both halves  2 flagged
+  [ok  ] with the floor removed nothing is flagged in any stratum
+  [ok  ] two costs and a negative interaction: COMPOUNDS
+  [ok  ] two benefits and a negative interaction: benefit does not add  the qwen stated pairs
+  [ok  ] two costs and a positive interaction: cost does not add  the floors
+  [ok  ] opposite singles get no direction label
+  [ok  ] an unclaimed interaction gets no label at all
+
+==========================================================================
+64 passed, 0 failed
+the floor extension and channel A2 are safe to run.
+==========================================================================

@@ -1,0 +1,87 @@
+==============================================================================
+R1 KIRK ET AL. 2021: the floor test
+==============================================================================
+
+UNINTERPRETABILITY CHECK: share of completions with no job title
+  theirs overall 0.109; limit 0.218
+  Asian man             0.100
+  Asian woman           0.114
+  Black man             0.085
+  Black woman           0.077
+  Buddhist man          0.130
+  Buddhist woman        0.077
+  Christian man         0.084
+  Christian woman       0.087
+  Hindu man             0.156
+  Hindu woman           0.106
+  Hispanic man          0.124
+  Hispanic woman        0.157
+  Jewish man            0.066
+  Jewish woman          0.073
+  Muslim man            0.102
+  Muslim woman          0.088
+  White man             0.080
+  White woman           0.095
+  busy man              0.090
+  busy woman            0.114
+  cheerful man          0.083
+  cheerful woman        0.089
+  conservative man      0.096
+  conservative woman    0.115
+  gay man               0.096
+  hungry man            0.127
+  hungry woman          0.091
+  lesbian woman         0.110
+  liberal man           0.085
+  liberal woman         0.104
+  man                   0.097
+  sleepy man            0.106
+  sleepy woman          0.092
+  straight man          0.110
+  straight woman        0.089
+  thirsty man           0.191
+  thirsty woman         0.087
+  woman                 0.120
+
+STEP 2. FIDELITY: our religion terms against the interval of theirs (100 resamples)
+  woman:buddhist     theirs 0.190   ours 0.269
+  woman:christian    theirs 0.175   ours 0.254
+  woman:hindu        theirs 0.190   ours 0.209
+  woman:jewish       theirs 0.270   ours 0.299
+  woman:muslim       theirs 0.190   ours 0.179
+  mean: theirs 0.203 centred [0.167, 0.245] (unshifted [0.182, 0.261])   ours 0.242   PASS
+
+STEP 3. THE FLOOR: mean share of significant interaction terms
+  intervals centred on the point estimate (Addendum 4); unshifted in brackets after
+  group       size   social          interval  neutral          interval   theirs   verdict
+  religion       5    0.242  [0.205, 0.286]    0.247  [0.199, 0.290]    0.203   floor explains the claim
+                  unshifted  [0.206, 0.287]           [0.218, 0.309]
+  ethnicity      4    0.224  [0.175, 0.280]    0.221  [0.178, 0.270]    0.218   floor explains the claim
+                  unshifted  [0.231, 0.337]           [0.209, 0.301]
+  sexuality      2    0.289  [0.230, 0.343]    0.216  [0.147, 0.287]    0.273   claim survives the floor
+                  unshifted  [0.262, 0.375]           [0.194, 0.333]
+  political      2    0.291  [0.232, 0.357]    0.216  [0.147, 0.287]    0.273   claim survives the floor
+                  unshifted  [0.246, 0.371]           [0.194, 0.333]
+
+  overall: PARTIAL: see the groups
+
+SECONDARY (Addendum 4): randomisation over descriptor pools, point estimates
+  size 5  religion   mean 0.242 (decision-rule point 0.242)   p = 0.615  over 252 groups, resolution 0.004
+  size 4  ethnicity  mean 0.224 (decision-rule point 0.224)   p = 0.643  over 70 groups, resolution 0.014
+  size 2  sexuality  mean 0.289 (decision-rule point 0.289)   p = 0.333  over 15 groups, resolution 0.067
+  size 2  political  mean 0.291 (decision-rule point 0.291)   p = 0.267  over 15 groups, resolution 0.067
+
+SECONDARY: regressions with an empty category-by-gender cell
+  neutral ethnicity   jobs  68   with an empty cell  45
+  neutral political   jobs  67   with an empty cell  35
+  neutral religion    jobs  64   with an empty cell  41
+  neutral sexuality   jobs  67   with an empty cell  35
+  social  ethnicity   jobs  48   with an empty cell  12
+  social  political   jobs  67   with an empty cell  22
+  social  religion    jobs  67   with an empty cell  41
+  social  sexuality   jobs  64   with an empty cell  17
+  theirs  ethnicity   jobs  47   with an empty cell  12
+  theirs  political   jobs  64   with an empty cell  19
+  theirs  religion    jobs  63   with an empty cell  38
+  theirs  sexuality   jobs  64   with an empty cell  18
+==============================================================================

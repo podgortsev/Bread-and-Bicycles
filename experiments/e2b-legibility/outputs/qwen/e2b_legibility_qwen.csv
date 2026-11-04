@@ -1,0 +1,2401 @@
+model,model_key,arm,task_id,family,text_changed,correct,refused,answer_key,raw_output
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T001,percentage,0,0,0,3480,3360
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T002,percentage,0,1,0,312.5,312.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T003,percentage,0,1,0,288,288
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T004,percentage,0,0,0,1044,1038
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T005,percentage,0,1,0,500,500
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T006,percentage,0,1,0,26.4,26.4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T007,percentage,0,0,0,697,683
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T008,percentage,0,1,0,540,540
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T009,percentage,0,0,0,127.5,130
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T010,percentage,0,1,0,150,150
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T011,percentage,0,1,0,1408,1408
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T012,percentage,0,1,0,119,119
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T013,percentage,0,1,0,528,528
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T014,percentage,0,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T015,percentage,0,0,0,552.5,555
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T016,percentage,0,1,0,672,672
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T017,percentage,0,1,0,2560,2560
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T018,percentage,0,1,0,422.4,422.4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T019,percentage,0,1,0,192,192
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T020,percentage,0,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T021,percentage,0,0,0,108,93.6
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T022,percentage,0,0,0,196.8,194.4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T023,percentage,0,1,0,225,225
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T024,percentage,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T025,percentage,0,1,0,500,500
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T026,percentage,0,1,0,352,352
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T027,percentage,0,1,0,960,960
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T028,percentage,0,1,0,324,324
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T029,percentage,0,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T030,percentage,0,0,0,849.6,859.60
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T031,percentage,0,0,0,476,472
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T032,percentage,0,1,0,1100,1100
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T033,percentage,0,1,0,1560,1560
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T034,percentage,0,1,0,196,196
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T035,percentage,0,1,0,156,156
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T036,word_problem,0,0,0,4374,486
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T037,word_problem,0,1,0,3500,3500
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T038,word_problem,0,0,0,3360,840
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T039,word_problem,0,1,0,4200,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T040,word_problem,0,0,0,1728,576
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T041,word_problem,0,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T042,word_problem,0,1,0,12600,12600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T043,word_problem,0,0,0,3630,3850
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T044,word_problem,0,0,0,8064,3360
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T045,word_problem,0,0,0,12600,9250
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T046,word_problem,0,0,0,7840,1960
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T047,word_problem,0,0,0,6720,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T048,word_problem,0,0,0,6000,5000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T049,word_problem,0,0,0,6480,7200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T050,word_problem,0,0,0,4375,875
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T051,word_problem,0,0,0,2700,900
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T052,word_problem,0,0,0,1680,840
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T053,word_problem,0,0,0,6930,2310
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T054,word_problem,0,1,0,4752,4752
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T055,word_problem,0,0,0,6480,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T056,word_problem,0,0,0,2916,3402
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T057,word_problem,0,0,0,3456,936
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T058,word_problem,0,0,0,4800,1200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T059,word_problem,0,1,0,4200,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T060,word_problem,0,0,0,5250,850
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T061,word_problem,0,1,0,4410,4410
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T062,word_problem,0,0,0,4752,4536
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T063,word_problem,0,1,0,6000,6000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T064,word_problem,0,1,0,5000,5000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T065,word_problem,0,0,0,10080,8400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T066,conversion,0,1,0,2160,2160
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T067,conversion,0,0,0,1152,3552
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T068,conversion,0,1,0,630,630
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T069,conversion,0,1,0,48000,48000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T070,conversion,0,1,0,900,900
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T071,conversion,0,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T072,conversion,0,1,0,125000,125000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T073,conversion,0,1,0,1440,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T074,conversion,0,0,0,864,288
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T075,conversion,0,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T076,conversion,0,1,0,24000,24000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T077,conversion,0,1,0,125000,125000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T078,conversion,0,1,0,3000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T079,conversion,0,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T080,conversion,0,1,0,3000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T081,conversion,0,0,0,60000,6000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T082,conversion,0,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T083,conversion,0,1,0,15000,15000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T084,conversion,0,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T085,conversion,0,1,0,105,105
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T086,conversion,0,1,0,360,360
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T087,conversion,0,1,0,7000,7000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T088,conversion,0,0,0,72,24
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T089,conversion,0,0,0,48000,4800
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T090,conversion,0,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T091,date,0,0,0,25 April 2026,24 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T092,date,0,0,0,10 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T093,date,0,1,0,27 April 2026,27 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T094,date,0,0,0,26 November 2026,25 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T095,date,0,0,0,08 October 2026,30 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T096,date,0,1,0,11 November 2026,11 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T097,date,0,1,0,16 March 2026,16 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T098,date,0,0,0,01 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T099,date,0,0,0,16 October 2026,30 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T100,date,0,1,0,12 June 2026,12 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T101,date,0,1,0,24 June 2026,24 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T102,date,0,1,0,25 July 2026,25 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T103,date,0,1,0,14 November 2026,14 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T104,date,0,0,0,06 February 2027,10 February 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T105,date,0,0,0,08 May 2026,31 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T106,date,0,1,0,30 October 2026,30 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T107,date,0,0,0,05 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T108,date,0,0,0,08 October 2026,17 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T109,date,0,0,0,10 August 2026,18 August 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T110,date,0,0,0,17 December 2026,18 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T111,date,0,0,0,13 January 2027,14 January 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T112,date,0,0,0,07 October 2026,30 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T113,date,0,0,0,26 August 2026,30 August 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T114,date,0,0,0,26 January 2026,25 January 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T115,date,0,1,0,18 September 2026,18 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T116,table,0,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T117,table,0,0,0,1669,1679
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T118,table,0,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T119,table,0,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T120,table,0,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T121,table,0,0,0,503,502
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T122,table,0,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T123,table,0,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T124,table,0,0,0,1914,2014
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T125,table,0,0,0,499,296
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T126,table,0,1,0,1865,1865
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T127,table,0,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T128,table,0,1,0,2623,2623
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T129,table,0,1,0,617,617
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T130,table,0,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T131,table,0,1,0,529,529
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T132,table,0,1,0,2156,2156
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T133,table,0,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T134,table,0,0,0,504,404
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T135,table,0,0,0,South,East
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T136,table,0,0,0,637,715
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T137,table,0,0,0,479,483
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T138,table,0,1,0,1792,1792
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T139,table,0,1,0,492,492
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T140,table,0,0,0,760,457
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T141,table,0,1,0,473,473
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T142,table,0,0,0,Central,North
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T143,table,0,1,0,South,South: 265
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T144,table,0,0,0,294,314
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T145,table,0,1,0,160,160
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T146,logic,0,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T147,logic,0,0,0,Alex,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T148,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T149,logic,0,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T150,logic,0,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T151,logic,0,0,0,Devon,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T152,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T153,logic,0,0,0,Casey,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T154,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T155,logic,0,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T156,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T157,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T158,logic,0,0,0,Devon,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T159,logic,0,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T160,logic,0,0,0,Bailey,2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T161,logic,0,0,0,Devon,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T162,logic,0,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T163,logic,0,0,0,Frankie,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T164,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T165,logic,0,0,0,Bailey,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T166,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T167,logic,0,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T168,logic,0,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T169,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T170,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T171,rate,0,1,0,2,2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T172,rate,0,1,0,10,10
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T173,rate,0,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T174,rate,0,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T175,rate,0,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T176,rate,0,1,0,1.2,1.2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T177,rate,0,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T178,rate,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T179,rate,0,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T180,rate,0,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T181,rate,0,1,0,3.2,3.2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T182,rate,0,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T183,rate,0,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T184,rate,0,1,0,150,150
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T185,rate,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T186,rate,0,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T187,rate,0,1,0,5,5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T188,rate,0,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T189,rate,0,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T190,rate,0,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T191,rate,0,0,0,5.33333,5.33
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T192,rate,0,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T193,rate,0,0,0,2.66667,2.67
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T194,rate,0,0,0,5.33333,5.33
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T195,rate,0,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T196,rate,0,1,0,4.5,4.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T197,rate,0,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T198,rate,0,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T199,rate,0,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T200,rate,0,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T201,percentage,0,1,0,312,312
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T202,percentage,0,1,0,144,144
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T203,percentage,0,0,0,756,752
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T204,percentage,0,1,0,129.8,129.8
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T205,percentage,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T206,percentage,0,0,0,286,289
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T207,percentage,0,1,0,640,640
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T208,percentage,0,0,0,1017.5,1005
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T209,percentage,0,0,0,644.8,644
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T210,percentage,0,1,0,124.2,124.20
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T211,percentage,0,0,0,582.4,582
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T212,percentage,0,0,0,524.8,528
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T213,percentage,0,1,0,25.6,25.6
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T214,percentage,0,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T215,percentage,0,0,0,87.75,89
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T216,percentage,0,1,0,494,494
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T217,percentage,0,1,0,16.5,16.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T218,percentage,0,0,0,256.2,261
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T219,percentage,0,0,0,367.2,367
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T220,percentage,0,1,0,608,608
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T221,percentage,0,1,0,595,595
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T222,percentage,0,1,0,715,715
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T223,percentage,0,0,0,329,341
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T224,percentage,0,1,0,1598,1598
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T225,percentage,0,0,0,278.4,278
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T226,percentage,0,1,0,54,54
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T227,percentage,0,1,0,66,66
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T228,percentage,0,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T229,percentage,0,0,0,517,513
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T230,percentage,0,1,0,128,128
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T231,percentage,0,1,0,330,330
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T232,percentage,0,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T233,percentage,0,1,0,1050,1050
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T234,percentage,0,1,0,36,36
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T235,percentage,0,1,0,189,189
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T236,percentage,0,0,0,858,848
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T237,percentage,0,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T238,percentage,0,1,0,680,680
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T239,percentage,0,0,0,1365,136.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T240,percentage,0,1,0,357,357
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T241,percentage,0,1,0,8.8,8.8
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T242,percentage,0,1,0,952,952
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T243,percentage,0,1,0,1980,1980
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T244,percentage,0,1,0,784,784
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T245,percentage,0,0,0,226.8,224
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T246,percentage,0,1,0,20.8,20.8
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T247,percentage,0,0,0,201.6,204
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T248,percentage,0,1,0,132,132
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T249,percentage,0,0,0,1402.5,1377.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T250,percentage,0,1,0,504,504
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T251,percentage,0,0,0,184.8,189
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T252,percentage,0,0,0,683.2,693
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T253,percentage,0,1,0,112.5,112.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T254,percentage,0,1,0,74.25,74.25
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T255,percentage,0,0,0,1280,128
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T256,percentage,0,1,0,136.5,136.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T257,percentage,0,1,0,480,480
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T258,percentage,0,1,0,120,120
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T259,percentage,0,0,0,288.8,292
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T260,percentage,0,1,0,937.5,937.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T261,percentage,0,1,0,1540,1540
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T262,percentage,0,1,0,825,825
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T263,percentage,0,1,0,102,102
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T264,percentage,0,1,0,67.5,67.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T265,percentage,0,1,0,1202.5,1202.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T266,percentage,0,1,0,188,188
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T267,percentage,0,0,0,495.6,492
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T268,percentage,0,1,0,2775,2775
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T269,percentage,0,1,0,46.2,46.2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T270,percentage,0,1,0,113.6,113.6
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T271,word_problem,0,0,0,12960,17280
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T272,word_problem,0,0,0,6075,675
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T273,word_problem,0,0,0,2880,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T274,word_problem,0,0,0,1680,490
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T275,word_problem,0,0,0,15400,14600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T276,word_problem,0,0,0,6720,504
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T277,word_problem,0,0,0,18522,2205
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T278,word_problem,0,0,0,15120,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T279,word_problem,0,0,0,24948,2772
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T280,word_problem,0,0,0,7200,1200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T281,word_problem,0,0,0,1584,1656
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T282,word_problem,0,1,0,4620,4620
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T283,word_problem,0,0,0,2400,800
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T284,word_problem,0,0,0,1540,3080
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T285,word_problem,0,0,0,16632,7308
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T286,word_problem,0,0,0,4320,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T287,word_problem,0,1,0,7200,7200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T288,word_problem,0,0,0,11970,1365
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T289,word_problem,0,0,0,3780,4680
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T290,word_problem,0,1,0,14000,14000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T291,word_problem,0,0,0,7425,6750
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T292,word_problem,0,0,0,3564,1296
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T293,word_problem,0,0,0,6336,7328
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T294,word_problem,0,0,0,2940,490
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T295,word_problem,0,0,0,3780,1260
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T296,word_problem,0,0,0,9240,8400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T297,word_problem,0,0,0,8316,8364
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T298,word_problem,0,0,0,9800,1400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T299,word_problem,0,1,0,1760,1760
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T300,word_problem,0,0,0,6480,1620
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T301,word_problem,0,0,0,32832,4464
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T302,word_problem,0,0,0,5832,3888
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T303,word_problem,0,1,0,3240,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T304,word_problem,0,0,0,17424,15840
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T305,word_problem,0,0,0,6160,3080
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T306,word_problem,0,1,0,3960,3960
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T307,word_problem,0,0,0,8100,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T308,word_problem,0,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T309,word_problem,0,0,0,36288,3624
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T310,word_problem,0,0,0,13500,1350
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T311,word_problem,0,0,0,20160,23520
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T312,word_problem,0,0,0,7056,5880
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T313,word_problem,0,1,0,9720,9720
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T314,word_problem,0,0,0,6160,770
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T315,word_problem,0,0,0,1500,300
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T316,word_problem,0,0,0,2112,1056
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T317,word_problem,0,0,0,15048,2712
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T318,word_problem,0,0,0,27360,28800
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T319,word_problem,0,0,0,1500,300
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T320,word_problem,0,0,0,3360,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T321,word_problem,0,0,0,5940,2970
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T322,word_problem,0,0,0,1350,450
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T323,word_problem,0,0,0,5040,840
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T324,word_problem,0,0,0,7350,1785
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T325,word_problem,0,0,0,13860,15780
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T326,word_problem,0,0,0,2432,1216
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T327,word_problem,0,0,0,3920,1120
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T328,word_problem,0,0,0,15552,12960
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T329,word_problem,0,0,0,5040,840
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T330,word_problem,0,0,0,13376,2432
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T331,conversion,0,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T332,conversion,0,1,0,980,980
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T333,conversion,0,1,0,900,900
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T334,conversion,0,0,0,30000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T335,conversion,0,0,0,30000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T336,conversion,0,0,0,54000,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T337,conversion,0,1,0,5040,5040
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T338,conversion,0,1,0,11000,11000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T339,conversion,0,0,0,24000,2400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T340,conversion,0,1,0,216,216
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T341,conversion,0,1,0,540,540
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T342,conversion,0,0,0,8400,10080
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T343,conversion,0,1,0,168,168
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T344,conversion,0,1,0,660,660
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T345,conversion,0,1,0,7000,7000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T346,conversion,0,0,0,42000,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T347,conversion,0,0,0,30000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T348,conversion,0,1,0,84,84
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T349,conversion,0,0,0,588,600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T350,conversion,0,1,0,54000,54000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T351,conversion,0,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T352,conversion,0,0,0,1008,336
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T353,conversion,0,1,0,28000,28000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T354,conversion,0,1,0,5000,5000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T355,conversion,0,1,0,1800,1800
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T356,conversion,0,1,0,252,252
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T357,conversion,0,1,0,9000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T358,conversion,0,0,0,90000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T359,conversion,0,0,0,90000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T360,conversion,0,0,0,36000,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T361,conversion,0,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T362,conversion,0,0,0,42000,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T363,conversion,0,1,0,300,300
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T364,conversion,0,0,0,2160,216
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T365,conversion,0,1,0,120,120
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T366,conversion,0,0,0,42000,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T367,conversion,0,0,0,160000,16000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T368,conversion,0,1,0,84000,84000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T369,conversion,0,1,0,9000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T370,conversion,0,1,0,126,126
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T371,conversion,0,0,0,36000,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T372,conversion,0,1,0,72000,72000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T373,conversion,0,0,0,294,300
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T374,conversion,0,1,0,4320,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T375,conversion,0,0,0,72000,7200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T376,conversion,0,0,0,84000,8400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T377,conversion,0,1,0,1260,1260
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T378,conversion,0,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T379,conversion,0,1,0,5400,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T380,conversion,0,0,0,7500,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T381,date,0,0,0,26 July 2026,30 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T382,date,0,0,0,02 December 2026,1 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T383,date,0,1,0,30 July 2026,30 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T384,date,0,0,0,29 April 2027,10 May 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T385,date,0,0,0,05 July 2027,04 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T386,date,0,0,0,17 March 2027,14 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T387,date,0,1,0,21 July 2026,21 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T388,date,0,1,0,21 October 2026,21 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T389,date,0,0,0,02 February 2026,31 January 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T390,date,0,1,0,25 October 2026,25 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T391,date,0,0,0,29 October 2027,30 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T392,date,0,0,0,28 September 2027,18 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T393,date,0,0,0,16 May 2026,19 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T394,date,0,0,0,16 November 2026,19 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T395,date,0,1,0,31 December 2027,31 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T396,date,0,0,0,10 October 2027,18 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T397,date,0,0,0,08 May 2026,07 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T398,date,0,1,0,21 October 2027,21 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T399,date,0,0,0,15 May 2026,13 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T400,date,0,0,0,09 September 2027,30 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T401,date,0,1,0,14 April 2027,14 April 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T402,date,0,0,0,20 August 2027,30 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T403,date,0,0,0,04 September 2027,18 September 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T404,date,0,0,0,25 April 2027,13 April 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T405,date,0,0,0,04 September 2026,17 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T406,date,0,0,0,03 February 2028,31 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T407,date,0,1,0,06 August 2027,06 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T408,date,0,0,0,14 September 2027,14 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T409,date,0,0,0,29 November 2026,28 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T410,date,0,0,0,05 September 2027,29 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T411,date,0,1,0,20 December 2027,20 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T412,date,0,1,0,18 September 2026,18 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T413,date,0,0,0,04 February 2027,30 January 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T414,date,0,0,0,26 July 2027,30 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T415,date,0,0,0,17 December 2027,23 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T416,date,0,0,0,20 August 2027,30 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T417,date,0,0,0,05 May 2026,13 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T418,date,0,0,0,21 February 2027,1 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T419,date,0,0,0,13 April 2026,31 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T420,date,0,0,0,16 February 2028,28 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T421,date,0,1,0,27 October 2026,27 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T422,date,0,1,0,01 November 2026,01 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T423,date,0,0,0,21 October 2027,30 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T424,date,0,1,0,25 July 2026,25 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T425,date,0,0,0,02 March 2028,31 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T426,date,0,0,0,25 February 2028,28 February 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T427,date,0,0,0,01 April 2026,31 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T428,date,0,0,0,02 March 2027,21 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T429,date,0,1,0,17 May 2026,17 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T430,date,0,0,0,21 February 2028,25 February 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T431,table,0,0,0,2494,2594
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T432,table,0,0,0,307,303
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T433,table,0,1,0,730,730
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T434,table,0,0,0,279,189
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T435,table,0,0,0,192,182
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T436,table,0,0,0,South,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T437,table,0,0,0,2191,2181
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T438,table,0,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T439,table,0,0,0,632,299
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T440,table,0,0,0,2169,2769
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T441,table,0,0,0,1706,1606
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T442,table,0,1,0,2465,2465
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T443,table,0,0,0,2721,3721
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T444,table,0,0,0,1758,2953
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T445,table,0,0,0,658,190
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T446,table,0,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T447,table,0,1,0,275,275
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T448,table,0,1,0,1626,1626
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T449,table,0,0,0,1952,2142
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T450,table,0,0,0,2087,2487
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T451,table,0,1,0,1640,1640
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T452,table,0,1,0,1752,1752
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T453,table,0,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T454,table,0,1,0,366,366
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T455,table,0,1,0,West,West: 410
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T456,table,0,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T457,table,0,0,0,601,301
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T458,table,0,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T459,table,0,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T460,table,0,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T461,table,0,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T462,table,0,1,0,Central,Central: 289
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T463,table,0,1,0,2869,2869
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T464,table,0,1,0,2329,2329
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T465,table,0,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T466,table,0,1,0,146,146
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T467,table,0,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T468,table,0,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T469,table,0,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T470,table,0,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T471,table,0,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T472,table,0,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T473,table,0,1,0,449,449
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T474,table,0,1,0,2147,2147
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T475,table,0,0,0,2463,2363
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T476,table,0,0,0,493,523
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T477,table,0,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T478,table,0,0,0,South,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T479,table,0,0,0,731,401
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T480,table,0,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T481,table,0,1,0,Central,Central: 172
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T482,table,0,1,0,539,539
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T483,table,0,0,0,697,297
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T484,table,0,1,0,2240,2240
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T485,table,0,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T486,table,0,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T487,table,0,0,0,427,423
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T488,table,0,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T489,table,0,1,0,2261,2261
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T490,table,0,1,0,597,597
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T491,logic,0,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T492,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T493,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T494,logic,0,0,0,Bailey,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T495,logic,0,0,0,Casey,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T496,logic,0,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T497,logic,0,0,0,Ellis,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T498,logic,0,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T499,logic,0,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T500,logic,0,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T501,logic,0,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T502,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T503,logic,0,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T504,logic,0,0,0,Frankie,2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T505,logic,0,0,0,Frankie,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T506,logic,0,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T507,logic,0,0,0,Ellis,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T508,logic,0,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T509,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T510,logic,0,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T511,logic,0,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T512,logic,0,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T513,logic,0,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T514,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T515,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T516,logic,0,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T517,logic,0,0,0,Bailey,2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T518,logic,0,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T519,logic,0,0,0,Casey,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T520,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T521,logic,0,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T522,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T523,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T524,logic,0,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T525,logic,0,0,0,Casey,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T526,logic,0,0,0,Devon,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T527,logic,0,0,0,Ellis,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T528,logic,0,0,0,Gray,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T529,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T530,logic,0,0,0,Ellis,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T531,logic,0,0,0,Gray,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T532,logic,0,0,0,Ellis,2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T533,logic,0,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T534,logic,0,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T535,logic,0,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T536,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T537,logic,0,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T538,logic,0,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T539,logic,0,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T540,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T541,rate,0,1,0,576,576
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T542,rate,0,1,0,100,100
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T543,rate,0,1,0,6,6
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T544,rate,0,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T545,rate,0,1,0,560,560
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T546,rate,0,1,0,80,80
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T547,rate,0,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T548,rate,0,1,0,5,5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T549,rate,0,1,0,9.6,9.6
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T550,rate,0,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T551,rate,0,1,0,25,25
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T552,rate,0,1,0,125,125
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T553,rate,0,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T554,rate,0,1,0,4.8,4.8
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T555,rate,0,1,0,4.4,4.4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T556,rate,0,1,0,36,36
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T557,rate,0,1,0,216,216
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T558,rate,0,1,0,1.6,1.6
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T559,rate,0,1,0,9.6,9.6
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T560,rate,0,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T561,rate,0,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T562,rate,0,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T563,rate,0,1,0,2.4,2.4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T564,rate,0,1,0,0.9,0.9
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T565,rate,0,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T566,rate,0,1,0,7,7
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T567,rate,0,1,0,1.2,1.2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T568,rate,0,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T569,rate,0,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T570,rate,0,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T571,rate,0,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T572,rate,0,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T573,rate,0,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T574,rate,0,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T575,rate,0,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T576,rate,0,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T577,rate,0,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T578,rate,0,1,0,160,160
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T579,rate,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T580,rate,0,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T581,rate,0,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T582,rate,0,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T583,rate,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T584,rate,0,1,0,4.2,4.2
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T585,rate,0,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T586,rate,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T587,rate,0,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T588,rate,0,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T589,rate,0,1,0,25,25
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T590,rate,0,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T591,rate,0,1,0,200,200
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T592,rate,0,1,0,240,240
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T593,rate,0,1,0,350,350
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T594,rate,0,1,0,600,600
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T595,rate,0,1,0,288,288
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T596,rate,0,1,0,5.5,5.5
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T597,rate,0,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T598,rate,0,1,0,1.25,1.25
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T599,rate,0,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,std,T600,rate,0,1,0,2,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T001,percentage,1,0,0,3480,3420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T002,percentage,1,1,0,312.5,312.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T003,percentage,1,1,0,288,288
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T004,percentage,1,0,0,1044,1038
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T005,percentage,1,0,0,500,490
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T006,percentage,1,1,0,26.4,26.4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T007,percentage,1,0,0,697,707
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T008,percentage,1,1,0,540,540
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T009,percentage,1,0,0,127.5,118.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T010,percentage,1,1,0,150,150
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T011,percentage,1,1,0,1408,1408
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T012,percentage,1,1,0,119,119
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T013,percentage,1,1,0,528,528
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T014,percentage,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T015,percentage,1,0,0,552.5,557.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T016,percentage,1,1,0,672,672
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T017,percentage,1,1,0,2560,2560
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T018,percentage,1,1,0,422.4,422.4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T019,percentage,1,1,0,192,192
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T020,percentage,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T021,percentage,1,1,0,108,108
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T022,percentage,1,0,0,196.8,192
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T023,percentage,1,1,0,225,225
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T024,percentage,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T025,percentage,1,0,0,500,490
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T026,percentage,1,1,0,352,352
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T027,percentage,1,1,0,960,960
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T028,percentage,1,1,0,324,324
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T029,percentage,1,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T030,percentage,1,0,0,849.6,846
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T031,percentage,1,1,0,476,476
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T032,percentage,1,0,0,1100,1105
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T033,percentage,1,1,0,1560,1560
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T034,percentage,1,1,0,196,196
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T035,percentage,1,1,0,156,156
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T036,word_problem,1,0,0,4374,486
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T037,word_problem,1,0,0,3500,350
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T038,word_problem,1,0,0,3360,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T039,word_problem,1,1,0,4200,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T040,word_problem,1,0,0,1728,576
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T041,word_problem,1,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T042,word_problem,1,0,0,12600,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T043,word_problem,1,0,0,3630,330
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T044,word_problem,1,0,0,8064,3360
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T045,word_problem,1,0,0,12600,9450
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T046,word_problem,1,0,0,7840,1120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T047,word_problem,1,0,0,6720,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T048,word_problem,1,0,0,6000,500
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T049,word_problem,1,0,0,6480,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T050,word_problem,1,0,0,4375,350
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T051,word_problem,1,0,0,2700,900
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T052,word_problem,1,0,0,1680,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T053,word_problem,1,0,0,6930,4620
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T054,word_problem,1,0,0,4752,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T055,word_problem,1,0,0,6480,576
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T056,word_problem,1,0,0,2916,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T057,word_problem,1,0,0,3456,576
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T058,word_problem,1,0,0,4800,1280
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T059,word_problem,1,1,0,4200,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T060,word_problem,1,0,0,5250,1050
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T061,word_problem,1,0,0,4410,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T062,word_problem,1,0,0,4752,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T063,word_problem,1,0,0,6000,600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T064,word_problem,1,0,0,5000,500
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T065,word_problem,1,0,0,10080,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T066,conversion,1,1,0,2160,2160
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T067,conversion,1,0,0,1152,3504
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T068,conversion,1,1,0,630,630
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T069,conversion,1,1,0,48000,48000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T070,conversion,1,1,0,900,900
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T071,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T072,conversion,1,1,0,125000,125000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T073,conversion,1,1,0,1440,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T074,conversion,1,1,0,864,864
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T075,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T076,conversion,1,1,0,24000,24000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T077,conversion,1,1,0,125000,125000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T078,conversion,1,1,0,3000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T079,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T080,conversion,1,1,0,3000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T081,conversion,1,1,0,60000,60000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T082,conversion,1,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T083,conversion,1,1,0,15000,15000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T084,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T085,conversion,1,1,0,105,105
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T086,conversion,1,1,0,360,360
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T087,conversion,1,1,0,7000,7000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T088,conversion,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T089,conversion,1,1,0,48000,48000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T090,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T091,date,1,0,0,25 April 2026,24 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T092,date,1,0,0,10 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T093,date,1,1,0,27 April 2026,27 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T094,date,1,0,0,26 November 2026,25 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T095,date,1,0,0,08 October 2026,30 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T096,date,1,1,0,11 November 2026,11 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T097,date,1,0,0,16 March 2026,15 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T098,date,1,0,0,01 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T099,date,1,0,0,16 October 2026,18 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T100,date,1,1,0,12 June 2026,12 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T101,date,1,1,0,24 June 2026,24 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T102,date,1,1,0,25 July 2026,25 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T103,date,1,1,0,14 November 2026,14 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T104,date,1,0,0,06 February 2027,10 February 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T105,date,1,0,0,08 May 2026,30 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T106,date,1,1,0,30 October 2026,30 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T107,date,1,0,0,05 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T108,date,1,0,0,08 October 2026,10 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T109,date,1,0,0,10 August 2026,14 August 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T110,date,1,0,0,17 December 2026,18 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T111,date,1,0,0,13 January 2027,14 January 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T112,date,1,0,0,07 October 2026,30 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T113,date,1,0,0,26 August 2026,30 August 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T114,date,1,0,0,26 January 2026,25 January 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T115,date,1,1,0,18 September 2026,18 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T116,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T117,table,1,0,0,1669,1679
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T118,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T119,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T120,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T121,table,1,1,0,503,503
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T122,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T123,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T124,table,1,1,0,1914,1914
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T125,table,1,0,0,499,319
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T126,table,1,1,0,1865,1865
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T127,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T128,table,1,1,0,2623,2623
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T129,table,1,1,0,617,617
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T130,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T131,table,1,0,0,529,429
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T132,table,1,0,0,2156,2056
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T133,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T134,table,1,0,0,504,204
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T135,table,1,0,0,South,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T136,table,1,0,0,637,715
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T137,table,1,1,0,479,479
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T138,table,1,0,0,1792,1790
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T139,table,1,1,0,492,492
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T140,table,1,0,0,760,460
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T141,table,1,1,0,473,473
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T142,table,1,0,0,Central,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T143,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T144,table,1,1,0,294,294
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T145,table,1,0,0,160,92
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T146,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T147,logic,1,0,0,Alex,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T148,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T149,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T150,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T151,logic,1,0,0,Devon,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T152,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T153,logic,1,0,0,Casey,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T154,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T155,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T156,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T157,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T158,logic,1,0,0,Devon,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T159,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T160,logic,1,0,0,Bailey,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T161,logic,1,0,0,Devon,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T162,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T163,logic,1,0,0,Frankie,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T164,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T165,logic,1,0,0,Bailey,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T166,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T167,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T168,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T169,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T170,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T171,rate,1,1,0,2,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T172,rate,1,1,0,10,10
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T173,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T174,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T175,rate,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T176,rate,1,1,0,1.2,1.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T177,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T178,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T179,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T180,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T181,rate,1,1,0,3.2,3.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T182,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T183,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T184,rate,1,1,0,150,150
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T185,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T186,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T187,rate,1,1,0,5,5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T188,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T189,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T190,rate,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T191,rate,1,0,0,5.33333,5.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T192,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T193,rate,1,0,0,2.66667,2.67
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T194,rate,1,0,0,5.33333,5.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T195,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T196,rate,1,1,0,4.5,4.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T197,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T198,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T199,rate,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T200,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T201,percentage,1,1,0,312,312
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T202,percentage,1,1,0,144,144
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T203,percentage,1,0,0,756,944
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T204,percentage,1,0,0,129.8,129
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T205,percentage,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T206,percentage,1,0,0,286,289
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T207,percentage,1,1,0,640,640
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T208,percentage,1,0,0,1017.5,1005
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T209,percentage,1,0,0,644.8,644
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T210,percentage,1,1,0,124.2,124.20
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T211,percentage,1,0,0,582.4,582
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T212,percentage,1,0,0,524.8,523.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T213,percentage,1,0,0,25.6,25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T214,percentage,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T215,percentage,1,0,0,87.75,89
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T216,percentage,1,1,0,494,494
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T217,percentage,1,1,0,16.5,16.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T218,percentage,1,0,0,256.2,261
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T219,percentage,1,0,0,367.2,367
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T220,percentage,1,1,0,608,608
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T221,percentage,1,0,0,595,575
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T222,percentage,1,0,0,715,735
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T223,percentage,1,1,0,329,329
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T224,percentage,1,1,0,1598,1598
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T225,percentage,1,0,0,278.4,278
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T226,percentage,1,1,0,54,54
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T227,percentage,1,1,0,66,66
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T228,percentage,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T229,percentage,1,0,0,517,513
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T230,percentage,1,1,0,128,128
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T231,percentage,1,1,0,330,330
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T232,percentage,1,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T233,percentage,1,1,0,1050,1050
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T234,percentage,1,1,0,36,36
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T235,percentage,1,1,0,189,189
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T236,percentage,1,0,0,858,843
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T237,percentage,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T238,percentage,1,1,0,680,680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T239,percentage,1,1,0,1365,1365
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T240,percentage,1,1,0,357,357
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T241,percentage,1,1,0,8.8,8.8
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T242,percentage,1,1,0,952,952
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T243,percentage,1,1,0,1980,1980
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T244,percentage,1,0,0,784,808
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T245,percentage,1,0,0,226.8,226
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T246,percentage,1,1,0,20.8,20.8
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T247,percentage,1,0,0,201.6,201
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T248,percentage,1,1,0,132,132
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T249,percentage,1,0,0,1402.5,1375
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T250,percentage,1,1,0,504,504
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T251,percentage,1,0,0,184.8,189
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T252,percentage,1,0,0,683.2,693
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T253,percentage,1,1,0,112.5,112.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T254,percentage,1,1,0,74.25,74.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T255,percentage,1,1,0,1280,1280
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T256,percentage,1,1,0,136.5,136.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T257,percentage,1,1,0,480,480
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T258,percentage,1,1,0,120,120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T259,percentage,1,0,0,288.8,290
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T260,percentage,1,1,0,937.5,937.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T261,percentage,1,1,0,1540,1540
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T262,percentage,1,1,0,825,825
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T263,percentage,1,1,0,102,102
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T264,percentage,1,1,0,67.5,67.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T265,percentage,1,1,0,1202.5,1202.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T266,percentage,1,1,0,188,188
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T267,percentage,1,0,0,495.6,501
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T268,percentage,1,1,0,2775,2775
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T269,percentage,1,1,0,46.2,46.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T270,percentage,1,1,0,113.6,113.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T271,word_problem,1,0,0,12960,3840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T272,word_problem,1,0,0,6075,675
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T273,word_problem,1,0,0,2880,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T274,word_problem,1,1,0,1680,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T275,word_problem,1,0,0,15400,9280
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T276,word_problem,1,0,0,6720,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T277,word_problem,1,0,0,18522,3024
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T278,word_problem,1,0,0,15120,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T279,word_problem,1,0,0,24948,2772
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T280,word_problem,1,0,0,7200,4800
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T281,word_problem,1,0,0,1584,1392
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T282,word_problem,1,1,0,4620,4620
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T283,word_problem,1,0,0,2400,800
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T284,word_problem,1,0,0,1540,385
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T285,word_problem,1,0,0,16632,3960
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T286,word_problem,1,0,0,4320,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T287,word_problem,1,0,0,7200,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T288,word_problem,1,0,0,11970,1260
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T289,word_problem,1,0,0,3780,315
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T290,word_problem,1,0,0,14000,1400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T291,word_problem,1,0,0,7425,1350
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T292,word_problem,1,0,0,3564,1296
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T293,word_problem,1,0,0,6336,732
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T294,word_problem,1,0,0,2940,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T295,word_problem,1,0,0,3780,1260
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T296,word_problem,1,0,0,9240,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T297,word_problem,1,0,0,8316,8748
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T298,word_problem,1,0,0,9800,1120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T299,word_problem,1,1,0,1760,1760
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T300,word_problem,1,0,0,6480,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T301,word_problem,1,0,0,32832,4608
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T302,word_problem,1,0,0,5832,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T303,word_problem,1,0,0,3240,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T304,word_problem,1,0,0,17424,15840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T305,word_problem,1,0,0,6160,2800
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T306,word_problem,1,0,0,3960,440
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T307,word_problem,1,0,0,8100,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T308,word_problem,1,0,0,3600,360
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T309,word_problem,1,0,0,36288,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T310,word_problem,1,0,0,13500,4500
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T311,word_problem,1,0,0,20160,2240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T312,word_problem,1,0,0,7056,504
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T313,word_problem,1,0,0,9720,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T314,word_problem,1,0,0,6160,770
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T315,word_problem,1,0,0,1500,300
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T316,word_problem,1,0,0,2112,1056
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T317,word_problem,1,0,0,15048,5544
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T318,word_problem,1,0,0,27360,2880
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T319,word_problem,1,0,0,1500,750
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T320,word_problem,1,0,0,3360,560
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T321,word_problem,1,0,0,5940,2970
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T322,word_problem,1,0,0,1350,450
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T323,word_problem,1,0,0,5040,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T324,word_problem,1,0,0,7350,735
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T325,word_problem,1,0,0,13860,1570
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T326,word_problem,1,0,0,2432,3040
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T327,word_problem,1,0,0,3920,1120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T328,word_problem,1,0,0,15552,12960
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T329,word_problem,1,1,0,5040,5040
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T330,word_problem,1,0,0,13376,6240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T331,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T332,conversion,1,1,0,980,980
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T333,conversion,1,1,0,900,900
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T334,conversion,1,1,0,30000,30000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T335,conversion,1,1,0,30000,30000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T336,conversion,1,1,0,54000,54000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T337,conversion,1,1,0,5040,5040
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T338,conversion,1,1,0,11000,11000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T339,conversion,1,1,0,24000,24000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T340,conversion,1,1,0,216,216
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T341,conversion,1,1,0,540,540
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T342,conversion,1,0,0,8400,10040
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T343,conversion,1,1,0,168,168
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T344,conversion,1,1,0,660,660
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T345,conversion,1,1,0,7000,7000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T346,conversion,1,1,0,42000,42000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T347,conversion,1,1,0,30000,30000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T348,conversion,1,1,0,84,84
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T349,conversion,1,0,0,588,6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T350,conversion,1,1,0,54000,54000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T351,conversion,1,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T352,conversion,1,0,0,1008,336
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T353,conversion,1,1,0,28000,28000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T354,conversion,1,1,0,5000,5000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T355,conversion,1,1,0,1800,1800
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T356,conversion,1,1,0,252,252
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T357,conversion,1,1,0,9000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T358,conversion,1,1,0,90000,90000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T359,conversion,1,1,0,90000,90000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T360,conversion,1,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T361,conversion,1,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T362,conversion,1,1,0,42000,42000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T363,conversion,1,1,0,300,300
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T364,conversion,1,1,0,2160,2160
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T365,conversion,1,0,0,120,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T366,conversion,1,1,0,42000,42000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T367,conversion,1,1,0,160000,160000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T368,conversion,1,1,0,84000,84000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T369,conversion,1,1,0,9000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T370,conversion,1,1,0,126,126
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T371,conversion,1,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T372,conversion,1,1,0,72000,72000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T373,conversion,1,0,0,294,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T374,conversion,1,1,0,4320,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T375,conversion,1,1,0,72000,72000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T376,conversion,1,0,0,84000,8400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T377,conversion,1,1,0,1260,1260
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T378,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T379,conversion,1,1,0,5400,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T380,conversion,1,0,0,7500,7200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T381,date,1,0,0,26 July 2026,30 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T382,date,1,0,0,02 December 2026,19 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T383,date,1,1,0,30 July 2026,30 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T384,date,1,0,0,29 April 2027,30 April 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T385,date,1,0,0,05 July 2027,04 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T386,date,1,0,0,17 March 2027,14 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T387,date,1,0,0,21 July 2026,22 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T388,date,1,1,0,21 October 2026,21 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T389,date,1,0,0,02 February 2026,31 January 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T390,date,1,1,0,25 October 2026,25 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T391,date,1,0,0,29 October 2027,30 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T392,date,1,0,0,28 September 2027,18 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T393,date,1,0,0,16 May 2026,14 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T394,date,1,0,0,16 November 2026,18 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T395,date,1,1,0,31 December 2027,31 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T396,date,1,0,0,10 October 2027,17 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T397,date,1,0,0,08 May 2026,10 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T398,date,1,1,0,21 October 2027,21 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T399,date,1,0,0,15 May 2026,13 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T400,date,1,0,0,09 September 2027,30 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T401,date,1,1,0,14 April 2027,14 April 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T402,date,1,0,0,20 August 2027,30 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T403,date,1,0,0,04 September 2027,14 September 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T404,date,1,0,0,25 April 2027,13 April 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T405,date,1,0,0,04 September 2026,17 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T406,date,1,0,0,03 February 2028,31 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T407,date,1,1,0,06 August 2027,06 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T408,date,1,0,0,14 September 2027,29 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T409,date,1,0,0,29 November 2026,19 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T410,date,1,0,0,05 September 2027,27 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T411,date,1,1,0,20 December 2027,20 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T412,date,1,1,0,18 September 2026,18 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T413,date,1,0,0,04 February 2027,17 February 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T414,date,1,0,0,26 July 2027,31 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T415,date,1,0,0,17 December 2027,18 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T416,date,1,0,0,20 August 2027,30 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T417,date,1,0,0,05 May 2026,13 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T418,date,1,0,0,21 February 2027,19 February 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T419,date,1,0,0,13 April 2026,14 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T420,date,1,0,0,16 February 2028,28 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T421,date,1,1,0,27 October 2026,27 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T422,date,1,1,0,01 November 2026,01 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T423,date,1,0,0,21 October 2027,30 September 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T424,date,1,1,0,25 July 2026,25 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T425,date,1,0,0,02 March 2028,31 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T426,date,1,0,0,25 February 2028,28 February 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T427,date,1,0,0,01 April 2026,31 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T428,date,1,0,0,02 March 2027,21 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T429,date,1,1,0,17 May 2026,17 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T430,date,1,0,0,21 February 2028,14 February 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T431,table,1,0,0,2494,2594
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T432,table,1,0,0,307,303
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T433,table,1,0,0,730,430
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T434,table,1,0,0,279,179
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T435,table,1,1,0,192,192
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T436,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T437,table,1,0,0,2191,2181
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T438,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T439,table,1,0,0,632,396
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T440,table,1,0,0,2169,2769
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T441,table,1,0,0,1706,1606
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T442,table,1,1,0,2465,2465
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T443,table,1,0,0,2721,3721
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T444,table,1,0,0,1758,2953
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T445,table,1,0,0,658,190
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T446,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T447,table,1,1,0,275,275
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T448,table,1,0,0,1626,1226
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T449,table,1,0,0,1952,2142
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T450,table,1,0,0,2087,2487
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T451,table,1,1,0,1640,1640
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T452,table,1,0,0,1752,1952
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T453,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T454,table,1,0,0,366,339
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T455,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T456,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T457,table,1,0,0,601,300
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T458,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T459,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T460,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T461,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T462,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T463,table,1,1,0,2869,2869
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T464,table,1,1,0,2329,2329
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T465,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T466,table,1,0,0,146,246
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T467,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T468,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T469,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T470,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T471,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T472,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T473,table,1,1,0,449,449
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T474,table,1,1,0,2147,2147
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T475,table,1,0,0,2463,2363
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T476,table,1,0,0,493,531
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T477,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T478,table,1,0,0,South,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T479,table,1,0,0,731,783
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T480,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T481,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T482,table,1,0,0,539,315
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T483,table,1,0,0,697,256
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T484,table,1,1,0,2240,2240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T485,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T486,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T487,table,1,0,0,427,423
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T488,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T489,table,1,1,0,2261,2261
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T490,table,1,1,0,597,597
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T491,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T492,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T493,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T494,logic,1,0,0,Bailey,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T495,logic,1,0,0,Casey,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T496,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T497,logic,1,0,0,Ellis,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T498,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T499,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T500,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T501,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T502,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T503,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T504,logic,1,0,0,Frankie,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T505,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T506,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T507,logic,1,0,0,Ellis,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T508,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T509,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T510,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T511,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T512,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T513,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T514,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T515,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T516,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T517,logic,1,0,0,Bailey,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T518,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T519,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T520,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T521,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T522,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T523,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T524,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T525,logic,1,0,0,Casey,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T526,logic,1,0,0,Devon,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T527,logic,1,0,0,Ellis,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T528,logic,1,0,0,Gray,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T529,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T530,logic,1,0,0,Ellis,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T531,logic,1,0,0,Gray,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T532,logic,1,0,0,Ellis,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T533,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T534,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T535,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T536,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T537,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T538,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T539,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T540,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T541,rate,1,1,0,576,576
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T542,rate,1,1,0,100,100
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T543,rate,1,1,0,6,6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T544,rate,1,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T545,rate,1,1,0,560,560
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T546,rate,1,1,0,80,80
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T547,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T548,rate,1,1,0,5,5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T549,rate,1,1,0,9.6,9.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T550,rate,1,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T551,rate,1,1,0,25,25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T552,rate,1,1,0,125,125
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T553,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T554,rate,1,1,0,4.8,4.8
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T555,rate,1,1,0,4.4,4.4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T556,rate,1,1,0,36,36
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T557,rate,1,1,0,216,216
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T558,rate,1,1,0,1.6,1.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T559,rate,1,1,0,9.6,9.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T560,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T561,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T562,rate,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T563,rate,1,1,0,2.4,2.4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T564,rate,1,1,0,0.9,0.9
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T565,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T566,rate,1,1,0,7,7
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T567,rate,1,1,0,1.2,1.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T568,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T569,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T570,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T571,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T572,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T573,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T574,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T575,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T576,rate,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T577,rate,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T578,rate,1,1,0,160,160
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T579,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T580,rate,1,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T581,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T582,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T583,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T584,rate,1,1,0,4.2,4.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T585,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T586,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T587,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T588,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T589,rate,1,1,0,25,25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T590,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T591,rate,1,1,0,200,200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T592,rate,1,1,0,240,240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T593,rate,1,1,0,350,350
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T594,rate,1,1,0,600,600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T595,rate,1,1,0,288,288
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T596,rate,1,1,0,5.5,5.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T597,rate,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T598,rate,1,1,0,1.25,1.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T599,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl,T600,rate,1,1,0,2,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T001,percentage,1,0,0,3480,3360
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T002,percentage,0,1,0,312.5,312.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T003,percentage,0,1,0,288,288
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T004,percentage,1,0,0,1044,1038
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T005,percentage,0,1,0,500,500
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T006,percentage,0,1,0,26.4,26.4
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T007,percentage,1,0,0,697,683
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T008,percentage,1,1,0,540,540
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T009,percentage,0,0,0,127.5,130
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T010,percentage,1,1,0,150,150
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T011,percentage,1,1,0,1408,1408
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T012,percentage,0,1,0,119,119
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T013,percentage,0,1,0,528,528
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T014,percentage,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T015,percentage,1,0,0,552.5,557.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T016,percentage,1,1,0,672,672
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T017,percentage,1,1,0,2560,2560
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T018,percentage,1,0,0,422.4,422
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T019,percentage,1,1,0,192,192
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T020,percentage,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T021,percentage,0,1,0,108,108
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T022,percentage,1,0,0,196.8,194.4
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T023,percentage,0,1,0,225,225
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T024,percentage,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T025,percentage,0,1,0,500,500
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T026,percentage,0,1,0,352,352
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T027,percentage,0,1,0,960,960
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T028,percentage,0,1,0,324,324
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T029,percentage,0,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T030,percentage,1,0,0,849.6,859.6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T031,percentage,1,0,0,476,472
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T032,percentage,1,1,0,1100,1100
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T033,percentage,1,1,0,1560,1560
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T034,percentage,0,1,0,196,196
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T035,percentage,1,1,0,156,156
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T036,word_problem,1,0,0,4374,486
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T037,word_problem,0,1,0,3500,3500
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T038,word_problem,1,0,0,3360,840
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T039,word_problem,1,0,0,4200,1470
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T040,word_problem,1,0,0,1728,576
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T041,word_problem,0,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T042,word_problem,1,0,0,12600,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T043,word_problem,1,0,0,3630,3850
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T044,word_problem,1,0,0,8064,3360
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T045,word_problem,1,0,0,12600,9255
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T046,word_problem,1,0,0,7840,1960
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T047,word_problem,1,0,0,6720,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T048,word_problem,1,1,0,6000,6000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T049,word_problem,1,0,0,6480,720
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T050,word_problem,1,0,0,4375,875
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T051,word_problem,1,0,0,2700,900
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T052,word_problem,0,0,0,1680,840
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T053,word_problem,1,0,0,6930,2310
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T054,word_problem,1,1,0,4752,4752
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T055,word_problem,1,0,0,6480,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T056,word_problem,1,0,0,2916,3402
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T057,word_problem,1,0,0,3456,936
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T058,word_problem,0,0,0,4800,1200
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T059,word_problem,1,1,0,4200,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T060,word_problem,1,0,0,5250,4250
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T061,word_problem,1,0,0,4410,1190
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T062,word_problem,1,0,0,4752,4536
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T063,word_problem,1,0,0,6000,600
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T064,word_problem,1,1,0,5000,5000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T065,word_problem,1,0,0,10080,8400
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T066,conversion,1,1,0,2160,2160
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T067,conversion,1,0,0,1152,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T068,conversion,1,0,0,630,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T069,conversion,1,1,0,48000,48000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T070,conversion,1,1,0,900,900
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T071,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T072,conversion,1,1,0,125000,125000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T073,conversion,1,1,0,1440,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T074,conversion,1,0,0,864,288
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T075,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T076,conversion,1,1,0,24000,24000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T077,conversion,1,1,0,125000,125000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T078,conversion,1,1,0,3000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T079,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T080,conversion,0,1,0,3000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T081,conversion,1,1,0,60000,60000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T082,conversion,1,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T083,conversion,1,1,0,15000,15000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T084,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T085,conversion,1,1,0,105,105
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T086,conversion,1,1,0,360,360
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T087,conversion,1,0,0,7000,3450
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T088,conversion,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T089,conversion,1,1,0,48000,48000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T090,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T091,date,1,1,0,25 April 2026,25 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T092,date,1,0,0,10 June 2026,30 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T093,date,1,1,0,27 April 2026,27 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T094,date,1,0,0,26 November 2026,25 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T095,date,1,0,0,08 October 2026,30 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T096,date,1,1,0,11 November 2026,11 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T097,date,1,0,0,16 March 2026,16 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T098,date,1,0,0,01 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T099,date,1,0,0,16 October 2026,30 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T100,date,1,0,0,12 June 2026,13 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T101,date,1,1,0,24 June 2026,24 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T102,date,1,1,0,25 July 2026,25 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T103,date,1,1,0,14 November 2026,14 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T104,date,1,0,0,06 February 2027,10 February 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T105,date,1,0,0,08 May 2026,31 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T106,date,1,1,0,30 October 2026,30 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T107,date,1,0,0,05 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T108,date,1,0,0,08 October 2026,14 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T109,date,1,0,0,10 August 2026,18 August 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T110,date,1,0,0,17 December 2026,21 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T111,date,1,0,0,13 January 2027,14 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T112,date,1,0,0,07 October 2026,30 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T113,date,1,0,0,26 August 2026,30 August 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T114,date,1,0,0,26 January 2026,25 January 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T115,date,1,1,0,18 September 2026,18 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T116,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T117,table,1,1,0,1669,1669
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T118,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T119,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T120,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T121,table,1,1,0,503,503
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T122,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T123,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T124,table,1,1,0,1914,1914
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T125,table,1,0,0,499,286
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T126,table,1,1,0,1865,1865
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T127,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T128,table,1,1,0,2623,2623
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T129,table,1,1,0,617,617
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T130,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T131,table,1,1,0,529,529
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T132,table,1,1,0,2156,2156
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T133,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T134,table,1,0,0,504,204
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T135,table,1,0,0,South,East
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T136,table,1,0,0,637,617
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T137,table,1,0,0,479,483
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T138,table,1,0,0,1792,1790
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T139,table,1,1,0,492,492
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T140,table,1,0,0,760,457
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T141,table,1,1,0,473,473
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T142,table,1,0,0,Central,North
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T143,table,1,1,0,South,South: 265
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T144,table,1,0,0,294,314
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T145,table,1,1,0,160,160
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T146,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T147,logic,1,0,0,Alex,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T148,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T149,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T150,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T151,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T152,logic,0,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T153,logic,1,0,0,Casey,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T154,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T155,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T156,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T157,logic,1,0,0,Bailey,Bialey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T158,logic,1,0,0,Devon,Dveon
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T159,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T160,logic,1,0,0,Bailey,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T161,logic,1,0,0,Devon,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T162,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T163,logic,1,0,0,Frankie,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T164,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T165,logic,1,0,0,Bailey,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T166,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T167,logic,1,0,0,Alex,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T168,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T169,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T170,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T171,rate,1,1,0,2,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T172,rate,1,1,0,10,10
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T173,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T174,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T175,rate,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T176,rate,1,1,0,1.2,1.2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T177,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T178,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T179,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T180,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T181,rate,1,1,0,3.2,3.2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T182,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T183,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T184,rate,1,1,0,150,150
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T185,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T186,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T187,rate,1,1,0,5,5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T188,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T189,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T190,rate,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T191,rate,1,0,0,5.33333,5.33
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T192,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T193,rate,1,0,0,2.66667,2.67
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T194,rate,1,0,0,5.33333,5.33
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T195,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T196,rate,1,1,0,4.5,4.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T197,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T198,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T199,rate,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T200,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T201,percentage,1,1,0,312,312
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T202,percentage,1,1,0,144,144
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T203,percentage,1,0,0,756,746
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T204,percentage,1,1,0,129.8,129.8
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T205,percentage,0,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T206,percentage,1,0,0,286,289
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T207,percentage,0,1,0,640,640
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T208,percentage,1,0,0,1017.5,1007
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T209,percentage,1,0,0,644.8,644
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T210,percentage,1,1,0,124.2,124.20
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T211,percentage,1,0,0,582.4,582
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T212,percentage,1,0,0,524.8,528
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T213,percentage,0,1,0,25.6,25.6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T214,percentage,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T215,percentage,1,0,0,87.75,89
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T216,percentage,1,1,0,494,494
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T217,percentage,0,1,0,16.5,16.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T218,percentage,1,0,0,256.2,261
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T219,percentage,1,0,0,367.2,367
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T220,percentage,1,1,0,608,608
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T221,percentage,1,1,0,595,595
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T222,percentage,1,1,0,715,715
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T223,percentage,1,0,0,329,341
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T224,percentage,1,1,0,1598,1598
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T225,percentage,1,0,0,278.4,278
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T226,percentage,0,1,0,54,54
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T227,percentage,0,1,0,66,66
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T228,percentage,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T229,percentage,1,0,0,517,513
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T230,percentage,0,1,0,128,128
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T231,percentage,1,1,0,330,330
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T232,percentage,0,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T233,percentage,1,1,0,1050,1050
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T234,percentage,0,1,0,36,36
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T235,percentage,1,1,0,189,189
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T236,percentage,1,0,0,858,848
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T237,percentage,1,0,0,45,55
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T238,percentage,0,1,0,680,680
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T239,percentage,0,0,0,1365,136.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T240,percentage,1,0,0,357,367
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T241,percentage,0,1,0,8.8,8.8
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T242,percentage,1,1,0,952,952
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T243,percentage,1,1,0,1980,1980
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T244,percentage,1,0,0,784,808
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T245,percentage,1,0,0,226.8,224
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T246,percentage,0,1,0,20.8,20.8
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T247,percentage,1,0,0,201.6,204
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T248,percentage,0,1,0,132,132
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T249,percentage,1,0,0,1402.5,1377.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T250,percentage,0,1,0,504,504
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T251,percentage,1,0,0,184.8,189
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T252,percentage,1,0,0,683.2,683
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T253,percentage,1,1,0,112.5,112.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T254,percentage,0,1,0,74.25,74.25
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T255,percentage,0,0,0,1280,128
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T256,percentage,0,1,0,136.5,136.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T257,percentage,0,1,0,480,480
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T258,percentage,0,1,0,120,120
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T259,percentage,1,0,0,288.8,291.6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T260,percentage,0,1,0,937.5,937.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T261,percentage,1,1,0,1540,1540
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T262,percentage,0,1,0,825,825
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T263,percentage,0,1,0,102,102
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T264,percentage,0,1,0,67.5,67.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T265,percentage,0,1,0,1202.5,1202.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T266,percentage,1,1,0,188,188
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T267,percentage,1,0,0,495.6,501
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T268,percentage,1,1,0,2775,2775
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T269,percentage,0,1,0,46.2,46.2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T270,percentage,0,1,0,113.6,113.6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T271,word_problem,0,0,0,12960,6480
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T272,word_problem,1,0,0,6075,675
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T273,word_problem,1,0,0,2880,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T274,word_problem,1,1,0,1680,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T275,word_problem,1,0,0,15400,2800
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T276,word_problem,0,0,0,6720,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T277,word_problem,1,0,0,18522,2205
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T278,word_problem,1,0,0,15120,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T279,word_problem,1,0,0,24948,3528
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T280,word_problem,1,0,0,7200,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T281,word_problem,1,0,0,1584,1656
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T282,word_problem,1,1,0,4620,4620
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T283,word_problem,1,0,0,2400,800
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T284,word_problem,1,0,0,1540,1760
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T285,word_problem,1,0,0,16632,7392
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T286,word_problem,1,0,0,4320,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T287,word_problem,1,0,0,7200,720
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T288,word_problem,1,0,0,11970,1365
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T289,word_problem,0,0,0,3780,4050
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T290,word_problem,1,1,0,14000,14000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T291,word_problem,1,0,0,7425,6750
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T292,word_problem,1,0,0,3564,1458
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T293,word_problem,1,0,0,6336,1584
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T294,word_problem,1,0,0,2940,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T295,word_problem,1,0,0,3780,540
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T296,word_problem,1,0,0,9240,840
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T297,word_problem,1,0,0,8316,8364
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T298,word_problem,1,0,0,9800,1400
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T299,word_problem,1,1,0,1760,1760
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T300,word_problem,1,0,0,6480,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T301,word_problem,1,0,0,32832,4464
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T302,word_problem,1,0,0,5832,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T303,word_problem,1,0,0,3240,3780
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T304,word_problem,1,0,0,17424,1584
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T305,word_problem,1,0,0,6160,3080
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T306,word_problem,1,1,0,3960,3960
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T307,word_problem,1,0,0,8100,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T308,word_problem,1,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T309,word_problem,1,0,0,36288,3624
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T310,word_problem,1,0,0,13500,1350
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T311,word_problem,1,0,0,20160,23520
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T312,word_problem,0,0,0,7056,588
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T313,word_problem,1,1,0,9720,9720
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T314,word_problem,1,0,0,6160,770
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T315,word_problem,1,0,0,1500,300
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T316,word_problem,1,0,0,2112,1056
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T317,word_problem,1,0,0,15048,5544
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T318,word_problem,1,0,0,27360,28800
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T319,word_problem,1,0,0,1500,300
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T320,word_problem,1,0,0,3360,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T321,word_problem,1,0,0,5940,6930
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T322,word_problem,1,0,0,1350,450
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T323,word_problem,0,0,0,5040,840
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T324,word_problem,1,0,0,7350,1470
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T325,word_problem,1,0,0,13860,3080
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T326,word_problem,1,0,0,2432,3072
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T327,word_problem,1,0,0,3920,1120
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T328,word_problem,1,0,0,15552,12960
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T329,word_problem,1,0,0,5040,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T330,word_problem,1,0,0,13376,2464
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T331,conversion,1,0,0,720,480
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T332,conversion,1,0,0,980,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T333,conversion,1,1,0,900,900
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T334,conversion,1,1,0,30000,30000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T335,conversion,1,0,0,30000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T336,conversion,1,0,0,54000,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T337,conversion,1,1,0,5040,5040
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T338,conversion,1,1,0,11000,11000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T339,conversion,1,0,0,24000,3 grams
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T340,conversion,1,1,0,216,216
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T341,conversion,1,1,0,540,540
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T342,conversion,1,0,0,8400,1260
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T343,conversion,1,1,0,168,168
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T344,conversion,1,1,0,660,660
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T345,conversion,1,0,0,7000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T346,conversion,1,1,0,42000,42000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T347,conversion,1,1,0,30000,30000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T348,conversion,0,1,0,84,84
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T349,conversion,1,0,0,588,6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T350,conversion,1,1,0,54000,54000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T351,conversion,1,0,0,420,120
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T352,conversion,1,0,0,1008,336
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T353,conversion,1,0,0,28000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T354,conversion,1,0,0,5000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T355,conversion,1,1,0,1800,1800
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T356,conversion,1,0,0,252,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T357,conversion,1,1,0,9000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T358,conversion,1,1,0,90000,90000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T359,conversion,1,0,0,90000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T360,conversion,1,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T361,conversion,1,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T362,conversion,1,1,0,42000,42000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T363,conversion,1,0,0,300,180
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T364,conversion,1,0,0,2160,720
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T365,conversion,1,0,0,120,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T366,conversion,1,0,0,42000,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T367,conversion,1,0,0,160000,16000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T368,conversion,1,1,0,84000,84000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T369,conversion,1,1,0,9000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T370,conversion,1,1,0,126,126
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T371,conversion,1,0,0,36000,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T372,conversion,1,1,0,72000,72000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T373,conversion,0,0,0,294,30
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T374,conversion,1,1,0,4320,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T375,conversion,1,0,0,72000,7200
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T376,conversion,1,1,0,84000,84000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T377,conversion,1,1,0,1260,1260
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T378,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T379,conversion,1,1,0,5400,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T380,conversion,1,0,0,7500,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T381,date,1,0,0,26 July 2026,30 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T382,date,1,0,0,02 December 2026,12 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T383,date,1,1,0,30 July 2026,30 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T384,date,1,0,0,29 April 2027,10 May 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T385,date,1,0,0,05 July 2027,04 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T386,date,1,0,0,17 March 2027,14 April 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T387,date,1,0,0,21 July 2026,22 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T388,date,1,0,0,21 October 2026,20 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T389,date,1,0,0,02 February 2026,02 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T390,date,1,0,0,25 October 2026,01 Nov 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T391,date,1,0,0,29 October 2027,30 Oct 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T392,date,1,1,0,28 September 2027,28 September 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T393,date,1,0,0,16 May 2026,19 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T394,date,1,0,0,16 November 2026,19 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T395,date,1,0,0,31 December 2027,13 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T396,date,1,0,0,10 October 2027,15 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T397,date,1,0,0,08 May 2026,07 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T398,date,1,0,0,21 October 2027,22 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T399,date,1,0,0,15 May 2026,13 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T400,date,1,0,0,09 September 2027,30 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T401,date,1,1,0,14 April 2027,14 April 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T402,date,1,0,0,20 August 2027,30 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T403,date,1,0,0,04 September 2027,18 September 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T404,date,1,0,0,25 April 2027,31 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T405,date,1,0,0,04 September 2026,15 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T406,date,1,0,0,03 February 2028,31 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T407,date,1,0,0,06 August 2027,16 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T408,date,1,0,0,14 September 2027,19 September 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T409,date,1,0,0,29 November 2026,19 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T410,date,1,0,0,05 September 2027,25 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T411,date,1,1,0,20 December 2027,20 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T412,date,1,0,0,18 September 2026,19 Sep 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T413,date,1,0,0,04 February 2027,30 January 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T414,date,1,0,0,26 July 2027,31 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T415,date,1,0,0,17 December 2027,30 November 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T416,date,1,0,0,20 August 2027,30 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T417,date,1,0,0,05 May 2026,13 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T418,date,1,0,0,21 February 2027,31 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T419,date,1,0,0,13 April 2026,31 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T420,date,1,0,0,16 February 2028,29 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T421,date,1,0,0,27 October 2026,28 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T422,date,1,1,0,01 November 2026,01 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T423,date,1,0,0,21 October 2027,30 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T424,date,1,1,0,25 July 2026,25 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T425,date,1,0,0,02 March 2028,31 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T426,date,1,0,0,25 February 2028,28 February 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T427,date,1,0,0,01 April 2026,31 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T428,date,1,0,0,02 March 2027,28 Mar 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T429,date,1,0,0,17 May 2026,19 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T430,date,1,0,0,21 February 2028,29 February 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T431,table,1,0,0,2494,2594
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T432,table,1,1,0,307,307
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T433,table,1,1,0,730,730
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T434,table,1,0,0,279,179
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T435,table,1,0,0,192,182
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T436,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T437,table,1,0,0,2191,2181
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T438,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T439,table,1,0,0,632,396
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T440,table,1,0,0,2169,2749
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T441,table,1,0,0,1706,1606
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T442,table,1,1,0,2465,2465
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T443,table,1,1,0,2721,2721
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T444,table,1,0,0,1758,2358
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T445,table,1,0,0,658,190
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T446,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T447,table,1,1,0,275,275
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T448,table,1,0,0,1626,1226
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T449,table,1,0,0,1952,2142
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T450,table,1,0,0,2087,2487
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T451,table,1,1,0,1640,1640
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T452,table,1,0,0,1752,1952
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T453,table,1,0,0,North,South
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T454,table,1,0,0,366,436
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T455,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T456,table,1,1,0,Central,Central: 633
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T457,table,1,0,0,601,301
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T458,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T459,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T460,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T461,table,1,1,0,Central,Central: 185
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T462,table,1,1,0,Central,Central: 289
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T463,table,1,1,0,2869,2869
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T464,table,1,1,0,2329,2329
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T465,table,1,0,0,North,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T466,table,1,1,0,146,146
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T467,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T468,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T469,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T470,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T471,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T472,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T473,table,1,1,0,449,449
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T474,table,1,1,0,2147,2147
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T475,table,1,0,0,2463,2363
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T476,table,1,0,0,493,321
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T477,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T478,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T479,table,1,0,0,731,401
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T480,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T481,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T482,table,1,1,0,539,539
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T483,table,1,0,0,697,297
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T484,table,1,1,0,2240,2240
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T485,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T486,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T487,table,1,0,0,427,423
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T488,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T489,table,1,1,0,2261,2261
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T490,table,1,1,0,597,597
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T491,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T492,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T493,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T494,logic,1,0,0,Bailey,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T495,logic,1,0,0,Casey,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T496,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T497,logic,1,0,0,Ellis,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T498,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T499,logic,1,0,0,Ellis,Elils
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T500,logic,0,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T501,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T502,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T503,logic,0,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T504,logic,1,0,0,Frankie,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T505,logic,1,0,0,Frankie,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T506,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T507,logic,1,0,0,Ellis,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T508,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T509,logic,1,0,0,Bailey,Baely
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T510,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T511,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T512,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T513,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T514,logic,1,0,0,Gray,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T515,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T516,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T517,logic,1,0,0,Bailey,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T518,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T519,logic,1,0,0,Casey,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T520,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T521,logic,0,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T522,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T523,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T524,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T525,logic,1,0,0,Casey,Devin
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T526,logic,1,0,0,Devon,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T527,logic,1,0,0,Ellis,Baliey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T528,logic,1,0,0,Gray,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T529,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T530,logic,1,0,0,Ellis,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T531,logic,1,0,0,Gray,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T532,logic,1,0,0,Ellis,2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T533,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T534,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T535,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T536,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T537,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T538,logic,1,0,0,Casey,Csaey
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T539,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T540,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T541,rate,1,1,0,576,576
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T542,rate,1,1,0,100,100
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T543,rate,1,1,0,6,6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T544,rate,1,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T545,rate,1,1,0,560,560
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T546,rate,1,1,0,80,80
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T547,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T548,rate,1,1,0,5,5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T549,rate,1,1,0,9.6,9.6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T550,rate,1,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T551,rate,1,1,0,25,25
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T552,rate,1,1,0,125,125
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T553,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T554,rate,1,1,0,4.8,4.8
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T555,rate,1,1,0,4.4,4.4
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T556,rate,1,1,0,36,36
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T557,rate,1,1,0,216,216
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T558,rate,1,1,0,1.6,1.6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T559,rate,1,1,0,9.6,9.6
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T560,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T561,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T562,rate,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T563,rate,1,1,0,2.4,2.4
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T564,rate,1,1,0,0.9,0.9
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T565,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T566,rate,1,1,0,7,7
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T567,rate,1,1,0,1.2,1.2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T568,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T569,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T570,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T571,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T572,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T573,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T574,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T575,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T576,rate,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T577,rate,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T578,rate,1,1,0,160,160
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T579,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T580,rate,1,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T581,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T582,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T583,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T584,rate,1,1,0,4.2,4.2
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T585,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T586,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T587,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T588,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T589,rate,1,1,0,25,25
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T590,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T591,rate,1,1,0,200,200
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T592,rate,1,1,0,240,240
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T593,rate,1,1,0,350,350
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T594,rate,1,1,0,600,600
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T595,rate,1,1,0,288,288
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T596,rate,1,1,0,5.5,5.5
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T597,rate,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T598,rate,1,1,0,1.25,1.25
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T599,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,typo,T600,rate,1,1,0,2,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T001,percentage,1,0,0,3480,2700
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T002,percentage,1,1,0,312.5,312.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T003,percentage,1,1,0,288,288
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T004,percentage,1,0,0,1044,1038
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T005,percentage,1,1,0,500,500
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T006,percentage,1,1,0,26.4,26.4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T007,percentage,1,0,0,697,707
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T008,percentage,1,1,0,540,540
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T009,percentage,1,0,0,127.5,130
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T010,percentage,1,1,0,150,150
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T011,percentage,1,1,0,1408,1408
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T012,percentage,1,1,0,119,119
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T013,percentage,1,1,0,528,528
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T014,percentage,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T015,percentage,1,0,0,552.5,557.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T016,percentage,1,1,0,672,672
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T017,percentage,1,1,0,2560,2560
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T018,percentage,1,0,0,422.4,427.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T019,percentage,1,1,0,192,192
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T020,percentage,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T021,percentage,1,1,0,108,108
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T022,percentage,1,0,0,196.8,196
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T023,percentage,1,1,0,225,225
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T024,percentage,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T025,percentage,1,1,0,500,500
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T026,percentage,1,1,0,352,352
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T027,percentage,1,1,0,960,960
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T028,percentage,1,1,0,324,324
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T029,percentage,1,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T030,percentage,1,0,0,849.6,846
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T031,percentage,1,1,0,476,476
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T032,percentage,1,0,0,1100,1105
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T033,percentage,1,1,0,1560,1560
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T034,percentage,1,1,0,196,196
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T035,percentage,1,1,0,156,156
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T036,word_problem,1,0,0,4374,486
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T037,word_problem,1,0,0,3500,350
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T038,word_problem,1,0,0,3360,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T039,word_problem,1,1,0,4200,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T040,word_problem,1,0,0,1728,576
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T041,word_problem,1,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T042,word_problem,1,0,0,12600,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T043,word_problem,1,0,0,3630,330
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T044,word_problem,1,0,0,8064,3360
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T045,word_problem,1,0,0,12600,9450
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T046,word_problem,1,0,0,7840,1120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T047,word_problem,1,0,0,6720,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T048,word_problem,1,0,0,6000,500
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T049,word_problem,1,0,0,6480,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T050,word_problem,1,0,0,4375,875
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T051,word_problem,1,0,0,2700,900
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T052,word_problem,1,0,0,1680,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T053,word_problem,1,0,0,6930,4620
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T054,word_problem,1,0,0,4752,4356
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T055,word_problem,1,0,0,6480,576
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T056,word_problem,1,0,0,2916,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T057,word_problem,1,0,0,3456,576
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T058,word_problem,1,0,0,4800,1280
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T059,word_problem,1,1,0,4200,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T060,word_problem,1,0,0,5250,1050
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T061,word_problem,1,0,0,4410,4200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T062,word_problem,1,0,0,4752,528
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T063,word_problem,1,0,0,6000,600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T064,word_problem,1,0,0,5000,500
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T065,word_problem,1,0,0,10080,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T066,conversion,1,1,0,2160,2160
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T067,conversion,1,0,0,1152,768
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T068,conversion,1,0,0,630,65
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T069,conversion,1,1,0,48000,48000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T070,conversion,1,1,0,900,900
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T071,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T072,conversion,1,1,0,125000,125000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T073,conversion,1,1,0,1440,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T074,conversion,1,0,0,864,288
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T075,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T076,conversion,1,1,0,24000,24000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T077,conversion,1,0,0,125000,1250
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T078,conversion,1,1,0,3000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T079,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T080,conversion,1,1,0,3000,3000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T081,conversion,1,1,0,60000,60000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T082,conversion,1,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T083,conversion,1,0,0,15000,93205.4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T084,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T085,conversion,1,1,0,105,105
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T086,conversion,1,0,0,360,240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T087,conversion,1,1,0,7000,7000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T088,conversion,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T089,conversion,1,0,0,48000,21600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T090,conversion,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T091,date,1,1,0,25 April 2026,25 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T092,date,1,0,0,10 June 2026,30 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T093,date,1,1,0,27 April 2026,27 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T094,date,1,0,0,26 November 2026,25 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T095,date,1,0,0,08 October 2026,30 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T096,date,1,1,0,11 November 2026,11 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T097,date,1,0,0,16 March 2026,15 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T098,date,1,0,0,01 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T099,date,1,0,0,16 October 2026,30 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T100,date,1,0,0,12 June 2026,13 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T101,date,1,1,0,24 June 2026,24 June 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T102,date,1,1,0,25 July 2026,25 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T103,date,1,1,0,14 November 2026,14 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T104,date,1,0,0,06 February 2027,10 February 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T105,date,1,0,0,08 May 2026,31 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T106,date,1,1,0,30 October 2026,30 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T107,date,1,0,0,05 June 2026,30 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T108,date,1,0,0,08 October 2026,17 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T109,date,1,0,0,10 August 2026,18 August 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T110,date,1,0,0,17 December 2026,24 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T111,date,1,0,0,13 January 2027,14 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T112,date,1,0,0,07 October 2026,30 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T113,date,1,0,0,26 August 2026,30 August 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T114,date,1,0,0,26 January 2026,25 January 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T115,date,1,1,0,18 September 2026,18 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T116,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T117,table,1,0,0,1669,1679
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T118,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T119,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T120,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T121,table,1,1,0,503,503
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T122,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T123,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T124,table,1,1,0,1914,1914
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T125,table,1,0,0,499,296
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T126,table,1,1,0,1865,1865
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T127,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T128,table,1,1,0,2623,2623
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T129,table,1,1,0,617,617
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T130,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T131,table,1,0,0,529,429
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T132,table,1,1,0,2156,2156
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T133,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T134,table,1,0,0,504,204
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T135,table,1,0,0,South,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T136,table,1,0,0,637,618
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T137,table,1,1,0,479,479
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T138,table,1,0,0,1792,1790
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T139,table,1,1,0,492,492
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T140,table,1,0,0,760,457
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T141,table,1,1,0,473,473
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T142,table,1,0,0,Central,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T143,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T144,table,1,0,0,294,304
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T145,table,1,1,0,160,160
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T146,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T147,logic,1,0,0,Alex,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T148,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T149,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T150,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T151,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T152,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T153,logic,1,0,0,Casey,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T154,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T155,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T156,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T157,logic,1,0,0,Bailey,Bialey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T158,logic,1,0,0,Devon,Dveon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T159,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T160,logic,1,0,0,Bailey,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T161,logic,1,0,0,Devon,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T162,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T163,logic,1,0,0,Frankie,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T164,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T165,logic,1,0,0,Bailey,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T166,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T167,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T168,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T169,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T170,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T171,rate,1,1,0,2,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T172,rate,1,1,0,10,10
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T173,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T174,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T175,rate,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T176,rate,1,1,0,1.2,1.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T177,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T178,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T179,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T180,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T181,rate,1,1,0,3.2,3.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T182,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T183,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T184,rate,1,1,0,150,150
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T185,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T186,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T187,rate,1,1,0,5,5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T188,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T189,rate,1,0,0,3.33333,3.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T190,rate,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T191,rate,1,0,0,5.33333,5.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T192,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T193,rate,1,0,0,2.66667,2.67
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T194,rate,1,0,0,5.33333,5.33
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T195,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T196,rate,1,1,0,4.5,4.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T197,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T198,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T199,rate,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T200,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T201,percentage,1,1,0,312,312
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T202,percentage,1,1,0,144,144
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T203,percentage,1,0,0,756,746
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T204,percentage,1,0,0,129.8,129
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T205,percentage,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T206,percentage,1,0,0,286,289
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T207,percentage,1,1,0,640,640
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T208,percentage,1,0,0,1017.5,1005
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T209,percentage,1,0,0,644.8,644
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T210,percentage,1,1,0,124.2,124.20
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T211,percentage,1,0,0,582.4,582
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T212,percentage,1,0,0,524.8,523.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T213,percentage,1,1,0,25.6,25.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T214,percentage,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T215,percentage,1,0,0,87.75,89.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T216,percentage,1,1,0,494,494
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T217,percentage,1,1,0,16.5,16.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T218,percentage,1,0,0,256.2,257
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T219,percentage,1,0,0,367.2,367
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T220,percentage,1,0,0,608,528
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T221,percentage,1,0,0,595,575
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T222,percentage,1,1,0,715,715
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T223,percentage,1,0,0,329,325
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T224,percentage,1,0,0,1598,1554
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T225,percentage,1,0,0,278.4,278
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T226,percentage,1,1,0,54,54
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T227,percentage,1,1,0,66,66
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T228,percentage,1,1,0,270,270
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T229,percentage,1,0,0,517,513
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T230,percentage,1,1,0,128,128
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T231,percentage,1,0,0,330,430
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T232,percentage,1,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T233,percentage,1,1,0,1050,1050
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T234,percentage,1,1,0,36,36
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T235,percentage,1,1,0,189,189
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T236,percentage,1,0,0,858,843
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T237,percentage,1,0,0,45,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T238,percentage,1,1,0,680,680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T239,percentage,1,1,0,1365,1365
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T240,percentage,1,0,0,357,367
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T241,percentage,1,1,0,8.8,8.8
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T242,percentage,1,1,0,952,952
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T243,percentage,1,1,0,1980,1980
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T244,percentage,1,0,0,784,804
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T245,percentage,1,0,0,226.8,226
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T246,percentage,1,1,0,20.8,20.8
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T247,percentage,1,0,0,201.6,201
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T248,percentage,1,1,0,132,132
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T249,percentage,1,0,0,1402.5,1375
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T250,percentage,1,1,0,504,504
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T251,percentage,1,0,0,184.8,189
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T252,percentage,1,0,0,683.2,693
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T253,percentage,1,1,0,112.5,112.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T254,percentage,1,1,0,74.25,74.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T255,percentage,1,1,0,1280,1280
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T256,percentage,1,1,0,136.5,136.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T257,percentage,1,1,0,480,480
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T258,percentage,1,1,0,120,120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T259,percentage,1,0,0,288.8,291.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T260,percentage,1,1,0,937.5,937.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T261,percentage,1,1,0,1540,1540
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T262,percentage,1,1,0,825,825
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T263,percentage,1,1,0,102,102
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T264,percentage,1,1,0,67.5,67.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T265,percentage,1,1,0,1202.5,1202.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T266,percentage,1,1,0,188,188
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T267,percentage,1,0,0,495.6,506
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T268,percentage,1,1,0,2775,2775
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T269,percentage,1,1,0,46.2,46.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T270,percentage,1,1,0,113.6,113.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T271,word_problem,1,0,0,12960,17280
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T272,word_problem,1,0,0,6075,675
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T273,word_problem,1,0,0,2880,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T274,word_problem,1,1,0,1680,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T275,word_problem,1,0,0,15400,9280
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T276,word_problem,1,0,0,6720,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T277,word_problem,1,0,0,18522,3080
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T278,word_problem,1,0,0,15120,1680
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T279,word_problem,1,0,0,24948,2376
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T280,word_problem,1,0,0,7200,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T281,word_problem,1,0,0,1584,1392
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T282,word_problem,1,1,0,4620,4620
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T283,word_problem,1,0,0,2400,800
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T284,word_problem,1,0,0,1540,1400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T285,word_problem,1,0,0,16632,3960
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T286,word_problem,1,0,0,4320,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T287,word_problem,1,0,0,7200,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T288,word_problem,1,0,0,11970,1365
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T289,word_problem,1,0,0,3780,315
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T290,word_problem,1,0,0,14000,1400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T291,word_problem,1,0,0,7425,675
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T292,word_problem,1,0,0,3564,1296
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T293,word_problem,1,0,0,6336,732
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T294,word_problem,1,0,0,2940,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T295,word_problem,1,0,0,3780,900
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T296,word_problem,1,0,0,9240,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T297,word_problem,1,0,0,8316,8748
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T298,word_problem,1,0,0,9800,1120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T299,word_problem,1,1,0,1760,1760
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T300,word_problem,1,0,0,6480,1440
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T301,word_problem,1,0,0,32832,5760
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T302,word_problem,1,0,0,5832,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T303,word_problem,1,0,0,3240,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T304,word_problem,1,0,0,17424,1584
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T305,word_problem,1,0,0,6160,3080
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T306,word_problem,1,0,0,3960,440
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T307,word_problem,1,0,0,8100,3240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T308,word_problem,1,0,0,3600,360
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T309,word_problem,1,0,0,36288,3624
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T310,word_problem,1,0,0,13500,6000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T311,word_problem,1,0,0,20160,2240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T312,word_problem,1,0,0,7056,588
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T313,word_problem,1,0,0,9720,10380
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T314,word_problem,1,0,0,6160,770
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T315,word_problem,1,0,0,1500,750
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T316,word_problem,1,0,0,2112,968
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T317,word_problem,1,0,0,15048,5544
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T318,word_problem,1,0,0,27360,760
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T319,word_problem,1,0,0,1500,750
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T320,word_problem,1,0,0,3360,480
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T321,word_problem,1,0,0,5940,660
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T322,word_problem,1,0,0,1350,450
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T323,word_problem,1,0,0,5040,840
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T324,word_problem,1,0,0,7350,735
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T325,word_problem,1,0,0,13860,1540
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T326,word_problem,1,0,0,2432,304
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T327,word_problem,1,0,0,3920,1120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T328,word_problem,1,0,0,15552,1296
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T329,word_problem,1,1,0,5040,5040
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T330,word_problem,1,0,0,13376,6248
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T331,conversion,1,0,0,720,480
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T332,conversion,1,1,0,980,980
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T333,conversion,1,1,0,900,900
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T334,conversion,1,1,0,30000,30000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T335,conversion,1,1,0,30000,30000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T336,conversion,1,0,0,54000,328089
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T337,conversion,1,1,0,5040,5040
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T338,conversion,1,1,0,11000,11000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T339,conversion,1,1,0,24000,24000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T340,conversion,1,1,0,216,216
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T341,conversion,1,1,0,540,540
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T342,conversion,1,0,0,8400,10040
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T343,conversion,1,0,0,168,24
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T344,conversion,1,1,0,660,660
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T345,conversion,1,1,0,7000,7000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T346,conversion,1,1,0,42000,42000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T347,conversion,1,1,0,30000,30000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T348,conversion,1,1,0,84,84
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T349,conversion,1,0,0,588,6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T350,conversion,1,1,0,54000,54000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T351,conversion,1,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T352,conversion,1,0,0,1008,336
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T353,conversion,1,1,0,28000,28000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T354,conversion,1,1,0,5000,5000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T355,conversion,1,1,0,1800,1800
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T356,conversion,1,0,0,252,5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T357,conversion,1,1,0,9000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T358,conversion,1,1,0,90000,90000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T359,conversion,1,1,0,90000,90000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T360,conversion,1,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T361,conversion,1,1,0,3600,3600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T362,conversion,1,1,0,42000,42000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T363,conversion,1,1,0,300,300
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T364,conversion,1,0,0,2160,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T365,conversion,1,1,0,120,120
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T366,conversion,1,0,0,42000,26132.288
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T367,conversion,1,0,0,160000,160
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T368,conversion,1,1,0,84000,84000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T369,conversion,1,1,0,9000,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T370,conversion,1,0,0,126,18
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T371,conversion,1,1,0,36000,36000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T372,conversion,1,1,0,72000,72000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T373,conversion,1,0,0,294,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T374,conversion,1,1,0,4320,4320
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T375,conversion,1,1,0,72000,72000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T376,conversion,1,0,0,84000,8400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T377,conversion,1,1,0,1260,1260
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T378,conversion,1,1,0,12000,12000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T379,conversion,1,1,0,5400,5400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T380,conversion,1,0,0,7500,9000
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T381,date,1,0,0,26 July 2026,30 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T382,date,1,0,0,02 December 2026,19 December 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T383,date,1,1,0,30 July 2026,30 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T384,date,1,0,0,29 April 2027,10 May 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T385,date,1,0,0,05 July 2027,04 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T386,date,1,0,0,17 March 2027,14 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T387,date,1,1,0,21 July 2026,21 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T388,date,1,0,0,21 October 2026,20 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T389,date,1,0,0,02 February 2026,31 January 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T390,date,1,0,0,25 October 2026,03 Novermber 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T391,date,1,0,0,29 October 2027,30 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T392,date,1,0,0,28 September 2027,18 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T393,date,1,0,0,16 May 2026,29 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T394,date,1,0,0,16 November 2026,19 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T395,date,1,0,0,31 December 2027,10 Jan 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T396,date,1,0,0,10 October 2027,15 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T397,date,1,0,0,08 May 2026,10 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T398,date,1,1,0,21 October 2027,21 October 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T399,date,1,0,0,15 May 2026,13 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T400,date,1,0,0,09 September 2027,30 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T401,date,1,1,0,14 April 2027,14 April 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T402,date,1,0,0,20 August 2027,30 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T403,date,1,0,0,04 September 2027,28 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T404,date,1,0,0,25 April 2027,31 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T405,date,1,0,0,04 September 2026,25 September 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T406,date,1,0,0,03 February 2028,31 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T407,date,1,0,0,06 August 2027,16 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T408,date,1,0,0,14 September 2027,29 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T409,date,1,0,0,29 November 2026,28 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T410,date,1,0,0,05 September 2027,26 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T411,date,1,1,0,20 December 2027,20 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T412,date,1,0,0,18 September 2026,20 Sep 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T413,date,1,0,0,04 February 2027,17 February 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T414,date,1,0,0,26 July 2027,31 July 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T415,date,1,0,0,17 December 2027,30 December 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T416,date,1,0,0,20 August 2027,30 August 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T417,date,1,0,0,05 May 2026,13 April 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T418,date,1,0,0,21 February 2027,30 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T419,date,1,0,0,13 April 2026,31 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T420,date,1,0,0,16 February 2028,28 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T421,date,1,0,0,27 October 2026,28 October 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T422,date,1,1,0,01 November 2026,01 November 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T423,date,1,0,0,21 October 2027,30 September 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T424,date,1,1,0,25 July 2026,25 July 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T425,date,1,0,0,02 March 2028,31 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T426,date,1,0,0,25 February 2028,28 February 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T427,date,1,0,0,01 April 2026,31 March 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T428,date,1,0,0,02 March 2027,20 March 2027
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T429,date,1,1,0,17 May 2026,17 May 2026
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T430,date,1,0,0,21 February 2028,29 January 2028
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T431,table,1,0,0,2494,2594
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T432,table,1,1,0,307,307
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T433,table,1,0,0,730,430
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T434,table,1,0,0,279,189
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T435,table,1,1,0,192,192
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T436,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T437,table,1,0,0,2191,2181
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T438,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T439,table,1,0,0,632,396
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T440,table,1,0,0,2169,2769
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T441,table,1,0,0,1706,1606
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T442,table,1,1,0,2465,2465
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T443,table,1,0,0,2721,3721
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T444,table,1,0,0,1758,2358
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T445,table,1,0,0,658,190
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T446,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T447,table,1,1,0,275,275
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T448,table,1,0,0,1626,1226
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T449,table,1,0,0,1952,2142
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T450,table,1,0,0,2087,2487
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T451,table,1,1,0,1640,1640
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T452,table,1,0,0,1752,1952
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T453,table,1,0,0,North,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T454,table,1,0,0,366,436
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T455,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T456,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T457,table,1,0,0,601,301
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T458,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T459,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T460,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T461,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T462,table,1,1,0,Central,Central: 289
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T463,table,1,1,0,2869,2869
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T464,table,1,0,0,2329,2729
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T465,table,1,0,0,North,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T466,table,1,0,0,146,246
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T467,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T468,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T469,table,1,1,0,South,South
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T470,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T471,table,1,1,0,North,North
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T472,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T473,table,1,1,0,449,449
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T474,table,1,1,0,2147,2147
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T475,table,1,0,0,2463,2363
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T476,table,1,0,0,493,321
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T477,table,1,1,0,Central,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T478,table,1,0,0,South,Central
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T479,table,1,0,0,731,721
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T480,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T481,table,1,0,0,Central,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T482,table,1,0,0,539,339
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T483,table,1,0,0,697,396
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T484,table,1,1,0,2240,2240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T485,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T486,table,1,1,0,West,West
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T487,table,1,0,0,427,443
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T488,table,1,1,0,East,East
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T489,table,1,1,0,2261,2261
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T490,table,1,1,0,597,597
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T491,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T492,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T493,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T494,logic,1,0,0,Bailey,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T495,logic,1,0,0,Casey,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T496,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T497,logic,1,0,0,Ellis,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T498,logic,1,1,0,Alex,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T499,logic,1,0,0,Ellis,Elils
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T500,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T501,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T502,logic,1,0,0,Gray,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T503,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T504,logic,1,0,0,Frankie,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T505,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T506,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T507,logic,1,0,0,Ellis,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T508,logic,1,0,0,Devon,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T509,logic,1,0,0,Bailey,Baely
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T510,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T511,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T512,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T513,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T514,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T515,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T516,logic,1,0,0,Devon,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T517,logic,1,0,0,Bailey,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T518,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T519,logic,1,0,0,Casey,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T520,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T521,logic,1,1,0,Devon,Devon
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T522,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T523,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T524,logic,1,1,0,Casey,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T525,logic,1,0,0,Casey,Deovn
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T526,logic,1,0,0,Devon,Casey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T527,logic,1,0,0,Ellis,Baliey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T528,logic,1,0,0,Gray,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T529,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T530,logic,1,0,0,Ellis,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T531,logic,1,0,0,Gray,Alex
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T532,logic,1,0,0,Ellis,2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T533,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T534,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T535,logic,1,1,0,Ellis,Ellis
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T536,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T537,logic,1,1,0,Bailey,Bailey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T538,logic,1,0,0,Casey,CSaey
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T539,logic,1,1,0,Frankie,Frankie
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T540,logic,1,1,0,Gray,Gray
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T541,rate,1,1,0,576,576
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T542,rate,1,1,0,100,100
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T543,rate,1,1,0,6,6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T544,rate,1,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T545,rate,1,1,0,560,560
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T546,rate,1,1,0,80,80
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T547,rate,1,1,0,30,30
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T548,rate,1,1,0,5,5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T549,rate,1,1,0,9.6,9.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T550,rate,1,1,0,420,420
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T551,rate,1,1,0,25,25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T552,rate,1,1,0,125,125
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T553,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T554,rate,1,1,0,4.8,4.8
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T555,rate,1,1,0,4.4,4.4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T556,rate,1,1,0,36,36
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T557,rate,1,1,0,216,216
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T558,rate,1,1,0,1.6,1.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T559,rate,1,1,0,9.6,9.6
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T560,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T561,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T562,rate,1,1,0,180,180
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T563,rate,1,1,0,2.4,2.4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T564,rate,1,1,0,0.9,0.9
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T565,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T566,rate,1,1,0,7,7
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T567,rate,1,1,0,1.2,1.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T568,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T569,rate,1,1,0,45,45
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T570,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T571,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T572,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T573,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T574,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T575,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T576,rate,1,1,0,720,720
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T577,rate,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T578,rate,1,1,0,160,160
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T579,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T580,rate,1,1,0,400,400
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T581,rate,1,1,0,3,3
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T582,rate,1,1,0,4,4
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T583,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T584,rate,1,1,0,4.2,4.2
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T585,rate,1,1,0,75,75
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T586,rate,1,1,0,90,90
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T587,rate,1,1,0,2.25,2.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T588,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T589,rate,1,1,0,25,25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T590,rate,1,1,0,40,40
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T591,rate,1,1,0,200,200
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T592,rate,1,1,0,240,240
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T593,rate,1,1,0,350,350
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T594,rate,1,1,0,600,600
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T595,rate,1,1,0,288,288
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T596,rate,1,1,0,5.5,5.5
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T597,rate,1,1,0,72,72
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T598,rate,1,1,0,1.25,1.25
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T599,rate,1,1,0,60,60
+Qwen/Qwen2.5-7B-Instruct,qwen,esl_typo,T600,rate,1,1,0,2,2

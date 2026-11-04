@@ -1,0 +1,35 @@
+{
+  "title": "Bread and Bicycles: What Happens to an Interaction Claim When the Second Detail Means Nothing",
+  "description": "<p>Audits of language models increasingly report that disadvantage compounds when two things are true of a person at once. Before such a claim can be sized, the instrument has to be shown to measure people rather than words.</p><p>Alongside every audited pair we stack pairs of socially neutral details built the same way and in the same slots: cycling to work and baking bread, walking a dog and learning guitar. Their interaction should be zero. On four of five instruments it is not, on all three open models, and the mechanism is visible in the data: the effect of a clause depends on the clause beside it.</p><p>Four failing instruments could be a fact about our implementation, so the same neutral comparison is run on published work with the original authors' own code, under a second preregistration that requires one of their numbers to be reproduced before anything is added. Two targets passed that gate, and in both, neutral details move the statistic well above zero.</p><p>On four further targets we could not assemble everything a rerun needs, and the five artifacts such a rerun depends on are listed: the trained weights behind a learned metric, the exact input to a preprocessing tool, the runtime version used for generation, the grouping behind each published cell, and the frame a fine-tuned model expects.</p><p>Neither rerun shows that a published claim is false, and neither is offered as one. Two preregistrations with their dated addenda, all data, all code and all offline validators are included; every number regenerates without a GPU, and Appendix A lists all 98 tests behind the central table.</p>",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Podgortsev, Michael",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0007-5561-1916"
+    }
+  ],
+  "keywords": [
+    "fairness",
+    "large language models",
+    "interaction effects",
+    "intersectionality",
+    "measurement validity",
+    "neutral control",
+    "preregistration",
+    "reproduction",
+    "evaluation methodology",
+    "negative results"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/podgortsev/Bread-and-Bicycles",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

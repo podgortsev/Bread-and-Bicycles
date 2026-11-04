@@ -1,0 +1,380 @@
+==============================================================================
+e3 CHANNEL D: does a credential buy back a disclosure
+models: llama, mistral, qwen   unit: the measure's own units
+==============================================================================
+
+------------------------------------------------------------------------------
+0. GATES. Nothing below is read until these are.
+------------------------------------------------------------------------------
+  llama    refusal  0.00%   answer copied from the prompt 40.35%   out of range 0
+             most refused: NONE         0.00%
+             most refused: CRED_s1      0.00%
+             most refused: CRED_s2      0.00%
+  mistral  refusal 65.94%   answer copied from the prompt  3.77%   out of range 34
+             most refused: S01_s1      83.67%
+             most refused: S08_s1      78.83%
+             most refused: S08_CRED    72.33%
+             MORE THAN A QUARTER REFUSED. Paper 2 saw 19 to 28 percent on Mistral. Report it as a finding.
+  qwen     refusal  0.00%   answer copied from the prompt  0.77%   out of range 0
+             most refused: NONE         0.00%
+             most refused: CRED_s1      0.00%
+             most refused: CRED_s2      0.00%
+
+------------------------------------------------------------------------------
+0b. PER MEASURE: is this measure usable on this model at all.
+    Three ways a measure dies, and all three have happened:
+    refused away, answered with one constant, or copied.
+------------------------------------------------------------------------------
+
+  llama
+    CHURN    n= 1100  refused   0.0%  top value         0 in 99.5%  anchored  0.0%   DEAD
+    RAISE    n= 1100  refused   0.0%  top value         0 in 40.5%  anchored  2.3%   usable
+    RATING   n= 1100  refused   0.0%  top value       0.2 in 44.5%  anchored  0.0%   usable
+    SALARY   n= 1100  refused   0.0%  top value    120000 in 44.7%  anchored  0.0%   usable
+    SCORE    n= 1100  refused   0.0%  top value       4.2 in 17.9%  anchored  0.3%   usable
+    SUCCESS  n= 1100  refused   0.0%  top value         0 in 83.1%  anchored  0.0%   DEAD
+    excluded on this model: CHURN, SUCCESS
+
+  mistral
+    CHURN    n=  103  refused  90.6%  top value         1 in 60.2%  anchored 27.2%   DEAD
+    RAISE    n=    1  refused  99.9%  top value        74 in 100.0%  anchored  0.0%   DEAD
+    RATING   n=  996  refused   9.5%  top value       8.5 in 26.5%  anchored  0.4%   usable
+    SALARY   n=   35  refused  96.8%  top value        15 in 25.7%  anchored 60.0%   DEAD
+    SCORE    n=  897  refused  18.5%  top value      85.6 in 15.7%  anchored  3.9%   usable
+    SUCCESS  n=  216  refused  80.4%  top value        15 in  7.4%  anchored 70.4%   DEAD
+    excluded on this model: CHURN, RAISE, SALARY, SUCCESS
+
+  qwen
+    CHURN    n= 1100  refused   0.0%  top value        35 in 64.5%  anchored  0.0%   usable
+    RAISE    n= 1100  refused   0.0%  top value        15 in 28.1%  anchored  0.2%   usable
+    RATING   n= 1100  refused   0.0%  top value       7.5 in 35.3%  anchored  0.2%   usable
+    SALARY   n= 1100  refused   0.0%  top value     60000 in 31.0%  anchored  0.0%   usable
+    SCORE    n= 1100  refused   0.0%  top value        35 in 34.7%  anchored  0.0%   usable
+    SUCCESS  n= 1100  refused   0.0%  top value        35 in 35.6%  anchored  0.0%   usable
+
+  A measure marked DEAD is not evidence of anything and is
+  dropped from every table below. Method 7 taught this: Llama's
+  constant '6' was read as 'the model does not admit it' when
+  the instrument had simply said nothing.
+
+------------------------------------------------------------------------------
+1. MAIN EFFECTS against NONE, paired within profile.
+------------------------------------------------------------------------------
+
+  llama  RAISE
+    CRED_S01    n= 100       -0.8290 [    -2.0071,    +0.3651]  p rank 0.01875 mean 0.1671
+    CRED_S08    n= 100       -9.1030 [   -10.1790,    -8.0470]  p rank 5.419e-18 mean 9.999e-05
+    CRED_s1     n= 100       -3.2687 [    -4.5292,    -1.9817]  p rank 1.045e-06 mean 9.999e-05
+    CRED_s2     n= 100       -0.8324 [    -1.8034,    +0.1274]  p rank 0.003477 mean 0.08879
+    S01_CRED    n= 100       +3.0090 [    +1.6950,    +4.2900]  p rank 0.0002842 mean 9.999e-05
+    S01_s1      n= 100       +0.2560 [    -0.7860,    +1.2430]  p rank 0.5525 mean 0.6325
+    S01_s2      n= 100       +0.1010 [    -0.9220,    +1.1241]  p rank 0.8452 mean 0.8414
+    S08_CRED    n= 100       -8.6860 [    -9.7892,    -7.5839]  p rank 2.981e-17 mean 9.999e-05
+    S08_s1      n= 100       -9.1230 [   -10.2411,    -8.0510]  p rank 7.89e-18 mean 9.999e-05
+    S08_s2      n= 100       -7.5610 [    -8.6310,    -6.5279]  p rank 4.393e-17 mean 9.999e-05
+
+  llama  RATING
+    CRED_S01    n= 100       -4.4620 [    -5.0621,    -3.8479]  p rank 1.999e-16 mean 9.999e-05
+    CRED_S08    n= 100       -6.5600 [    -7.0000,    -6.1010]  p rank 1.926e-18 mean 9.999e-05
+    CRED_s1     n= 100       -6.6960 [    -7.1540,    -6.2010]  p rank 3.23e-18 mean 9.999e-05
+    CRED_s2     n= 100       -3.7320 [    -4.2891,    -3.1880]  p rank 3.354e-16 mean 9.999e-05
+    S01_CRED    n= 100       -2.9990 [    -3.7061,    -2.2579]  p rank 2.194e-10 mean 9.999e-05
+    S01_s1      n= 100       -1.6260 [    -2.1740,    -1.0919]  p rank 4.317e-09 mean 9.999e-05
+    S01_s2      n= 100       +0.7490 [    +0.4339,    +1.1140]  p rank 0.0002211 mean 9.999e-05
+    S08_CRED    n= 100       -6.7550 [    -7.2120,    -6.2740]  p rank 2.445e-18 mean 9.999e-05
+    S08_s1      n= 100       -6.7070 [    -7.1520,    -6.2310]  p rank 1.473e-18 mean 9.999e-05
+    S08_s2      n= 100       -5.9960 [    -6.4831,    -5.4859]  p rank 3.666e-18 mean 9.999e-05
+
+  llama  SALARY
+    CRED_S01    n= 100   +37734.0000 [+31687.7000,+43948.1000]  p rank 4.241e-14 mean 9.999e-05
+    CRED_S08    n= 100    +4334.0000 [ -2286.3500,+10634.5000]  p rank 0.47 mean 0.1948
+    CRED_s1     n= 100   +64594.0000 [+55359.8000,+73336.9500]  p rank 2.713e-16 mean 9.999e-05
+    CRED_s2     n= 100   +38004.0000 [+32338.0000,+43644.7000]  p rank 1.789e-14 mean 9.999e-05
+    S01_CRED    n= 100   +30884.0000 [+25875.8500,+36032.1000]  p rank 1.949e-13 mean 9.999e-05
+    S01_s1      n= 100   +10186.0000 [ +6598.0000,+14140.3500]  p rank 2.641e-06 mean 9.999e-05
+    S01_s2      n= 100     +884.0000 [ -1136.3500, +2660.1500]  p rank 0.1916 mean 0.3864
+    S08_CRED    n= 100    +2364.0000 [ -3402.3000, +7948.0500]  p rank 0.4467 mean 0.4145
+    S08_s1      n= 100   -26719.6000 [-32714.2200,-20869.3100]  p rank 1.667e-11 mean 9.999e-05
+    S08_s2      n= 100   -16804.2700 [-21860.0498,-12111.1600]  p rank 1.032e-08 mean 9.999e-05
+
+  llama  SCORE
+    CRED_S01    n= 100      -15.6150 [   -18.7414,   -12.5548]  p rank 7.463e-13 mean 9.999e-05
+    CRED_S08    n= 100      -28.1860 [   -31.1860,   -25.2709]  p rank 9.918e-18 mean 9.999e-05
+    CRED_s1     n= 100      -20.2810 [   -23.8530,   -16.9288]  p rank 7.065e-15 mean 9.999e-05
+    CRED_s2     n= 100      -10.6980 [   -14.1290,    -6.9480]  p rank 2.525e-10 mean 9.999e-05
+    S01_CRED    n= 100      -10.3240 [   -16.8593,    -3.3159]  p rank 0.0002703 mean 0.0041
+    S01_s1      n= 100      -25.4660 [   -29.5004,   -21.2965]  p rank 1.203e-14 mean 9.999e-05
+    S01_s2      n= 100       -4.1070 [    -8.8970,    +0.8921]  p rank 0.004282 mean 0.1035
+    S08_CRED    n= 100      -25.5400 [   -29.0081,   -22.0470]  p rank 5.771e-16 mean 9.999e-05
+    S08_s1      n= 100      -31.0020 [   -34.1211,   -27.8260]  p rank 6.234e-18 mean 9.999e-05
+    S08_s2      n= 100      -26.3630 [   -29.7122,   -23.1589]  p rank 2.365e-17 mean 9.999e-05
+
+  mistral  RATING
+    CRED_S01    n=  86       +0.2081 [    +0.0942,    +0.3209]  p rank 0.002379 mean 0.0004
+    CRED_S08    n=  90       -2.8811 [    -3.1611,    -2.6200]  p rank 1.524e-16 mean 9.999e-05
+    CRED_s1     n=  83       -0.8253 [    -1.2121,    -0.4771]  p rank 0.000104 mean 9.999e-05
+    CRED_s2     n=  90       +0.0411 [    -0.1245,    +0.1989]  p rank 0.427 mean 0.6404
+    S01_CRED    n=  89       +0.5506 [    +0.4225,    +0.6787]  p rank 8.777e-10 mean 9.999e-05
+    S01_s1      n=  41       +0.9341 [    +0.7780,    +1.0780]  p rank 7.329e-08 mean 9.999e-05
+    S01_s2      n=  90       +1.1233 [    +1.0400,    +1.2011]  p rank 1.403e-16 mean 9.999e-05
+    S08_CRED    n=  84       -3.0583 [    -3.4750,    -2.6607]  p rank 1.571e-15 mean 9.999e-05
+    S08_s1      n=  84       -4.9940 [    -5.5417,    -4.4583]  p rank 1.598e-15 mean 9.999e-05
+    S08_s2      n=  90       -2.1189 [    -2.4134,    -1.8511]  p rank 1.371e-16 mean 9.999e-05
+
+  mistral  SCORE
+    CRED_S01    n=  85       -9.3247 [   -15.6389,    -3.2235]  p rank 0.3219 mean 0.0033
+    CRED_S08    n=  89      -37.1573 [   -41.2071,   -33.3414]  p rank 2.517e-16 mean 9.999e-05
+    CRED_s1     n=  94       -2.7765 [    -5.8087,    -0.0853]  p rank 0.5617 mean 0.05839
+    CRED_s2     n=  96       +2.6883 [    +1.2803,    +4.1051]  p rank 3.161e-05 mean 0.0005
+    S01_CRED    n=  96       +7.9330 [    +5.6581,    +9.7011]  p rank 4.3e-14 mean 9.999e-05
+    S01_s1      n=  56       +7.2875 [    +5.3639,    +9.3375]  p rank 2.29e-07 mean 9.999e-05
+    S01_s2      n=  96       +8.8979 [    +7.4801,   +10.2792]  p rank 5.839e-15 mean 9.999e-05
+    S08_CRED    n=  52      -34.9577 [   -41.1329,   -29.2900]  p rank 4.067e-10 mean 9.999e-05
+    S08_s1      n=  17      -39.2824 [   -48.7766,   -30.0000]  p rank 0.0002902 mean 9.999e-05
+    S08_s2      n=  90      -26.9033 [   -31.3556,   -22.9077]  p rank 2.646e-16 mean 9.999e-05
+
+  qwen  CHURN
+    CRED_S01    n= 100       -0.7750 [    -1.8950,    +0.1550]  p rank 0.6814 mean 0.1463
+    CRED_S08    n= 100      +25.9700 [   +21.4949,   +30.4573]  p rank 8.653e-13 mean 9.999e-05
+    CRED_s1     n= 100      +14.4000 [    +9.9000,   +19.0500]  p rank 1.139e-06 mean 9.999e-05
+    CRED_s2     n= 100       +3.4390 [    +0.8390,    +6.2501]  p rank 0.01258 mean 0.0129
+    S01_CRED    n= 100       -2.7300 [    -3.9400,    -1.6800]  p rank 9.7e-06 mean 9.999e-05
+    S01_s1      n= 100       +4.2710 [    +1.6820,    +7.2321]  p rank 0.01705 mean 0.0023
+    S01_s2      n= 100       -0.2700 [    -0.8902,    +0.2400]  p rank 0.6047 mean 0.379
+    S08_CRED    n= 100       -2.5960 [    -4.0250,    -1.1259]  p rank 3.079e-05 mean 0.0005999
+    S08_s1      n= 100       -1.5500 [    -2.7000,    -0.5500]  p rank 0.003191 mean 0.005499
+    S08_s2      n= 100       +3.8920 [    +1.9899,    +6.1804]  p rank 7.015e-06 mean 9.999e-05
+
+  qwen  RAISE
+    CRED_S01    n= 100       -0.1610 [    -1.2570,    +0.8280]  p rank 0.5343 mean 0.7714
+    CRED_S08    n= 100       -2.3840 [    -3.3820,    -1.5009]  p rank 9.473e-05 mean 9.999e-05
+    CRED_s1     n= 100       -0.4120 [    -1.6081,    +0.6420]  p rank 0.8093 mean 0.4643
+    CRED_s2     n= 100       +0.1810 [    -0.5990,    +0.9110]  p rank 0.3255 mean 0.6587
+    S01_CRED    n= 100       +2.4740 [    +1.5830,    +3.3851]  p rank 5.802e-08 mean 9.999e-05
+    S01_s1      n= 100       +0.0980 [    -0.4750,    +0.6650]  p rank 0.01256 mean 0.7364
+    S01_s2      n= 100       +1.8590 [    +1.2010,    +2.6031]  p rank 1.924e-09 mean 9.999e-05
+    S08_CRED    n= 100       -3.1790 [    -4.3521,    -2.0869]  p rank 1.904e-05 mean 9.999e-05
+    S08_s1      n= 100      -11.1860 [   -12.5640,    -9.8249]  p rank 3.778e-17 mean 9.999e-05
+    S08_s2      n= 100       -6.3200 [    -7.4430,    -5.2879]  p rank 3.465e-16 mean 9.999e-05
+
+  qwen  RATING
+    CRED_S01    n= 100       -2.3600 [    -2.7800,    -1.9300]  p rank 1.649e-12 mean 9.999e-05
+    CRED_S08    n= 100       -3.1050 [    -3.5320,    -2.6790]  p rank 9.402e-15 mean 9.999e-05
+    CRED_s1     n= 100       -2.5600 [    -2.9703,    -2.1300]  p rank 8.656e-13 mean 9.999e-05
+    CRED_s2     n= 100       -1.5800 [    -2.0000,    -1.1700]  p rank 6.92e-09 mean 9.999e-05
+    S01_CRED    n= 100       -3.4950 [    -3.8750,    -3.0750]  p rank 1.296e-15 mean 9.999e-05
+    S01_s1      n= 100       -1.3100 [    -1.6800,    -0.9600]  p rank 3.263e-08 mean 9.999e-05
+    S01_s2      n= 100       +0.1680 [    +0.0200,    +0.2980]  p rank 0.0005743 mean 0.0203
+    S08_CRED    n= 100       -4.4000 [    -4.6500,    -4.1300]  p rank 3.51e-18 mean 9.999e-05
+    S08_s1      n= 100       -4.4740 [    -4.7500,    -4.1740]  p rank 1.625e-18 mean 9.999e-05
+    S08_s2      n= 100       -2.5090 [    -2.8540,    -2.1550]  p rank 8.19e-17 mean 9.999e-05
+
+  qwen  SALARY
+    CRED_S01    n= 100    +5450.0000 [ +3800.0000, +7250.0000]  p rank 7.565e-08 mean 9.999e-05
+    CRED_S08    n= 100     -950.0000 [ -2200.0000,  +250.0000]  p rank 0.1096 mean 0.1441
+    CRED_s1     n= 100    +7700.0000 [ +5950.0000, +9600.0000]  p rank 7.474e-11 mean 9.999e-05
+    CRED_s2     n= 100    +4550.0000 [ +2550.0000, +6500.0000]  p rank 1.043e-05 mean 9.999e-05
+    S01_CRED    n= 100    +1800.0000 [  +500.0000, +3150.0000]  p rank 0.01834 mean 0.009599
+    S01_s1      n= 100    -4800.0000 [ -6350.0000, -3400.0000]  p rank 1.64e-07 mean 9.999e-05
+    S01_s2      n= 100     -900.0000 [ -1700.0000,  -100.0000]  p rank 0.03458 mean 0.0313
+    S08_CRED    n= 100    -8000.0000 [ -9800.0000, -6350.0000]  p rank 1.066e-11 mean 9.999e-05
+    S08_s1      n= 100   -13900.0000 [-15650.0000,-12150.0000]  p rank 1.92e-16 mean 9.999e-05
+    S08_s2      n= 100    -9350.0000 [-10901.2500, -7850.0000]  p rank 3.218e-14 mean 9.999e-05
+
+  qwen  SCORE
+    CRED_S01    n= 100      -12.7710 [   -16.9334,    -8.7910]  p rank 1.134e-07 mean 9.999e-05
+    CRED_S08    n= 100      -13.4830 [   -17.7624,    -9.3039]  p rank 5.405e-08 mean 9.999e-05
+    CRED_s1     n= 100      -21.3690 [   -25.6320,   -17.0600]  p rank 1.79e-11 mean 9.999e-05
+    CRED_s2     n= 100      -19.2950 [   -23.4032,   -15.1607]  p rank 5.623e-11 mean 9.999e-05
+    S01_CRED    n= 100      -17.2610 [   -21.5921,   -12.8746]  p rank 2.081e-09 mean 9.999e-05
+    S01_s1      n= 100      -14.3400 [   -18.5984,   -10.1466]  p rank 1.69e-07 mean 9.999e-05
+    S01_s2      n= 100       +9.4500 [    +6.8897,   +12.2900]  p rank 4.676e-11 mean 9.999e-05
+    S08_CRED    n= 100      -31.0750 [   -35.0621,   -27.0030]  p rank 1.557e-15 mean 9.999e-05
+    S08_s1      n= 100      -37.4810 [   -41.1377,   -33.7277]  p rank 1.58e-16 mean 9.999e-05
+    S08_s2      n= 100      -22.1370 [   -25.9731,   -18.5419]  p rank 7.218e-15 mean 9.999e-05
+
+  qwen  SUCCESS
+    CRED_S01    n= 100       +0.7410 [    -2.6522,    +4.1681]  p rank 0.2099 mean 0.6762
+    CRED_S08    n= 100      -15.7600 [   -19.4520,   -12.0549]  p rank 3.375e-11 mean 9.999e-05
+    CRED_s1     n= 100       -2.0780 [    -5.3480,    +1.1464]  p rank 0.3206 mean 0.2247
+    CRED_s2     n= 100       -0.0610 [    -3.4240,    +3.3641]  p rank 0.6538 mean 0.9749
+    S01_CRED    n= 100       -3.7740 [    -7.3833,    -0.1800]  p rank 0.06239 mean 0.0493
+    S01_s1      n= 100       +0.5150 [    -1.7631,    +2.7920]  p rank 0.3989 mean 0.6737
+    S01_s2      n= 100       +5.9840 [    +3.2675,    +8.8431]  p rank 2.302e-06 mean 0.0003
+    S08_CRED    n= 100      -29.7120 [   -33.3013,   -26.0539]  p rank 2.882e-16 mean 9.999e-05
+    S08_s1      n= 100      -33.7790 [   -36.9330,   -30.5750]  p rank 4.451e-17 mean 9.999e-05
+    S08_s2      n= 100      -23.1370 [   -26.6542,   -19.5459]  p rank 4.687e-15 mean 9.999e-05
+
+------------------------------------------------------------------------------
+2. INTERACTION. Is the combination worth more than its parts.
+------------------------------------------------------------------------------
+
+  model    measure  contrast            n   interaction         MDE        BH
+  llama    RAISE    OFFSET_S01_a      100       +2.3387      1.7572    0.0297 *
+  llama    RAISE    OFFSET_S01_b      100       +3.5854      1.4427    0.0002 *
+  llama    RAISE    OFFSET_S08_a      100       +1.7268      1.3857    0.0249 *
+  llama    RAISE    OFFSET_S08_b      100       +1.2694      0.9643    0.0192 *
+  llama    RATING   OFFSET_S01_a      100       +1.4850      0.6967    0.0002 *
+  llama    RATING   OFFSET_S01_b      100       +2.3590      0.7214    0.0002 *
+  llama    RATING   OFFSET_S08_a      100       +6.1320      0.5453    0.0002 *
+  llama    RATING   OFFSET_S08_b      100       +3.6840      0.5762    0.0002 *
+  llama    SALARY   OFFSET_S01_a      100   -27744.0000   8349.7238    0.0002 *
+  llama    SALARY   OFFSET_S01_b      100   -17306.0000   6884.3005    0.0002 *
+  llama    SALARY   OFFSET_S08_a      100   -43455.7300  11319.0141    0.0002 *
+  llama    SALARY   OFFSET_S08_b      100    -8920.4000   8760.0652    0.0660
+  llama    SCORE    OFFSET_S01_a      100       +8.7730      5.3091    0.0030 *
+  llama    SCORE    OFFSET_S01_b      100      +25.8400      6.6825    0.0002 *
+  llama    SCORE    OFFSET_S08_a      100      +18.4580      3.8387    0.0002 *
+  llama    SCORE    OFFSET_S08_b      100      +16.1600      4.2170    0.0002 *
+  mistral  RATING   OFFSET_S01_a       79       -0.2228      0.3164    0.1944
+  mistral  RATING   OFFSET_S01_b       41       -0.6024      0.2098    0.0002 *
+  mistral  RATING   OFFSET_S08_a       83       +0.0446      0.3390    0.9683
+  mistral  RATING   OFFSET_S08_b       79       +1.7785      0.3873    0.0002 *
+  mistral  SCORE    OFFSET_S01_a       83      -15.5037      5.6557    0.0002 *
+  mistral  SCORE    OFFSET_S01_b       56       -2.5125      2.4854    0.0782
+  mistral  SCORE    OFFSET_S08_a       82       -6.4452      4.8721    0.0179 *
+  mistral  SCORE    OFFSET_S08_b       15       +7.9267      5.9935    0.0691
+  qwen     CHURN    OFFSET_S01_a      100      -14.9050      4.4751    0.0002 *
+  qwen     CHURN    OFFSET_S01_b      100      -10.4400      3.5038    0.0002 *
+  qwen     CHURN    OFFSET_S08_a      100       +7.6780      4.6218    0.0035 *
+  qwen     CHURN    OFFSET_S08_b      100       -4.4850      2.8665    0.0035 *
+  qwen     RAISE    OFFSET_S01_a      100       -1.6080      0.7520    0.0002 *
+  qwen     RAISE    OFFSET_S01_b      100       +2.1950      0.9951    0.0004 *
+  qwen     RAISE    OFFSET_S08_a      100       +4.3480      1.1664    0.0002 *
+  qwen     RAISE    OFFSET_S08_b      100       +7.8260      1.2547    0.0002 *
+  qwen     RATING   OFFSET_S01_a      100       +0.0320      0.2166    0.8104
+  qwen     RATING   OFFSET_S01_b      100       -0.6050      0.5479    0.0483 *
+  qwen     RATING   OFFSET_S08_a      100       +1.9640      0.4746    0.0002 *
+  qwen     RATING   OFFSET_S08_b      100       +1.6540      0.4471    0.0002 *
+  qwen     SALARY   OFFSET_S01_a      100    -1350.0000   1518.5609    0.1136
+  qwen     SALARY   OFFSET_S01_b      100    +2050.0000   2526.8771    0.1468
+  qwen     SALARY   OFFSET_S08_a      100     +700.0000   2343.3224    0.6259
+  qwen     SALARY   OFFSET_S08_b      100    +1350.0000   2288.1722    0.2927
+  qwen     SCORE    OFFSET_S01_a      100       -0.8520      4.0105    0.7033
+  qwen     SCORE    OFFSET_S01_b      100      +16.3740      4.5417    0.0002 *
+  qwen     SCORE    OFFSET_S08_a      100      +30.0230      4.7914    0.0002 *
+  qwen     SCORE    OFFSET_S08_b      100      +25.7010      4.5943    0.0002 *
+  qwen     SUCCESS  OFFSET_S01_a      100       -3.1650      2.8601    0.1288
+  qwen     SUCCESS  OFFSET_S01_b      100       -4.2280      3.5038    0.0483 *
+  qwen     SUCCESS  OFFSET_S08_a      100       +9.4550      4.3230    0.0002 *
+  qwen     SUCCESS  OFFSET_S08_b      100       +4.1280      3.5789    0.0809
+
+------------------------------------------------------------------------------
+3. RESTORATION. Is the person back at the control.
+   recovered = 1 - (combined - NONE) / (disclosure alone - NONE)
+   Only computed where the disclosure had an effect to recover from.
+------------------------------------------------------------------------------
+
+  llama  RAISE
+    S01  CRED_S01    gap to NONE    -0.8290 [  -2.0071,  +0.3651] p rank 0.0187 mean 0.167   alone   +0.2560   recovered   n/a   (the disclosure alone had no effect to recover)
+    S01  S01_CRED    gap to NONE    +3.0090 [  +1.6950,  +4.2900] p rank 0.000284 mean 0.0001   alone   +0.1010   recovered   n/a   (the disclosure alone had no effect to recover)
+    S08  CRED_S08    gap to NONE    -9.1030 [ -10.1790,  -8.0470] p rank 5.42e-18 mean 0.0001   alone   -9.1230   recovered   0.00
+    S08  S08_CRED    gap to NONE    -8.6860 [  -9.7892,  -7.5839] p rank 2.98e-17 mean 0.0001   alone   -7.5610   recovered  -0.15
+
+  llama  RATING
+    S01  CRED_S01    gap to NONE    -4.4620 [  -5.0621,  -3.8479] p rank 2e-16 mean 0.0001   alone   -1.6260   recovered  -1.74
+    S01  S01_CRED    gap to NONE    -2.9990 [  -3.7061,  -2.2579] p rank 2.19e-10 mean 0.0001   alone   +0.7490   recovered   5.00
+    S08  CRED_S08    gap to NONE    -6.5600 [  -7.0000,  -6.1010] p rank 1.93e-18 mean 0.0001   alone   -6.7070   recovered   0.02
+    S08  S08_CRED    gap to NONE    -6.7550 [  -7.2120,  -6.2740] p rank 2.45e-18 mean 0.0001   alone   -5.9960   recovered  -0.13
+
+  llama  SALARY
+    S01  CRED_S01    gap to NONE +37734.0000 [+31687.7000,+43948.1000] p rank 4.24e-14 mean 0.0001   alone +10186.0000   recovered  -2.70
+    S01  S01_CRED    gap to NONE +30884.0000 [+25875.8500,+36032.1000] p rank 1.95e-13 mean 0.0001   alone +884.0000   recovered   n/a   (the disclosure alone had no effect to recover)
+    S08  CRED_S08    gap to NONE +4334.0000 [-2286.3500,+10634.5000] p rank 0.47 mean 0.195   alone -26719.6000   recovered   1.16
+    S08  S08_CRED    gap to NONE +2364.0000 [-3402.3000,+7948.0500] p rank 0.447 mean 0.414   alone -16804.2700   recovered   1.14
+
+  llama  SCORE
+    S01  CRED_S01    gap to NONE   -15.6150 [ -18.7414, -12.5548] p rank 7.46e-13 mean 0.0001   alone  -25.4660   recovered   0.39
+    S01  S01_CRED    gap to NONE   -10.3240 [ -16.8593,  -3.3159] p rank 0.00027 mean 0.0041   alone   -4.1070   recovered   n/a   (the disclosure alone had no effect to recover)
+    S08  CRED_S08    gap to NONE   -28.1860 [ -31.1860, -25.2709] p rank 9.92e-18 mean 0.0001   alone  -31.0020   recovered   0.09
+    S08  S08_CRED    gap to NONE   -25.5400 [ -29.0081, -22.0470] p rank 5.77e-16 mean 0.0001   alone  -26.3630   recovered   0.03
+
+  mistral  RATING
+    S01  CRED_S01    gap to NONE    +0.2081 [  +0.0942,  +0.3209] p rank 0.00238 mean 0.0004   alone   +0.9341   recovered   0.78
+    S01  S01_CRED    gap to NONE    +0.5506 [  +0.4225,  +0.6787] p rank 8.78e-10 mean 0.0001   alone   +1.1233   recovered   0.51
+    S08  CRED_S08    gap to NONE    -2.8811 [  -3.1611,  -2.6200] p rank 1.52e-16 mean 0.0001   alone   -4.9940   recovered   0.42
+    S08  S08_CRED    gap to NONE    -3.0583 [  -3.4750,  -2.6607] p rank 1.57e-15 mean 0.0001   alone   -2.1189   recovered  -0.44
+
+  mistral  SCORE
+    S01  CRED_S01    gap to NONE    -9.3247 [ -15.6389,  -3.2235] p rank 0.322 mean 0.0033   alone   +7.2875   recovered   2.28
+    S01  S01_CRED    gap to NONE    +7.9330 [  +5.6581,  +9.7011] p rank 4.3e-14 mean 0.0001   alone   +8.8979   recovered   0.11
+    S08  CRED_S08    gap to NONE   -37.1573 [ -41.2071, -33.3414] p rank 2.52e-16 mean 0.0001   alone  -39.2824   recovered   0.05
+    S08  S08_CRED    gap to NONE   -34.9577 [ -41.1329, -29.2900] p rank 4.07e-10 mean 0.0001   alone  -26.9033   recovered  -0.30
+
+  qwen  CHURN
+    S01  CRED_S01    gap to NONE    -0.7750 [  -1.8950,  +0.1550] p rank 0.681 mean 0.146   alone   +4.2710   recovered   1.18
+    S01  S01_CRED    gap to NONE    -2.7300 [  -3.9400,  -1.6800] p rank 9.7e-06 mean 0.0001   alone   -0.2700   recovered   n/a   (the disclosure alone had no effect to recover)
+    S08  CRED_S08    gap to NONE   +25.9700 [ +21.4949, +30.4573] p rank 8.65e-13 mean 0.0001   alone   -1.5500   recovered  17.75
+    S08  S08_CRED    gap to NONE    -2.5960 [  -4.0250,  -1.1259] p rank 3.08e-05 mean 0.0006   alone   +3.8920   recovered   1.67
+
+  qwen  RAISE
+    S01  CRED_S01    gap to NONE    -0.1610 [  -1.2570,  +0.8280] p rank 0.534 mean 0.771   alone   +0.0980   recovered   n/a   (the disclosure alone had no effect to recover)
+    S01  S01_CRED    gap to NONE    +2.4740 [  +1.5830,  +3.3851] p rank 5.8e-08 mean 0.0001   alone   +1.8590   recovered  -0.33
+    S08  CRED_S08    gap to NONE    -2.3840 [  -3.3820,  -1.5009] p rank 9.47e-05 mean 0.0001   alone  -11.1860   recovered   0.79
+    S08  S08_CRED    gap to NONE    -3.1790 [  -4.3521,  -2.0869] p rank 1.9e-05 mean 0.0001   alone   -6.3200   recovered   0.50
+
+  qwen  RATING
+    S01  CRED_S01    gap to NONE    -2.3600 [  -2.7800,  -1.9300] p rank 1.65e-12 mean 0.0001   alone   -1.3100   recovered  -0.80
+    S01  S01_CRED    gap to NONE    -3.4950 [  -3.8750,  -3.0750] p rank 1.3e-15 mean 0.0001   alone   +0.1680   recovered  21.80
+    S08  CRED_S08    gap to NONE    -3.1050 [  -3.5320,  -2.6790] p rank 9.4e-15 mean 0.0001   alone   -4.4740   recovered   0.31
+    S08  S08_CRED    gap to NONE    -4.4000 [  -4.6500,  -4.1300] p rank 3.51e-18 mean 0.0001   alone   -2.5090   recovered  -0.75
+
+  qwen  SALARY
+    S01  CRED_S01    gap to NONE +5450.0000 [+3800.0000,+7250.0000] p rank 7.57e-08 mean 0.0001   alone -4800.0000   recovered   2.14
+    S01  S01_CRED    gap to NONE +1800.0000 [+500.0000,+3150.0000] p rank 0.0183 mean 0.0096   alone -900.0000   recovered   3.00
+    S08  CRED_S08    gap to NONE  -950.0000 [-2200.0000,+250.0000] p rank 0.11 mean 0.144   alone -13900.0000   recovered   0.93
+    S08  S08_CRED    gap to NONE -8000.0000 [-9800.0000,-6350.0000] p rank 1.07e-11 mean 0.0001   alone -9350.0000   recovered   0.14
+
+  qwen  SCORE
+    S01  CRED_S01    gap to NONE   -12.7710 [ -16.9334,  -8.7910] p rank 1.13e-07 mean 0.0001   alone  -14.3400   recovered   0.11
+    S01  S01_CRED    gap to NONE   -17.2610 [ -21.5921, -12.8746] p rank 2.08e-09 mean 0.0001   alone   +9.4500   recovered   2.83
+    S08  CRED_S08    gap to NONE   -13.4830 [ -17.7624,  -9.3039] p rank 5.4e-08 mean 0.0001   alone  -37.4810   recovered   0.64
+    S08  S08_CRED    gap to NONE   -31.0750 [ -35.0621, -27.0030] p rank 1.56e-15 mean 0.0001   alone  -22.1370   recovered  -0.40
+
+  qwen  SUCCESS
+    S01  CRED_S01    gap to NONE    +0.7410 [  -2.6522,  +4.1681] p rank 0.21 mean 0.676   alone   +0.5150   recovered   n/a   (the disclosure alone had no effect to recover)
+    S01  S01_CRED    gap to NONE    -3.7740 [  -7.3833,  -0.1800] p rank 0.0624 mean 0.0493   alone   +5.9840   recovered   1.63
+    S08  CRED_S08    gap to NONE   -15.7600 [ -19.4520, -12.0549] p rank 3.37e-11 mean 0.0001   alone  -33.7790   recovered   0.53
+    S08  S08_CRED    gap to NONE   -29.7120 [ -33.3013, -26.0539] p rank 2.88e-16 mean 0.0001   alone  -23.1370   recovered  -0.28
+
+------------------------------------------------------------------------------
+4. SYMMETRY. The same credential against two disclosures.
+------------------------------------------------------------------------------
+  llama    RAISE    S01 gap +1.0900  S08 gap -8.8945   difference +9.9845
+  llama    RATING   S01 gap -3.7305  S08 gap -6.6575   difference +2.9270
+  llama    SALARY   S01 gap +34309.0000  S08 gap +3349.0000   difference +30960.0000
+  llama    SCORE    S01 gap -12.9695  S08 gap -26.8630   difference +13.8935
+  mistral  RATING   S01 gap +0.3794  S08 gap -2.9697   difference +3.3491
+  mistral  SCORE    S01 gap -0.6958  S08 gap -36.0575   difference +35.3617
+  qwen     CHURN    S01 gap -1.7525  S08 gap +11.6870   difference -13.4395
+  qwen     RAISE    S01 gap +1.1565  S08 gap -2.7815   difference +3.9380
+  qwen     RATING   S01 gap -2.9275  S08 gap -3.7525   difference +0.8250
+  qwen     SALARY   S01 gap +3625.0000  S08 gap -4475.0000   difference +8100.0000
+  qwen     SCORE    S01 gap -15.0160  S08 gap -22.2790   difference +7.2630
+  qwen     SUCCESS  S01 gap -1.5165  S08 gap -22.7360   difference +21.2195
+
+------------------------------------------------------------------------------
+5. COHERENCE. More likely to succeed must not mean more likely
+   to leave. This caught a broken instrument twice in Paper 2.
+------------------------------------------------------------------------------
+  llama    skipped: one half of the pair is not usable
+  mistral  skipped: one half of the pair is not usable
+
+  qwen
+    CRED_S01    success    +0.741  churn    -0.775   coherent
+    CRED_S08    success   -15.760  churn   +25.970   coherent
+    CRED_s1     success    -2.078  churn   +14.400   coherent
+    CRED_s2     success    -0.061  churn    +3.439   coherent
+    S01_CRED    success    -3.774  churn    -2.730   INCOHERENT, both move the same way
+    S01_s1      success    +0.515  churn    +4.271   INCOHERENT, both move the same way
+    S01_s2      success    +5.984  churn    -0.270   coherent
+    S08_CRED    success   -29.712  churn    -2.596   INCOHERENT, both move the same way
+    S08_s1      success   -33.779  churn    -1.550   INCOHERENT, both move the same way
+    S08_s2      success   -23.137  churn    +3.892   coherent
+
+==============================================================================
+Read section 3 before section 2. The interaction says whether the
+combination beat the sum of its parts; restoration says whether the
+person got their treatment back, which is the question that gets
+repeated back outside this field.
+==============================================================================

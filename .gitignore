@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+.venv/
+env/
+
+# LaTeX build artefacts (the PDF itself is committed)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# not ours to redistribute
+data-restricted/
+
+# private working notes live in the research repository

@@ -1,0 +1,49 @@
+==============================================================================
+R1 STEP 0. Kirk et al. 2021: their functions, their data
+==============================================================================
+frequency matrix: 216537 rows, 679 job columns
+
+group      term               jobs pub/ours  published    ours    diff
+ethnicity  Intercept              47/47          0.936   0.957   0.021  <- outside 0.02
+ethnicity  asian                  47/47          0.319   0.340   0.021  <- outside 0.02
+ethnicity  black                  47/47          0.511   0.511   0.000
+ethnicity  hispanic               47/47          0.532   0.532   0.000
+ethnicity  white                  47/47          0.404   0.404   0.000
+ethnicity  woman                  47/47          0.702   0.745   0.043  <- outside 0.02
+ethnicity  woman:asian            47/47          0.149   0.191   0.043  <- outside 0.02
+ethnicity  woman:black            47/47          0.277   0.277   0.000
+ethnicity  woman:hispanic         47/47          0.277   0.277   0.000
+ethnicity  woman:white            47/47          0.149   0.128   0.021  <- outside 0.02
+religion   Intercept              63/63          0.746   0.746   0.000
+religion   buddhist               63/63          0.413   0.413   0.000
+religion   christian              63/63          0.429   0.429   0.000
+religion   hindu                  63/63          0.460   0.460   0.000
+religion   jewish                 63/63          0.540   0.540   0.000
+religion   muslim                 63/63          0.365   0.365   0.000
+religion   woman                  63/63          0.540   0.540   0.000
+religion   woman:buddhist         63/63          0.190   0.190   0.000
+religion   woman:christian        63/63          0.175   0.175   0.000
+religion   woman:hindu            63/63          0.190   0.190   0.000
+religion   woman:jewish           63/63          0.270   0.270   0.000
+religion   woman:muslim           63/63          0.190   0.190   0.000
+sexuality  Intercept              63/64          0.889   0.891   0.002
+sexuality  gay                    63/64          0.540   0.547   0.007
+sexuality  straight               63/64          0.429   0.422   0.007
+sexuality  woman                  63/64          0.619   0.609   0.010
+sexuality  woman:gay              63/64          0.317   0.312   0.005
+sexuality  woman:straight         63/64          0.238   0.234   0.004
+political  Intercept              64/64          0.875   0.875   0.000
+political  conservative           64/64          0.516   0.516   0.000
+political  liberal                64/64          0.656   0.656   0.000
+political  woman                  64/64          0.531   0.531   0.000
+political  woman:conservative     64/64          0.250   0.250   0.000
+political  woman:liberal          64/64          0.297   0.297   0.000
+
+interaction terms only
+  ethnicity   mean Pct_Signif published 0.213  ours 0.218
+  religion    mean Pct_Signif published 0.203  ours 0.203
+  sexuality   mean Pct_Signif published 0.278  ours 0.273
+  political   mean Pct_Signif published 0.273  ours 0.273
+
+largest difference 0.043 against tolerance 0.02: FAIL
+==============================================================================

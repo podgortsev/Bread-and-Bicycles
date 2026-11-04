@@ -1,0 +1,335 @@
+{
+  "conditions": [
+    {
+      "id": "NONE",
+      "label": "no signal",
+      "lead_in": "I am working through this on my laptop this evening. I would like to get it finished before tomorrow.",
+      "slot1": "n1",
+      "slot2": "n2",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [],
+      "n_social_signals": 0,
+      "n_words": 19
+    },
+    {
+      "id": "ALT1",
+      "label": "one neutral detail",
+      "lead_in": "I cycle to work most days of the week. I would like to get it finished before tomorrow.",
+      "slot1": "alt1",
+      "slot2": "n2",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt1"
+      ],
+      "n_social_signals": 0,
+      "n_words": 18
+    },
+    {
+      "id": "ALT2_ONLY",
+      "label": "the other neutral detail",
+      "lead_in": "I am working through this on my laptop this evening. I have been baking my own bread since March.",
+      "slot1": "n1",
+      "slot2": "alt2",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt2"
+      ],
+      "n_social_signals": 0,
+      "n_words": 19
+    },
+    {
+      "id": "ALT_BOTH",
+      "label": "two neutral details",
+      "lead_in": "I cycle to work most days of the week. I have been baking my own bread since March.",
+      "slot1": "alt1",
+      "slot2": "alt2",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt1",
+        "alt2"
+      ],
+      "n_social_signals": 0,
+      "n_words": 18
+    },
+    {
+      "id": "S01_s1",
+      "label": "screen reader, slot 1",
+      "lead_in": "I use a screen reader for everything on my computer. I would like to get it finished before tomorrow.",
+      "slot1": "S01",
+      "slot2": "n2",
+      "style": "std",
+      "stated_signals": [
+        "S01"
+      ],
+      "form_signals": [],
+      "alt_details": [],
+      "n_social_signals": 1,
+      "n_words": 19
+    },
+    {
+      "id": "S01_s2",
+      "label": "screen reader, slot 2",
+      "lead_in": "I am working through this on my laptop this evening. I use a screen reader for everything on my computer.",
+      "slot1": "n1",
+      "slot2": "S01",
+      "style": "std",
+      "stated_signals": [
+        "S01"
+      ],
+      "form_signals": [],
+      "alt_details": [],
+      "n_social_signals": 1,
+      "n_words": 20
+    },
+    {
+      "id": "S08_s1",
+      "label": "age 74, slot 1",
+      "lead_in": "I am seventy-four and not very confident with computers. I would like to get it finished before tomorrow.",
+      "slot1": "S08",
+      "slot2": "n2",
+      "style": "std",
+      "stated_signals": [
+        "S08"
+      ],
+      "form_signals": [],
+      "alt_details": [],
+      "n_social_signals": 1,
+      "n_words": 18
+    },
+    {
+      "id": "S08_s2",
+      "label": "age 74, slot 2",
+      "lead_in": "I am working through this on my laptop this evening. I am seventy-four and not very confident with computers.",
+      "slot1": "n1",
+      "slot2": "S08",
+      "style": "std",
+      "stated_signals": [
+        "S08"
+      ],
+      "form_signals": [],
+      "alt_details": [],
+      "n_social_signals": 1,
+      "n_words": 19
+    },
+    {
+      "id": "F01",
+      "label": "non-native form",
+      "lead_in": "I am doing this work on my laptop in evening. I want to finish it before the tomorrow comes.",
+      "slot1": "n1",
+      "slot2": "n2",
+      "style": "esl",
+      "stated_signals": [],
+      "form_signals": [
+        "F01"
+      ],
+      "alt_details": [],
+      "n_social_signals": 1,
+      "n_words": 19
+    },
+    {
+      "id": "F04",
+      "label": "typos",
+      "lead_in": "im workign throuhg this on my laptop this eveing. i woudl liek to get it finsihed before tomorow.",
+      "slot1": "n1",
+      "slot2": "n2",
+      "style": "typo",
+      "stated_signals": [],
+      "form_signals": [
+        "F04"
+      ],
+      "alt_details": [],
+      "n_social_signals": 1,
+      "n_words": 18
+    },
+    {
+      "id": "P1_F01F04",
+      "label": "non-native + typos",
+      "lead_in": "i am doign this work on my laptop in eveing. i want to finsih it before the tomorow comes.",
+      "slot1": "n1",
+      "slot2": "n2",
+      "style": "esl_typo",
+      "stated_signals": [],
+      "form_signals": [
+        "F01",
+        "F04"
+      ],
+      "alt_details": [],
+      "n_social_signals": 2,
+      "n_words": 19
+    },
+    {
+      "id": "P2_S01S08",
+      "label": "screen reader + age",
+      "lead_in": "I use a screen reader for everything on my computer. I am seventy-four and not very confident with computers.",
+      "slot1": "S01",
+      "slot2": "S08",
+      "style": "std",
+      "stated_signals": [
+        "S01",
+        "S08"
+      ],
+      "form_signals": [],
+      "alt_details": [],
+      "n_social_signals": 2,
+      "n_words": 19
+    },
+    {
+      "id": "P2_S08S01",
+      "label": "age + screen reader",
+      "lead_in": "I am seventy-four and not very confident with computers. I use a screen reader for everything on my computer.",
+      "slot1": "S08",
+      "slot2": "S01",
+      "style": "std",
+      "stated_signals": [
+        "S08",
+        "S01"
+      ],
+      "form_signals": [],
+      "alt_details": [],
+      "n_social_signals": 2,
+      "n_words": 19
+    },
+    {
+      "id": "P3_F01S01_s1",
+      "label": "non-native + screen reader, slot 1",
+      "lead_in": "I am using screen reader for all things on computer. I want to finish it before the tomorrow comes.",
+      "slot1": "S01",
+      "slot2": "n2",
+      "style": "esl",
+      "stated_signals": [
+        "S01"
+      ],
+      "form_signals": [
+        "F01"
+      ],
+      "alt_details": [],
+      "n_social_signals": 2,
+      "n_words": 19
+    },
+    {
+      "id": "P3_F01S01_s2",
+      "label": "non-native + screen reader, slot 2",
+      "lead_in": "I am doing this work on my laptop in evening. I am using screen reader for all things on computer.",
+      "slot1": "n1",
+      "slot2": "S01",
+      "style": "esl",
+      "stated_signals": [
+        "S01"
+      ],
+      "form_signals": [
+        "F01"
+      ],
+      "alt_details": [],
+      "n_social_signals": 2,
+      "n_words": 20
+    },
+    {
+      "id": "P4_F04S08_s1",
+      "label": "typos + age, slot 1",
+      "lead_in": "i am seventy-four and not very confidnet with computrs. i woudl liek to get it finsihed before tomorow.",
+      "slot1": "S08",
+      "slot2": "n2",
+      "style": "typo",
+      "stated_signals": [
+        "S08"
+      ],
+      "form_signals": [
+        "F04"
+      ],
+      "alt_details": [],
+      "n_social_signals": 2,
+      "n_words": 18
+    },
+    {
+      "id": "P4_F04S08_s2",
+      "label": "typos + age, slot 2",
+      "lead_in": "im workign throuhg this on my laptop this eveing. i am seventy-four and not very confidnet with computrs.",
+      "slot1": "n1",
+      "slot2": "S08",
+      "style": "typo",
+      "stated_signals": [
+        "S08"
+      ],
+      "form_signals": [
+        "F04"
+      ],
+      "alt_details": [],
+      "n_social_signals": 2,
+      "n_words": 18
+    }
+  ],
+  "contrasts": [
+    {
+      "name": "FLOOR_ALTxALT",
+      "type": "floor",
+      "both": "ALT_BOTH",
+      "single_a": "ALT1",
+      "single_b": "ALT2_ONLY",
+      "none": "NONE"
+    },
+    {
+      "name": "P1_FORMxFORM",
+      "type": "form_x_form",
+      "both": "P1_F01F04",
+      "single_a": "F01",
+      "single_b": "F04",
+      "none": "NONE"
+    },
+    {
+      "name": "P2a_STATEDxSTATED",
+      "type": "stated_x_stated",
+      "both": "P2_S01S08",
+      "single_a": "S01_s1",
+      "single_b": "S08_s2",
+      "none": "NONE"
+    },
+    {
+      "name": "P2b_STATEDxSTATED",
+      "type": "stated_x_stated",
+      "both": "P2_S08S01",
+      "single_a": "S08_s1",
+      "single_b": "S01_s2",
+      "none": "NONE"
+    },
+    {
+      "name": "P3a_CROSS",
+      "type": "cross",
+      "both": "P3_F01S01_s1",
+      "single_a": "F01",
+      "single_b": "S01_s1",
+      "none": "NONE"
+    },
+    {
+      "name": "P3b_CROSS",
+      "type": "cross",
+      "both": "P3_F01S01_s2",
+      "single_a": "F01",
+      "single_b": "S01_s2",
+      "none": "NONE"
+    },
+    {
+      "name": "P4a_CROSS",
+      "type": "cross",
+      "both": "P4_F04S08_s1",
+      "single_a": "F04",
+      "single_b": "S08_s1",
+      "none": "NONE"
+    },
+    {
+      "name": "P4b_CROSS",
+      "type": "cross",
+      "both": "P4_F04S08_s2",
+      "single_a": "F04",
+      "single_b": "S08_s2",
+      "none": "NONE"
+    }
+  ]
+}

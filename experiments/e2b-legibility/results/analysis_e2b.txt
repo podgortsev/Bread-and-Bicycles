@@ -1,0 +1,120 @@
+==============================================================================
+e2b: does corrupting the task change the form-by-form interaction
+models: llama, mistral, qwen
+==============================================================================
+
+------------------------------------------------------------------------------
+llama
+------------------------------------------------------------------------------
+
+  accuracy per cell
+    std       arm A (task clean)   37.8%    arm B (task styled)   37.8%
+    esl       arm A (task clean)   39.3%    arm B (task styled)   35.3%
+    typo      arm A (task clean)   35.2%    arm B (task styled)   31.3%
+    esl_typo  arm A (task clean)   35.7%    arm B (task styled)   34.2%
+
+  the form-by-form interaction, negative = super-additive
+    arm A, task byte-identical        n= 600  -0.0100 [-0.0367, +0.0150]  p rank 0.4231 mean 0.5180  MDE +/-0.0249
+    arm B, task styled too            n= 600  +0.0533 [+0.0233, +0.0833]  p rank 0.0003 mean 0.0005  MDE +/-0.0289
+    arm B, only tasks that changed    n= 541  +0.0407 [+0.0111, +0.0721]  p rank 0.0086 mean 0.0115  MDE +/-0.0301
+    (59 tasks had no eligible word for a typo, so their typo cell equals std)
+
+  THE LEGIBILITY COMPONENT, paired within task
+    arm B minus arm A                 n= 600  +0.0633 [+0.0300, +0.0967]  p rank 0.0002 mean 0.0004  MDE +/-0.0330
+
+  VERDICT
+    Neither arm is super-additive. Liu et al. report a
+    combination that is mostly SUB-additive when the task
+    itself is corrupted, so read arm B's sign against that,
+    and the MDE above for how large an effect this run could
+    have seen. (Corrected 2026-09-12: an earlier version read
+    their result as super-additive.)
+
+  refusal by cell
+    A:esl            0.00%  (0 of 600)
+    A:esl_typo       0.00%  (0 of 600)
+    A:std            0.00%  (0 of 600)
+    A:typo           0.00%  (0 of 600)
+    B:esl            0.00%  (0 of 600)
+    B:esl_typo       0.00%  (0 of 600)
+    B:std            0.00%  (0 of 600)
+    B:typo           0.00%  (0 of 600)
+
+------------------------------------------------------------------------------
+mistral
+------------------------------------------------------------------------------
+
+  accuracy per cell
+    std       arm A (task clean)   50.8%    arm B (task styled)   50.8%
+    esl       arm A (task clean)   51.7%    arm B (task styled)   53.3%
+    typo      arm A (task clean)   51.2%    arm B (task styled)   45.2%
+    esl_typo  arm A (task clean)   51.2%    arm B (task styled)   50.2%
+
+  the form-by-form interaction, negative = super-additive
+    arm A, task byte-identical        n= 600  -0.0083 [-0.0333, +0.0167]  p rank 0.5151 mean 0.6083  MDE +/-0.0251
+    arm B, task styled too            n= 600  +0.0250 [-0.0100, +0.0600]  p rank 0.1659 mean 0.1952  MDE +/-0.0353
+    arm B, only tasks that changed    n= 541  +0.0296 [-0.0074, +0.0684]  p rank 0.1310 mean 0.1590  MDE +/-0.0383
+    (59 tasks had no eligible word for a typo, so their typo cell equals std)
+
+  THE LEGIBILITY COMPONENT, paired within task
+    arm B minus arm A                 n= 600  +0.0333 [-0.0067, +0.0733]  p rank 0.1343 mean 0.1135  MDE +/-0.0402
+
+  VERDICT
+    Neither arm is super-additive. Liu et al. report a
+    combination that is mostly SUB-additive when the task
+    itself is corrupted, so read arm B's sign against that,
+    and the MDE above for how large an effect this run could
+    have seen. (Corrected 2026-09-12: an earlier version read
+    their result as super-additive.)
+
+  refusal by cell
+    A:esl            0.17%  (1 of 600)
+    A:esl_typo       0.00%  (0 of 600)
+    A:std            0.00%  (0 of 600)
+    A:typo           0.00%  (0 of 600)
+    B:esl            0.00%  (0 of 600)
+    B:esl_typo       0.00%  (0 of 600)
+    B:std            0.00%  (0 of 600)
+    B:typo           0.00%  (0 of 600)
+
+------------------------------------------------------------------------------
+qwen
+------------------------------------------------------------------------------
+
+  accuracy per cell
+    std       arm A (task clean)   59.2%    arm B (task styled)   59.2%
+    esl       arm A (task clean)   58.2%    arm B (task styled)   59.2%
+    typo      arm A (task clean)   60.0%    arm B (task styled)   55.3%
+    esl_typo  arm A (task clean)   57.2%    arm B (task styled)   54.2%
+
+  the form-by-form interaction, negative = super-additive
+    arm A, task byte-identical        n= 600  -0.0183 [-0.0433, +0.0050]  p rank 0.1457 mean 0.1888  MDE +/-0.0246
+    arm B, task styled too            n= 600  -0.0117 [-0.0417, +0.0167]  p rank 0.4395 mean 0.5095  MDE +/-0.0294
+    arm B, only tasks that changed    n= 541  -0.0166 [-0.0481, +0.0166]  p rank 0.3078 mean 0.3687  MDE +/-0.0318
+    (59 tasks had no eligible word for a typo, so their typo cell equals std)
+
+  THE LEGIBILITY COMPONENT, paired within task
+    arm B minus arm A                 n= 600  +0.0067 [-0.0217, +0.0333]  p rank 0.6326 mean 0.7183  MDE +/-0.0273
+
+  VERDICT
+    Neither arm is super-additive. Liu et al. report a
+    combination that is mostly SUB-additive when the task
+    itself is corrupted, so read arm B's sign against that,
+    and the MDE above for how large an effect this run could
+    have seen. (Corrected 2026-09-12: an earlier version read
+    their result as super-additive.)
+
+  refusal by cell
+    A:esl            0.00%  (0 of 600)
+    A:esl_typo       0.00%  (0 of 600)
+    A:std            0.00%  (0 of 600)
+    A:typo           0.00%  (0 of 600)
+    B:esl            0.00%  (0 of 600)
+    B:esl_typo       0.00%  (0 of 600)
+    B:std            0.00%  (0 of 600)
+    B:typo           0.00%  (0 of 600)
+
+==============================================================================
+Both arms use the same 600 tasks, the same keys, the same lead-ins
+and the same parser. The only difference is the task text.
+==============================================================================

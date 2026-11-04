@@ -1,0 +1,91 @@
+==========================================================================
+A. CONDITION SET
+==========================================================================
+  [ok  ] condition set passes its own structural checks
+  [ok  ] seventeen conditions  got 17
+  [ok  ] lead-in length spread within limit  spread 2 words
+  [ok  ] every lead-in is exactly two clauses
+  [ok  ] signal count is 0, 1 or 2 and never more
+  [ok  ] both-cells carry two signals
+  [ok  ] floor both-cell carries zero social signals
+  [ok  ] F04 never corrupts 'screen reader'
+  [ok  ] F04 never corrupts 'seventy-four'
+
+==========================================================================
+B. ANSWER PARSER
+==========================================================================
+  [ok  ] parser: bare correct number  got correct=True refused=False
+  [ok  ] parser: trailing zero  got correct=True refused=False
+  [ok  ] parser: currency and separator  got correct=True refused=False
+  [ok  ] parser: sentence  got correct=True refused=False
+  [ok  ] parser: decimal  got correct=True refused=False
+  [ok  ] parser: wrong number is not a refusal  got correct=False refused=False
+  [ok  ] parser: plain refusal  got correct=False refused=True
+  [ok  ] parser: policy refusal  got correct=False refused=True
+  [ok  ] parser: HEDGED WITH THE RIGHT NUMBER, must not be read as a refusal  got correct=True refused=False
+  [ok  ] parser: apology plus the right number  got correct=True refused=False
+  [ok  ] parser: apology plus a WRONG number is wrong, not refused  got correct=False refused=False
+  [ok  ] parser: empty output  got correct=False refused=True
+  [ok  ] parser: no number offered at all  got correct=False refused=True
+  [ok  ] parser: negative  got correct=True refused=False
+
+==========================================================================
+C. STATISTICS, against hand-computed answers
+==========================================================================
+  [ok  ] BH is monotone and never below the raw p
+  [ok  ] BH on the smallest of four: 0.001 * 4 / 1  0.004000
+  [ok  ] BH on a single p leaves it alone
+  [ok  ] BH on an empty family returns empty
+  [ok  ] McNemar: 10 gains, 0 losses is significant  b=10 c=0 p=0.00195
+  [ok  ] McNemar: no discordant pairs gives p=1
+  [ok  ] McNemar: symmetric discordance is not significant  p=1.0000
+  [ok  ] bootstrap mean of a symmetric set is near zero
+  [ok  ] bootstrap interval covers zero
+  [ok  ] bootstrap mean of a shifted set  -0.2500
+  [ok  ] bootstrap interval excludes zero when the shift is large
+  [ok  ] MDE falls as n grows
+  [ok  ] MDE of a constant vector is zero
+  [ok  ] wilcoxon on all zeros returns p=1
+  [ok  ] wilcoxon on a one-sided set is significant  p=5.73e-07
+
+==========================================================================
+D. SYNTHETIC WORLD 1: form pair super-additive, stated pair additive
+==========================================================================
+   n=600 tasks, injected form x form -0.15, stated x stated 0.00
+  [ok  ] form x form interaction recovered near the injected -0.15  got -0.1450
+  [ok  ] form x form estimate clears its own MDE  |-0.1450| vs MDE 0.0728
+  [ok  ] stated x stated stays null after BH  0.641, 0.975
+  [ok  ] floor stays null  BH=0.824
+
+==========================================================================
+E. POWER AND FALSE POSITIVES
+==========================================================================
+   Significance on a single seed is not a check, it is a coin toss at
+   moderate power. Both numbers below are measured over many seeds.
+  [ok  ] false-positive rate near nominal over 30 seeds  0/240 = 0.000%, largest +0.0000
+
+   power to detect a form x form interaction at n=600:
+     -0.05   13%
+     -0.10   50%
+     -0.15   90%
+     -0.20   100%
+  [ok  ] powered at an interaction of 0.15  90%
+  [ok  ] HONEST: an interaction of 0.05 is NOT detectable on this channel  13%. This belongs in the paper, not in a footnote
+
+   typical MDE at n=600: 0.0765 (7.7 points of accuracy)
+   Interactions smaller than that are NOT visible on channel A, and
+   the analysis prints this number next to every estimate.
+  [ok  ] MDE is reported and smaller than it was at n=200  0.0765
+
+==========================================================================
+F. SYNTHETIC WORLD 3: contaminated floor
+==========================================================================
+   Two socially neutral details made to interact by -0.15.
+   The floor check must catch this, or a spurious result ships.
+  [ok  ] contaminated floor is detected as significant  interaction -0.1633, BH=0.00016
+  [ok  ] contaminated floor is as large as the social contrasts, so the guard in the verdict trips  floor 0.1633 vs largest social 0.2133
+
+==========================================================================
+48 passed, 0 failed
+e1 channel A is safe to run.
+==========================================================================

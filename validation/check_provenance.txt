@@ -1,0 +1,12 @@
+======================================================================
+PAPER 3 PROVENANCE: what was inherited from Paper 2
+======================================================================
+  identical  profiles/profiles.json            fea8aa95c8cbc45d
+  identical  profiles/profiles.csv             ff4dab890c9d4379
+  identical  axes/axes.json                    4f0581cb707f08bd
+  identical  axes/axes.csv                     877c122081b6f565
+  identical  axes/axes_design.md               b4e6dd506d3565f1
+  identical  tasks/tasks_p2_200.json           d6920e1bdaa969d0
+  identical  tasks.json rows 1-200 reproduce Paper 2 exactly
+
+  everything inherited from Paper 2 is unchanged

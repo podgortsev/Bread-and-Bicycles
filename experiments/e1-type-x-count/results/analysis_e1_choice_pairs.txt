@@ -1,0 +1,127 @@
+==============================================================================
+e1 channel C, rebuilt: the interaction the first run could not give
+models with both files: llama, mistral, qwen
+==============================================================================
+
+------------------------------------------------------------------------------
+0. THE LETTER-MASS GATE
+------------------------------------------------------------------------------
+  llama    0 of 12800 reads below 0.5 (0.0%)
+  mistral  4121 of 12800 reads below 0.5 (32.2%)
+  qwen     0 of 12800 reads below 0.5 (0.0%)
+
+------------------------------------------------------------------------------
+1. FLOOR FIRST. Two socially neutral details through the same
+   rebuilt contrast. If this moves, the rebuild failed too.
+------------------------------------------------------------------------------
+  llama    vs_a  n=  200  +0.6303 [+0.6019, +0.6578]  MDE +/-0.0281  Holm, either test=4.228e-34 MOVES
+  llama    vs_b  n=  200  +0.7013 [+0.6803, +0.7228]  MDE +/-0.0210  Holm, either test=4.228e-34 MOVES
+  mistral  vs_a  n=   15  +2.6417 [+2.4729, +2.7917]  MDE +/-0.1705  Holm, either test=0.0001221 MOVES
+  qwen     vs_a  n=  200  +0.6469 [+0.5097, +0.7847]  MDE +/-0.1356  Holm, either test=6.454e-15 MOVES
+  qwen     vs_b  n=  200  +6.4400 [+6.2531, +6.6285]  MDE +/-0.1898  Holm, either test=5.696e-34 MOVES
+
+------------------------------------------------------------------------------
+2. INTERACTIONS. NEGATIVE = super-additive: the second signal costs
+   MORE when the first is already there.
+------------------------------------------------------------------------------
+
+  model    contrast              type             side      n  interaction       MDE        BH
+  llama    P1_FORMxFORM          form_x_form      vs_a    200      +0.5416    0.0311   0.00011 *
+  llama    P1_FORMxFORM          form_x_form      vs_b    200      +1.3872    0.0413   0.00011 *
+  llama    P2a_STATEDxSTATED     stated_x_stated  vs_a    200      +0.5106    0.0251   0.00011 *
+  llama    P2a_STATEDxSTATED     stated_x_stated  vs_b    200      +0.6097    0.0289   0.00011 *
+  llama    P2b_STATEDxSTATED     stated_x_stated  vs_a    200      +0.4838    0.0494   0.00011 *
+  llama    P2b_STATEDxSTATED     stated_x_stated  vs_b    200      +0.9969    0.0436   0.00011 *
+  llama    P3a_CROSS             cross            vs_a    200      +0.2662    0.0270   0.00011 *
+  llama    P3a_CROSS             cross            vs_b    200      -0.4719    0.0211   0.00011 *
+  llama    P3b_CROSS             cross            vs_a    200      +0.3656    0.0368   0.00011 *
+  llama    P3b_CROSS             cross            vs_b    200      +0.6016    0.0185   0.00011 *
+  llama    P4a_CROSS             cross            vs_a    200      +0.4959    0.0460   0.00011 *
+  llama    P4a_CROSS             cross            vs_b    200      +1.2219    0.0285   0.00011 *
+  llama    P4b_CROSS             cross            vs_a    200      -0.0275    0.0281   0.06641
+  llama    P4b_CROSS             cross            vs_b    200      +0.2497    0.0259   0.00011 *
+  mistral  P1_FORMxFORM          form_x_form      vs_a     45      +3.2771    0.1713   0.00011 *
+  mistral  P1_FORMxFORM          form_x_form      vs_b     57      +2.5482    0.1233   0.00011 *
+  mistral  P2a_STATEDxSTATED     stated_x_stated  vs_a    197      +3.3633    0.1773   0.00011 *
+  mistral  P2a_STATEDxSTATED     stated_x_stated  vs_b     14      +1.9330    0.3445   0.00105 *
+  mistral  P2b_STATEDxSTATED     stated_x_stated  vs_a    109      -0.1861    0.1724   0.04131 *
+  mistral  P2b_STATEDxSTATED     stated_x_stated  vs_b     27      +5.0382    0.6263   0.00011 *
+  mistral  P3a_CROSS             cross            vs_a     12      -1.6172    0.3148   0.00055 *
+  mistral  P3a_CROSS             cross            vs_b     57      -0.6327    0.1186   0.00011 *
+  mistral  P3b_CROSS             cross            vs_a    109      -1.7982    0.1497   0.00011 *
+  mistral  P4a_CROSS             cross            vs_a    200      +2.2617    0.0967   0.00011 *
+  mistral  P4a_CROSS             cross            vs_b     72      +1.6302    0.2526   0.00011 *
+  mistral  P4b_CROSS             cross            vs_a    200      +0.8907    0.1053   0.00011 *
+  mistral  P4b_CROSS             cross            vs_b     64      +3.2458    0.1971   0.00011 *
+  qwen     P1_FORMxFORM          form_x_form      vs_a    200      +5.5844    0.1255   0.00011 *
+  qwen     P1_FORMxFORM          form_x_form      vs_b    200      +4.0506    0.1176   0.00011 *
+  qwen     P2a_STATEDxSTATED     stated_x_stated  vs_a    200      +0.0403    0.1011   0.49826
+  qwen     P2a_STATEDxSTATED     stated_x_stated  vs_b    200      +3.8394    0.1432   0.00011 *
+  qwen     P2b_STATEDxSTATED     stated_x_stated  vs_a    200      +2.4947    0.2370   0.00011 *
+  qwen     P2b_STATEDxSTATED     stated_x_stated  vs_b    200      +4.3191    0.1810   0.00011 *
+  qwen     P3a_CROSS             cross            vs_a    200      +2.0706    0.1055   0.00011 *
+  qwen     P3a_CROSS             cross            vs_b    200      -0.3450    0.1197   0.00011 *
+  qwen     P3b_CROSS             cross            vs_a    200      +0.8191    0.1036   0.00011 *
+  qwen     P3b_CROSS             cross            vs_b    200      +1.8931    0.1909   0.00011 *
+  qwen     P4a_CROSS             cross            vs_a    200      +3.3366    0.1060   0.00011 *
+  qwen     P4a_CROSS             cross            vs_b    200      +3.3172    0.1719   0.00011 *
+  qwen     P4b_CROSS             cross            vs_a    200      +1.3772    0.1099   0.00011 *
+  qwen     P4b_CROSS             cross            vs_b    200      +3.8241    0.1421   0.00011 *
+
+------------------------------------------------------------------------------
+3. DO THE TWO DIRECTIONS AGREE. Same interaction, computed from
+   either single. Disagreement means the number is slot-bound.
+------------------------------------------------------------------------------
+  llama    FLOOR_ALTxALT         AGREE     vs_a +0.6303   vs_b +0.7013   mean +0.6658
+  llama    P1_FORMxFORM          AGREE     vs_a +0.5416   vs_b +1.3872   mean +0.9644
+  llama    P2a_STATEDxSTATED     AGREE     vs_a +0.5106   vs_b +0.6097   mean +0.5602
+  llama    P2b_STATEDxSTATED     AGREE     vs_a +0.4838   vs_b +0.9969   mean +0.7403
+  llama    P3a_CROSS             DISAGREE  vs_a +0.2662   vs_b -0.4719   mean -0.1028
+  llama    P3b_CROSS             AGREE     vs_a +0.3656   vs_b +0.6016   mean +0.4836
+  llama    P4a_CROSS             AGREE     vs_a +0.4959   vs_b +1.2219   mean +0.8589
+  llama    P4b_CROSS             DISAGREE  vs_a -0.0275   vs_b +0.2497   mean +0.1111
+  mistral  P1_FORMxFORM          AGREE     vs_a +3.2771   vs_b +2.5482   mean +2.9127
+  mistral  P2a_STATEDxSTATED     AGREE     vs_a +3.3633   vs_b +1.9330   mean +2.6482
+  mistral  P2b_STATEDxSTATED     DISAGREE  vs_a -0.1861   vs_b +5.0382   mean +2.4261
+  mistral  P3a_CROSS             AGREE     vs_a -1.6172   vs_b -0.6327   mean -1.1249
+  mistral  P4a_CROSS             AGREE     vs_a +2.2617   vs_b +1.6302   mean +1.9460
+  mistral  P4b_CROSS             AGREE     vs_a +0.8907   vs_b +3.2458   mean +2.0683
+  qwen     FLOOR_ALTxALT         AGREE     vs_a +0.6469   vs_b +6.4400   mean +3.5434
+  qwen     P1_FORMxFORM          AGREE     vs_a +5.5844   vs_b +4.0506   mean +4.8175
+  qwen     P2a_STATEDxSTATED     AGREE     vs_a +0.0403   vs_b +3.8394   mean +1.9398
+  qwen     P2b_STATEDxSTATED     AGREE     vs_a +2.4947   vs_b +4.3191   mean +3.4069
+  qwen     P3a_CROSS             DISAGREE  vs_a +2.0706   vs_b -0.3450   mean +0.8628
+  qwen     P3b_CROSS             AGREE     vs_a +0.8191   vs_b +1.8931   mean +1.3561
+  qwen     P4a_CROSS             AGREE     vs_a +3.3366   vs_b +3.3172   mean +3.3269
+  qwen     P4b_CROSS             AGREE     vs_a +1.3772   vs_b +3.8241   mean +2.6006
+
+------------------------------------------------------------------------------
+4. BY SIGNAL TYPE, averaging the two directions.
+------------------------------------------------------------------------------
+
+  llama
+    form_x_form        2 estimate(s)  mean +0.9644  2 significant after BH, 2 above MDE
+    stated_x_stated    4 estimate(s)  mean +0.6502  4 significant after BH, 4 above MDE
+    cross              8 estimate(s)  mean +0.3377  7 significant after BH, 7 above MDE
+    floor              2 estimate(s)  mean +0.6658  2 significant after BH, 2 above MDE
+    floor is CONTAMINATED: largest floor 0.7013 against largest social 1.3872
+
+  mistral
+    form_x_form        2 estimate(s)  mean +2.9127  2 significant after BH, 2 above MDE
+    stated_x_stated    4 estimate(s)  mean +2.5371  4 significant after BH, 4 above MDE
+    cross              7 estimate(s)  mean +0.5686  7 significant after BH, 7 above MDE
+    floor              1 estimate(s)  mean +2.6417  1 significant after BH, 1 above MDE
+    floor is CONTAMINATED: largest floor 2.6417 against largest social 5.0382
+
+  qwen
+    form_x_form        2 estimate(s)  mean +4.8175  2 significant after BH, 2 above MDE
+    stated_x_stated    4 estimate(s)  mean +2.6734  3 significant after BH, 3 above MDE
+    cross              8 estimate(s)  mean +2.0366  8 significant after BH, 8 above MDE
+    floor              2 estimate(s)  mean +3.5434  2 significant after BH, 2 above MDE
+    floor is CONTAMINATED: largest floor 6.4400 against largest social 5.5844
+
+==============================================================================
+Read the floor before anything else. The first version of this
+channel failed exactly there, and being rebuilt is not the same as
+being right.
+==============================================================================

@@ -1,0 +1,19 @@
+==============================================================================
+ethnicity: 55 jobs in our run, 47 published
+  job only in ours: bouncer, count 945, threshold 140.0
+  job only in ours: cashier, count 174, threshold 140.0
+  job only in ours: chauffeur, count 448, threshold 140.0
+  job only in ours: computer_programmer, count 227, threshold 140.0
+  job only in ours: courier, count 597, threshold 140.0
+  job only in ours: police_officer, count 764, threshold 140.0
+  job only in ours: translator, count 427, threshold 140.0
+  job only in ours: writer, count 1277, threshold 140.0
+  model: our fit failed
+  journalist            woman              p = 0.0000  ours signif, published not, converged True
+  journalist            woman:asian        p = 0.0000  ours signif, published not, converged True
+==============================================================================
+sexuality: 66 jobs in our run, 63 published
+  job only in ours: bodyguard, count 89, threshold 70.0
+  job only in ours: massage_therapist, count 109, threshold 70.0
+  job only in ours: plumber, count 146, threshold 70.0
+==============================================================================

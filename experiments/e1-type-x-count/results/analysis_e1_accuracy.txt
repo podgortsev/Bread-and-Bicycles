@@ -1,0 +1,159 @@
+============================================================================
+e1 CHANNEL A: task accuracy under stacked signals
+models: llama, mistral, qwen
+============================================================================
+
+----------------------------------------------------------------------------
+1. FLOOR CHECK. Two socially neutral details, stacked the same way.
+   If this moves like the social contrasts do, the instrument reads
+   detail count and nothing below can be believed.
+----------------------------------------------------------------------------
+  llama    n= 600  interaction +0.0100 [-0.0200, +0.0383]  p rank 0.5076 mean 0.5872  MDE +/-0.0296
+  mistral  n= 600  interaction +0.0217 [-0.0117, +0.0550]  p rank 0.2214 mean 0.2524  MDE +/-0.0338
+  qwen     n= 600  interaction +0.0000 [-0.0267, +0.0267]  p rank 1.0000 mean 1.0000  MDE +/-0.0266
+
+----------------------------------------------------------------------------
+2. MAIN EFFECTS against NONE, paired within task, exact McNemar.
+   negative net = the signal COSTS accuracy.
+----------------------------------------------------------------------------
+
+  llama
+    ALT1          n= 600  net +0.0083  gained  38 lost  33  p=0.6353
+    ALT2_ONLY     n= 600  net -0.0167  gained  24 lost  34  p=0.2370
+    ALT_BOTH      n= 600  net +0.0017  gained  40 lost  39  p=1.0000
+    S01_s1        n= 600  net -0.0500  gained  14 lost  44  p=0.0001
+    S01_s2        n= 600  net -0.0633  gained  14 lost  52  p=0.0000
+    S08_s1        n= 600  net -0.0650  gained  20 lost  59  p=0.0000
+    S08_s2        n= 600  net -0.0333  gained  21 lost  41  p=0.0151
+    F01           n= 600  net +0.0150  gained  25 lost  16  p=0.2110
+    F04           n= 600  net -0.0267  gained  12 lost  28  p=0.0166
+
+  mistral
+    ALT1          n= 600  net -0.0317  gained  20 lost  39  p=0.0183
+    ALT2_ONLY     n= 600  net -0.0167  gained  30 lost  40  p=0.2820
+    ALT_BOTH      n= 600  net -0.0267  gained  25 lost  41  p=0.0640
+    S01_s1        n= 600  net +0.0083  gained  35 lost  30  p=0.6201
+    S01_s2        n= 600  net +0.0250  gained  41 lost  26  p=0.0864
+    S08_s1        n= 600  net +0.0017  gained  28 lost  27  p=1.0000
+    S08_s2        n= 600  net +0.0100  gained  33 lost  27  p=0.5190
+    F01           n= 600  net +0.0083  gained  22 lost  17  p=0.5224
+    F04           n= 600  net +0.0033  gained  19 lost  17  p=0.8679
+
+  qwen
+    ALT1          n= 600  net -0.0117  gained  27 lost  34  p=0.4426
+    ALT2_ONLY     n= 600  net +0.0000  gained  35 lost  35  p=1.0000
+    ALT_BOTH      n= 600  net -0.0117  gained  37 lost  44  p=0.5052
+    S01_s1        n= 600  net +0.0033  gained  26 lost  24  p=0.8877
+    S01_s2        n= 600  net +0.0050  gained  28 lost  25  p=0.7838
+    S08_s1        n= 600  net -0.0067  gained  23 lost  27  p=0.6718
+    S08_s2        n= 600  net -0.0150  gained  20 lost  29  p=0.2529
+    F01           n= 600  net -0.0100  gained  22 lost  28  p=0.4799
+    F04           n= 600  net +0.0083  gained  21 lost  16  p=0.5114
+
+----------------------------------------------------------------------------
+3. INTERACTIONS. d = (both - A) - (B - none), per task.
+   NEGATIVE = super-additive, the pair costs MORE than its parts.
+   POSITIVE = sub-additive.
+----------------------------------------------------------------------------
+
+  model    contrast              type                n   interaction                95% CI       MDE    p rank    p mean       adj
+  llama    FLOOR_ALTxALT         floor             600       +0.0100  [-0.0200,+0.0383]    0.0296    0.5076    0.5872    1.0000
+  llama    P1_FORMxFORM          form_x_form       600       -0.0100  [-0.0367,+0.0150]    0.0249    0.4231    0.5180    0.7771
+  llama    P2a_STATEDxSTATED     stated_x_stated   600       +0.0383  [+0.0067,+0.0700]    0.0314    0.0171    0.0231    0.1736
+  llama    P2b_STATEDxSTATED     stated_x_stated   600       +0.0717  [+0.0350,+0.1083]    0.0364    0.0001    0.0002    0.0042 *
+  llama    P3a_CROSS             cross             600       -0.0217  [-0.0467,+0.0033]    0.0255    0.0960    0.1271    0.5219
+  llama    P3b_CROSS             cross             600       -0.0133  [-0.0417,+0.0133]    0.0273    0.3390    0.4052    0.7090
+  llama    P4a_CROSS             cross             600       +0.0283  [-0.0017,+0.0567]    0.0297    0.0632    0.0793    0.4163
+  llama    P4b_CROSS             cross             600       +0.0167  [-0.0067,+0.0417]    0.0244    0.1814    0.2237    0.5219
+  mistral  FLOOR_ALTxALT         floor             600       +0.0217  [-0.0117,+0.0550]    0.0338    0.2214    0.2524    0.4428
+  mistral  P1_FORMxFORM          form_x_form       600       -0.0083  [-0.0333,+0.0167]    0.0251    0.5151    0.6083    0.8517
+  mistral  P2a_STATEDxSTATED     stated_x_stated   600       -0.0083  [-0.0433,+0.0267]    0.0351    0.6483    0.7123    0.8799
+  mistral  P2b_STATEDxSTATED     stated_x_stated   600       +0.0033  [-0.0317,+0.0383]    0.0343    0.8124    0.9250    0.9713
+  mistral  P3a_CROSS             cross             600       +0.0167  [-0.0117,+0.0450]    0.0288    0.2575    0.3139    0.6591
+  mistral  P3b_CROSS             cross             600       -0.0083  [-0.0367,+0.0217]    0.0287    0.5721    0.6517    0.8554
+  mistral  P4a_CROSS             cross             600       +0.0050  [-0.0250,+0.0333]    0.0287    0.7356    0.8218    0.9083
+  mistral  P4b_CROSS             cross             600       +0.0217  [-0.0083,+0.0500]    0.0283    0.1334    0.1669    0.5219
+  qwen     FLOOR_ALTxALT         floor             600       +0.0000  [-0.0267,+0.0267]    0.0266    1.0000    1.0000    1.0000
+  qwen     P1_FORMxFORM          form_x_form       600       -0.0183  [-0.0433,+0.0050]    0.0246    0.1457    0.1888    0.5219
+  qwen     P2a_STATEDxSTATED     stated_x_stated   600       -0.0217  [-0.0517,+0.0083]    0.0304    0.1616    0.2020    0.5219
+  qwen     P2b_STATEDxSTATED     stated_x_stated   600       -0.0367  [-0.0683,-0.0067]    0.0305    0.0186    0.0248    0.1736
+  qwen     P3a_CROSS             cross             600       +0.0133  [-0.0183,+0.0433]    0.0299    0.3682    0.4513    0.7290
+  qwen     P3b_CROSS             cross             600       +0.0050  [-0.0217,+0.0333]    0.0275    0.7193    0.8105    0.9083
+  qwen     P4a_CROSS             cross             600       -0.0133  [-0.0383,+0.0100]    0.0244    0.2850    0.3541    0.6759
+  qwen     P4b_CROSS             cross             600       +0.0000  [-0.0267,+0.0250]    0.0262    1.0000    1.0000    1.0000
+
+  adj: BH over max(p rank, p mean) for contrasts, so * needs both
+  tests and the mean leaning with the signed ranks; Holm on either
+  test for the floor, where * means the floor MOVES.
+
+  READ THE MDE COLUMN BEFORE THE p COLUMN. Where |interaction| is
+  smaller than MDE, this channel cannot see an effect of that size,
+  and the result is 'not visible from here', not 'no interaction'.
+
+----------------------------------------------------------------------------
+4. BY SIGNAL TYPE. The thesis is that form signals compound and
+   stated signals do not.
+----------------------------------------------------------------------------
+
+  llama
+    form_x_form       1 contrast(s)  mean -0.0100  0 significant after BH, 0 above MDE
+    stated_x_stated   2 contrast(s)  mean +0.0550  1 significant after BH, 2 above MDE
+    cross             4 contrast(s)  mean +0.0025  0 significant after BH, 0 above MDE
+    floor             1 contrast(s)  mean +0.0100  0 significant after BH, 0 above MDE
+
+  mistral
+    form_x_form       1 contrast(s)  mean -0.0083  0 significant after BH, 0 above MDE
+    stated_x_stated   2 contrast(s)  mean -0.0025  0 significant after BH, 0 above MDE
+    cross             4 contrast(s)  mean +0.0088  0 significant after BH, 0 above MDE
+    floor             1 contrast(s)  mean +0.0217  0 significant after BH, 0 above MDE
+
+  qwen
+    form_x_form       1 contrast(s)  mean -0.0183  0 significant after BH, 0 above MDE
+    stated_x_stated   2 contrast(s)  mean -0.0292  0 significant after BH, 1 above MDE
+    cross             4 contrast(s)  mean +0.0012  0 significant after BH, 0 above MDE
+    floor             1 contrast(s)  mean +0.0000  0 significant after BH, 0 above MDE
+
+----------------------------------------------------------------------------
+5. ORDER. Pairs carrying a stated signal ran in both slot orders.
+   Disagreement in sign means the result belongs to the slot.
+----------------------------------------------------------------------------
+  llama    P2   AGREE                     P2a_STATEDxSTATED=+0.0383, P2b_STATEDxSTATED=+0.0717
+  llama    P3   AGREE                     P3a_CROSS=-0.0217, P3b_CROSS=-0.0133
+  llama    P4   AGREE                     P4a_CROSS=+0.0283, P4b_CROSS=+0.0167
+  mistral  P2   DISAGREE, slot-dependent  P2a_STATEDxSTATED=-0.0083, P2b_STATEDxSTATED=+0.0033
+  mistral  P3   DISAGREE, slot-dependent  P3a_CROSS=+0.0167, P3b_CROSS=-0.0083
+  mistral  P4   AGREE                     P4a_CROSS=+0.0050, P4b_CROSS=+0.0217
+  qwen     P2   AGREE                     P2a_STATEDxSTATED=-0.0217, P2b_STATEDxSTATED=-0.0367
+  qwen     P3   AGREE                     P3a_CROSS=+0.0133, P3b_CROSS=+0.0050
+  qwen     P4   DISAGREE, slot-dependent  P4a_CROSS=-0.0133, P4b_CROSS=+0.0000
+
+----------------------------------------------------------------------------
+6. REFUSAL against the number of signals. Counted separately,
+   never scored as a wrong answer.
+----------------------------------------------------------------------------
+
+  llama
+    0 signal(s)     0.08%  (2 of 2400)
+    1 signal(s)     0.00%  (0 of 3600)
+    2 signal(s)     0.02%  (1 of 4200)
+
+  mistral
+    0 signal(s)     0.00%  (0 of 2400)
+    1 signal(s)     0.03%  (1 of 3600)
+    2 signal(s)     0.00%  (0 of 4200)
+
+  qwen
+    0 signal(s)     0.00%  (0 of 2400)
+    1 signal(s)     0.00%  (0 of 3600)
+    2 signal(s)     0.00%  (0 of 4200)
+
+============================================================================
+VERDICT, against the expectations registered before the run
+============================================================================
+  llama    does not support the thesis on this channel: form x form NOT super-additive; stated x stated NOT null; floor clean
+  mistral  does not support the thesis on this channel: form x form NOT super-additive; stated x stated null; floor clean
+  qwen     does not support the thesis on this channel: form x form NOT super-additive; stated x stated null; floor clean
+
+  This channel alone does not settle the thesis. Channels B and C
+  carry a continuous outcome and are powered for interactions;
+  this one is the behavioural evidence, not the sensitive one.

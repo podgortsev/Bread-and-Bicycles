@@ -1,0 +1,127 @@
+{
+  "conditions": [
+    {
+      "id": "NONE",
+      "label": "no signal",
+      "lead_in": "I am working through this on my laptop this evening. I would like to get it finished before tomorrow.",
+      "slot1": "n1",
+      "slot2": "n2",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [],
+      "n_social_signals": 0,
+      "n_words": 19
+    },
+    {
+      "id": "ALT3",
+      "label": "neutral detail: dog walking",
+      "lead_in": "I walk our dog around the park every morning. I would like to get it finished before tomorrow.",
+      "slot1": "alt3",
+      "slot2": "n2",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt3"
+      ],
+      "n_social_signals": 0,
+      "n_words": 18
+    },
+    {
+      "id": "ALT4_ONLY",
+      "label": "neutral detail: guitar",
+      "lead_in": "I am working through this on my laptop this evening. I have been learning to play the guitar lately.",
+      "slot1": "n1",
+      "slot2": "alt4",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt4"
+      ],
+      "n_social_signals": 0,
+      "n_words": 19
+    },
+    {
+      "id": "ALT_BOTH_34",
+      "label": "two neutral details: dog and guitar",
+      "lead_in": "I walk our dog around the park every morning. I have been learning to play the guitar lately.",
+      "slot1": "alt3",
+      "slot2": "alt4",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt3",
+        "alt4"
+      ],
+      "n_social_signals": 0,
+      "n_words": 18
+    },
+    {
+      "id": "ALT5",
+      "label": "neutral detail: tea",
+      "lead_in": "I usually make a pot of tea around noon. I would like to get it finished before tomorrow.",
+      "slot1": "alt5",
+      "slot2": "n2",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt5"
+      ],
+      "n_social_signals": 0,
+      "n_words": 18
+    },
+    {
+      "id": "ALT6_ONLY",
+      "label": "neutral detail: history books",
+      "lead_in": "I am working through this on my laptop this evening. I have been reading a lot of history books.",
+      "slot1": "n1",
+      "slot2": "alt6",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt6"
+      ],
+      "n_social_signals": 0,
+      "n_words": 19
+    },
+    {
+      "id": "ALT_BOTH_56",
+      "label": "two neutral details: tea and books",
+      "lead_in": "I usually make a pot of tea around noon. I have been reading a lot of history books.",
+      "slot1": "alt5",
+      "slot2": "alt6",
+      "style": "std",
+      "stated_signals": [],
+      "form_signals": [],
+      "alt_details": [
+        "alt5",
+        "alt6"
+      ],
+      "n_social_signals": 0,
+      "n_words": 18
+    }
+  ],
+  "contrasts": [
+    {
+      "name": "FLOOR2_ALTxALT",
+      "type": "floor",
+      "both": "ALT_BOTH_34",
+      "single_a": "ALT3",
+      "single_b": "ALT4_ONLY",
+      "none": "NONE"
+    },
+    {
+      "name": "FLOOR3_ALTxALT",
+      "type": "floor",
+      "both": "ALT_BOTH_56",
+      "single_a": "ALT5",
+      "single_b": "ALT6_ONLY",
+      "none": "NONE"
+    }
+  ]
+}

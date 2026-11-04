@@ -1,0 +1,109 @@
+==============================================================================
+from run_floor_mistral_output
+==============================================================================
+STEP e1p_floor: choice pairs, new floors
+==============================================================================
+  1600 reads to do
+
+  answer-letter tokenisation
+    'A': bare 1 token(s), with leading space 1 token(s)
+    'B': bare 1 token(s), with leading space 1 token(s)
+
+    16 / 1600
+    816 / 1600
+  saved to /content/drive/MyDrive/afl/p3_e1/e1_choice_pairs_floor_mistral.csv
+  reads with letter mass below 0.5: 966 of 1600 (60.4%)
+
+==============================================================================
+
+==============================================================================
+session summary, run_floor_mistral_output
+==============================================================================
+COLLECTION SUMMARY, MODEL mistral
+==============================================================================
+  e1c_floor done            6.0 min
+  e1p_floor done            4.1 min
+  e1b_floor done           13.5 min
+  e1a2      failed          0.0 min
+  e1a_floor done           27.0 min
+
+==========================================================================
+e1_choice, mistral: first look
+==========================================================================
+
+  letter mass: mean 0.757, 435 of 2400 reads below 0.5 (18.1%)
+  raw first-slot advantage, all rows: +8.248 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1 CHOICE PAIRS, mistral: first look
+==========================================================================
+
+  letter mass mean 0.449, 966 of 1600 below 0.5 (60.4%)
+
+  margin of the both-cell against one of its singles
+  negative = adding the second signal COSTS on top of the first
+
+    FLOOR2_ALTxALT        vs_a  n=  195    +4.1753
+    FLOOR2_ALTxALT        vs_b  n=   43    +4.2776
+    FLOOR3_ALTxALT        vs_a  n=  326    -0.7195
+    FLOOR3_ALTxALT        vs_b  n=   70    -0.2223
+
+  Run analyse_e1_choice_pairs.py with BOTH this file and the
+  first choice run: the interaction needs one term from each.
+
+==========================================================================
+e1 CHANNEL B, mistral: first look
+==========================================================================
+
+  favourability = mean log prob over six positive trait words
+  higher is better for the person
+
+    NONE                -8.1020   vs NONE +0.0000
+    ALT3                -8.6253   vs NONE -0.5233
+    ALT4_ONLY           -8.0852   vs NONE +0.0168
+    ALT_BOTH_34         -8.0226   vs NONE +0.0794
+    ALT5                -8.3236   vs NONE -0.2215
+    ALT6_ONLY           -7.8222   vs NONE +0.2798
+    ALT_BOTH_56         -7.7922   vs NONE +0.3098
+
+  Run analyse_e1_continuous.py for interactions with intervals,
+  the floor check, the coherence check and the phrasing spread.
+  no results at /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_mistral.csv
+
+==========================================================================
+e1 CHANNEL A, mistral: first look
+==========================================================================
+
+  condition            n   correct   refused
+  NONE               600    50.8%      0.0%
+  ALT3               600    47.5%      0.5%
+  ALT4_ONLY          600    51.3%      0.0%
+  ALT_BOTH_34        600    48.3%      0.0%
+  ALT5               600    50.0%      0.5%
+  ALT6_ONLY          600    52.5%      0.0%
+  ALT_BOTH_56        600    49.8%      0.0%
+
+  interaction per contrast, mean of (both - A) - (B - none)
+  positive = costs LESS than the sum of parts (sub-additive)
+    FLOOR2_ALTxALT        floor             n= 600  mean +0.0033
+    FLOOR3_ALTxALT        floor             n= 600  mean -0.0183
+
+  Run analyse_e1_accuracy.py for the tested read with intervals,
+  the minimum detectable interaction and the floor check.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_floor_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_pairs_floor_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_traits_floor_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_mistral.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_accuracy_floor_mistral.csv
+  and the console text from the first ==== line onwards.

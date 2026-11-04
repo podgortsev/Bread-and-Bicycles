@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+title: >-
+  Bread and Bicycles: What Happens to an Interaction Claim When the
+  Second Detail Means Nothing
+message: If you use this work, please cite it as below.
+type: software
+authors:
+  - family-names: Podgortsev
+    given-names: Michael
+    email: podgortsev@gmail.com
+    orcid: 'https://orcid.org/0009-0007-5561-1916'
+repository-code: https://github.com/podgortsev/Bread-and-Bicycles
+license: MIT
+keywords:
+  - fairness
+  - large language models
+  - interaction effects
+  - intersectionality
+  - measurement validity
+  - neutral control
+  - preregistration
+  - reproduction
+  - evaluation methodology
+  - negative results
+abstract: >-
+  When a person tells a language model two things about themselves
+  rather than one, does the model treat them worse than the sum of the
+  parts? Before that can be answered, the instrument has to be shown to
+  measure people rather than words. Alongside every audited pair this
+  study stacks pairs of socially neutral details built the same way, in
+  the same slots, whose interaction should be zero.
+
+  Part I puts two stacked signals through five outcome measures on three
+  open models (Qwen2.5-7B, Llama-3.1-8B, Mistral-7B-v0.3), with clause
+  count held constant. On four of the five instruments the neutral
+  interaction is not zero. On the one instrument that holds a clean
+  zero, whether the model solves the person's own arithmetic task, one
+  interaction of twenty-four survives correction, and it is
+  sub-additive, the size of the spread the same measurement shows across
+  six neutral wrappers.
+
+  Part II runs a neutral comparison on published work with the original
+  authors' own code, under a second preregistration that requires one of
+  their numbers to be reproduced first. Two targets passed that gate,
+  and in both, neutral details move the statistic well above zero.
+  Part III lists the five artifacts a rerun of this kind turns out to
+  depend on.
+
+  Two preregistrations, their dated addenda, all datasets, raw model
+  outputs, analysis scripts and offline validators are included. Every
+  reported number regenerates without a GPU, and Appendix A lists all 98
+  tests behind the central table.

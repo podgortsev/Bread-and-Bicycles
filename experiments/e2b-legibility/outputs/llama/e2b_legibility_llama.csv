@@ -1,0 +1,2401 @@
+model,model_key,arm,task_id,family,text_changed,correct,refused,answer_key,raw_output
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T001,percentage,0,1,0,3480,"$3,480"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T002,percentage,0,0,0,312.5,62.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T003,percentage,0,0,0,288,36
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T004,percentage,0,0,0,1044,$1048
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T005,percentage,0,0,0,500,78.00
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T006,percentage,0,0,0,26.4,24
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T007,percentage,0,1,0,697,$697
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T008,percentage,0,1,0,540,$540
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T009,percentage,0,0,0,127.5,67.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T010,percentage,0,1,0,150,$150
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T011,percentage,0,1,0,1408,$1408
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T012,percentage,0,0,0,119,21
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T013,percentage,0,0,0,528,48
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T014,percentage,0,0,0,30,20
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T015,percentage,0,0,0,552.5,$556.50
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T016,percentage,0,0,0,672,624
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T017,percentage,0,1,0,2560,$2560
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T018,percentage,0,0,0,422.4,384
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T019,percentage,0,0,0,192,240
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T020,percentage,0,0,0,30,20
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T021,percentage,0,0,0,108,45
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T022,percentage,0,0,0,196.8,$196
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T023,percentage,0,0,0,225,195
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T024,percentage,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T025,percentage,0,0,0,500,78.00
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T026,percentage,0,0,0,352,336
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T027,percentage,0,0,0,960,96
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T028,percentage,0,0,0,324,36
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T029,percentage,0,0,0,420,360
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T030,percentage,0,0,0,849.6,$864
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T031,percentage,0,1,0,476,$476
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T032,percentage,0,0,0,1100,"$1,087.50"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T033,percentage,0,1,0,1560,$1560
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T034,percentage,0,0,0,196,35
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T035,percentage,0,1,0,156,$156
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T036,word_problem,0,0,0,4374,"$1,944"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T037,word_problem,0,0,0,3500,"$2,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T038,word_problem,0,0,0,3360,840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T039,word_problem,0,0,0,4200,$840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T040,word_problem,0,0,0,1728,432
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T041,word_problem,0,0,0,3600,"$1,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T042,word_problem,0,0,0,12600,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T043,word_problem,0,0,0,3630,"$3,330"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T044,word_problem,0,0,0,8064,3360
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T045,word_problem,0,0,0,12600,$8400
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T046,word_problem,0,0,0,7840,2800
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T047,word_problem,0,1,0,6720,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T048,word_problem,0,1,0,6000,"$6,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T049,word_problem,0,0,0,6480,4320
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T050,word_problem,0,0,0,4375,"$3,125"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T051,word_problem,0,1,0,2700,2700
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T052,word_problem,0,0,0,1680,840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T053,word_problem,0,0,0,6930,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T054,word_problem,0,0,0,4752,"$2,640"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T055,word_problem,0,0,0,6480,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T056,word_problem,0,0,0,2916,"$1,944"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T057,word_problem,0,0,0,3456,4320
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T058,word_problem,0,1,0,4800,"$4,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T059,word_problem,0,0,0,4200,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T060,word_problem,0,0,0,5250,1050
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T061,word_problem,0,0,0,4410,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T062,word_problem,0,0,0,4752,"$5,472"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T063,word_problem,0,0,0,6000,$2400
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T064,word_problem,0,0,0,5000,"$1,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T065,word_problem,0,0,0,10080,840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T066,conversion,0,1,0,2160,2160
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T067,conversion,0,0,0,1152,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T068,conversion,0,0,0,630,35
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T069,conversion,0,0,0,48000,3840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T070,conversion,0,1,0,900,900
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T071,conversion,0,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T072,conversion,0,1,0,125000,125000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T073,conversion,0,1,0,1440,1440
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T074,conversion,0,0,0,864,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T075,conversion,0,0,0,12000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T076,conversion,0,0,0,24000,480
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T077,conversion,0,0,0,125000,18750
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T078,conversion,0,0,0,3000,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T079,conversion,0,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T080,conversion,0,1,0,3000,3000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T081,conversion,0,0,0,60000,6000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T082,conversion,0,0,0,36000,10800
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T083,conversion,0,0,0,15000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T084,conversion,0,1,0,12000,12000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T085,conversion,0,1,0,105,105
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T086,conversion,0,0,0,360,240
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T087,conversion,0,0,0,7000,1120
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T088,conversion,0,1,0,72,72
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T089,conversion,0,0,0,48000,960
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T090,conversion,0,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T091,date,0,1,0,25 April 2026,25 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T092,date,0,0,0,10 June 2026,12 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T093,date,0,1,0,27 April 2026,27 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T094,date,0,1,0,26 November 2026,26 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T095,date,0,0,0,08 October 2026,10 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T096,date,0,1,0,11 November 2026,11 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T097,date,0,1,0,16 March 2026,16 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T098,date,0,0,0,01 June 2026,12 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T099,date,0,0,0,16 October 2026,08 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T100,date,0,0,0,12 June 2026,06 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T101,date,0,0,0,24 June 2026,25 May 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T102,date,0,1,0,25 July 2026,25 July 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T103,date,0,0,0,14 November 2026,11 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T104,date,0,0,0,06 February 2027,01 January 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T105,date,0,0,0,08 May 2026,09 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T106,date,0,1,0,30 October 2026,30 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T107,date,0,0,0,05 June 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T108,date,0,1,0,08 October 2026,08 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T109,date,0,0,0,10 August 2026,15 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T110,date,0,0,0,17 December 2026,12 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T111,date,0,0,0,13 January 2027,14 December 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T112,date,0,0,0,07 October 2026,09 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T113,date,0,0,0,26 August 2026,12 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T114,date,0,1,0,26 January 2026,26 January 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T115,date,0,0,0,18 September 2026,08 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T116,table,0,0,0,North,574
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T117,table,0,0,0,1669,"2,589"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T118,table,0,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T119,table,0,0,0,North,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T120,table,0,0,0,West,North
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T121,table,0,0,0,503,245
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T122,table,0,0,0,Central,832
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T123,table,0,0,0,South,510
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T124,table,0,0,0,1914,"2,814"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T125,table,0,0,0,499,162
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T126,table,0,0,0,1865,"2,765"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T127,table,0,0,0,Central,South
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T128,table,0,0,0,2623,"2,943"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T129,table,0,0,0,617,270
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T130,table,0,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T131,table,0,0,0,529,354
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T132,table,0,1,0,2156,"2,156"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T133,table,0,0,0,East,892
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T134,table,0,0,0,504,202
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T135,table,0,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T136,table,0,0,0,637,245
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T137,table,0,0,0,479,286
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T138,table,0,0,0,1792,"2,812"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T139,table,0,0,0,492,123
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T140,table,0,0,0,760,163
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T141,table,0,0,0,473,163
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T142,table,0,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T143,table,0,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T144,table,0,0,0,294,123
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T145,table,0,0,0,160,122
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T146,logic,0,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T147,logic,0,1,0,Alex,Alex
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T148,logic,0,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T149,logic,0,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T150,logic,0,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T151,logic,0,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T152,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T153,logic,0,0,0,Casey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T154,logic,0,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T155,logic,0,1,0,Alex,Alex
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T156,logic,0,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T157,logic,0,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T158,logic,0,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T159,logic,0,1,0,Alex,Alex
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T160,logic,0,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T161,logic,0,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T162,logic,0,1,0,Alex,Alex
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T163,logic,0,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T164,logic,0,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T165,logic,0,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T166,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T167,logic,0,1,0,Alex,Alex
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T168,logic,0,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T169,logic,0,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T170,logic,0,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T171,rate,0,1,0,2,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T172,rate,0,1,0,10,10
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T173,rate,0,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T174,rate,0,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T175,rate,0,1,0,180,180
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T176,rate,0,1,0,1.2,1.2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T177,rate,0,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T178,rate,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T179,rate,0,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T180,rate,0,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T181,rate,0,1,0,3.2,3.2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T182,rate,0,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T183,rate,0,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T184,rate,0,1,0,150,150
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T185,rate,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T186,rate,0,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T187,rate,0,1,0,5,5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T188,rate,0,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T189,rate,0,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T190,rate,0,1,0,270,270
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T191,rate,0,0,0,5.33333,5.33
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T192,rate,0,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T193,rate,0,0,0,2.66667,2.67
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T194,rate,0,0,0,5.33333,5.33
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T195,rate,0,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T196,rate,0,1,0,4.5,4.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T197,rate,0,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T198,rate,0,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T199,rate,0,1,0,270,270
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T200,rate,0,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T201,percentage,0,1,0,312,$312
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T202,percentage,0,1,0,144,$144
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T203,percentage,0,1,0,756,$756
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T204,percentage,0,0,0,129.8,$130.10
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T205,percentage,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T206,percentage,0,0,0,286,260
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T207,percentage,0,0,0,640,64
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T208,percentage,0,0,0,1017.5,$1012.50
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T209,percentage,0,0,0,644.8,$640
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T210,percentage,0,0,0,124.2,$121.20
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T211,percentage,0,0,0,582.4,$578
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T212,percentage,0,0,0,524.8,$520.80
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T213,percentage,0,0,0,25.6,26
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T214,percentage,0,1,0,180,$180
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T215,percentage,0,0,0,87.75,$87.25
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T216,percentage,0,1,0,494,$494
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T217,percentage,0,0,0,16.5,7.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T218,percentage,0,0,0,256.2,$257.40
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T219,percentage,0,0,0,367.2,$368
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T220,percentage,0,1,0,608,$608
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T221,percentage,0,0,0,595,$585
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T222,percentage,0,1,0,715,$715
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T223,percentage,0,0,0,329,$328
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T224,percentage,0,0,0,1598,$1590
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T225,percentage,0,0,0,278.4,$276.80
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T226,percentage,0,0,0,54,7.2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T227,percentage,0,1,0,66,66
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T228,percentage,0,1,0,270,$270
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T229,percentage,0,0,0,517,$513
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T230,percentage,0,0,0,128,64
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T231,percentage,0,1,0,330,$330
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T232,percentage,0,0,0,400,128
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T233,percentage,0,1,0,1050,1050
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T234,percentage,0,0,0,36,12
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T235,percentage,0,0,0,189,$18.90
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T236,percentage,0,0,0,858,$868
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T237,percentage,0,0,0,45,75
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T238,percentage,0,1,0,680,680
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T239,percentage,0,1,0,1365,1365
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T240,percentage,0,1,0,357,$357
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T241,percentage,0,0,0,8.8,11
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T242,percentage,0,0,0,952,"$1,040"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T243,percentage,0,0,0,1980,2160
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T244,percentage,0,1,0,784,$784
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T245,percentage,0,0,0,226.8,$228.20
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T246,percentage,0,1,0,20.8,20.8
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T247,percentage,0,0,0,201.6,$201
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T248,percentage,0,0,0,132,144
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T249,percentage,0,0,0,1402.5,"$1,420.50"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T250,percentage,0,1,0,504,$504
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T251,percentage,0,0,0,184.8,$184.20
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T252,percentage,0,0,0,683.2,$686
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T253,percentage,0,1,0,112.5,112.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T254,percentage,0,0,0,74.25,8.25
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T255,percentage,0,1,0,1280,1280
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T256,percentage,0,1,0,136.5,136.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T257,percentage,0,0,0,480,192
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T258,percentage,0,0,0,120,96
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T259,percentage,0,0,0,288.8,$285.20
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T260,percentage,0,1,0,937.5,937.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T261,percentage,0,1,0,1540,"$1,540"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T262,percentage,0,0,0,825,187.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T263,percentage,0,0,0,102,21
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T264,percentage,0,0,0,67.5,22.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T265,percentage,0,0,0,1202.5,1172.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T266,percentage,0,1,0,188,$188
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T267,percentage,0,0,0,495.6,$498
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T268,percentage,0,1,0,2775,$2775
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T269,percentage,0,0,0,46.2,13.22
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T270,percentage,0,0,0,113.6,112
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T271,word_problem,0,0,0,12960,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T272,word_problem,0,0,0,6075,"$1,575"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T273,word_problem,0,0,0,2880,1440
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T274,word_problem,0,0,0,1680,$840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T275,word_problem,0,0,0,15400,5600
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T276,word_problem,0,1,0,6720,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T277,word_problem,0,0,0,18522,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T278,word_problem,0,1,0,15120,"$15,120"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T279,word_problem,0,0,0,24948,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T280,word_problem,0,0,0,7200,"$2,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T281,word_problem,0,0,0,1584,$528
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T282,word_problem,0,0,0,4620,$840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T283,word_problem,0,0,0,2400,"$1,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T284,word_problem,0,0,0,1540,$980
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T285,word_problem,0,0,0,16632,"$14,680"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T286,word_problem,0,1,0,4320,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T287,word_problem,0,0,0,7200,"$3,600"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T288,word_problem,0,0,0,11970,"$16,620"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T289,word_problem,0,0,0,3780,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T290,word_problem,0,0,0,14000,7000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T291,word_problem,0,0,0,7425,"$6,975"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T292,word_problem,0,0,0,3564,"$3,888"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T293,word_problem,0,0,0,6336,"$6,240"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T294,word_problem,0,0,0,2940,"$2,520"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T295,word_problem,0,0,0,3780,"$2,520"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T296,word_problem,0,0,0,9240,"$3,780"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T297,word_problem,0,0,0,8316,"$4,674"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T298,word_problem,0,0,0,9800,"$14,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T299,word_problem,0,0,0,1760,"$1,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T300,word_problem,0,0,0,6480,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T301,word_problem,0,0,0,32832,"$45,120"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T302,word_problem,0,0,0,5832,$648
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T303,word_problem,0,0,0,3240,"$1,620"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T304,word_problem,0,0,0,17424,"$19,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T305,word_problem,0,0,0,6160,"$3,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T306,word_problem,0,0,0,3960,1800
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T307,word_problem,0,0,0,8100,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T308,word_problem,0,0,0,3600,"$1,200"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T309,word_problem,0,0,0,36288,"$57,600"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T310,word_problem,0,0,0,13500,"$9,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T311,word_problem,0,0,0,20160,3600
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T312,word_problem,0,0,0,7056,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T313,word_problem,0,0,0,9720,5400
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T314,word_problem,0,0,0,6160,"$4,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T315,word_problem,0,0,0,1500,750
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T316,word_problem,0,0,0,2112,"$2,496"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T317,word_problem,0,0,0,15048,"$4,002"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T318,word_problem,0,0,0,27360,"$28,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T319,word_problem,0,0,0,1500,750
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T320,word_problem,0,0,0,3360,"$1,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T321,word_problem,0,0,0,5940,"$1,980"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T322,word_problem,0,0,0,1350,900
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T323,word_problem,0,0,0,5040,840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T324,word_problem,0,0,0,7350,"$12,150"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T325,word_problem,0,0,0,13860,"$1,740"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T326,word_problem,0,0,0,2432,"$2,304"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T327,word_problem,0,0,0,3920,"$2,520"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T328,word_problem,0,0,0,15552,"$17,152"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T329,word_problem,0,0,0,5040,"$2,160"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T330,word_problem,0,0,0,13376,"$4,032"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T331,conversion,0,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T332,conversion,0,0,0,980,140
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T333,conversion,0,1,0,900,900
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T334,conversion,0,1,0,30000,30000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T335,conversion,0,0,0,30000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T336,conversion,0,0,0,54000,10080
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T337,conversion,0,1,0,5040,5040
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T338,conversion,0,0,0,11000,1100
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T339,conversion,0,0,0,24000,1150
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T340,conversion,0,0,0,216,72
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T341,conversion,0,1,0,540,540
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T342,conversion,0,1,0,8400,8400
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T343,conversion,0,1,0,168,168
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T344,conversion,0,1,0,660,660
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T345,conversion,0,1,0,7000,7000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T346,conversion,0,0,0,42000,21000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T347,conversion,0,0,0,30000,15000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T348,conversion,0,1,0,84,84
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T349,conversion,0,0,0,588,56
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T350,conversion,0,0,0,54000,108000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T351,conversion,0,1,0,420,420
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T352,conversion,0,0,0,1008,840
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T353,conversion,0,1,0,28000,28000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T354,conversion,0,0,0,5000,10000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T355,conversion,0,1,0,1800,1800
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T356,conversion,0,0,0,252,168
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T357,conversion,0,0,0,9000,900
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T358,conversion,0,0,0,90000,9000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T359,conversion,0,1,0,90000,90000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T360,conversion,0,0,0,36000,7200
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T361,conversion,0,0,0,3600,60
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T362,conversion,0,0,0,42000,20200
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T363,conversion,0,1,0,300,300
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T364,conversion,0,0,0,2160,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T365,conversion,0,1,0,120,120
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T366,conversion,0,1,0,42000,42000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T367,conversion,0,0,0,160000,16000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T368,conversion,0,1,0,84000,84000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T369,conversion,0,0,0,9000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T370,conversion,0,1,0,126,126
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T371,conversion,0,0,0,36000,1800
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T372,conversion,0,0,0,72000,"1,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T373,conversion,0,0,0,294,7
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T374,conversion,0,0,0,4320,43200
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T375,conversion,0,0,0,72000,11200
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T376,conversion,0,0,0,84000,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T377,conversion,0,1,0,1260,1260
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T378,conversion,0,0,0,12000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T379,conversion,0,1,0,5400,5400
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T380,conversion,0,1,0,7500,7500
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T381,date,0,0,0,26 July 2026,06 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T382,date,0,0,0,02 December 2026,11 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T383,date,0,0,0,30 July 2026,10 July 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T384,date,0,1,0,29 April 2027,29 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T385,date,0,0,0,05 July 2027,5 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T386,date,0,0,0,17 March 2027,07 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T387,date,0,0,0,21 July 2026,06 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T388,date,0,0,0,21 October 2026,07 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T389,date,0,1,0,02 February 2026,02 February 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T390,date,0,1,0,25 October 2026,25 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T391,date,0,0,0,29 October 2027,15 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T392,date,0,0,0,28 September 2027,08 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T393,date,0,0,0,16 May 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T394,date,0,0,0,16 November 2026,06 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T395,date,0,0,0,31 December 2027,31 December 2037
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T396,date,0,0,0,10 October 2027,09 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T397,date,0,1,0,08 May 2026,08 May 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T398,date,0,0,0,21 October 2027,13 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T399,date,0,0,0,15 May 2026,13 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T400,date,0,0,0,09 September 2027,11 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T401,date,0,0,0,14 April 2027,04 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T402,date,0,0,0,20 August 2027,12 Jun 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T403,date,0,0,0,04 September 2027,07 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T404,date,0,0,0,25 April 2027,04 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T405,date,0,0,0,04 September 2026,8 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T406,date,0,0,0,03 February 2028,05 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T407,date,0,0,0,06 August 2027,08 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T408,date,0,0,0,14 September 2027,07 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T409,date,0,1,0,29 November 2026,29 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T410,date,0,0,0,05 September 2027,06 Jun 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T411,date,0,0,0,20 December 2027,11 November 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T412,date,0,0,0,18 September 2026,08 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T413,date,0,0,0,04 February 2027,16 January 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T414,date,0,0,0,26 July 2027,07 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T415,date,0,0,0,17 December 2027,12 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T416,date,0,0,0,20 August 2027,07 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T417,date,0,0,0,05 May 2026,13 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T418,date,0,0,0,21 February 2027,12 February 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T419,date,0,0,0,13 April 2026,02 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T420,date,0,0,0,16 February 2028,12 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T421,date,0,0,0,27 October 2026,27 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T422,date,0,0,0,01 November 2026,02 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T423,date,0,0,0,21 October 2027,12 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T424,date,0,0,0,25 July 2026,15 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T425,date,0,0,0,02 March 2028,18 Jan 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T426,date,0,0,0,25 February 2028,28 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T427,date,0,0,0,01 April 2026,16 February 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T428,date,0,1,0,02 March 2027,02 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T429,date,0,0,0,17 May 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T430,date,0,0,0,21 February 2028,13 January 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T431,table,0,1,0,2494,"2,494"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T432,table,0,0,0,307,127
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T433,table,0,0,0,730,272
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T434,table,0,0,0,279,145
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T435,table,0,0,0,192,82
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T436,table,0,0,0,South,144
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T437,table,0,1,0,2191,"2,191"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T438,table,0,0,0,North,South
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T439,table,0,0,0,632,200
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T440,table,0,0,0,2169,"2,769"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T441,table,0,0,0,1706,"2,706"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T442,table,0,0,0,2465,"2,365"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T443,table,0,0,0,2721,"2,681"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T444,table,0,0,0,1758,"2,658"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T445,table,0,0,0,658,277
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T446,table,0,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T447,table,0,0,0,275,127
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T448,table,0,0,0,1626,"2,826"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T449,table,0,0,0,1952,"2,872"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T450,table,0,0,0,2087,"2,987"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T451,table,0,0,0,1640,"1,860"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T452,table,0,0,0,1752,"2,652"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T453,table,0,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T454,table,0,0,0,366,155
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T455,table,0,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T456,table,0,0,0,Central,North
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T457,table,0,0,0,601,299
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T458,table,0,0,0,Central,729
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T459,table,0,0,0,West,210
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T460,table,0,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T461,table,0,0,0,Central,185
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T462,table,0,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T463,table,0,0,0,2869,"2,609"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T464,table,0,0,0,2329,"2,929"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T465,table,0,0,0,North,234
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T466,table,0,0,0,146,123
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T467,table,0,0,0,South,West
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T468,table,0,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T469,table,0,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T470,table,0,0,0,Central,North
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T471,table,0,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T472,table,0,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T473,table,0,1,0,449,770 - 321 = 449
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T474,table,0,0,0,2147,"2,167"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T475,table,0,0,0,2463,"2,421"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T476,table,0,0,0,493,201
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T477,table,0,0,0,Central,319
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T478,table,0,0,0,South,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T479,table,0,0,0,731,254
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T480,table,0,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T481,table,0,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T482,table,0,0,0,539,301
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T483,table,0,0,0,697,182
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T484,table,0,0,0,2240,"2,140"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T485,table,0,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T486,table,0,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T487,table,0,0,0,427,197
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T488,table,0,0,0,East,344
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T489,table,0,1,0,2261,"2,261"
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T490,table,0,0,0,597,244
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T491,logic,0,1,0,Frankie,Frankie
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T492,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T493,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T494,logic,0,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T495,logic,0,0,0,Casey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T496,logic,0,0,0,Frankie,4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T497,logic,0,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T498,logic,0,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T499,logic,0,1,0,Ellis,Ellis
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T500,logic,0,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T501,logic,0,0,0,Frankie,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T502,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T503,logic,0,1,0,Ellis,Ellis
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T504,logic,0,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T505,logic,0,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T506,logic,0,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T507,logic,0,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T508,logic,0,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T509,logic,0,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T510,logic,0,1,0,Devon,Devon
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T511,logic,0,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T512,logic,0,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T513,logic,0,0,0,Devon,4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T514,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T515,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T516,logic,0,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T517,logic,0,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T518,logic,0,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T519,logic,0,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T520,logic,0,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T521,logic,0,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T522,logic,0,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T523,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T524,logic,0,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T525,logic,0,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T526,logic,0,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T527,logic,0,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T528,logic,0,0,0,Gray,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T529,logic,0,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T530,logic,0,0,0,Ellis,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T531,logic,0,0,0,Gray,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T532,logic,0,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T533,logic,0,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T534,logic,0,0,0,Ellis,4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T535,logic,0,1,0,Ellis,Ellis
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T536,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T537,logic,0,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T538,logic,0,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T539,logic,0,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T540,logic,0,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T541,rate,0,0,0,576,528
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T542,rate,0,1,0,100,100
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T543,rate,0,1,0,6,6
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T544,rate,0,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T545,rate,0,1,0,560,560
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T546,rate,0,1,0,80,80
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T547,rate,0,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T548,rate,0,1,0,5,5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T549,rate,0,0,0,9.6,10
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T550,rate,0,1,0,420,420
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T551,rate,0,1,0,25,25
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T552,rate,0,1,0,125,125
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T553,rate,0,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T554,rate,0,1,0,4.8,4.8
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T555,rate,0,1,0,4.4,4.4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T556,rate,0,1,0,36,36
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T557,rate,0,1,0,216,216
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T558,rate,0,1,0,1.6,1.6
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T559,rate,0,1,0,9.6,9.6
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T560,rate,0,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T561,rate,0,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T562,rate,0,1,0,180,180
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T563,rate,0,1,0,2.4,2.4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T564,rate,0,1,0,0.9,0.9
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T565,rate,0,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T566,rate,0,1,0,7,7
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T567,rate,0,1,0,1.2,1.2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T568,rate,0,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T569,rate,0,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T570,rate,0,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T571,rate,0,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T572,rate,0,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T573,rate,0,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T574,rate,0,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T575,rate,0,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T576,rate,0,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T577,rate,0,0,0,72,120
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T578,rate,0,1,0,160,160
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T579,rate,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T580,rate,0,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T581,rate,0,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T582,rate,0,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T583,rate,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T584,rate,0,1,0,4.2,4.2
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T585,rate,0,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T586,rate,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T587,rate,0,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T588,rate,0,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T589,rate,0,1,0,25,25
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T590,rate,0,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T591,rate,0,1,0,200,200
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T592,rate,0,1,0,240,240
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T593,rate,0,1,0,350,350
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T594,rate,0,1,0,600,600
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T595,rate,0,0,0,288,240
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T596,rate,0,1,0,5.5,5.5
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T597,rate,0,1,0,72,72
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T598,rate,0,1,0,1.25,1.25
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T599,rate,0,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,std,T600,rate,0,1,0,2,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T001,percentage,1,1,0,3480,$3480
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T002,percentage,1,1,0,312.5,312.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T003,percentage,1,0,0,288,36
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T004,percentage,1,0,0,1044,$1048
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T005,percentage,1,0,0,500,625
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T006,percentage,1,0,0,26.4,6
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T007,percentage,1,1,0,697,$697
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T008,percentage,1,1,0,540,$540
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T009,percentage,1,0,0,127.5,67.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T010,percentage,1,1,0,150,$150
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T011,percentage,1,1,0,1408,$1408
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T012,percentage,1,0,0,119,210
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T013,percentage,1,0,0,528,168
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T014,percentage,1,0,0,30,18
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T015,percentage,1,0,0,552.5,$565
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T016,percentage,1,0,0,672,624
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T017,percentage,1,1,0,2560,$2560
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T018,percentage,1,0,0,422.4,384
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T019,percentage,1,0,0,192,240
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T020,percentage,1,0,0,30,18
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T021,percentage,1,0,0,108,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T022,percentage,1,0,0,196.8,$196
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T023,percentage,1,0,0,225,187.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T024,percentage,1,0,0,90,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T025,percentage,1,0,0,500,625
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T026,percentage,1,0,0,352,112
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T027,percentage,1,1,0,960,960
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T028,percentage,1,0,0,324,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T029,percentage,1,0,0,420,364
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T030,percentage,1,0,0,849.6,$856
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T031,percentage,1,1,0,476,$476
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T032,percentage,1,0,0,1100,$1095
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T033,percentage,1,1,0,1560,$1560
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T034,percentage,1,0,0,196,28
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T035,percentage,1,1,0,156,$156
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T036,word_problem,1,0,0,4374,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T037,word_problem,1,0,0,3500,"$17,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T038,word_problem,1,0,0,3360,840
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T039,word_problem,1,1,0,4200,$4200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T040,word_problem,1,0,0,1728,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T041,word_problem,1,0,0,3600,"$1,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T042,word_problem,1,0,0,12600,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T043,word_problem,1,0,0,3630,"$3,330"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T044,word_problem,1,0,0,8064,6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T045,word_problem,1,0,0,12600,$8400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T046,word_problem,1,0,0,7840,5600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T047,word_problem,1,1,0,6720,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T048,word_problem,1,0,0,6000,"$12,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T049,word_problem,1,0,0,6480,4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T050,word_problem,1,0,0,4375,$8750
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T051,word_problem,1,1,0,2700,2700
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T052,word_problem,1,0,0,1680,840
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T053,word_problem,1,0,0,6930,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T054,word_problem,1,0,0,4752,"$6,240"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T055,word_problem,1,0,0,6480,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T056,word_problem,1,0,0,2916,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T057,word_problem,1,0,0,3456,"$4,320"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T058,word_problem,1,0,0,4800,$9600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T059,word_problem,1,0,0,4200,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T060,word_problem,1,0,0,5250,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T061,word_problem,1,0,0,4410,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T062,word_problem,1,0,0,4752,"$10,080"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T063,word_problem,1,0,0,6000,"$12,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T064,word_problem,1,0,0,5000,"$10,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T065,word_problem,1,0,0,10080,8400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T066,conversion,1,0,0,2160,21600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T067,conversion,1,0,0,1152,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T068,conversion,1,0,0,630,14
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T069,conversion,1,0,0,48000,3840
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T070,conversion,1,1,0,900,900
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T071,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T072,conversion,1,1,0,125000,125000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T073,conversion,1,1,0,1440,1440
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T074,conversion,1,0,0,864,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T075,conversion,1,0,0,12000,"1,200"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T076,conversion,1,0,0,24000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T077,conversion,1,0,0,125000,18750
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T078,conversion,1,0,0,3000,25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T079,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T080,conversion,1,1,0,3000,3000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T081,conversion,1,1,0,60000,60000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T082,conversion,1,0,0,36000,108000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T083,conversion,1,0,0,15000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T084,conversion,1,0,0,12000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T085,conversion,1,1,0,105,105
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T086,conversion,1,1,0,360,15 days * 24 hours/day = 360 hours
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T087,conversion,1,0,0,7000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T088,conversion,1,1,0,72,72
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T089,conversion,1,0,0,48000,2400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T090,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T091,date,1,1,0,25 April 2026,25 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T092,date,1,0,0,10 June 2026,12 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T093,date,1,1,0,27 April 2026,27 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T094,date,1,1,0,26 November 2026,26 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T095,date,1,0,0,08 October 2026,10 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T096,date,1,1,0,11 November 2026,11 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T097,date,1,1,0,16 March 2026,16 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T098,date,1,0,0,01 June 2026,18 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T099,date,1,0,0,16 October 2026,02 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T100,date,1,0,0,12 June 2026,06 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T101,date,1,0,0,24 June 2026,25 May 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T102,date,1,0,0,25 July 2026,25 May 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T103,date,1,1,0,14 November 2026,14 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T104,date,1,0,0,06 February 2027,01 January 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T105,date,1,0,0,08 May 2026,09 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T106,date,1,1,0,30 October 2026,30 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T107,date,1,0,0,05 June 2026,07 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T108,date,1,1,0,08 October 2026,08 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T109,date,1,0,0,10 August 2026,24 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T110,date,1,0,0,17 December 2026,03 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T111,date,1,0,0,13 January 2027,14 December 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T112,date,1,0,0,07 October 2026,09 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T113,date,1,0,0,26 August 2026,12 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T114,date,1,1,0,26 January 2026,26 January 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T115,date,1,0,0,18 September 2026,08 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T116,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T117,table,1,0,0,1669,"2,589"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T118,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T119,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T120,table,1,0,0,West,683
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T121,table,1,0,0,503,189
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T122,table,1,0,0,Central,832
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T123,table,1,0,0,South,510
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T124,table,1,0,0,1914,"2,814"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T125,table,1,0,0,499,162
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T126,table,1,0,0,1865,"2,765"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T127,table,1,0,0,Central,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T128,table,1,0,0,2623,"2,943"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T129,table,1,0,0,617,270
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T130,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T131,table,1,0,0,529,154
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T132,table,1,1,0,2156,"2,156"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T133,table,1,0,0,East,892
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T134,table,1,0,0,504,196
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T135,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T136,table,1,0,0,637,125
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T137,table,1,0,0,479,286
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T138,table,1,0,0,1792,"2,812"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T139,table,1,0,0,492,123
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T140,table,1,0,0,760,163
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T141,table,1,0,0,473,163
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T142,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T143,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T144,table,1,0,0,294,123
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T145,table,1,0,0,160,122
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T146,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T147,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T148,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T149,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T150,logic,1,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T151,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T152,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T153,logic,1,0,0,Casey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T154,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T155,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T156,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T157,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T158,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T159,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T160,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T161,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T162,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T163,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T164,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T165,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T166,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T167,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T168,logic,1,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T169,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T170,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T171,rate,1,1,0,2,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T172,rate,1,1,0,10,10
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T173,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T174,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T175,rate,1,1,0,180,180
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T176,rate,1,1,0,1.2,1.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T177,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T178,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T179,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T180,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T181,rate,1,1,0,3.2,3.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T182,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T183,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T184,rate,1,1,0,150,150
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T185,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T186,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T187,rate,1,1,0,5,5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T188,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T189,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T190,rate,1,1,0,270,270
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T191,rate,1,0,0,5.33333,5.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T192,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T193,rate,1,0,0,2.66667,2.67
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T194,rate,1,0,0,5.33333,5.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T195,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T196,rate,1,1,0,4.5,4.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T197,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T198,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T199,rate,1,1,0,270,270
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T200,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T201,percentage,1,1,0,312,$312
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T202,percentage,1,1,0,144,$144
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T203,percentage,1,1,0,756,$756
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T204,percentage,1,0,0,129.8,$130.10
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T205,percentage,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T206,percentage,1,0,0,286,260
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T207,percentage,1,0,0,640,64
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T208,percentage,1,0,0,1017.5,$1012.50
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T209,percentage,1,0,0,644.8,$644
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T210,percentage,1,0,0,124.2,$122.20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T211,percentage,1,0,0,582.4,$581
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T212,percentage,1,0,0,524.8,$522.40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T213,percentage,1,0,0,25.6,20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T214,percentage,1,1,0,180,$180
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T215,percentage,1,0,0,87.75,$88.50
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T216,percentage,1,1,0,494,$494
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T217,percentage,1,0,0,16.5,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T218,percentage,1,0,0,256.2,$257
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T219,percentage,1,0,0,367.2,$368
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T220,percentage,1,1,0,608,$608
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T221,percentage,1,0,0,595,$588
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T222,percentage,1,0,0,715,660
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T223,percentage,1,0,0,329,$322
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T224,percentage,1,0,0,1598,$1596
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T225,percentage,1,1,0,278.4,$278.40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T226,percentage,1,0,0,54,7.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T227,percentage,1,0,0,66,76
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T228,percentage,1,0,0,270,$268
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T229,percentage,1,0,0,517,$510
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T230,percentage,1,0,0,128,64
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T231,percentage,1,1,0,330,$330
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T232,percentage,1,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T233,percentage,1,1,0,1050,1050
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T234,percentage,1,0,0,36,12
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T235,percentage,1,0,0,189,$18.90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T236,percentage,1,0,0,858,$868
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T237,percentage,1,0,0,45,22.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T238,percentage,1,0,0,680,663
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T239,percentage,1,1,0,1365,1365
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T240,percentage,1,1,0,357,$357
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T241,percentage,1,0,0,8.8,11
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T242,percentage,1,0,0,952,$960
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T243,percentage,1,0,0,1980,2160
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T244,percentage,1,1,0,784,$784
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T245,percentage,1,0,0,226.8,$227.8
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T246,percentage,1,0,0,20.8,20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T247,percentage,1,0,0,201.6,$200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T248,percentage,1,0,0,132,48
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T249,percentage,1,0,0,1402.5,"$1,422.50"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T250,percentage,1,0,0,504,428
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T251,percentage,1,0,0,184.8,$184.20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T252,percentage,1,0,0,683.2,$684
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T253,percentage,1,1,0,112.5,112.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T254,percentage,1,0,0,74.25,8.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T255,percentage,1,1,0,1280,1280
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T256,percentage,1,1,0,136.5,136.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T257,percentage,1,0,0,480,204
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T258,percentage,1,0,0,120,96
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T259,percentage,1,0,0,288.8,$285.20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T260,percentage,1,0,0,937.5,750
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T261,percentage,1,1,0,1540,"$1,540"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T262,percentage,1,0,0,825,187.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T263,percentage,1,0,0,102,21
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T264,percentage,1,0,0,67.5,22.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T265,percentage,1,0,0,1202.5,1192.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T266,percentage,1,1,0,188,$188
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T267,percentage,1,0,0,495.6,$498
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T268,percentage,1,1,0,2775,$2775
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T269,percentage,1,0,0,46.2,13.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T270,percentage,1,0,0,113.6,112.
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T271,word_problem,1,0,0,12960,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T272,word_problem,1,0,0,6075,$1350
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T273,word_problem,1,0,0,2880,"$1,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T274,word_problem,1,1,0,1680,$1680
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T275,word_problem,1,0,0,15400,56000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T276,word_problem,1,0,0,6720,2400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T277,word_problem,1,0,0,18522,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T278,word_problem,1,1,0,15120,"$15,120"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T279,word_problem,1,0,0,24948,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T280,word_problem,1,0,0,7200,$2880
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T281,word_problem,1,0,0,1584,$264
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T282,word_problem,1,0,0,4620,"$2,340"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T283,word_problem,1,0,0,2400,"$1,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T284,word_problem,1,0,0,1540,"$2,940"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T285,word_problem,1,0,0,16632,"$15,840"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T286,word_problem,1,1,0,4320,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T287,word_problem,1,0,0,7200,"$5,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T288,word_problem,1,0,0,11970,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T289,word_problem,1,0,0,3780,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T290,word_problem,1,0,0,14000,"$28,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T291,word_problem,1,0,0,7425,"$6,975"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T292,word_problem,1,0,0,3564,"$4,680"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T293,word_problem,1,0,0,6336,"$7,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T294,word_problem,1,0,0,2940,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T295,word_problem,1,0,0,3780,"$5,040"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T296,word_problem,1,0,0,9240,$4620
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T297,word_problem,1,0,0,8316,"$4,674"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T298,word_problem,1,0,0,9800,"$14,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T299,word_problem,1,0,0,1760,"$2,880"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T300,word_problem,1,0,0,6480,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T301,word_problem,1,0,0,32832,"$45,696"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T302,word_problem,1,0,0,5832,$1944
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T303,word_problem,1,0,0,3240,"$1,620"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T304,word_problem,1,0,0,17424,"$19,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T305,word_problem,1,0,0,6160,"$11,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T306,word_problem,1,0,0,3960,$19800
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T307,word_problem,1,0,0,8100,$10800
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T308,word_problem,1,0,0,3600,"$1,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T309,word_problem,1,0,0,36288,"$57,600"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T310,word_problem,1,0,0,13500,7500
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T311,word_problem,1,0,0,20160,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T312,word_problem,1,0,0,7056,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T313,word_problem,1,0,0,9720,5400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T314,word_problem,1,0,0,6160,"$7,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T315,word_problem,1,0,0,1500,750
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T316,word_problem,1,0,0,2112,$672
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T317,word_problem,1,0,0,15048,"$41,880"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T318,word_problem,1,0,0,27360,"$38,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T319,word_problem,1,0,0,1500,750
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T320,word_problem,1,0,0,3360,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T321,word_problem,1,0,0,5940,"$9,450"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T322,word_problem,1,0,0,1350,900
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T323,word_problem,1,0,0,5040,8400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T324,word_problem,1,0,0,7350,"$14,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T325,word_problem,1,0,0,13860,"$10,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T326,word_problem,1,0,0,2432,"$19,200"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T327,word_problem,1,0,0,3920,$1960
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T328,word_problem,1,0,0,15552,7200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T329,word_problem,1,0,0,5040,"$5,760"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T330,word_problem,1,0,0,13376,"$41,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T331,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T332,conversion,1,0,0,980,20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T333,conversion,1,0,0,900,840
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T334,conversion,1,1,0,30000,30000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T335,conversion,1,0,0,30000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T336,conversion,1,0,0,54000,10000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T337,conversion,1,1,0,5040,5040
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T338,conversion,1,0,0,11000,1100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T339,conversion,1,0,0,24000,1152
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T340,conversion,1,0,0,216,72
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T341,conversion,1,1,0,540,540
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T342,conversion,1,1,0,8400,8400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T343,conversion,1,1,0,168,168
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T344,conversion,1,1,0,660,660
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T345,conversion,1,1,0,7000,7000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T346,conversion,1,0,0,42000,210000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T347,conversion,1,0,0,30000,150000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T348,conversion,1,0,0,84,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T349,conversion,1,0,0,588,14
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T350,conversion,1,0,0,54000,108000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T351,conversion,1,1,0,420,420
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T352,conversion,1,0,0,1008,630
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T353,conversion,1,1,0,28000,"28,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T354,conversion,1,0,0,5000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T355,conversion,1,0,0,1800,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T356,conversion,1,0,0,252,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T357,conversion,1,1,0,9000,9000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T358,conversion,1,1,0,90000,90000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T359,conversion,1,1,0,90000,90000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T360,conversion,1,0,0,36000,5040
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T361,conversion,1,0,0,3600,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T362,conversion,1,0,0,42000,20200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T363,conversion,1,1,0,300,300
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T364,conversion,1,0,0,2160,24
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T365,conversion,1,1,0,120,120
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T366,conversion,1,0,0,42000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T367,conversion,1,0,0,160000,100000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T368,conversion,1,1,0,84000,84000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T369,conversion,1,0,0,9000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T370,conversion,1,0,0,126,84
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T371,conversion,1,0,0,36000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T372,conversion,1,0,0,72000,"11,520"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T373,conversion,1,0,0,294,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T374,conversion,1,0,0,4320,43200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T375,conversion,1,0,0,72000,10080
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T376,conversion,1,0,0,84000,12600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T377,conversion,1,1,0,1260,1260
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T378,conversion,1,0,0,12000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T379,conversion,1,1,0,5400,5400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T380,conversion,1,1,0,7500,7500
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T381,date,1,0,0,26 July 2026,17 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T382,date,1,0,0,02 December 2026,12 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T383,date,1,0,0,30 July 2026,10 July 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T384,date,1,1,0,29 April 2027,29 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T385,date,1,1,0,05 July 2027,05 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T386,date,1,0,0,17 March 2027,15 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T387,date,1,0,0,21 July 2026,22 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T388,date,1,1,0,21 October 2026,21 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T389,date,1,1,0,02 February 2026,02 February 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T390,date,1,1,0,25 October 2026,25 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T391,date,1,0,0,29 October 2027,15 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T392,date,1,0,0,28 September 2027,08 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T393,date,1,0,0,16 May 2026,16 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T394,date,1,0,0,16 November 2026,16 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T395,date,1,1,0,31 December 2027,31 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T396,date,1,0,0,10 October 2027,12 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T397,date,1,1,0,08 May 2026,08 May 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T398,date,1,0,0,21 October 2027,16 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T399,date,1,0,0,15 May 2026,13 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T400,date,1,0,0,09 September 2027,11 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T401,date,1,0,0,14 April 2027,12 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T402,date,1,0,0,20 August 2027,12 May 2027 + 100 days = 22 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T403,date,1,0,0,04 September 2027,15 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T404,date,1,0,0,25 April 2027,04 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T405,date,1,0,0,04 September 2026,5 August 2024
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T406,date,1,0,0,03 February 2028,05 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T407,date,1,0,0,06 August 2027,07 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T408,date,1,0,0,14 September 2027,15 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T409,date,1,1,0,29 November 2026,29 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T410,date,1,0,0,05 September 2027,06 June 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T411,date,1,0,0,20 December 2027,10 November 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T412,date,1,0,0,18 September 2026,20 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T413,date,1,0,0,04 February 2027,16 January 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T414,date,1,0,0,26 July 2027,06 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T415,date,1,0,0,17 December 2027,02 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T416,date,1,0,0,20 August 2027,31 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T417,date,1,0,0,05 May 2026,13 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T418,date,1,0,0,21 February 2027,12 February 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T419,date,1,0,0,13 April 2026,02 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T420,date,1,0,0,16 February 2028,08 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T421,date,1,0,0,27 October 2026,28 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T422,date,1,0,0,01 November 2026,02 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T423,date,1,0,0,21 October 2027,12 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T424,date,1,0,0,25 July 2026,15 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T425,date,1,0,0,02 March 2028,18 January 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T426,date,1,0,0,25 February 2028,28 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T427,date,1,0,0,01 April 2026,16 February 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T428,date,1,0,0,02 March 2027,05 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T429,date,1,0,0,17 May 2026,18 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T430,date,1,0,0,21 February 2028,03 December 2027 + 80 days = 16 January 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T431,table,1,1,0,2494,"2,494"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T432,table,1,0,0,307,127
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T433,table,1,0,0,730,149
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T434,table,1,0,0,279,145
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T435,table,1,0,0,192,64
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T436,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T437,table,1,0,0,2191,"2,491"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T438,table,1,0,0,North,727
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T439,table,1,0,0,632,200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T440,table,1,0,0,2169,"2,969"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T441,table,1,0,0,1706,"2,706"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T442,table,1,0,0,2465,"2,365"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T443,table,1,0,0,2721,"2,781"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T444,table,1,0,0,1758,"2,658"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T445,table,1,0,0,658,177
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T446,table,1,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T447,table,1,0,0,275,127
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T448,table,1,0,0,1626,"2,826"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T449,table,1,0,0,1952,"2,872"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T450,table,1,0,0,2087,"2,987"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T451,table,1,0,0,1640,"2,860"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T452,table,1,0,0,1752,"2,652"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T453,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T454,table,1,0,0,366,155
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T455,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T456,table,1,0,0,Central,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T457,table,1,0,0,601,299
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T458,table,1,0,0,Central,729
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T459,table,1,0,0,West,210
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T460,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T461,table,1,0,0,Central,185
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T462,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T463,table,1,0,0,2869,"2,609"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T464,table,1,0,0,2329,"2,929"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T465,table,1,0,0,North,234
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T466,table,1,0,0,146,123
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T467,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T468,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T469,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T470,table,1,0,0,Central,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T471,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T472,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T473,table,1,1,0,449,770 - 321 = 449
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T474,table,1,0,0,2147,"2,207"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T475,table,1,0,0,2463,"2,421"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T476,table,1,0,0,493,201
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T477,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T478,table,1,0,0,South,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T479,table,1,0,0,731,154
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T480,table,1,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T481,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T482,table,1,0,0,539,201
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T483,table,1,1,0,697,828 - 131 = 697
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T484,table,1,0,0,2240,"2,140"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T485,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T486,table,1,0,0,West,792
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T487,table,1,0,0,427,97
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T488,table,1,0,0,East,344
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T489,table,1,1,0,2261,"2,261"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T490,table,1,0,0,597,244
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T491,logic,1,1,0,Frankie,Frankie
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T492,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T493,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T494,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T495,logic,1,0,0,Casey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T496,logic,1,0,0,Frankie,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T497,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T498,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T499,logic,1,1,0,Ellis,Ellis
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T500,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T501,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T502,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T503,logic,1,1,0,Ellis,Ellis
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T504,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T505,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T506,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T507,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T508,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T509,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T510,logic,1,0,0,Devon,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T511,logic,1,0,0,Casey,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T512,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T513,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T514,logic,1,0,0,Gray,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T515,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T516,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T517,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T518,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T519,logic,1,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T520,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T521,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T522,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T523,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T524,logic,1,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T525,logic,1,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T526,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T527,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T528,logic,1,0,0,Gray,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T529,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T530,logic,1,0,0,Ellis,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T531,logic,1,0,0,Gray,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T532,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T533,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T534,logic,1,0,0,Ellis,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T535,logic,1,0,0,Ellis,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T536,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T537,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T538,logic,1,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T539,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T540,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T541,rate,1,1,0,576,576
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T542,rate,1,1,0,100,100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T543,rate,1,1,0,6,6
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T544,rate,1,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T545,rate,1,1,0,560,560
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T546,rate,1,1,0,80,80
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T547,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T548,rate,1,1,0,5,5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T549,rate,1,1,0,9.6,9.6
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T550,rate,1,1,0,420,420
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T551,rate,1,1,0,25,25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T552,rate,1,1,0,125,125
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T553,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T554,rate,1,1,0,4.8,4.8
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T555,rate,1,1,0,4.4,4.4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T556,rate,1,1,0,36,36
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T557,rate,1,0,0,216,180
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T558,rate,1,1,0,1.6,1.6
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T559,rate,1,1,0,9.6,9.6
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T560,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T561,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T562,rate,1,1,0,180,180
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T563,rate,1,1,0,2.4,2.4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T564,rate,1,1,0,0.9,0.9
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T565,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T566,rate,1,1,0,7,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T567,rate,1,1,0,1.2,1.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T568,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T569,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T570,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T571,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T572,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T573,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T574,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T575,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T576,rate,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T577,rate,1,0,0,72,108
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T578,rate,1,0,0,160,100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T579,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T580,rate,1,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T581,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T582,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T583,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T584,rate,1,1,0,4.2,4.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T585,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T586,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T587,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T588,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T589,rate,1,1,0,25,25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T590,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T591,rate,1,0,0,200,100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T592,rate,1,1,0,240,240
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T593,rate,1,1,0,350,350
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T594,rate,1,1,0,600,600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T595,rate,1,0,0,288,240
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T596,rate,1,1,0,5.5,5.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T597,rate,1,1,0,72,72
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T598,rate,1,1,0,1.25,1.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T599,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl,T600,rate,1,1,0,2,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T001,percentage,1,1,0,3480,"$3,480"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T002,percentage,0,0,0,312.5,62.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T003,percentage,0,0,0,288,36
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T004,percentage,1,0,0,1044,$1048
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T005,percentage,0,0,0,500,50
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T006,percentage,0,0,0,26.4,24
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T007,percentage,1,0,0,697,$698
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T008,percentage,1,1,0,540,$540
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T009,percentage,0,0,0,127.5,67.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T010,percentage,1,1,0,150,$150
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T011,percentage,1,0,0,1408,$1400
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T012,percentage,0,0,0,119,21
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T013,percentage,0,0,0,528,48
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T014,percentage,1,0,0,30,20
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T015,percentage,1,0,0,552.5,$556.50
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T016,percentage,1,1,0,672,$672
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T017,percentage,1,1,0,2560,$2560
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T018,percentage,1,0,0,422.4,384
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T019,percentage,1,0,0,192,240
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T020,percentage,1,1,0,30,$30
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T021,percentage,0,0,0,108,45
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T022,percentage,1,0,0,196.8,$196
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T023,percentage,0,0,0,225,195
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T024,percentage,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T025,percentage,0,0,0,500,50
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T026,percentage,0,0,0,352,336
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T027,percentage,0,0,0,960,96
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T028,percentage,0,0,0,324,36
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T029,percentage,0,0,0,420,36
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T030,percentage,1,0,0,849.6,$856
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T031,percentage,1,1,0,476,$476
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T032,percentage,1,0,0,1100,"$1,087.50"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T033,percentage,1,0,0,1560,$156
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T034,percentage,0,0,0,196,35
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T035,percentage,1,1,0,156,$156
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T036,word_problem,1,0,0,4374,"$1,944"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T037,word_problem,0,0,0,3500,"$2,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T038,word_problem,1,0,0,3360,840
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T039,word_problem,1,0,0,4200,"$1,080"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T040,word_problem,1,0,0,1728,$432
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T041,word_problem,0,0,0,3600,"$1,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T042,word_problem,1,0,0,12600,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T043,word_problem,1,0,0,3630,"$3,330"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T044,word_problem,1,0,0,8064,3360
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T045,word_problem,1,0,0,12600,$8400
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T046,word_problem,1,0,0,7840,5600
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T047,word_problem,1,1,0,6720,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T048,word_problem,1,1,0,6000,"$6,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T049,word_problem,1,0,0,6480,1440
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T050,word_problem,1,0,0,4375,"$3,125"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T051,word_problem,1,1,0,2700,2700
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T052,word_problem,0,0,0,1680,840
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T053,word_problem,1,0,0,6930,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T054,word_problem,1,0,0,4752,"$2,640"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T055,word_problem,1,0,0,6480,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T056,word_problem,1,0,0,2916,"$1,944"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T057,word_problem,1,0,0,3456,4320
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T058,word_problem,0,1,0,4800,"$4,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T059,word_problem,1,0,0,4200,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T060,word_problem,1,0,0,5250,$2100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T061,word_problem,1,0,0,4410,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T062,word_problem,1,0,0,4752,"$5,472"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T063,word_problem,1,0,0,6000,$2400
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T064,word_problem,1,0,0,5000,"$2,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T065,word_problem,1,0,0,10080,8400
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T066,conversion,1,1,0,2160,2160
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T067,conversion,1,0,0,1152,12
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T068,conversion,1,0,0,630,7
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T069,conversion,1,0,0,48000,1.76
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T070,conversion,1,1,0,900,900
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T071,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T072,conversion,1,0,0,125000,0
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T073,conversion,1,0,0,1440,720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T074,conversion,1,0,0,864,720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T075,conversion,1,0,0,12000,1440
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T076,conversion,1,0,0,24000,"1,600,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T077,conversion,1,0,0,125000,18750
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T078,conversion,1,0,0,3000,"2,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T079,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T080,conversion,0,1,0,3000,3000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T081,conversion,1,1,0,60000,60000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T082,conversion,1,0,0,36000,10800
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T083,conversion,1,0,0,15000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T084,conversion,1,0,0,12000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T085,conversion,1,1,0,105,105
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T086,conversion,1,0,0,360,936
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T087,conversion,1,0,0,7000,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T088,conversion,1,1,0,72,72
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T089,conversion,1,0,0,48000,960
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T090,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T091,date,1,1,0,25 April 2026,25 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T092,date,1,0,0,10 June 2026,12 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T093,date,1,1,0,27 April 2026,27 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T094,date,1,0,0,26 November 2026,26 11 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T095,date,1,0,0,08 October 2026,08 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T096,date,1,1,0,11 November 2026,11 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T097,date,1,1,0,16 March 2026,16 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T098,date,1,0,0,01 June 2026,13 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T099,date,1,0,0,16 October 2026,09 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T100,date,1,0,0,12 June 2026,06 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T101,date,1,0,0,24 June 2026,25 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T102,date,1,0,0,25 July 2026,25 8 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T103,date,1,0,0,14 November 2026,12 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T104,date,1,0,0,06 February 2027,01 January 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T105,date,1,0,0,08 May 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T106,date,1,1,0,30 October 2026,30 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T107,date,1,0,0,05 June 2026,07 Apr 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T108,date,1,1,0,08 October 2026,08 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T109,date,1,0,0,10 August 2026,25 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T110,date,1,0,0,17 December 2026,12 December 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T111,date,1,0,0,13 January 2027,12 December 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T112,date,1,0,0,07 October 2026,08 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T113,date,1,0,0,26 August 2026,12 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T114,date,1,1,0,26 January 2026,26 January 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T115,date,1,0,0,18 September 2026,08 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T116,table,1,0,0,North,574
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T117,table,1,0,0,1669,"1,589"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T118,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T119,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T120,table,1,0,0,West,North
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T121,table,1,0,0,503,343
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T122,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T123,table,1,0,0,South,West
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T124,table,1,0,0,1914,"2,814"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T125,table,1,0,0,499,162
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T126,table,1,0,0,1865,299 + 499 + 634 + 433 = 1565
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T127,table,1,0,0,Central,South
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T128,table,1,0,0,2623,"2,943"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T129,table,1,0,0,617,270
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T130,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T131,table,1,0,0,529,354
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T132,table,1,1,0,2156,"2,156"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T133,table,1,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T134,table,1,0,0,504,202
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T135,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T136,table,1,0,0,637,245
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T137,table,1,0,0,479,886 - 603 = 283
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T138,table,1,0,0,1792,"2,802"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T139,table,1,0,0,492,123
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T140,table,1,0,0,760,163
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T141,table,1,0,0,473,163
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T142,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T143,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T144,table,1,0,0,294,123
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T145,table,1,0,0,160,122
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T146,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T147,logic,1,0,0,Alex,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T148,logic,1,0,0,Gray,1
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T149,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T150,logic,1,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T151,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T152,logic,0,0,0,Gray,1
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T153,logic,1,0,0,Casey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T154,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T155,logic,1,0,0,Alex,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T156,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T157,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T158,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T159,logic,1,0,0,Alex,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T160,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T161,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T162,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T163,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T164,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T165,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T166,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T167,logic,1,0,0,Alex,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T168,logic,1,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T169,logic,1,0,0,Bailey,1
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T170,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T171,rate,1,1,0,2,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T172,rate,1,1,0,10,10
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T173,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T174,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T175,rate,1,1,0,180,180
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T176,rate,1,1,0,1.2,1.2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T177,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T178,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T179,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T180,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T181,rate,1,1,0,3.2,3.2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T182,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T183,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T184,rate,1,1,0,150,150
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T185,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T186,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T187,rate,1,1,0,5,5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T188,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T189,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T190,rate,1,1,0,270,270
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T191,rate,1,0,0,5.33333,5.33
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T192,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T193,rate,1,0,0,2.66667,2.67
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T194,rate,1,0,0,5.33333,5.33
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T195,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T196,rate,1,1,0,4.5,4.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T197,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T198,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T199,rate,1,1,0,270,270
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T200,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T201,percentage,1,1,0,312,$312
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T202,percentage,1,1,0,144,$144
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T203,percentage,1,1,0,756,$756
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T204,percentage,1,0,0,129.8,$130
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T205,percentage,0,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T206,percentage,1,0,0,286,260
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T207,percentage,0,0,0,640,64
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T208,percentage,1,0,0,1017.5,$1005
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T209,percentage,1,0,0,644.8,$640
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T210,percentage,1,0,0,124.2,$123.60
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T211,percentage,1,0,0,582.4,$580
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T212,percentage,1,0,0,524.8,$522.40
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T213,percentage,0,0,0,25.6,26
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T214,percentage,1,1,0,180,$180
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T215,percentage,1,0,0,87.75,$87.25
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T216,percentage,1,1,0,494,$494
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T217,percentage,0,0,0,16.5,7.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T218,percentage,1,0,0,256.2,$257.40
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T219,percentage,1,0,0,367.2,$368
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T220,percentage,1,1,0,608,$608
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T221,percentage,1,0,0,595,$588
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T222,percentage,1,0,0,715,$71
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T223,percentage,1,0,0,329,$328
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T224,percentage,1,0,0,1598,$1600
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T225,percentage,1,0,0,278.4,$278
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T226,percentage,0,0,0,54,24
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T227,percentage,0,1,0,66,66
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T228,percentage,1,1,0,270,$270
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T229,percentage,1,0,0,517,$513
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T230,percentage,0,0,0,128,64
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T231,percentage,1,1,0,330,$330
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T232,percentage,0,0,0,400,128
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T233,percentage,1,1,0,1050,1050
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T234,percentage,0,0,0,36,12
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T235,percentage,1,0,0,189,$18.90
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T236,percentage,1,0,0,858,$868
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T237,percentage,1,0,0,45,75
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T238,percentage,0,1,0,680,680
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T239,percentage,0,1,0,1365,1365
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T240,percentage,1,1,0,357,$357
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T241,percentage,0,0,0,8.8,8
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T242,percentage,1,0,0,952,$960
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T243,percentage,1,0,0,1980,2160
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T244,percentage,1,1,0,784,$784
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T245,percentage,1,0,0,226.8,$228.20
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T246,percentage,0,0,0,20.8,21
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T247,percentage,1,0,0,201.6,$200
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T248,percentage,0,0,0,132,144
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T249,percentage,1,0,0,1402.5,"$1,422.50"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T250,percentage,0,1,0,504,$504
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T251,percentage,1,0,0,184.8,$184.20
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T252,percentage,1,0,0,683.2,$686
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T253,percentage,1,1,0,112.5,$112.50
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T254,percentage,0,0,0,74.25,71.25
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T255,percentage,0,1,0,1280,1280
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T256,percentage,0,1,0,136.5,136.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T257,percentage,0,0,0,480,192
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T258,percentage,0,0,0,120,96
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T259,percentage,1,0,0,288.8,$286
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T260,percentage,0,1,0,937.5,937.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T261,percentage,1,1,0,1540,"$1,540"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T262,percentage,0,0,0,825,187.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T263,percentage,0,0,0,102,21
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T264,percentage,0,0,0,67.5,22.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T265,percentage,0,0,0,1202.5,1172.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T266,percentage,1,1,0,188,$188
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T267,percentage,1,0,0,495.6,$498
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T268,percentage,1,1,0,2775,$2775
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T269,percentage,0,0,0,46.2,42
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T270,percentage,0,0,0,113.6,112
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T271,word_problem,0,0,0,12960,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T272,word_problem,1,0,0,6075,"$1,980"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T273,word_problem,1,0,0,2880,1440
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T274,word_problem,1,0,0,1680,$840
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T275,word_problem,1,0,0,15400,"$14,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T276,word_problem,0,1,0,6720,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T277,word_problem,1,0,0,18522,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T278,word_problem,1,1,0,15120,"$15,120"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T279,word_problem,1,0,0,24948,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T280,word_problem,1,0,0,7200,"$2,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T281,word_problem,1,0,0,1584,$528
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T282,word_problem,1,0,0,4620,840
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T283,word_problem,1,0,0,2400,"$1,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T284,word_problem,1,0,0,1540,$980
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T285,word_problem,1,0,0,16632,"$7,764"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T286,word_problem,1,1,0,4320,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T287,word_problem,1,0,0,7200,"$3,600"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T288,word_problem,1,0,0,11970,"$16,620"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T289,word_problem,0,0,0,3780,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T290,word_problem,1,0,0,14000,7000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T291,word_problem,1,0,0,7425,"$6,975"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T292,word_problem,1,0,0,3564,"$2,520"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T293,word_problem,1,0,0,6336,"$5,376"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T294,word_problem,1,0,0,2940,"$2,520"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T295,word_problem,1,0,0,3780,"$2,520"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T296,word_problem,1,0,0,9240,"$3,780"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T297,word_problem,1,0,0,8316,"$4,674"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T298,word_problem,1,0,0,9800,"$2,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T299,word_problem,1,0,0,1760,"$1,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T300,word_problem,1,0,0,6480,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T301,word_problem,1,0,0,32832,"$45,120"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T302,word_problem,1,0,0,5832,$6480
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T303,word_problem,1,0,0,3240,"$1,620"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T304,word_problem,1,0,0,17424,"$19,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T305,word_problem,1,0,0,6160,"$3,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T306,word_problem,1,0,0,3960,1800
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T307,word_problem,1,0,0,8100,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T308,word_problem,1,0,0,3600,"$1,200"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T309,word_problem,1,0,0,36288,"$5,184"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T310,word_problem,1,0,0,13500,"$9,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T311,word_problem,1,0,0,20160,3600
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T312,word_problem,0,0,0,7056,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T313,word_problem,1,0,0,9720,540
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T314,word_problem,1,0,0,6160,"$4,320"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T315,word_problem,1,0,0,1500,750
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T316,word_problem,1,0,0,2112,"$2,176"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T317,word_problem,1,0,0,15048,"$4,332"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T318,word_problem,1,0,0,27360,"$38,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T319,word_problem,1,0,0,1500,750
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T320,word_problem,1,0,0,3360,"$1,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T321,word_problem,1,0,0,5940,$495
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T322,word_problem,1,1,0,1350,"$1,350"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T323,word_problem,0,0,0,5040,840
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T324,word_problem,1,0,0,7350,"$12,300"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T325,word_problem,1,0,0,13860,"$1,380"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T326,word_problem,1,0,0,2432,"$2,304"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T327,word_problem,1,0,0,3920,"$2,080"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T328,word_problem,1,0,0,15552,"$17,472"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T329,word_problem,1,0,0,5040,"$2,160"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T330,word_problem,1,0,0,13376,"$4,232"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T331,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T332,conversion,1,0,0,980,21
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T333,conversion,1,0,0,900,840
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T334,conversion,1,1,0,30000,30000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T335,conversion,1,0,0,30000,500
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T336,conversion,1,0,0,54000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T337,conversion,1,1,0,5040,5040
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T338,conversion,1,1,0,11000,11000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T339,conversion,1,0,0,24000,7200
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T340,conversion,1,0,0,216,24
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T341,conversion,1,1,0,540,540
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T342,conversion,1,1,0,8400,8400
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T343,conversion,1,1,0,168,168
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T344,conversion,1,1,0,660,660
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T345,conversion,1,0,0,7000,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T346,conversion,1,0,0,42000,0
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T347,conversion,1,0,0,30000,90000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T348,conversion,0,1,0,84,84
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T349,conversion,1,0,0,588,14
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T350,conversion,1,0,0,54000,108000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T351,conversion,1,0,0,420,168
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T352,conversion,1,0,0,1008,630
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T353,conversion,1,0,0,28000,84000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T354,conversion,1,0,0,5000,300
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T355,conversion,1,1,0,1800,1800
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T356,conversion,1,0,0,252,7
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T357,conversion,1,0,0,9000,135
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T358,conversion,1,1,0,90000,90000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T359,conversion,1,0,0,90000,9000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T360,conversion,1,0,0,36000,1800
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T361,conversion,1,0,0,3600,1800
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T362,conversion,1,0,0,42000,21000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T363,conversion,1,1,0,300,300
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T364,conversion,1,0,0,2160,"1,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T365,conversion,1,0,0,120,72
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T366,conversion,1,0,0,42000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T367,conversion,1,1,0,160000,160000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T368,conversion,1,0,0,84000,16800
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T369,conversion,1,0,0,9000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T370,conversion,1,0,0,126,84
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T371,conversion,1,0,0,36000,36
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T372,conversion,1,0,0,72000,"1,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T373,conversion,0,0,0,294,7
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T374,conversion,1,1,0,4320,4320
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T375,conversion,1,0,0,72000,10080
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T376,conversion,1,0,0,84000,"1,344"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T377,conversion,1,1,0,1260,1260
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T378,conversion,1,0,0,12000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T379,conversion,1,0,0,5400,540
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T380,conversion,1,1,0,7500,7500
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T381,date,1,0,0,26 July 2026,06 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T382,date,1,0,0,02 December 2026,11 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T383,date,1,0,0,30 July 2026,07 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T384,date,1,1,0,29 April 2027,29 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T385,date,1,0,0,05 July 2027,5 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T386,date,1,0,0,17 March 2027,15 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T387,date,1,0,0,21 July 2026,22 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T388,date,1,0,0,21 October 2026,21 10 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T389,date,1,1,0,02 February 2026,02 February 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T390,date,1,0,0,25 October 2026,25 10 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T391,date,1,0,0,29 October 2027,15 09 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T392,date,1,0,0,28 September 2027,08 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T393,date,1,0,0,16 May 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T394,date,1,0,0,16 November 2026,06 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T395,date,1,0,0,31 December 2027,31 12 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T396,date,1,0,0,10 October 2027,10 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T397,date,1,1,0,08 May 2026,08 May 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T398,date,1,0,0,21 October 2027,23 Sep 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T399,date,1,0,0,15 May 2026,24 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T400,date,1,0,0,09 September 2027,11 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T401,date,1,0,0,14 April 2027,12 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T402,date,1,0,0,20 August 2027,12 June 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T403,date,1,0,0,04 September 2027,07 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T404,date,1,0,0,25 April 2027,04 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T405,date,1,0,0,04 September 2026,05 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T406,date,1,0,0,03 February 2028,05 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T407,date,1,0,0,06 August 2027,07 06 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T408,date,1,0,0,14 September 2027,07 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T409,date,1,0,0,29 November 2026,08 December 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T410,date,1,0,0,05 September 2027,06 Jun 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T411,date,1,0,0,20 December 2027,20 November 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T412,date,1,0,0,18 September 2026,20 8 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T413,date,1,0,0,04 February 2027,16 January 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T414,date,1,0,0,26 July 2027,15 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T415,date,1,0,0,17 December 2027,12 12 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T416,date,1,0,0,20 August 2027,15 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T417,date,1,0,0,05 May 2026,13 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T418,date,1,0,0,21 February 2027,02 February 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T419,date,1,0,0,13 April 2026,02 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T420,date,1,0,0,16 February 2028,08 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T421,date,1,0,0,27 October 2026,27 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T422,date,1,0,0,01 November 2026,02 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T423,date,1,0,0,21 October 2027,12 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T424,date,1,0,0,25 July 2026,25 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T425,date,1,0,0,02 March 2028,18 January 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T426,date,1,0,0,25 February 2028,28 02 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T427,date,1,0,0,01 April 2026,02 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T428,date,1,0,0,02 March 2027,02 28 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T429,date,1,0,0,17 May 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T430,date,1,0,0,21 February 2028,03 January 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T431,table,1,1,0,2494,"2,494"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T432,table,1,0,0,307,127
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T433,table,1,0,0,730,272
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T434,table,1,0,0,279,145
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T435,table,1,0,0,192,82
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T436,table,1,0,0,South,144
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T437,table,1,1,0,2191,"2,191"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T438,table,1,0,0,North,South
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T439,table,1,0,0,632,200
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T440,table,1,0,0,2169,"2,969"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T441,table,1,0,0,1706,"2,706"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T442,table,1,0,0,2465,"2,365"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T443,table,1,0,0,2721,"2,681"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T444,table,1,0,0,1758,"2,658"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T445,table,1,0,0,658,277
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T446,table,1,0,0,East,South
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T447,table,1,0,0,275,127
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T448,table,1,0,0,1626,"1,826"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T449,table,1,0,0,1952,"1,872"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T450,table,1,0,0,2087,"2,307"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T451,table,1,0,0,1640,"1,860"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T452,table,1,0,0,1752,"2,752"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T453,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T454,table,1,0,0,366,155
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T455,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T456,table,1,0,0,Central,North
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T457,table,1,0,0,601,299
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T458,table,1,0,0,Central,729
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T459,table,1,0,0,West,East
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T460,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T461,table,1,0,0,Central,North
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T462,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T463,table,1,0,0,2869,"2,609"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T464,table,1,0,0,2329,"2,949"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T465,table,1,0,0,North,234
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T466,table,1,0,0,146,123
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T467,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T468,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T469,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T470,table,1,0,0,Central,North
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T471,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T472,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T473,table,1,1,0,449,770 - 321 = 449
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T474,table,1,0,0,2147,"2,167"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T475,table,1,0,0,2463,"2,421"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T476,table,1,1,0,493,601 - 108 = 493
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T477,table,1,0,0,Central,319
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T478,table,1,0,0,South,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T479,table,1,0,0,731,154
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T480,table,1,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T481,table,1,0,0,Central,East
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T482,table,1,0,0,539,301
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T483,table,1,0,0,697,202
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T484,table,1,0,0,2240,"2,200"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T485,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T486,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T487,table,1,0,0,427,197
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T488,table,1,0,0,East,344
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T489,table,1,1,0,2261,"2,261"
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T490,table,1,0,0,597,244
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T491,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T492,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T493,logic,1,0,0,Gray,1
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T494,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T495,logic,1,0,0,Casey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T496,logic,1,0,0,Frankie,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T497,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T498,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T499,logic,1,0,0,Ellis,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T500,logic,0,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T501,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T502,logic,1,0,0,Gray,1
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T503,logic,0,1,0,Ellis,Ellis
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T504,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T505,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T506,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T507,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T508,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T509,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T510,logic,1,0,0,Devon,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T511,logic,1,0,0,Casey,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T512,logic,1,0,0,Frankie,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T513,logic,1,0,0,Devon,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T514,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T515,logic,1,0,0,Gray,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T516,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T517,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T518,logic,1,0,0,Devon,1
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T519,logic,1,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T520,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T521,logic,0,0,0,Devon,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T522,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T523,logic,1,0,0,Gray,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T524,logic,1,0,0,Casey,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T525,logic,1,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T526,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T527,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T528,logic,1,0,0,Gray,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T529,logic,1,0,0,Bailey,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T530,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T531,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T532,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T533,logic,1,0,0,Frankie,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T534,logic,1,0,0,Ellis,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T535,logic,1,0,0,Ellis,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T536,logic,1,0,0,Gray,1
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T537,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T538,logic,1,0,0,Casey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T539,logic,1,0,0,Frankie,Deovn
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T540,logic,1,0,0,Gray,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T541,rate,1,0,0,576,528
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T542,rate,1,1,0,100,100
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T543,rate,1,1,0,6,6
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T544,rate,1,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T545,rate,1,1,0,560,560
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T546,rate,1,1,0,80,80
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T547,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T548,rate,1,1,0,5,5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T549,rate,1,0,0,9.6,10
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T550,rate,1,1,0,420,420
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T551,rate,1,1,0,25,25
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T552,rate,1,1,0,125,125
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T553,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T554,rate,1,1,0,4.8,4.8
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T555,rate,1,1,0,4.4,4.4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T556,rate,1,1,0,36,36
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T557,rate,1,1,0,216,216
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T558,rate,1,1,0,1.6,1.6
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T559,rate,1,1,0,9.6,9.6
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T560,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T561,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T562,rate,1,1,0,180,180
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T563,rate,1,1,0,2.4,2.4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T564,rate,1,1,0,0.9,0.9
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T565,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T566,rate,1,1,0,7,7
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T567,rate,1,1,0,1.2,1.2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T568,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T569,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T570,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T571,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T572,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T573,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T574,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T575,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T576,rate,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T577,rate,1,0,0,72,108
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T578,rate,1,1,0,160,160
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T579,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T580,rate,1,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T581,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T582,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T583,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T584,rate,1,1,0,4.2,4.2
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T585,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T586,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T587,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T588,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T589,rate,1,1,0,25,25
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T590,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T591,rate,1,1,0,200,200
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T592,rate,1,1,0,240,240
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T593,rate,1,1,0,350,350
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T594,rate,1,1,0,600,600
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T595,rate,1,0,0,288,480
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T596,rate,1,1,0,5.5,5.5
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T597,rate,1,1,0,72,72
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T598,rate,1,1,0,1.25,1.25
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T599,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,typo,T600,rate,1,1,0,2,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T001,percentage,1,1,0,3480,"$3,480"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T002,percentage,1,1,0,312.5,312.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T003,percentage,1,0,0,288,36
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T004,percentage,1,0,0,1044,$1048
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T005,percentage,1,0,0,500,50
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T006,percentage,1,0,0,26.4,24
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T007,percentage,1,0,0,697,$698
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T008,percentage,1,1,0,540,$540
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T009,percentage,1,0,0,127.5,13.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T010,percentage,1,1,0,150,$150
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T011,percentage,1,1,0,1408,$1408
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T012,percentage,1,0,0,119,22
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T013,percentage,1,0,0,528,504
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T014,percentage,1,1,0,30,$30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T015,percentage,1,0,0,552.5,$556.50
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T016,percentage,1,1,0,672,$672
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T017,percentage,1,1,0,2560,$2560
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T018,percentage,1,0,0,422.4,384
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T019,percentage,1,0,0,192,240
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T020,percentage,1,1,0,30,$30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T021,percentage,1,0,0,108,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T022,percentage,1,0,0,196.8,$196
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T023,percentage,1,0,0,225,210
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T024,percentage,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T025,percentage,1,0,0,500,50
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T026,percentage,1,0,0,352,336
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T027,percentage,1,1,0,960,960
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T028,percentage,1,0,0,324,36
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T029,percentage,1,0,0,420,364
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T030,percentage,1,0,0,849.6,$856
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T031,percentage,1,1,0,476,$476
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T032,percentage,1,0,0,1100,$1085
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T033,percentage,1,1,0,1560,$1560
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T034,percentage,1,0,0,196,28
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T035,percentage,1,1,0,156,$156
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T036,word_problem,1,0,0,4374,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T037,word_problem,1,0,0,3500,"$17,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T038,word_problem,1,0,0,3360,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T039,word_problem,1,1,0,4200,$4200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T040,word_problem,1,0,0,1728,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T041,word_problem,1,1,0,3600,"$3,600"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T042,word_problem,1,0,0,12600,21000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T043,word_problem,1,0,0,3630,"$6,330"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T044,word_problem,1,0,0,8064,$13440
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T045,word_problem,1,0,0,12600,"$84,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T046,word_problem,1,0,0,7840,"$14,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T047,word_problem,1,1,0,6720,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T048,word_problem,1,0,0,6000,"$12,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T049,word_problem,1,0,0,6480,4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T050,word_problem,1,0,0,4375,"$7,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T051,word_problem,1,0,0,2700,"$5,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T052,word_problem,1,0,0,1680,$840
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T053,word_problem,1,0,0,6930,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T054,word_problem,1,0,0,4752,"$6,240"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T055,word_problem,1,0,0,6480,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T056,word_problem,1,0,0,2916,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T057,word_problem,1,0,0,3456,"$5,760"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T058,word_problem,1,0,0,4800,$9600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T059,word_problem,1,0,0,4200,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T060,word_problem,1,0,0,5250,$10500
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T061,word_problem,1,0,0,4410,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T062,word_problem,1,0,0,4752,"$10,080"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T063,word_problem,1,0,0,6000,"$24,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T064,word_problem,1,0,0,5000,"$10,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T065,word_problem,1,0,0,10080,"$25,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T066,conversion,1,0,0,2160,21600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T067,conversion,1,0,0,1152,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T068,conversion,1,0,0,630,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T069,conversion,1,0,0,48000,48
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T070,conversion,1,1,0,900,900
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T071,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T072,conversion,1,0,0,125000,0.125
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T073,conversion,1,1,0,1440,1440
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T074,conversion,1,0,0,864,504
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T075,conversion,1,0,0,12000,192000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T076,conversion,1,0,0,24000,"1,152,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T077,conversion,1,0,0,125000,18750
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T078,conversion,1,1,0,3000,125 days * 24 hours/day = 3000 hours
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T079,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T080,conversion,1,1,0,3000,3000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T081,conversion,1,0,0,60000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T082,conversion,1,0,0,36000,10800
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T083,conversion,1,0,0,15000,"100,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T084,conversion,1,0,0,12000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T085,conversion,1,1,0,105,105
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T086,conversion,1,0,0,360,24
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T087,conversion,1,0,0,7000,1120
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T088,conversion,1,1,0,72,72
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T089,conversion,1,0,0,48000,1920
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T090,conversion,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T091,date,1,1,0,25 April 2026,25 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T092,date,1,0,0,10 June 2026,12 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T093,date,1,1,0,27 April 2026,27 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T094,date,1,0,0,26 November 2026,05 December 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T095,date,1,0,0,08 October 2026,10 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T096,date,1,1,0,11 November 2026,11 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T097,date,1,1,0,16 March 2026,16 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T098,date,1,0,0,01 June 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T099,date,1,0,0,16 October 2026,30 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T100,date,1,0,0,12 June 2026,06 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T101,date,1,0,0,24 June 2026,25 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T102,date,1,0,0,25 July 2026,05 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T103,date,1,0,0,14 November 2026,15 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T104,date,1,0,0,06 February 2027,01 January 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T105,date,1,0,0,08 May 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T106,date,1,1,0,30 October 2026,30 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T107,date,1,0,0,05 June 2026,07 05 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T108,date,1,1,0,08 October 2026,08 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T109,date,1,0,0,10 August 2026,25 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T110,date,1,0,0,17 December 2026,12 December 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T111,date,1,0,0,13 January 2027,14 + 60 = 74  74 days after 14 November 2026 is 18 January 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T112,date,1,0,0,07 October 2026,08 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T113,date,1,0,0,26 August 2026,12 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T114,date,1,1,0,26 January 2026,26 January 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T115,date,1,0,0,18 September 2026,08 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T116,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T117,table,1,0,0,1669,"1,589"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T118,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T119,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T120,table,1,0,0,West,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T121,table,1,0,0,503,West - East = 272
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T122,table,1,0,0,Central,832
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T123,table,1,0,0,South,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T124,table,1,0,0,1914,"1,874"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T125,table,1,0,0,499,-261
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T126,table,1,0,0,1865,299 + 499 + 634 + 433 = 1565
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T127,table,1,0,0,Central,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T128,table,1,0,0,2623,"2,943"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T129,table,1,0,0,617,270
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T130,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T131,table,1,0,0,529,154
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T132,table,1,1,0,2156,"2,156"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T133,table,1,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T134,table,1,0,0,504,196
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T135,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T136,table,1,0,0,637,125
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T137,table,1,0,0,479,886 - 603 = 283
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T138,table,1,0,0,1792,"2,792"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T139,table,1,0,0,492,123
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T140,table,1,0,0,760,163
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T141,table,1,0,0,473,123
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T142,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T143,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T144,table,1,0,0,294,123
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T145,table,1,0,0,160,122
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T146,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T147,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T148,logic,1,0,0,Gray,1
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T149,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T150,logic,1,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T151,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T152,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T153,logic,1,0,0,Casey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T154,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T155,logic,1,0,0,Alex,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T156,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T157,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T158,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T159,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T160,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T161,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T162,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T163,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T164,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T165,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T166,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T167,logic,1,0,0,Alex,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T168,logic,1,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T169,logic,1,0,0,Bailey,1
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T170,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T171,rate,1,1,0,2,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T172,rate,1,1,0,10,10
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T173,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T174,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T175,rate,1,1,0,180,180
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T176,rate,1,1,0,1.2,1.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T177,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T178,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T179,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T180,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T181,rate,1,1,0,3.2,3.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T182,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T183,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T184,rate,1,0,0,150,375
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T185,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T186,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T187,rate,1,1,0,5,5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T188,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T189,rate,1,0,0,3.33333,3.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T190,rate,1,1,0,270,270
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T191,rate,1,0,0,5.33333,5.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T192,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T193,rate,1,0,0,2.66667,2.67
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T194,rate,1,0,0,5.33333,5.33
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T195,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T196,rate,1,1,0,4.5,4.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T197,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T198,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T199,rate,1,1,0,270,270
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T200,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T201,percentage,1,1,0,312,$312
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T202,percentage,1,1,0,144,$144
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T203,percentage,1,0,0,756,$760
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T204,percentage,1,1,0,129.8,$129.80
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T205,percentage,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T206,percentage,1,1,0,286,$286
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T207,percentage,1,0,0,640,64
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T208,percentage,1,0,0,1017.5,$1005
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T209,percentage,1,0,0,644.8,$644
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T210,percentage,1,0,0,124.2,$123.60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T211,percentage,1,0,0,582.4,$581
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T212,percentage,1,0,0,524.8,$522.40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T213,percentage,1,0,0,25.6,26
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T214,percentage,1,1,0,180,$180
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T215,percentage,1,0,0,87.75,$87.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T216,percentage,1,1,0,494,$494
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T217,percentage,1,0,0,16.5,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T218,percentage,1,0,0,256.2,$255.20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T219,percentage,1,0,0,367.2,$368
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T220,percentage,1,1,0,608,$608
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T221,percentage,1,0,0,595,$588
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T222,percentage,1,1,0,715,$715
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T223,percentage,1,0,0,329,$326
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T224,percentage,1,0,0,1598,$1600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T225,percentage,1,1,0,278.4,$278.40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T226,percentage,1,0,0,54,24
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T227,percentage,1,0,0,66,76
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T228,percentage,1,0,0,270,$268
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T229,percentage,1,0,0,517,$513
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T230,percentage,1,0,0,128,16
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T231,percentage,1,1,0,330,$330
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T232,percentage,1,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T233,percentage,1,1,0,1050,1050
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T234,percentage,1,0,0,36,18
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T235,percentage,1,0,0,189,$18.90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T236,percentage,1,0,0,858,$868
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T237,percentage,1,0,0,45,$30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T238,percentage,1,1,0,680,680
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T239,percentage,1,1,0,1365,1365
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T240,percentage,1,1,0,357,$357
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T241,percentage,1,0,0,8.8,11
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T242,percentage,1,0,0,952,$960
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T243,percentage,1,1,0,1980,$1980
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T244,percentage,1,1,0,784,$784
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T245,percentage,1,0,0,226.8,$227.80
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T246,percentage,1,0,0,20.8,21
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T247,percentage,1,0,0,201.6,$201
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T248,percentage,1,0,0,132,12
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T249,percentage,1,0,0,1402.5,"$1,422.50"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T250,percentage,1,1,0,504,$504
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T251,percentage,1,0,0,184.8,$184.20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T252,percentage,1,0,0,683.2,$686
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T253,percentage,1,1,0,112.5,$112.50
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T254,percentage,1,0,0,74.25,73
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T255,percentage,1,1,0,1280,1280
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T256,percentage,1,1,0,136.5,136.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T257,percentage,1,0,0,480,51
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T258,percentage,1,0,0,120,96
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T259,percentage,1,0,0,288.8,$285.20
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T260,percentage,1,0,0,937.5,750
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T261,percentage,1,1,0,1540,"$1,540"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T262,percentage,1,0,0,825,875
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T263,percentage,1,0,0,102,21
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T264,percentage,1,0,0,67.5,7.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T265,percentage,1,0,0,1202.5,119.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T266,percentage,1,0,0,188,76
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T267,percentage,1,0,0,495.6,$498
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T268,percentage,1,1,0,2775,$2775
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T269,percentage,1,0,0,46.2,14
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T270,percentage,1,0,0,113.6,114.16
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T271,word_problem,1,0,0,12960,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T272,word_problem,1,0,0,6075,"$ 6,975"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T273,word_problem,1,0,0,2880,"$1,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T274,word_problem,1,1,0,1680,$1680
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T275,word_problem,1,0,0,15400,"$21,600"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T276,word_problem,1,1,0,6720,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T277,word_problem,1,0,0,18522,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T278,word_problem,1,1,0,15120,"$15,120"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T279,word_problem,1,0,0,24948,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T280,word_problem,1,0,0,7200,$2880
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T281,word_problem,1,0,0,1584,"$1,728"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T282,word_problem,1,0,0,4620,"$2,340"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T283,word_problem,1,0,0,2400,"$1,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T284,word_problem,1,0,0,1540,"$2,940"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T285,word_problem,1,0,0,16632,"$15,840"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T286,word_problem,1,1,0,4320,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T287,word_problem,1,0,0,7200,"$5,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T288,word_problem,1,0,0,11970,"$16,020"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T289,word_problem,1,0,0,3780,$12600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T290,word_problem,1,0,0,14000,"$28,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T291,word_problem,1,0,0,7425,"$6,975"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T292,word_problem,1,0,0,3564,"$5,040"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T293,word_problem,1,0,0,6336,"$7,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T294,word_problem,1,0,0,2940,"$5,040"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T295,word_problem,1,0,0,3780,"$5,040"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T296,word_problem,1,0,0,9240,"$35 * 11 * 12 * 2 = $7,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T297,word_problem,1,0,0,8316,"$8,820"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T298,word_problem,1,0,0,9800,"$14,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T299,word_problem,1,0,0,1760,"$2,880"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T300,word_problem,1,0,0,6480,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T301,word_problem,1,0,0,32832,"$45,120"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T302,word_problem,1,0,0,5832,"$16,320"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T303,word_problem,1,0,0,3240,$4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T304,word_problem,1,0,0,17424,"$19,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T305,word_problem,1,0,0,6160,"$14,880"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T306,word_problem,1,0,0,3960,"$18,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T307,word_problem,1,0,0,8100,"$10,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T308,word_problem,1,0,0,3600,"$1,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T309,word_problem,1,0,0,36288,"$57,600"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T310,word_problem,1,0,0,13500,"$45,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T311,word_problem,1,0,0,20160,$13440
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T312,word_problem,1,1,0,7056,$28 * 7 * 12 * 3 = $7056
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T313,word_problem,1,0,0,9720,"$16,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T314,word_problem,1,0,0,6160,"$7,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T315,word_problem,1,1,0,1500,"$1,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T316,word_problem,1,0,0,2112,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T317,word_problem,1,0,0,15048,"$38,880"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T318,word_problem,1,0,0,27360,"$38,400"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T319,word_problem,1,0,0,1500,7500
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T320,word_problem,1,0,0,3360,$6720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T321,word_problem,1,0,0,5940,"$9,450"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T322,word_problem,1,1,0,1350,"$1,350"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T323,word_problem,1,1,0,5040,"$5,040"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T324,word_problem,1,0,0,7350,"$14,500"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T325,word_problem,1,0,0,13860,"$14,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T326,word_problem,1,0,0,2432,"$19,440"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T327,word_problem,1,0,0,3920,$8400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T328,word_problem,1,0,0,15552,"$17,152"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T329,word_problem,1,0,0,5040,"$2,160"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T330,word_problem,1,0,0,13376,"$41,920"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T331,conversion,1,0,0,720,744
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T332,conversion,1,0,0,980,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T333,conversion,1,0,0,900,93600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T334,conversion,1,1,0,30000,30000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T335,conversion,1,0,0,30000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T336,conversion,1,0,0,54000,"100,800"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T337,conversion,1,1,0,5040,5040
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T338,conversion,1,0,0,11000,1100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T339,conversion,1,0,0,24000,2400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T340,conversion,1,0,0,216,144
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T341,conversion,1,1,0,540,540
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T342,conversion,1,1,0,8400,8400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T343,conversion,1,1,0,168,168
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T344,conversion,1,1,0,660,660
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T345,conversion,1,0,0,7000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T346,conversion,1,0,0,42000,200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T347,conversion,1,0,0,30000,1500
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T348,conversion,1,1,0,84,84
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T349,conversion,1,0,0,588,14
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T350,conversion,1,1,0,54000,"54,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T351,conversion,1,1,0,420,420
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T352,conversion,1,0,0,1008,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T353,conversion,1,0,0,28000,28
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T354,conversion,1,0,0,5000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T355,conversion,1,0,0,1800,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T356,conversion,1,0,0,252,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T357,conversion,1,0,0,9000,9
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T358,conversion,1,1,0,90000,90000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T359,conversion,1,0,0,90000,900
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T360,conversion,1,0,0,36000,1800
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T361,conversion,1,1,0,3600,3600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T362,conversion,1,0,0,42000,2100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T363,conversion,1,1,0,300,300
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T364,conversion,1,0,0,2160,24
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T365,conversion,1,0,0,120,24
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T366,conversion,1,0,0,42000,40000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T367,conversion,1,0,0,160000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T368,conversion,1,1,0,84000,"84,000"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T369,conversion,1,0,0,9000,1000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T370,conversion,1,0,0,126,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T371,conversion,1,0,0,36000,2000
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T372,conversion,1,0,0,72000,"7,200"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T373,conversion,1,0,0,294,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T374,conversion,1,1,0,4320,4320
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T375,conversion,1,0,0,72000,10080
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T376,conversion,1,0,0,84000,1680
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T377,conversion,1,1,0,1260,1260
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T378,conversion,1,0,0,12000,1200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T379,conversion,1,0,0,5400,540
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T380,conversion,1,1,0,7500,7500
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T381,date,1,0,0,26 July 2026,06 Jun 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T382,date,1,0,0,02 December 2026,12 November 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T383,date,1,0,0,30 July 2026,07 August 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T384,date,1,1,0,29 April 2027,29 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T385,date,1,1,0,05 July 2027,05 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T386,date,1,0,0,17 March 2027,15 March 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T387,date,1,0,0,21 July 2026,12 Jul 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T388,date,1,0,0,21 October 2026,03 22 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T389,date,1,1,0,02 February 2026,02 February 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T390,date,1,0,0,25 October 2026,25 10 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T391,date,1,0,0,29 October 2027,15 09 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T392,date,1,0,0,28 September 2027,28 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T393,date,1,0,0,16 May 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T394,date,1,0,0,16 November 2026,06 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T395,date,1,0,0,31 December 2027,31 12 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T396,date,1,0,0,10 October 2027,10 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T397,date,1,1,0,08 May 2026,08 May 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T398,date,1,0,0,21 October 2027,23 + 90 = 113  113 days from 23 July 2027 is 13 October 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T399,date,1,0,0,15 May 2026,24 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T400,date,1,0,0,09 September 2027,11 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T401,date,1,0,0,14 April 2027,15 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T402,date,1,0,0,20 August 2027,12 June 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T403,date,1,0,0,04 September 2027,25 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T404,date,1,0,0,25 April 2027,04 April 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T405,date,1,0,0,04 September 2026,05 August 2024
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T406,date,1,0,0,03 February 2028,05 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T407,date,1,0,0,06 August 2027,07 06 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T408,date,1,0,0,14 September 2027,25 July 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T409,date,1,0,0,29 November 2026,08 December 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T410,date,1,0,0,05 September 2027,06 Jun 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T411,date,1,0,0,20 December 2027,30 November 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T412,date,1,0,0,18 September 2026,20 08 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T413,date,1,0,0,04 February 2027,16 + 50 = 66  66 days after 16 December 2026 is 12 February 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T414,date,1,0,0,26 July 2027,06 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T415,date,1,0,0,17 December 2027,02 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T416,date,1,0,0,20 August 2027,17 August 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T417,date,1,0,0,05 May 2026,24 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T418,date,1,0,0,21 February 2027,02 February 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T419,date,1,0,0,13 April 2026,02 March 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T420,date,1,0,0,16 February 2028,08 December 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T421,date,1,0,0,27 October 2026,27 September 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T422,date,1,0,0,01 November 2026,31 October 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T423,date,1,0,0,21 October 2027,12 September 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T424,date,1,0,0,25 July 2026,25 June 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T425,date,1,0,0,02 March 2028,02 February 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T426,date,1,0,0,25 February 2028,28 February 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T427,date,1,0,0,01 April 2026,16 + 75 = 91  91 days from 16 January 2026 is 26 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T428,date,1,0,0,02 March 2027,05 28 2027
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T429,date,1,0,0,17 May 2026,04 April 2026
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T430,date,1,0,0,21 February 2028,03 January 2028
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T431,table,1,1,0,2494,"2,494"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T432,table,1,0,0,307,127
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T433,table,1,0,0,730,149
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T434,table,1,0,0,279,145
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T435,table,1,0,0,192,72
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T436,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T437,table,1,1,0,2191,"2,191"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T438,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T439,table,1,0,0,632,200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T440,table,1,0,0,2169,"2,969"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T441,table,1,1,0,1706,"1,706"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T442,table,1,0,0,2465,"2,365"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T443,table,1,0,0,2721,"2,781"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T444,table,1,0,0,1758,"2,658"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T445,table,1,0,0,658,177
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T446,table,1,0,0,East,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T447,table,1,0,0,275,127
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T448,table,1,0,0,1626,"1,826"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T449,table,1,0,0,1952,"1,872"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T450,table,1,0,0,2087,"2,987"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T451,table,1,0,0,1640,"1,660"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T452,table,1,0,0,1752,"2,752"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T453,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T454,table,1,0,0,366,155
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T455,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T456,table,1,0,0,Central,546
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T457,table,1,0,0,601,299
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T458,table,1,0,0,Central,729
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T459,table,1,0,0,West,East
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T460,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T461,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T462,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T463,table,1,0,0,2869,"2,609"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T464,table,1,0,0,2329,"2,649"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T465,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T466,table,1,0,0,146,123
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T467,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T468,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T469,table,1,1,0,South,South
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T470,table,1,0,0,Central,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T471,table,1,1,0,North,North
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T472,table,1,1,0,Central,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T473,table,1,1,0,449,770 - 321 = 449
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T474,table,1,0,0,2147,163 + 678 + 873 + 433 = 2167
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T475,table,1,0,0,2463,"2,421"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T476,table,1,1,0,493,601 - 108 = 493
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T477,table,1,0,0,Central,319
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T478,table,1,0,0,South,Central
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T479,table,1,0,0,731,154
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T480,table,1,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T481,table,1,0,0,Central,East
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T482,table,1,0,0,539,201
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T483,table,1,1,0,697,828 - 131 = 697
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T484,table,1,0,0,2240,"2,200"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T485,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T486,table,1,1,0,West,West
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T487,table,1,0,0,427,97
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T488,table,1,1,0,East,East
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T489,table,1,1,0,2261,"2,261"
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T490,table,1,0,0,597,244
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T491,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T492,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T493,logic,1,0,0,Gray,1
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T494,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T495,logic,1,0,0,Casey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T496,logic,1,0,0,Frankie,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T497,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T498,logic,1,0,0,Alex,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T499,logic,1,0,0,Ellis,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T500,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T501,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T502,logic,1,0,0,Gray,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T503,logic,1,1,0,Ellis,Ellis
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T504,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T505,logic,1,0,0,Frankie,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T506,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T507,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T508,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T509,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T510,logic,1,0,0,Devon,1
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T511,logic,1,0,0,Casey,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T512,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T513,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T514,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T515,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T516,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T517,logic,1,0,0,Bailey,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T518,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T519,logic,1,1,0,Casey,Casey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T520,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T521,logic,1,0,0,Devon,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T522,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T523,logic,1,0,0,Gray,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T524,logic,1,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T525,logic,1,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T526,logic,1,0,0,Devon,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T527,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T528,logic,1,0,0,Gray,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T529,logic,1,0,0,Bailey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T530,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T531,logic,1,0,0,Gray,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T532,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T533,logic,1,0,0,Frankie,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T534,logic,1,0,0,Ellis,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T535,logic,1,0,0,Ellis,2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T536,logic,1,0,0,Gray,1
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T537,logic,1,1,0,Bailey,Bailey
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T538,logic,1,0,0,Casey,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T539,logic,1,0,0,Frankie,Deovn
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T540,logic,1,1,0,Gray,Gray
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T541,rate,1,1,0,576,576
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T542,rate,1,1,0,100,100
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T543,rate,1,1,0,6,6
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T544,rate,1,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T545,rate,1,1,0,560,560
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T546,rate,1,1,0,80,80
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T547,rate,1,1,0,30,30
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T548,rate,1,1,0,5,5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T549,rate,1,0,0,9.6,10
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T550,rate,1,1,0,420,420
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T551,rate,1,1,0,25,25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T552,rate,1,1,0,125,125
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T553,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T554,rate,1,1,0,4.8,4.8
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T555,rate,1,1,0,4.4,4.4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T556,rate,1,1,0,36,36
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T557,rate,1,1,0,216,216
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T558,rate,1,1,0,1.6,1.6
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T559,rate,1,1,0,9.6,9.6
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T560,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T561,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T562,rate,1,1,0,180,180
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T563,rate,1,1,0,2.4,2.4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T564,rate,1,1,0,0.9,0.9
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T565,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T566,rate,1,1,0,7,7
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T567,rate,1,1,0,1.2,1.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T568,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T569,rate,1,1,0,45,45
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T570,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T571,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T572,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T573,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T574,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T575,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T576,rate,1,1,0,720,720
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T577,rate,1,0,0,72,108
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T578,rate,1,1,0,160,160
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T579,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T580,rate,1,1,0,400,400
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T581,rate,1,1,0,3,3
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T582,rate,1,1,0,4,4
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T583,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T584,rate,1,1,0,4.2,4.2
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T585,rate,1,1,0,75,75
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T586,rate,1,1,0,90,90
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T587,rate,1,1,0,2.25,2.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T588,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T589,rate,1,1,0,25,25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T590,rate,1,1,0,40,40
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T591,rate,1,1,0,200,200
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T592,rate,1,1,0,240,240
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T593,rate,1,1,0,350,350
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T594,rate,1,1,0,600,600
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T595,rate,1,0,0,288,432
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T596,rate,1,1,0,5.5,5.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T597,rate,1,0,0,72,71.5
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T598,rate,1,1,0,1.25,1.25
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T599,rate,1,1,0,60,60
+meta-llama/Llama-3.1-8B-Instruct,llama,esl_typo,T600,rate,1,1,0,2,2

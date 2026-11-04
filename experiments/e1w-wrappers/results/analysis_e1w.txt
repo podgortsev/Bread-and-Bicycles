@@ -1,0 +1,74 @@
+==============================================================================
+e1w: the same interactions under six neutral wrappers
+models: llama, mistral, qwen
+==============================================================================
+
+------------------------------------------------------------------------------
+1. WHAT THE WRAPPER DOES ON ITS OWN. NONE under each wrapper.
+   In Paper 2 the six wrappers moved baseline accuracy by 2 to 5
+   points before any signal was added.
+------------------------------------------------------------------------------
+  llama    W1=27.0%  W2=29.0%  W3=26.0%  W4=30.0%  W5=26.0%  W6=29.0%   spread 4.0%
+  mistral  W1=51.0%  W2=48.0%  W3=49.0%  W4=50.0%  W5=50.0%  W6=51.0%   spread 3.0%
+  qwen     W1=57.0%  W2=56.0%  W3=56.0%  W4=60.0%  W5=57.0%  W6=61.0%   spread 5.0%
+
+------------------------------------------------------------------------------
+2. EACH INTERACTION, ONCE PER WRAPPER.
+   NEGATIVE = super-additive. The across-wrapper spread is the
+   error bar; an effect must clear it to be reported as real.
+------------------------------------------------------------------------------
+
+  llama
+    contrast                     W1       W2       W3       W4       W5       W6      mean   spread   signs
+    P1_FORMxFORM             -0.020   +0.010   -0.040   -0.010   -0.020   +0.010    -0.012    0.050   4/6
+    P2a_STATEDxSTATED        +0.010   +0.080   +0.020   +0.000   +0.020   +0.020    +0.025    0.080   5/6
+    P3a_CROSS                +0.010   +0.040   -0.030   -0.010   -0.030   +0.000    -0.003    0.070   4/6
+
+  mistral
+    contrast                     W1       W2       W3       W4       W5       W6      mean   spread   signs
+    P1_FORMxFORM             +0.040   -0.040   +0.010   -0.010   -0.010   +0.020    +0.002    0.080   3/6
+    P2a_STATEDxSTATED        +0.010   +0.010   +0.010   -0.030   +0.020   +0.050    +0.012    0.080   5/6
+    P3a_CROSS                +0.010   -0.020   -0.030   -0.010   -0.010   +0.050    -0.002    0.080   4/6
+
+  qwen
+    contrast                     W1       W2       W3       W4       W5       W6      mean   spread   signs
+    P1_FORMxFORM             -0.030   +0.020   +0.000   +0.000   -0.040   +0.050    +0.000    0.090   4/6
+    P2a_STATEDxSTATED        -0.010   -0.020   -0.080   -0.040   +0.000   +0.080    -0.012    0.160   5/6
+    P3a_CROSS                +0.020   +0.030   +0.010   +0.020   +0.030   +0.080    +0.032    0.070   6/6
+
+------------------------------------------------------------------------------
+3. POOLED ACROSS WRAPPERS, item-level, with a bootstrap interval.
+   Every task appears once per wrapper, so the pooled estimate
+   treats wrapper as a replicate rather than as extra items.
+------------------------------------------------------------------------------
+
+  model    contrast              type              wraps      mean                95% CI       BH
+  llama    P1_FORMxFORM          form_x_form           6    -0.012  [  -0.025,  +0.002]   0.8237
+  llama    P2a_STATEDxSTATED     stated_x_stated       6    +0.025  [  +0.010,  +0.048]   0.2938
+  llama    P3a_CROSS             cross                 6    -0.003  [  -0.022,  +0.017]   1.0000
+  mistral  P1_FORMxFORM          form_x_form           6    +0.002  [  -0.018,  +0.022]   1.0000
+  mistral  P2a_STATEDxSTATED     stated_x_stated       6    +0.012  [  -0.008,  +0.030]   0.9280
+  mistral  P3a_CROSS             cross                 6    -0.002  [  -0.020,  +0.022]   1.0000
+  qwen     P1_FORMxFORM          form_x_form           6    +0.000  [  -0.023,  +0.025]   1.0000
+  qwen     P2a_STATEDxSTATED     stated_x_stated       6    -0.012  [  -0.047,  +0.030]   1.0000
+  qwen     P3a_CROSS             cross                 6    +0.032  [  +0.018,  +0.052]   0.2938
+
+  With six wrappers the pooled test has six observations, so it is
+  weak by construction. It is reported for completeness; the sign
+  agreement and the spread above carry the argument.
+
+==============================================================================
+VERDICT: which interactions survive a change of neutral wrapper
+==============================================================================
+  llama    P1_FORMxFORM          wrapper-dependent     mean -0.012, spread 0.050, 4/6 wrappers agree in sign
+  llama    P2a_STATEDxSTATED     wrapper-dependent     mean +0.025, spread 0.080, 5/6 wrappers agree in sign
+  llama    P3a_CROSS             wrapper-dependent     mean -0.003, spread 0.070, 4/6 wrappers agree in sign
+  mistral  P1_FORMxFORM          wrapper-dependent     mean +0.002, spread 0.080, 3/6 wrappers agree in sign
+  mistral  P2a_STATEDxSTATED     wrapper-dependent     mean +0.012, spread 0.080, 5/6 wrappers agree in sign
+  mistral  P3a_CROSS             wrapper-dependent     mean -0.002, spread 0.080, 4/6 wrappers agree in sign
+  qwen     P1_FORMxFORM          wrapper-dependent     mean +0.000, spread 0.090, 4/6 wrappers agree in sign
+  qwen     P2a_STATEDxSTATED     wrapper-dependent     mean -0.012, spread 0.160, 5/6 wrappers agree in sign
+  qwen     P3a_CROSS             within the wrapper spreadmean +0.032, spread 0.070, 6/6 wrappers agree in sign
+
+  An interaction that is wrapper-dependent is a fact about the
+  wrapper. Report it as one, do not average it away.

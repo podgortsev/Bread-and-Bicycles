@@ -1,0 +1,8 @@
+id,label,slot1,slot2,n_words,lead_in
+NONE,no signal,n1,n2,19,I am working through this on my laptop this evening. I would like to get it finished before tomorrow.
+ALT3,neutral detail: dog walking,alt3,n2,18,I walk our dog around the park every morning. I would like to get it finished before tomorrow.
+ALT4_ONLY,neutral detail: guitar,n1,alt4,19,I am working through this on my laptop this evening. I have been learning to play the guitar lately.
+ALT_BOTH_34,two neutral details: dog and guitar,alt3,alt4,18,I walk our dog around the park every morning. I have been learning to play the guitar lately.
+ALT5,neutral detail: tea,alt5,n2,18,I usually make a pot of tea around noon. I would like to get it finished before tomorrow.
+ALT6_ONLY,neutral detail: history books,n1,alt6,19,I am working through this on my laptop this evening. I have been reading a lot of history books.
+ALT_BOTH_56,two neutral details: tea and books,alt5,alt6,18,I usually make a pot of tea around noon. I have been reading a lot of history books.

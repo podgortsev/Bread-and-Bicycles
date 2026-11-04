@@ -1,0 +1,101 @@
+==========================================================================
+e1w  WRAPPERS
+==========================================================================
+  [ok  ] six wrappers, all distinct
+  [ok  ] nine conditions cover the cells the headline needs  9 conditions
+  [ok  ] every e1w condition exists in the e1 set
+  [ok  ] e1w job count is wrappers x conditions x tasks  1080
+  [ok  ] every prompt carries its wrapper text
+  [ok  ] every prompt carries its lead-in
+  [ok  ] prompts are not all identical
+  [ok  ] a consistent interaction is recovered across all six wrappers  mean -0.1817, spread 0.1800
+  [ok  ] all six wrappers agree in sign
+  [ok  ] a wrapper-DEPENDENT effect is caught: signs disagree  3 of 6 positive
+  [ok  ] a wrapper-dependent effect does not clear its own spread  mean +0.0133 against spread 0.8600. Paper 2's method 3b saw exactly this, r=0.13 between two wrappers
+
+==========================================================================
+e2  DEPTH CURVE
+==========================================================================
+  [ok  ] e2 conditions pass their own structural checks
+  [ok  ] seventeen conditions  17
+  [ok  ] every lead-in is exactly three clauses
+  [ok  ] depth always equals the number of signals
+  [ok  ] both ladders reach depth 3
+  [ok  ] the form ladder has ONE route at depth 3, by construction  a style has no order, so there is nothing to rotate
+  [ok  ] the stated ladder has three routes at depth 3
+  [ok  ] no two form conditions produced the same text
+  [ok  ] typos never removed a stated signal's words
+  [ok  ] a straight line has a quadratic term of zero  -0.000000
+  [ok  ] a straight line is fitted exactly by a line
+  [ok  ] a downward-bending curve gives a negative quadratic term  -0.02000
+  [ok  ] a saturating curve gives a positive quadratic term  +0.01750
+  [ok  ] second difference is zero on a straight line
+  [ok  ] second difference is negative on a compounding curve  -0.0500
+  [ok  ] second difference is positive on a saturating curve  +0.0300
+
+==========================================================================
+e2b  LEGIBILITY
+==========================================================================
+  [ok  ] e2b esl: numbers preserved in T001  ['2400', '45'] -> ['2400', '45']
+  [ok  ] e2b typo: numbers preserved in T001  ['2400', '45'] -> ['2400', '45']
+  [ok  ] e2b esl_typo: numbers preserved in T001  ['2400', '45'] -> ['2400', '45']
+  [ok  ] e2b esl: numbers preserved in T002  ['1250', '25'] -> ['1250', '25']
+  [ok  ] e2b typo: numbers preserved in T002  ['1250', '25'] -> ['1250', '25']
+  [ok  ] e2b esl_typo: numbers preserved in T002  ['1250', '25'] -> ['1250', '25']
+  [ok  ] e2b esl: numbers preserved in T003  ['12'] -> ['12']
+  [ok  ] e2b typo: numbers preserved in T003  ['12'] -> ['12']
+  [ok  ] e2b esl_typo: numbers preserved in T003  ['12'] -> ['12']
+  [ok  ] e2b esl: numbers preserved in T004  ['120', '300'] -> ['120', '300']
+  [ok  ] e2b typo: numbers preserved in T004  ['120', '300'] -> ['120', '300']
+  [ok  ] e2b esl_typo: numbers preserved in T004  ['120', '300'] -> ['120', '300']
+  [ok  ] e2b never mangles a meaning-carrying word  a mangled superlative could change what the question asks
+  [ok  ] e2b rewriting is deterministic
+  [ok  ] e2b esl actually changes the text
+  [ok  ] arm A recovers no interaction when none was injected  +0.0167
+  [ok  ] arm B recovers the injected -0.18  -0.1800
+  [ok  ] the legibility component is detected as the difference of the arms  -0.1967 against MDE 0.0451
+
+==========================================================================
+e3  OFFSETTING
+==========================================================================
+  [ok  ] e3 conditions pass their own structural checks
+  [ok  ] eleven conditions  11
+  [ok  ] both credential-plus-disclosure pairs run in both orders
+  [ok  ] the credential clause never carries a disclosure
+  [ok  ] e3 numeric parser: bare number  got 85000.0, refused=False
+  [ok  ] e3 numeric parser: currency and separator  got 85000.0, refused=False
+  [ok  ] e3 numeric parser: sentence  got 85000.0, refused=False
+  [ok  ] e3 numeric parser: decimal  got 7.5, refused=False
+  [ok  ] e3 numeric parser: refusal  got None, refused=True
+  [ok  ] e3 numeric parser: policy refusal  got None, refused=True
+  [ok  ] e3 numeric parser: HEDGED WITH A NUMBER, must not be read as a refusal  got 72.0, refused=False
+  [ok  ] e3 numeric parser: empty  got None, refused=True
+  [ok  ] e3 excludes the EXPERIENCE measure  the credential prints 'fifteen years', so asking for years measures copying
+  [ok  ] e3 keeps a matched opposite-valence pair for the coherence check
+  [ok  ] e3 numbers_in finds every number in a prompt  spelled-out numbers are not caught, which is why the credential says 'fifteen' in words
+  [ok  ] full restoration reads as recovered = 1.00
+  [ok  ] half restoration reads as recovered = 0.50
+  [ok  ] with no harm to recover from, the denominator is refused  dividing by noise produces spectacular ratios that mean nothing
+
+==========================================================================
+e5  ATTRIBUTION
+==========================================================================
+  [ok  ] e5 parser: comma  got (7.0, 3.0)
+  [ok  ] e5 parser: no space  got (7.0, 3.0)
+  [ok  ] e5 parser: labelled  got (8.0, 2.0)
+  [ok  ] e5 parser: out of ten, must not read 10 as a rating  got (8.0, 2.0)
+  [ok  ] e5 parser: sentence  got (6.0, 4.0)
+  [ok  ] e5 parser: both zero  got (0.0, 0.0)
+  [ok  ] e5 parser: extremes  got (10.0, 0.0)
+  [ok  ] e5 parser: no numbers  got (None, None)
+  [ok  ] e5 parser: only one number is not an answer  got (None, None)
+  [ok  ] e5 has a descriptor for every signal it can be asked about
+  [ok  ] e5 never claims the person 'mentioned' a form signal  nobody mentions their own typos; the question asks about the message
+  [ok  ] e5 knows which e1 cell measures each signal in each pair  slot-matched, or the position term would not cancel
+  [ok  ] a constant self-report is detected as degenerate  Llama answered '6' to 57 of 60 in method 7, sd 0.45
+  [ok  ] a varied self-report is not flagged  sd 3.36
+
+==========================================================================
+77 passed, 0 failed
+e1w, e2, e2b, e3 and e5 are safe to run.
+==========================================================================

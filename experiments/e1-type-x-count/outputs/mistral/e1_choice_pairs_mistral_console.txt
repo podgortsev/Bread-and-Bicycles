@@ -1,0 +1,28 @@
+==========================================================================
+e1 CHOICE PAIRS, mistral: first look
+==========================================================================
+
+  letter mass mean 0.576, 2394 of 6400 below 0.5 (37.4%)
+
+  margin of the both-cell against one of its singles
+  negative = adding the second signal COSTS on top of the first
+
+    FLOOR_ALTxALT         vs_a  n=  107    +6.1414
+    FLOOR_ALTxALT         vs_b  n=   31    +5.1230
+    P1_FORMxFORM          vs_a  n=  248    -6.6484
+    P1_FORMxFORM          vs_b  n=  250    -2.1590
+    P2a_STATEDxSTATED     vs_a  n=  397    -1.9693
+    P2a_STATEDxSTATED     vs_b  n=  160    +5.5113
+    P2b_STATEDxSTATED     vs_a  n=  384    +4.9097
+    P2b_STATEDxSTATED     vs_b  n=  225    -4.4189
+    P3a_CROSS             vs_a  n=  160    +2.4961
+    P3a_CROSS             vs_b  n=  199    -4.1344
+    P3b_CROSS             vs_a  n=  372    +3.6282
+    P3b_CROSS             vs_b  n=   49    -7.8941
+    P4a_CROSS             vs_a  n=  400    -3.7128
+    P4a_CROSS             vs_b  n=  345    -3.4400
+    P4b_CROSS             vs_a  n=  400    -4.4073
+    P4b_CROSS             vs_b  n=  279    -3.4267
+
+  Run analyse_e1_choice_pairs.py with BOTH this file and the
+  first choice run: the interaction needs one term from each.

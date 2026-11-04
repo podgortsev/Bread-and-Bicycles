@@ -1,0 +1,123 @@
+==========================================================================
+A. JOB CONSTRUCTION
+==========================================================================
+  [ok  ] channel B job count is exactly the design  6600 vs 6600
+  [ok  ] channel B scores positives on every condition
+  [ok  ] channel B scores negatives only in the coherence sub-run
+  [ok  ] channel B prompt carries the condition's lead-in
+  [ok  ] channel C job count is exactly the design  1280 vs 1280
+  [ok  ] channel C never runs NONE against itself  a degenerate control is zero by construction and proves nothing
+  [ok  ] channel C runs BOTH slot orders for every item
+  [ok  ] channel C prompt contains both messages
+
+==========================================================================
+B. CHANNEL B, synthetic, through the real analyser
+==========================================================================
+   injected: form x form -0.60 logits, stated x stated 0.00
+  [ok  ] channel B recovers the injected form x form interaction  got -0.6206
+  [ok  ] channel B finds it significant after BH  BH=3.12e-17
+  [ok  ] channel B: stated x stated stays null
+  [ok  ] channel B: floor stays null
+  [ok  ] analyser prints the verdict line
+  [ok  ] analyser prints the coherence section
+  [ok  ] analyser prints the phrasing spread
+
+==========================================================================
+C. CHANNEL C, synthetic, through the real analyser
+==========================================================================
+   injected: form x form -1.20 logits, stated x stated 0.00,
+   plus a first-slot advantage of 6 logits that must cancel
+  [ok  ] channel C recovers the injected form x form interaction  got -1.2848
+  [ok  ] channel C finds it significant after BH  BH=8.70e-15
+  [ok  ] channel C: stated x stated stays null
+  [ok  ] channel C: the slot bias does not leak into the interaction  a 6-logit first-slot advantage was present in the raw reads
+  [ok  ] analyser reports the raw first-slot advantage
+  [ok  ] channel C main effect recovers the injected -1.0  got -0.9691
+
+==========================================================================
+D. THE LETTER-MASS GATE
+==========================================================================
+  [ok  ] low-mass reads are gated out  gated 400 of 6200 reads
+  [ok  ] the gate count is reported, not silently applied  400
+  [ok  ] an item missing one slot order is DROPPED, not half-counted  200 items dropped for want of both orders
+  [ok  ] analyser prints the gate section
+
+==========================================================================
+E. THE COHERENCE CHECK
+==========================================================================
+  [ok  ] an incoherent condition is flagged  positive and negative words moving together
+  [ok  ] a coherent instrument is NOT flagged
+
+==========================================================================
+F. FALSE POSITIVES, no interaction anywhere
+==========================================================================
+  [ok  ] channel B false-positive rate near nominal  0/160 = 0.00%
+  [ok  ] channel C false-positive rate near nominal  1/160 = 0.62%
+
+==========================================================================
+G. POWER, so a null on these channels can be read
+==========================================================================
+   channel B, n=100 profiles, item noise 0.35 logits:
+     -0.10 logits   100%
+     -0.20 logits   100%
+     -0.40 logits   100%
+   channel C, n=200 profile-question items, item noise 1.2 logits:
+     -0.40 logits   90%
+     -0.80 logits   100%
+     -1.20 logits   100%
+
+   MDE, channel B: 0.0325 logits
+   MDE, channel C: 0.2197 logits
+   Compare with channel A, whose MDE is 0.077 in units of accuracy.
+   Paper 2 single-signal effects: method 1 ran 0.95 to 2.92 logits,
+   method 6b ran 0.58 to 6.93. These channels see a fraction of that,
+   which is the whole reason they carry the interaction question.
+
+   CAVEAT, and it matters. Channel A's power is fixed by the outcome:
+   a binary variable has a variance you cannot argue with. These two
+   numbers instead depend on the item noise assumed here, 0.35 logits
+   for B and 1.2 for C, which are guesses until real data arrives.
+   Treat them as showing the ORDER of sensitivity, not its value. The
+   analyser recomputes the MDE from the collected data, and that is
+   the number that goes in the paper.
+  [ok  ] channel B MDE is a small fraction of a Paper 2 main effect  0.0325 against main effects of 0.95 and up
+  [ok  ] channel C MDE is a small fraction of a Paper 2 main effect  0.2197 against main effects of 0.58 and up
+
+==========================================================================
+H. THE REBUILT CHOICE CONTRAST (run_e1_choice_pairs)
+==========================================================================
+   The first contrast differenced margins against a common
+   reference. This proves the new one survives the exact failure
+   mode that broke it: a SATURATING pairwise read.
+  [ok  ] every contrast gets both directions  16 comparisons
+  [ok  ] the both-cell is always the LEFT side
+  [ok  ] the floor gets rebuilt too, not inherited  being rebuilt is not the same as being right
+  [ok  ] pairs job count is contrasts x 2 x profiles x questions x 2 orders  1280
+  [ok  ] both slot orders on every comparison
+
+   strengths are perfectly additive: ALT_BOTH -8 = -6 -2
+   old contrast reports +1.4597 anyway
+   new contrast reports +0.0000 and +0.0000
+  [ok  ] the OLD contrast invents an interaction where there is none  +1.4597 out of nothing
+  [ok  ] the NEW contrast returns zero, both directions  +0.00e+00 and +0.00e+00
+  [ok  ] the NEW contrast still detects a genuine super-additive effect  -1.9082 for an injected -3.0
+  [ok  ] and it is attenuated, not inflated, by the saturation  -1.9082, so the estimate is conservative
+
+==========================================================================
+I. THE LIMIT: context dependence defeats every pairwise contrast
+==========================================================================
+   Section H proved robustness to saturation. The real data failed
+   differently: the effect of a clause depends on its neighbour.
+   This world has NO social interaction at all, and one context term
+   between the two neutral clauses.
+
+   rebuilt floor +3.00, rebuilt social +0.00, floor-corrected social -3.00
+  [ok  ] with no social interaction, the social contrast is correctly zero  +0.0000
+  [ok  ] but the floor is NOT zero, because neutral clauses interact  +3.0000
+  [ok  ] so correcting by the floor MANUFACTURES a compounding effect  -3.0000 out of nothing; subtraction is not a defence
+  [ok  ] the only defence is the floor check itself: a nonzero floor means the instrument cannot identify an interaction
+
+==========================================================================
+44 passed, 0 failed
+e1 channels B and C are safe to run.
+==========================================================================

@@ -1,0 +1,110 @@
+==============================================================================
+from run_floor_llama_output
+==============================================================================
+STEP e1c_floor: choice against NONE, new neutral details
+==============================================================================
+  2400 reads to do
+
+  answer-letter tokenisation
+    'A': bare 1 token(s), with leading space 1 token(s)
+    'B': bare 1 token(s), with leading space 1 token(s)
+
+    16 / 2400
+    816 / 2400
+    1616 / 2400
+  saved to /content/drive/MyDrive/afl/p3_e1/e1_choice_floor_llama.csv
+  reads with letter mass below 0.5: 0 of 2400 (0.0%)
+
+==============================================================================
+
+==============================================================================
+session summary, run_floor_llama_output
+==============================================================================
+COLLECTION SUMMARY, MODEL llama
+==============================================================================
+  e1c_floor done           10.6 min
+  e1p_floor done            7.2 min
+  e1b_floor done           20.0 min
+  e1a2      failed          0.0 min
+  e1a_floor done           14.7 min
+
+==========================================================================
+e1_choice, llama: first look
+==========================================================================
+
+  letter mass: mean 0.992, 0 of 2400 reads below 0.5 (0.0%)
+  raw first-slot advantage, all rows: +1.408 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1 CHOICE PAIRS, llama: first look
+==========================================================================
+
+  letter mass mean 0.988, 0 of 1600 below 0.5 (0.0%)
+
+  margin of the both-cell against one of its singles
+  negative = adding the second signal COSTS on top of the first
+
+    FLOOR2_ALTxALT        vs_a  n=  400    -0.2972
+    FLOOR2_ALTxALT        vs_b  n=  400    +0.0759
+    FLOOR3_ALTxALT        vs_a  n=  400    -1.1516
+    FLOOR3_ALTxALT        vs_b  n=  400    -0.0047
+
+  Run analyse_e1_choice_pairs.py with BOTH this file and the
+  first choice run: the interaction needs one term from each.
+
+==========================================================================
+e1 CHANNEL B, llama: first look
+==========================================================================
+
+  favourability = mean log prob over six positive trait words
+  higher is better for the person
+
+    NONE                -8.7015   vs NONE +0.0000
+    ALT3                -8.6540   vs NONE +0.0475
+    ALT4_ONLY           -8.5136   vs NONE +0.1879
+    ALT_BOTH_34         -8.7196   vs NONE -0.0181
+    ALT5                -8.9929   vs NONE -0.2913
+    ALT6_ONLY           -8.7465   vs NONE -0.0449
+    ALT_BOTH_56         -8.8297   vs NONE -0.1282
+
+  Run analyse_e1_continuous.py for interactions with intervals,
+  the floor check, the coherence check and the phrasing spread.
+  no results at /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_llama.csv
+
+==========================================================================
+e1 CHANNEL A, llama: first look
+==========================================================================
+
+  condition            n   correct   refused
+  NONE               600    37.8%      0.0%
+  ALT3               600    37.2%      0.0%
+  ALT4_ONLY          600    38.8%      0.0%
+  ALT_BOTH_34        600    36.8%      0.0%
+  ALT5               600    35.7%      0.0%
+  ALT6_ONLY          600    37.5%      0.0%
+  ALT_BOTH_56        600    36.8%      0.0%
+
+  interaction per contrast, mean of (both - A) - (B - none)
+  positive = costs LESS than the sum of parts (sub-additive)
+    FLOOR2_ALTxALT        floor             n= 600  mean -0.0133
+    FLOOR3_ALTxALT        floor             n= 600  mean +0.0150
+
+  Run analyse_e1_accuracy.py for the tested read with intervals,
+  the minimum detectable interaction and the floor check.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_floor_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_pairs_floor_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_traits_floor_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_answer_logprob_llama.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_accuracy_floor_llama.csv
+  and the console text from the first ==== line onwards.

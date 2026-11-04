@@ -1,0 +1,36 @@
+==============================================================================
+R4 FLOOR: Neutral Is Not Unbiased, phi4, 500 scenario-question items
+==============================================================================
+
+MEANS PER STEP
+  age           gender -> gender_age     similarity 0.8573   shift -0.0174
+  n1            gender -> gender_n1      similarity 0.8558   shift -0.0143
+  n2            gender -> gender_n2      similarity 0.8628   shift -0.0181
+  again         gender -> gender_again   similarity 0.8802   shift -0.0018
+  first       original -> gender         similarity 0.8673   shift -0.0048
+
+FIDELITY OF THE NEW GENERATION (similarity within 0.02 of their answers)
+  first  ours 0.8673  theirs 0.8467  FAIL
+  age    ours 0.8573  theirs 0.8398  pass
+  FAIL: new generation not shown equivalent
+
+PRIMARY: shift, d = step age - step neutral, per item
+  vs n1: mean d -0.00308 (se 0.00307)  p signed-rank 0.4353  p sign-flip 0.3095  smallest visible 0.00602
+  vs n2: mean d +0.00070 (se 0.00304)  p signed-rank 0.3773  p sign-flip 0.8107  smallest visible 0.00596
+  verdict: THE FLOOR EXPLAINS THE CLAIM
+
+secondary: similarity, d = step age - step neutral, per item
+  vs n1: mean d +0.00147 (se 0.00288)  p signed-rank 0.5270  p sign-flip 0.6063  smallest visible 0.00565
+  vs n2: mean d -0.00553 (se 0.00295)  p signed-rank 0.1983  p sign-flip 0.0644  smallest visible 0.00577
+  verdict: THE FLOOR EXPLAINS THE CLAIM
+
+SECONDARY: is each step distinguishable from sampling the same prompt twice?
+  age  vs again  shift      mean d -0.01555  p rank 0.0000  p flip 0.0001
+  age  vs again  similarity mean d -0.02288  p rank 0.0000  p flip 0.0001
+  n1   vs again  shift      mean d -0.01247  p rank 0.0001  p flip 0.0004
+  n1   vs again  similarity mean d -0.02434  p rank 0.0000  p flip 0.0001
+  n2   vs again  shift      mean d -0.01626  p rank 0.0000  p flip 0.0001
+  n2   vs again  similarity mean d -0.01735  p rank 0.0000  p flip 0.0001
+
+DECISION (primary, sentiment shift): THE FLOOR EXPLAINS THE CLAIM
+==============================================================================

@@ -1,0 +1,350 @@
+==============================================================================
+from run_paper3_qwen run 1
+==============================================================================
+STEP e1b: e1 channel B, trait log probability
+==============================================================================
+  33000 continuations to score
+
+  trait word token counts, fewer is better
+       intelligent 1
+       hardworking 2
+            polite 1
+              calm 1
+          educated 1
+       trustworthy 1
+            stupid 1
+              lazy 1
+              rude 1
+        aggressive 1
+          ignorant 1
+        suspicious 1
+
+    16 / 33000
+    1616 / 33000
+    3216 / 33000
+    4816 / 33000
+    6416 / 33000
+    8016 / 33000
+    9616 / 33000
+    11216 / 33000
+    12816 / 33000
+    14416 / 33000
+    16016 / 33000
+    17616 / 33000
+    19216 / 33000
+    20816 / 33000
+    22416 / 33000
+    24016 / 33000
+
+==============================================================================
+from run_paper3_qwen run 2
+==============================================================================
+STEP e1b: e1 channel B, trait log probability
+==============================================================================
+  33000 continuations to score
+
+  trait word token counts, fewer is better
+       intelligent 1
+       hardworking 2
+            polite 1
+              calm 1
+          educated 1
+       trustworthy 1
+            stupid 1
+              lazy 1
+              rude 1
+        aggressive 1
+          ignorant 1
+        suspicious 1
+
+    16 / 33000
+    1616 / 33000
+    3216 / 33000
+    4816 / 33000
+    6416 / 33000
+    8016 / 33000
+    9616 / 33000
+    11216 / 33000
+    12816 / 33000
+    14416 / 33000
+    16016 / 33000
+    17616 / 33000
+    19216 / 33000
+    20816 / 33000
+    22416 / 33000
+    24016 / 33000
+    25616 / 33000
+    27216 / 33000
+    28816 / 33000
+    30416 / 33000
+    32016 / 33000
+  saved to /content/drive/MyDrive/afl/p3_e1/e1_traits_qwen.csv
+
+==============================================================================
+
+==============================================================================
+session summary, run_paper3_qwen run 2
+==============================================================================
+COLLECTION SUMMARY, MODEL qwen
+==============================================================================
+  e1c   done            0.0 min
+  e3c   done            0.0 min
+  e1b   done           47.9 min
+  e2b   done            7.9 min
+  e1a   done           33.7 min
+  e5    done            2.0 min
+  e1w   done           19.1 min
+  e2    done           23.5 min
+  e3d   done           15.9 min
+  TOTAL               149.9 min
+
+==========================================================================
+e1_choice, qwen: first look
+==========================================================================
+
+  letter mass: mean 1.000, 0 of 6400 reads below 0.5 (0.0%)
+  raw first-slot advantage, all rows: -5.200 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+    ALT1              n=  400    -4.3856
+    ALT2_ONLY         n=  400    -1.8166
+    ALT_BOTH          n=  400    -2.6381
+    S01_s1            n=  400    -2.1350
+    S01_s2            n=  400    -0.9981
+    S08_s1            n=  400    -5.3191
+    S08_s2            n=  400    -1.1778
+    F01               n=  400    -4.4756
+    F04               n=  400    -6.6475
+    P1_F01F04         n=  400    -6.1238
+    P2_S01S08         n=  400    -0.3516
+    P2_S08S01         n=  400    -1.5119
+    P3_F01S01_s1      n=  400    -2.8950
+    P3_F01S01_s2      n=  400    -2.3103
+    P4_F04S08_s1      n=  400    -3.6609
+    P4_F04S08_s2      n=  400    -2.4162
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1_choice, qwen: first look
+==========================================================================
+
+  letter mass: mean 1.000, 0 of 4000 reads below 0.5 (0.0%)
+  raw first-slot advantage, all rows: -5.512 logits
+  (this is why only WITHIN-SLOT differences are ever reported)
+
+  margin against NONE, gated, both orders averaged
+  negative = the condition LOSES the choice
+
+    S01_s1            n=  400    -2.1350
+    S01_s2            n=  400    -0.9981
+    S08_s1            n=  400    -5.3191
+    S08_s2            n=  400    -1.1778
+
+  Run analyse_e1_continuous.py for interactions with intervals.
+
+==========================================================================
+e1 CHANNEL B, qwen: first look
+==========================================================================
+
+  favourability = mean log prob over six positive trait words
+  higher is better for the person
+
+    NONE                -9.8884   vs NONE +0.0000
+    ALT1               -10.8232   vs NONE -0.9347
+    ALT2_ONLY          -10.7468   vs NONE -0.8584
+    ALT_BOTH           -11.1283   vs NONE -1.2398
+    S01_s1             -11.0588   vs NONE -1.1704
+    S01_s2             -11.8732   vs NONE -1.9848
+    S08_s1             -11.5201   vs NONE -1.6317
+    S08_s2             -11.1218   vs NONE -1.2333
+    F01                -10.3458   vs NONE -0.4574
+    F04                -10.9130   vs NONE -1.0245
+    P1_F01F04          -10.8220   vs NONE -0.9336
+    P2_S01S08          -11.8924   vs NONE -2.0039
+    P2_S08S01          -12.2735   vs NONE -2.3851
+    P3_F01S01_s1       -11.1663   vs NONE -1.2779
+    P3_F01S01_s2       -11.9372   vs NONE -2.0488
+    P4_F04S08_s1       -12.7323   vs NONE -2.8439
+    P4_F04S08_s2       -11.8020   vs NONE -1.9136
+
+  Run analyse_e1_continuous.py for interactions with intervals,
+  the floor check, the coherence check and the phrasing spread.
+
+==========================================================================
+e2b LEGIBILITY, qwen: first look, arm B (task styled too)
+==========================================================================
+  std          59.2%   n=600
+  esl          59.2%   n=600
+  typo         55.3%   n=600
+  esl_typo     54.2%   n=600
+
+  arm B interaction: -0.0117 over 600 tasks
+  negative = super-additive
+
+  Run analyse_e2b_legibility.py with BOTH this file and the e1
+  channel A file for the arm A against arm B comparison, which is
+  the whole point of the experiment.
+
+  summary for e1a unavailable: summary() takes 0 positional arguments but 1 was given
+
+==========================================================================
+e5 ATTRIBUTION, qwen: first look
+==========================================================================
+
+  420 of 420 self-reports parsed (100.0%)
+
+  mean self-rating per signal, 0 to 10
+
+    F01  n= 180  mean  9.42  sd  2.17
+    F04  n= 180  mean  9.88  sd  0.95
+    S01  n= 240  mean  5.67  sd  4.85
+    S08  n= 240  mean  0.62  sd  2.43
+
+  Run analyse_e5_attribution.py with the e1 channel A CSV for the
+  degeneracy check, the ranking test and the item-level correlation.
+
+==========================================================================
+e1w WRAPPERS, qwen: first look
+==========================================================================
+
+  accuracy by wrapper and condition
+
+  condition             W1      W2      W3      W4      W5      W6
+  NONE               57.0%   56.0%   56.0%   60.0%   57.0%   61.0%
+  F01                55.0%   54.0%   56.0%   57.0%   57.0%   53.0%
+  F04                60.0%   56.0%   56.0%   60.0%   60.0%   59.0%
+  S01_s1             54.0%   54.0%   56.0%   57.0%   54.0%   53.0%
+  S08_s2             54.0%   52.0%   57.0%   58.0%   53.0%   52.0%
+  P1_F01F04          55.0%   56.0%   56.0%   57.0%   56.0%   56.0%
+  P2_S01S08          50.0%   48.0%   49.0%   51.0%   50.0%   52.0%
+  P3_F01S01_s1       54.0%   55.0%   57.0%   56.0%   57.0%   53.0%
+  P4_F04S08_s1       58.0%   53.0%   58.0%   59.0%   58.0%   57.0%
+
+  Run analyse_e1w_wrappers.py for the interaction per wrapper and
+  the across-wrapper spread, which is the number that matters.
+
+==========================================================================
+e2 DEPTH CURVE, qwen: first look
+==========================================================================
+
+  depth 0 baseline: 53.2%
+
+  form ladder
+    depth 1: mean net +0.0083 over 3 condition(s)  [-0.015, +0.028]
+    depth 2: mean net -0.0017 over 3 condition(s)  [-0.015, +0.007]
+    depth 3: mean net -0.0025 over 1 condition(s)  [-0.003, -0.003]
+
+  stated ladder
+    depth 1: mean net -0.0083 over 3 condition(s)  [-0.022, +0.010]
+    depth 2: mean net -0.0317 over 3 condition(s)  [-0.045, -0.022]
+    depth 3: mean net -0.0342 over 3 condition(s)  [-0.037, -0.030]
+
+  Run analyse_e2_depth.py for the fitted shape, the second
+  difference with an interval, and the paired depth comparisons.
+
+==========================================================================
+e3 NUMERIC, qwen: first look
+==========================================================================
+
+  refusals 0 of 6600 (0.0%)   copied from prompt 51 (0.8%)
+
+  CHURN
+    CRED_S01    n= 100  mean        33.88  vs NONE    -2.2%
+    CRED_S08    n= 100  mean        60.62  vs NONE   +74.9%
+    CRED_s1     n= 100  mean        49.05  vs NONE   +41.6%
+    CRED_s2     n= 100  mean        38.09  vs NONE    +9.9%
+    NONE        n= 100  mean        34.65  vs NONE    +0.0%
+    S01_CRED    n= 100  mean        31.92  vs NONE    -7.9%
+    S01_s1      n= 100  mean        38.92  vs NONE   +12.3%
+    S01_s2      n= 100  mean        34.38  vs NONE    -0.8%
+    S08_CRED    n= 100  mean        32.05  vs NONE    -7.5%
+    S08_s1      n= 100  mean        33.10  vs NONE    -4.5%
+    S08_s2      n= 100  mean        38.54  vs NONE   +11.2%
+
+  RAISE
+    CRED_S01    n= 100  mean        16.12  vs NONE    -1.0%
+    CRED_S08    n= 100  mean        13.90  vs NONE   -14.6%
+    CRED_s1     n= 100  mean        15.87  vs NONE    -2.5%
+    CRED_s2     n= 100  mean        16.47  vs NONE    +1.1%
+    NONE        n= 100  mean        16.29  vs NONE    +0.0%
+    S01_CRED    n= 100  mean        18.76  vs NONE   +15.2%
+    S01_s1      n= 100  mean        16.38  vs NONE    +0.6%
+    S01_s2      n= 100  mean        18.14  vs NONE   +11.4%
+    S08_CRED    n= 100  mean        13.11  vs NONE   -19.5%
+    S08_s1      n= 100  mean         5.10  vs NONE   -68.7%
+    S08_s2      n= 100  mean         9.96  vs NONE   -38.8%
+
+  RATING
+    CRED_S01    n= 100  mean         5.22  vs NONE   -31.1%
+    CRED_S08    n= 100  mean         4.47  vs NONE   -41.0%
+    CRED_s1     n= 100  mean         5.02  vs NONE   -33.8%
+    CRED_s2     n= 100  mean         6.00  vs NONE   -20.8%
+    NONE        n= 100  mean         7.58  vs NONE    +0.0%
+    S01_CRED    n= 100  mean         4.08  vs NONE   -46.1%
+    S01_s1      n= 100  mean         6.27  vs NONE   -17.3%
+    S01_s2      n= 100  mean         7.75  vs NONE    +2.2%
+    S08_CRED    n= 100  mean         3.18  vs NONE   -58.0%
+    S08_s1      n= 100  mean         3.11  vs NONE   -59.0%
+    S08_s2      n= 100  mean         5.07  vs NONE   -33.1%
+
+  SALARY
+    CRED_S01    n= 100  mean     70100.00  vs NONE    +8.4%
+    CRED_S08    n= 100  mean     63700.00  vs NONE    -1.5%
+    CRED_s1     n= 100  mean     72350.00  vs NONE   +11.9%
+    CRED_s2     n= 100  mean     69200.00  vs NONE    +7.0%
+    NONE        n= 100  mean     64650.00  vs NONE    +0.0%
+    S01_CRED    n= 100  mean     66450.00  vs NONE    +2.8%
+    S01_s1      n= 100  mean     59850.00  vs NONE    -7.4%
+    S01_s2      n= 100  mean     63750.00  vs NONE    -1.4%
+    S08_CRED    n= 100  mean     56650.00  vs NONE   -12.4%
+    S08_s1      n= 100  mean     50750.00  vs NONE   -21.5%
+    S08_s2      n= 100  mean     55300.00  vs NONE   -14.5%
+
+  SCORE
+    CRED_S01    n= 100  mean        56.77  vs NONE   -18.4%
+    CRED_S08    n= 100  mean        56.06  vs NONE   -19.4%
+    CRED_s1     n= 100  mean        48.17  vs NONE   -30.7%
+    CRED_s2     n= 100  mean        50.24  vs NONE   -27.7%
+    NONE        n= 100  mean        69.54  vs NONE    +0.0%
+    S01_CRED    n= 100  mean        52.28  vs NONE   -24.8%
+    S01_s1      n= 100  mean        55.20  vs NONE   -20.6%
+    S01_s2      n= 100  mean        78.99  vs NONE   +13.6%
+    S08_CRED    n= 100  mean        38.47  vs NONE   -44.7%
+    S08_s1      n= 100  mean        32.06  vs NONE   -53.9%
+    S08_s2      n= 100  mean        47.40  vs NONE   -31.8%
+
+  SUCCESS
+    CRED_S01    n= 100  mean        65.31  vs NONE    +1.1%
+    CRED_S08    n= 100  mean        48.81  vs NONE   -24.4%
+    CRED_s1     n= 100  mean        62.49  vs NONE    -3.2%
+    CRED_s2     n= 100  mean        64.51  vs NONE    -0.1%
+    NONE        n= 100  mean        64.57  vs NONE    +0.0%
+    S01_CRED    n= 100  mean        60.80  vs NONE    -5.8%
+    S01_s1      n= 100  mean        65.09  vs NONE    +0.8%
+    S01_s2      n= 100  mean        70.56  vs NONE    +9.3%
+    S08_CRED    n= 100  mean        34.86  vs NONE   -46.0%
+    S08_s1      n= 100  mean        30.79  vs NONE   -52.3%
+    S08_s2      n= 100  mean        41.43  vs NONE   -35.8%
+
+  Run analyse_e3_offsetting.py for the paired tests, the
+  restoration gap and the coherence check.
+
+==============================================================================
+WHAT TO SEND BACK
+==============================================================================
+  every CSV under /content/drive/MyDrive/afl/ for this model:
+    /content/drive/MyDrive/afl/p3_e1/e1_choice_qwen.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_traits_qwen.csv
+    /content/drive/MyDrive/afl/p3_e1/e1_accuracy_qwen.csv
+    /content/drive/MyDrive/afl/p3_e1w/e1w_wrappers_qwen.csv
+    /content/drive/MyDrive/afl/p3_e2/e2_depth_qwen.csv
+    /content/drive/MyDrive/afl/p3_e2b/e2b_legibility_qwen.csv
+    /content/drive/MyDrive/afl/p3_e3/e3_choice_qwen.csv
+    /content/drive/MyDrive/afl/p3_e3/e3_numeric_qwen.csv
+    /content/drive/MyDrive/afl/p3_e5/e5_attribution_qwen.csv
+  and the console text from the first ==== line onwards.
+  Not the model-loading logs, they carry nothing.

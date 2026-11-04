@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "T001",
+  "family": "percentage",
+  "question": "A price of 2400 dollars increases by 45 percent. What is the new price?",
+  "answer": "3480",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T002",
+  "family": "percentage",
+  "question": "What is 25 percent of 1250?",
+  "answer": "312.5",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T003",
+  "family": "percentage",
+  "question": "What is 40 percent of 720?",
+  "answer": "288",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T004",
+  "family": "percentage",
+  "question": "A price of 720 dollars increases by 45 percent. What is the new price?",
+  "answer": "1044",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T005",
+  "family": "percentage",
+  "question": "What is 40 percent of 1250?",
+  "answer": "500",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T006",
+  "family": "percentage",
+  "question": "What is 22 percent of 120?",
+  "answer": "26.4",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T007",
+  "family": "percentage",
+  "question": "A price of 850 dollars decreases by 18 percent. What is the new price?",
+  "answer": "697",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T008",
+  "family": "percentage",
+  "question": "A price of 720 dollars decreases by 25 percent. What is the new price?",
+  "answer": "540",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T009",
+  "family": "percentage",
+  "question": "What is 15 percent of 850?",
+  "answer": "127.5",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T010",
+  "family": "percentage",
+  "question": "A price of 120 dollars increases by 25 percent. What is the new price?",
+  "answer": "150",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T011",
+  "family": "percentage",
+  "question": "A price of 1600 dollars decreases by 12 percent. What is the new price?",
+  "answer": "1408",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T012",
+  "family": "percentage",
+  "question": "What is 35 percent of 340?",
+  "answer": "119",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T013",
+  "family": "percentage",
+  "question": "What is 22 percent of 2400?",
+  "answer": "528",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T014",
+  "family": "percentage",
+  "question": "A price of 120 dollars decreases by 75 percent. What is the new price?",
+  "answer": "30",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T015",
+  "family": "percentage",
+  "question": "A price of 850 dollars decreases by 35 percent. What is the new price?",
+  "answer": "552.5",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T016",
+  "family": "percentage",
+  "question": "A price of 480 dollars increases by 40 percent. What is the new price?",
+  "answer": "672",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T017",
+  "family": "percentage",
+  "question": "A price of 1600 dollars increases by 60 percent. What is the new price?",
+  "answer": "2560",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T018",
+  "family": "percentage",
+  "question": "A price of 480 dollars decreases by 12 percent. What is the new price?",
+  "answer": "422.4",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T019",
+  "family": "percentage",
+  "question": "A price of 480 dollars decreases by 60 percent. What is the new price?",
+  "answer": "192",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T020",
+  "family": "percentage",
+  "question": "A price of 120 dollars decreases by 75 percent. What is the new price?",
+  "answer": "30",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T021",
+  "family": "percentage",
+  "question": "What is 15 percent of 720?",
+  "answer": "108",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T022",
+  "family": "percentage",
+  "question": "A price of 240 dollars decreases by 18 percent. What is the new price?",
+  "answer": "196.8",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T023",
+  "family": "percentage",
+  "question": "What is 18 percent of 1250?",
+  "answer": "225",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T024",
+  "family": "percentage",
+  "question": "What is 75 percent of 120?",
+  "answer": "90",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T025",
+  "family": "percentage",
+  "question": "What is 40 percent of 1250?",
+  "answer": "500",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T026",
+  "family": "percentage",
+  "question": "What is 22 percent of 1600?",
+  "answer": "352",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T027",
+  "family": "percentage",
+  "question": "What is 60 percent of 1600?",
+  "answer": "960",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T028",
+  "family": "percentage",
+  "question": "What is 45 percent of 720?",
+  "answer": "324",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T029",
+  "family": "percentage",
+  "question": "What is 75 percent of 560?",
+  "answer": "420",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T030",
+  "family": "percentage",
+  "question": "A price of 720 dollars increases by 18 percent. What is the new price?",
+  "answer": "849.6",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T031",
+  "family": "percentage",
+  "question": "A price of 560 dollars decreases by 15 percent. What is the new price?",
+  "answer": "476",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T032",
+  "family": "percentage",
+  "question": "A price of 1250 dollars decreases by 12 percent. What is the new price?",
+  "answer": "1100",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T033",
+  "family": "percentage",
+  "question": "A price of 2400 dollars decreases by 35 percent. What is the new price?",
+  "answer": "1560",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T034",
+  "family": "percentage",
+  "question": "What is 35 percent of 560?",
+  "answer": "196",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T035",
+  "family": "percentage",
+  "question": "A price of 240 dollars decreases by 35 percent. What is the new price?",
+  "answer": "156",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T036",
+  "family": "word_problem",
+  "question": "A team of 9 people works 9 hours a day for 3 days. Each person is paid 18 dollars an hour. What is the total wage bill?",
+  "answer": "4374",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T037",
+  "family": "word_problem",
+  "question": "A team of 7 people works 10 hours a day for 2 days. Each person is paid 25 dollars an hour. What is the total wage bill?",
+  "answer": "3500",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T038",
+  "family": "word_problem",
+  "question": "A team of 4 people works 5 hours a day for 4 days. Each person is paid 42 dollars an hour. What is the total wage bill?",
+  "answer": "3360",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T039",
+  "family": "word_problem",
+  "question": "A team of 5 people works 6 hours a day for 4 days. Each person is paid 35 dollars an hour. What is the total wage bill?",
+  "answer": "4200",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T040",
+  "family": "word_problem",
+  "question": "A team of 6 people works 8 hours a day for 2 days. Each person is paid 18 dollars an hour. What is the total wage bill?",
+  "answer": "1728",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T041",
+  "family": "word_problem",
+  "question": "A team of 4 people works 6 hours a day for 6 days. Each person is paid 25 dollars an hour. What is the total wage bill?",
+  "answer": "3600",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T042",
+  "family": "word_problem",
+  "question": "A team of 5 people works 12 hours a day for 6 days. Each person is paid 35 dollars an hour. What is the total wage bill?",
+  "answer": "12600",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T043",
+  "family": "word_problem",
+  "question": "A team of 5 people works 11 hours a day for 3 days. Each person is paid 22 dollars an hour. What is the total wage bill?",
+  "answer": "3630",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T044",
+  "family": "word_problem",
+  "question": "A team of 8 people works 12 hours a day for 2 days. Each person is paid 42 dollars an hour. What is the total wage bill?",
+  "answer": "8064",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T045",
+  "family": "word_problem",
+  "question": "A team of 7 people works 12 hours a day for 6 days. Each person is paid 25 dollars an hour. What is the total wage bill?",
+  "answer": "12600",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T046",
+  "family": "word_problem",
+  "question": "A team of 8 people works 7 hours a day for 4 days. Each person is paid 35 dollars an hour. What is the total wage bill?",
+  "answer": "7840",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T047",
+  "family": "word_problem",
+  "question": "A team of 8 people works 7 hours a day for 4 days. Each person is paid 30 dollars an hour. What is the total wage bill?",
+  "answer": "6720",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T048",
+  "family": "word_problem",
+  "question": "A team of 5 people works 12 hours a day for 4 days. Each person is paid 25 dollars an hour. What is the total wage bill?",
+  "answer": "6000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T049",
+  "family": "word_problem",
+  "question": "A team of 8 people works 9 hours a day for 5 days. Each person is paid 18 dollars an hour. What is the total wage bill?",
+  "answer": "6480",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T050",
+  "family": "word_problem",
+  "question": "A team of 5 people works 7 hours a day for 5 days. Each person is paid 25 dollars an hour. What is the total wage bill?",
+  "answer": "4375",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T051",
+  "family": "word_problem",
+  "question": "A team of 6 people works 5 hours a day for 5 days. Each person is paid 18 dollars an hour. What is the total wage bill?",
+  "answer": "2700",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T052",
+  "family": "word_problem",
+  "question": "A team of 5 people works 4 hours a day for 2 days. Each person is paid 42 dollars an hour. What is the total wage bill?",
+  "answer": "1680",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T053",
+  "family": "word_problem",
+  "question": "A team of 3 people works 11 hours a day for 6 days. Each person is paid 35 dollars an hour. What is the total wage bill?",
+  "answer": "6930",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T054",
+  "family": "word_problem",
+  "question": "A team of 6 people works 12 hours a day for 3 days. Each person is paid 22 dollars an hour. What is the total wage bill?",
+  "answer": "4752",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T055",
+  "family": "word_problem",
+  "question": "A team of 6 people works 10 hours a day for 6 days. Each person is paid 18 dollars an hour. What is the total wage bill?",
+  "answer": "6480",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T056",
+  "family": "word_problem",
+  "question": "A team of 9 people works 9 hours a day for 2 days. Each person is paid 18 dollars an hour. What is the total wage bill?",
+  "answer": "2916",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T057",
+  "family": "word_problem",
+  "question": "A team of 8 people works 6 hours a day for 4 days. Each person is paid 18 dollars an hour. What is the total wage bill?",
+  "answer": "3456",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T058",
+  "family": "word_problem",
+  "question": "A team of 8 people works 4 hours a day for 6 days. Each person is paid 25 dollars an hour. What is the total wage bill?",
+  "answer": "4800",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T059",
+  "family": "word_problem",
+  "question": "A team of 6 people works 10 hours a day for 2 days. Each person is paid 35 dollars an hour. What is the total wage bill?",
+  "answer": "4200",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T060",
+  "family": "word_problem",
+  "question": "A team of 5 people works 5 hours a day for 5 days. Each person is paid 42 dollars an hour. What is the total wage bill?",
+  "answer": "5250",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T061",
+  "family": "word_problem",
+  "question": "A team of 6 people works 7 hours a day for 3 days. Each person is paid 35 dollars an hour. What is the total wage bill?",
+  "answer": "4410",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T062",
+  "family": "word_problem",
+  "question": "A team of 8 people works 11 hours a day for 3 days. Each person is paid 18 dollars an hour. What is the total wage bill?",
+  "answer": "4752",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T063",
+  "family": "word_problem",
+  "question": "A team of 4 people works 10 hours a day for 5 days. Each person is paid 30 dollars an hour. What is the total wage bill?",
+  "answer": "6000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T064",
+  "family": "word_problem",
+  "question": "A team of 5 people works 10 hours a day for 4 days. Each person is paid 25 dollars an hour. What is the total wage bill?",
+  "answer": "5000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T065",
+  "family": "word_problem",
+  "question": "A team of 5 people works 12 hours a day for 4 days. Each person is paid 42 dollars an hour. What is the total wage bill?",
+  "answer": "10080",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T066",
+  "family": "conversion",
+  "question": "How many seconds are there in 36 minutes?",
+  "answer": "2160",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T067",
+  "family": "conversion",
+  "question": "How many hours are there in 48 days?",
+  "answer": "1152",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T068",
+  "family": "conversion",
+  "question": "How many days are there in 90 weeks?",
+  "answer": "630",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T069",
+  "family": "conversion",
+  "question": "How many millilitres are there in 48 litres?",
+  "answer": "48000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T070",
+  "family": "conversion",
+  "question": "How many seconds are there in 15 minutes?",
+  "answer": "900",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T071",
+  "family": "conversion",
+  "question": "How many minutes are there in 12 hours?",
+  "answer": "720",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T072",
+  "family": "conversion",
+  "question": "How many grams are there in 125 kilograms?",
+  "answer": "125000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T073",
+  "family": "conversion",
+  "question": "How many minutes are there in 24 hours?",
+  "answer": "1440",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T074",
+  "family": "conversion",
+  "question": "How many hours are there in 36 days?",
+  "answer": "864",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T075",
+  "family": "conversion",
+  "question": "How many kilograms are there in 12 tonnes?",
+  "answer": "12000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T076",
+  "family": "conversion",
+  "question": "How many kilograms are there in 24 tonnes?",
+  "answer": "24000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T077",
+  "family": "conversion",
+  "question": "How many kilograms are there in 125 tonnes?",
+  "answer": "125000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T078",
+  "family": "conversion",
+  "question": "How many hours are there in 125 days?",
+  "answer": "3000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T079",
+  "family": "conversion",
+  "question": "How many minutes are there in 12 hours?",
+  "answer": "720",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T080",
+  "family": "conversion",
+  "question": "How many millilitres are there in 3 litres?",
+  "answer": "3000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T081",
+  "family": "conversion",
+  "question": "How many grams are there in 60 kilograms?",
+  "answer": "60000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T082",
+  "family": "conversion",
+  "question": "How many millilitres are there in 36 litres?",
+  "answer": "36000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T083",
+  "family": "conversion",
+  "question": "How many metres are there in 15 kilometres?",
+  "answer": "15000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T084",
+  "family": "conversion",
+  "question": "How many millilitres are there in 12 litres?",
+  "answer": "12000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T085",
+  "family": "conversion",
+  "question": "How many days are there in 15 weeks?",
+  "answer": "105",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T086",
+  "family": "conversion",
+  "question": "How many hours are there in 15 days?",
+  "answer": "360",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T087",
+  "family": "conversion",
+  "question": "How many kilograms are there in 7 tonnes?",
+  "answer": "7000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T088",
+  "family": "conversion",
+  "question": "How many hours are there in 3 days?",
+  "answer": "72",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T089",
+  "family": "conversion",
+  "question": "How many kilograms are there in 48 tonnes?",
+  "answer": "48000",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T090",
+  "family": "conversion",
+  "question": "How many seconds are there in 12 minutes?",
+  "answer": "720",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T091",
+  "family": "date",
+  "question": "A project starts on 11 April 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "25 April 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T092",
+  "family": "date",
+  "question": "A project starts on 12 March 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "10 June 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T093",
+  "family": "date",
+  "question": "A project starts on 13 April 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "27 April 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T094",
+  "family": "date",
+  "question": "A project starts on 05 November 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "26 November 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T095",
+  "family": "date",
+  "question": "A project starts on 10 July 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "08 October 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T096",
+  "family": "date",
+  "question": "A project starts on 28 October 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "11 November 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T097",
+  "family": "date",
+  "question": "A project starts on 02 March 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "16 March 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T098",
+  "family": "date",
+  "question": "A project starts on 18 March 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "01 June 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T099",
+  "family": "date",
+  "question": "A project starts on 02 August 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "16 October 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T100",
+  "family": "date",
+  "question": "A project starts on 13 May 2026 and runs for 30 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "12 June 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T101",
+  "family": "date",
+  "question": "A project starts on 25 April 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "24 June 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T102",
+  "family": "date",
+  "question": "A project starts on 26 April 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "25 July 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T103",
+  "family": "date",
+  "question": "A project starts on 24 October 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "14 November 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T104",
+  "family": "date",
+  "question": "A project starts on 23 December 2026 and runs for 45 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "06 February 2027",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T105",
+  "family": "date",
+  "question": "A project starts on 09 March 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "08 May 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T106",
+  "family": "date",
+  "question": "A project starts on 16 October 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "30 October 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T107",
+  "family": "date",
+  "question": "A project starts on 07 March 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "05 June 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T108",
+  "family": "date",
+  "question": "A project starts on 24 September 2026 and runs for 14 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "08 October 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T109",
+  "family": "date",
+  "question": "A project starts on 27 May 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "10 August 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T110",
+  "family": "date",
+  "question": "A project starts on 03 October 2026 and runs for 75 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "17 December 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T111",
+  "family": "date",
+  "question": "A project starts on 14 November 2026 and runs for 60 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "13 January 2027",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T112",
+  "family": "date",
+  "question": "A project starts on 09 July 2026 and runs for 90 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "07 October 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T113",
+  "family": "date",
+  "question": "A project starts on 12 July 2026 and runs for 45 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "26 August 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T114",
+  "family": "date",
+  "question": "A project starts on 05 January 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "26 January 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T115",
+  "family": "date",
+  "question": "A project starts on 28 August 2026 and runs for 21 days. On what date does it end? Answer in the format DD Month YYYY.",
+  "answer": "18 September 2026",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T116",
+  "family": "table",
+  "question": "Quarterly units sold. South: 314; North: 574; West: 239; Central: 482. Which region sold the most?",
+  "answer": "North",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T117",
+  "family": "table",
+  "question": "Quarterly units sold. North: 338; East: 785; West: 375; South: 171. What is the total across all regions?",
+  "answer": "1669",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T118",
+  "family": "table",
+  "question": "Quarterly units sold. North: 785; West: 843; Central: 434; East: 185. Which region sold the most?",
+  "answer": "West",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T119",
+  "family": "table",
+  "question": "Quarterly units sold. South: 837; North: 720; Central: 737; West: 753. Which region sold the least?",
+  "answer": "North",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T120",
+  "family": "table",
+  "question": "Quarterly units sold. North: 547; South: 215; East: 106; West: 683. Which region sold the most?",
+  "answer": "West",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T121",
+  "family": "table",
+  "question": "Quarterly units sold. East: 621; Central: 390; South: 718; West: 893. What is the difference between the highest and the lowest region?",
+  "answer": "503",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T122",
+  "family": "table",
+  "question": "Quarterly units sold. West: 737; North: 598; Central: 832; South: 726. Which region sold the most?",
+  "answer": "Central",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T123",
+  "family": "table",
+  "question": "Quarterly units sold. East: 710; West: 510; South: 340; Central: 689. Which region sold the least?",
+  "answer": "South",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T124",
+  "family": "table",
+  "question": "Quarterly units sold. West: 371; North: 681; South: 425; East: 437. What is the total across all regions?",
+  "answer": "1914",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T125",
+  "family": "table",
+  "question": "Quarterly units sold. Central: 376; North: 236; South: 652; West: 735. What is the difference between the highest and the lowest region?",
+  "answer": "499",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T126",
+  "family": "table",
+  "question": "Quarterly units sold. South: 299; East: 499; West: 634; Central: 433. What is the total across all regions?",
+  "answer": "1865",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T127",
+  "family": "table",
+  "question": "Quarterly units sold. Central: 105; North: 803; South: 193; East: 868. Which region sold the least?",
+  "answer": "Central",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T128",
+  "family": "table",
+  "question": "Quarterly units sold. North: 780; South: 615; Central: 880; West: 348. What is the total across all regions?",
+  "answer": "2623",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T129",
+  "family": "table",
+  "question": "Quarterly units sold. West: 837; East: 220; North: 814; South: 270. What is the difference between the highest and the lowest region?",
+  "answer": "617",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T130",
+  "family": "table",
+  "question": "Quarterly units sold. Central: 212; North: 171; West: 659; South: 507. Which region sold the most?",
+  "answer": "West",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T131",
+  "family": "table",
+  "question": "Quarterly units sold. West: 325; Central: 613; South: 854; North: 757. What is the difference between the highest and the lowest region?",
+  "answer": "529",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T132",
+  "family": "table",
+  "question": "Quarterly units sold. Central: 625; West: 313; North: 883; East: 335. What is the total across all regions?",
+  "answer": "2156",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T133",
+  "family": "table",
+  "question": "Quarterly units sold. North: 788; South: 337; East: 892; Central: 522. Which region sold the most?",
+  "answer": "East",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T134",
+  "family": "table",
+  "question": "Quarterly units sold. West: 469; East: 526; North: 123; South: 627. What is the difference between the highest and the lowest region?",
+  "answer": "504",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T135",
+  "family": "table",
+  "question": "Quarterly units sold. South: 823; Central: 381; North: 335; East: 775. Which region sold the most?",
+  "answer": "South",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T136",
+  "family": "table",
+  "question": "Quarterly units sold. East: 143; North: 149; South: 625; Central: 780. What is the difference between the highest and the lowest region?",
+  "answer": "637",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T137",
+  "family": "table",
+  "question": "Quarterly units sold. South: 603; East: 775; Central: 407; West: 886. What is the difference between the highest and the lowest region?",
+  "answer": "479",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T138",
+  "family": "table",
+  "question": "Quarterly units sold. South: 837; North: 181; Central: 392; West: 382. What is the total across all regions?",
+  "answer": "1792",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T139",
+  "family": "table",
+  "question": "Quarterly units sold. East: 361; South: 829; West: 736; North: 853. What is the difference between the highest and the lowest region?",
+  "answer": "492",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T140",
+  "family": "table",
+  "question": "Quarterly units sold. Central: 393; North: 103; East: 566; West: 863. What is the difference between the highest and the lowest region?",
+  "answer": "760",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T141",
+  "family": "table",
+  "question": "Quarterly units sold. West: 340; Central: 486; North: 487; South: 813. What is the difference between the highest and the lowest region?",
+  "answer": "473",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T142",
+  "family": "table",
+  "question": "Quarterly units sold. Central: 461; East: 142; South: 109; North: 431. Which region sold the most?",
+  "answer": "Central",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T143",
+  "family": "table",
+  "question": "Quarterly units sold. West: 485; North: 817; South: 265; East: 754. Which region sold the least?",
+  "answer": "South",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T144",
+  "family": "table",
+  "question": "Quarterly units sold. Central: 673; South: 653; East: 379; North: 620. What is the difference between the highest and the lowest region?",
+  "answer": "294",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T145",
+  "family": "table",
+  "question": "Quarterly units sold. West: 664; North: 543; Central: 622; East: 504. What is the difference between the highest and the lowest region?",
+  "answer": "160",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T146",
+  "family": "logic",
+  "question": "Alex is older than Devon. Devon is older than Frankie. Frankie is older than Bailey. Who is the second oldest?",
+  "answer": "Devon",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T147",
+  "family": "logic",
+  "question": "Bailey is older than Alex. Frankie is older than Gray. Gray is older than Bailey. Who is the youngest?",
+  "answer": "Alex",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T148",
+  "family": "logic",
+  "question": "Gray is older than Bailey. Bailey is older than Alex. Alex is older than Devon. Who is the oldest?",
+  "answer": "Gray",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T149",
+  "family": "logic",
+  "question": "Gray is older than Frankie. Alex is older than Gray. Devon is older than Alex. Who is the youngest?",
+  "answer": "Frankie",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T150",
+  "family": "logic",
+  "question": "Alex is older than Devon. Bailey is older than Alex. Devon is older than Casey. Who is the youngest?",
+  "answer": "Casey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T151",
+  "family": "logic",
+  "question": "Devon is older than Bailey. Alex is older than Devon. Bailey is older than Frankie. Who is the second oldest?",
+  "answer": "Devon",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T152",
+  "family": "logic",
+  "question": "Gray is older than Bailey. Frankie is older than Ellis. Bailey is older than Frankie. Who is the oldest?",
+  "answer": "Gray",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T153",
+  "family": "logic",
+  "question": "Casey is older than Devon. Devon is older than Alex. Ellis is older than Casey. Who is the second oldest?",
+  "answer": "Casey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T154",
+  "family": "logic",
+  "question": "Ellis is older than Casey. Gray is older than Ellis. Casey is older than Devon. Who is the oldest?",
+  "answer": "Gray",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T155",
+  "family": "logic",
+  "question": "Bailey is older than Devon. Alex is older than Gray. Gray is older than Bailey. Who is the oldest?",
+  "answer": "Alex",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T156",
+  "family": "logic",
+  "question": "Alex is older than Gray. Casey is older than Bailey. Gray is older than Casey. Who is the youngest?",
+  "answer": "Bailey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T157",
+  "family": "logic",
+  "question": "Gray is older than Casey. Alex is older than Gray. Casey is older than Bailey. Who is the youngest?",
+  "answer": "Bailey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T158",
+  "family": "logic",
+  "question": "Casey is older than Devon. Ellis is older than Casey. Frankie is older than Ellis. Who is the youngest?",
+  "answer": "Devon",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T159",
+  "family": "logic",
+  "question": "Frankie is older than Bailey. Ellis is older than Alex. Bailey is older than Ellis. Who is the youngest?",
+  "answer": "Alex",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T160",
+  "family": "logic",
+  "question": "Casey is older than Bailey. Bailey is older than Ellis. Ellis is older than Devon. Who is the second oldest?",
+  "answer": "Bailey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T161",
+  "family": "logic",
+  "question": "Devon is older than Bailey. Bailey is older than Gray. Casey is older than Devon. Who is the second oldest?",
+  "answer": "Devon",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T162",
+  "family": "logic",
+  "question": "Bailey is older than Ellis. Alex is older than Bailey. Ellis is older than Devon. Who is the oldest?",
+  "answer": "Alex",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T163",
+  "family": "logic",
+  "question": "Gray is older than Casey. Frankie is older than Gray. Alex is older than Frankie. Who is the second oldest?",
+  "answer": "Frankie",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T164",
+  "family": "logic",
+  "question": "Frankie is older than Gray. Casey is older than Frankie. Bailey is older than Casey. Who is the oldest?",
+  "answer": "Bailey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T165",
+  "family": "logic",
+  "question": "Alex is older than Bailey. Devon is older than Frankie. Frankie is older than Alex. Who is the youngest?",
+  "answer": "Bailey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T166",
+  "family": "logic",
+  "question": "Alex is older than Ellis. Casey is older than Gray. Ellis is older than Casey. Who is the youngest?",
+  "answer": "Gray",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T167",
+  "family": "logic",
+  "question": "Bailey is older than Devon. Alex is older than Gray. Gray is older than Bailey. Who is the oldest?",
+  "answer": "Alex",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T168",
+  "family": "logic",
+  "question": "Casey is older than Frankie. Frankie is older than Gray. Gray is older than Bailey. Who is the oldest?",
+  "answer": "Casey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T169",
+  "family": "logic",
+  "question": "Devon is older than Frankie. Bailey is older than Gray. Gray is older than Devon. Who is the oldest?",
+  "answer": "Bailey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T170",
+  "family": "logic",
+  "question": "Gray is older than Alex. Bailey is older than Gray. Alex is older than Casey. Who is the oldest?",
+  "answer": "Bailey",
+  "answer_kind": "text"
+ },
+ {
+  "id": "T171",
+  "family": "rate",
+  "question": "A vehicle travels 120 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?",
+  "answer": "2",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T172",
+  "family": "rate",
+  "question": "A vehicle travels 300 kilometres at a steady 30 kilometres per hour. How many hours does the journey take?",
+  "answer": "10",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T173",
+  "family": "rate",
+  "question": "A vehicle travels 300 kilometres at a steady 75 kilometres per hour. How many hours does the journey take?",
+  "answer": "4",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T174",
+  "family": "rate",
+  "question": "A vehicle travels 150 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?",
+  "answer": "3.33333",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T175",
+  "family": "rate",
+  "question": "A vehicle travels for 3 hours at a steady 60 kilometres per hour. How far does it travel?",
+  "answer": "180",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T176",
+  "family": "rate",
+  "question": "A vehicle travels 90 kilometres at a steady 75 kilometres per hour. How many hours does the journey take?",
+  "answer": "1.2",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T177",
+  "family": "rate",
+  "question": "A vehicle covers 120 kilometres in 4 hours. What is its average speed in kilometres per hour?",
+  "answer": "30",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T178",
+  "family": "rate",
+  "question": "A vehicle travels for 3 hours at a steady 30 kilometres per hour. How far does it travel?",
+  "answer": "90",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T179",
+  "family": "rate",
+  "question": "A vehicle travels 120 kilometres at a steady 40 kilometres per hour. How many hours does the journey take?",
+  "answer": "3",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T180",
+  "family": "rate",
+  "question": "A vehicle travels 180 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?",
+  "answer": "4",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T181",
+  "family": "rate",
+  "question": "A vehicle travels 240 kilometres at a steady 75 kilometres per hour. How many hours does the journey take?",
+  "answer": "3.2",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T182",
+  "family": "rate",
+  "question": "A vehicle covers 80 kilometres in 2 hours. What is its average speed in kilometres per hour?",
+  "answer": "40",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T183",
+  "family": "rate",
+  "question": "A vehicle travels 150 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?",
+  "answer": "3.33333",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T184",
+  "family": "rate",
+  "question": "A vehicle travels for 2 hours at a steady 75 kilometres per hour. How far does it travel?",
+  "answer": "150",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T185",
+  "family": "rate",
+  "question": "A vehicle travels for 2 hours at a steady 45 kilometres per hour. How far does it travel?",
+  "answer": "90",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T186",
+  "family": "rate",
+  "question": "A vehicle covers 180 kilometres in 4 hours. What is its average speed in kilometres per hour?",
+  "answer": "45",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T187",
+  "family": "rate",
+  "question": "A vehicle travels 300 kilometres at a steady 60 kilometres per hour. How many hours does the journey take?",
+  "answer": "5",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T188",
+  "family": "rate",
+  "question": "A vehicle covers 240 kilometres in 4 hours. What is its average speed in kilometres per hour?",
+  "answer": "60",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T189",
+  "family": "rate",
+  "question": "A vehicle travels 150 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?",
+  "answer": "3.33333",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T190",
+  "family": "rate",
+  "question": "A vehicle travels for 6 hours at a steady 45 kilometres per hour. How far does it travel?",
+  "answer": "270",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T191",
+  "family": "rate",
+  "question": "A vehicle travels 240 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?",
+  "answer": "5.33333",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T192",
+  "family": "rate",
+  "question": "A vehicle covers 180 kilometres in 4 hours. What is its average speed in kilometres per hour?",
+  "answer": "45",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T193",
+  "family": "rate",
+  "question": "A vehicle travels 120 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?",
+  "answer": "2.66667",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T194",
+  "family": "rate",
+  "question": "A vehicle travels 240 kilometres at a steady 45 kilometres per hour. How many hours does the journey take?",
+  "answer": "5.33333",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T195",
+  "family": "rate",
+  "question": "A vehicle covers 180 kilometres in 6 hours. What is its average speed in kilometres per hour?",
+  "answer": "30",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T196",
+  "family": "rate",
+  "question": "A vehicle travels 180 kilometres at a steady 40 kilometres per hour. How many hours does the journey take?",
+  "answer": "4.5",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T197",
+  "family": "rate",
+  "question": "A vehicle covers 150 kilometres in 5 hours. What is its average speed in kilometres per hour?",
+  "answer": "30",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T198",
+  "family": "rate",
+  "question": "A vehicle travels for 2 hours at a steady 30 kilometres per hour. How far does it travel?",
+  "answer": "60",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T199",
+  "family": "rate",
+  "question": "A vehicle travels for 6 hours at a steady 45 kilometres per hour. How far does it travel?",
+  "answer": "270",
+  "answer_kind": "number"
+ },
+ {
+  "id": "T200",
+  "family": "rate",
+  "question": "A vehicle covers 120 kilometres in 3 hours. What is its average speed in kilometres per hour?",
+  "answer": "40",
+  "answer_kind": "number"
+ }
+]

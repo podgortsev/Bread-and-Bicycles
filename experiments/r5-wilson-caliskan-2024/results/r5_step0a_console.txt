@@ -1,0 +1,96 @@
+==============================================================================
+R5 STEP 0a: preprocessing against their Table 1 (Addendum 8)
+==============================================================================
+
+reading A: occupations kept 8; same nine as Table 1: False
+  11-101 Chief Executives                 resumes ours   19 theirs   49      descriptions ours   44 theirs   33   
+  11-202 Marketing and Sales Managers     resumes ours  108 theirs   51      descriptions ours   74 theirs   81 ok
+  11-919 Misc. Managers                   resumes ours  205 theirs  112      descriptions ours   87 theirs   92 ok
+  13-107 Human Resources Workers          resumes ours   40 theirs   22      descriptions ours   29 theirs   27 ok
+  13-201 Accountants and Auditors         resumes ours   59 theirs  133      descriptions ours   97 theirs   99 ok
+  17-219 Misc. Engineers                  resumes ours   11 theirs   28      descriptions ours  103 theirs  112 ok
+  25-203 Secondary School Teachers        resumes ours    1 theirs   20      descriptions ours   52 theirs   52 ok
+  27-102 Designers                        resumes ours   28 theirs   87      descriptions ours   46 theirs   55 ok
+  41-909 Misc. Sales and Related Workers  resumes ours    6 theirs   52      descriptions ours   20 theirs   20 ok
+  kept but not in Table 1: ['13-116', '15-124', '15-125']
+  counts within 20 percent: 8 of 18   fail
+
+reading B: occupations kept 4; same nine as Table 1: False
+  11-101 Chief Executives                 resumes ours    0 theirs   49      descriptions ours   44 theirs   33   
+  11-202 Marketing and Sales Managers     resumes ours    0 theirs   51      descriptions ours   74 theirs   81 ok
+  11-919 Misc. Managers                   resumes ours    0 theirs  112      descriptions ours   87 theirs   92 ok
+  13-107 Human Resources Workers          resumes ours    0 theirs   22      descriptions ours   29 theirs   27 ok
+  13-201 Accountants and Auditors         resumes ours  118 theirs  133 ok   descriptions ours   97 theirs   99 ok
+  17-219 Misc. Engineers                  resumes ours  118 theirs   28      descriptions ours  103 theirs  112 ok
+  25-203 Secondary School Teachers        resumes ours    0 theirs   20      descriptions ours   52 theirs   52 ok
+  27-102 Designers                        resumes ours  107 theirs   87      descriptions ours   46 theirs   55 ok
+  41-909 Misc. Sales and Related Workers  resumes ours  116 theirs   52      descriptions ours   20 theirs   20 ok
+  counts within 20 percent: 9 of 18   fail
+
+reading C: occupations kept 8; same nine as Table 1: False
+  11-101 Chief Executives                 resumes ours   19 theirs   49      descriptions ours   30 theirs   33 ok
+  11-202 Marketing and Sales Managers     resumes ours  108 theirs   51      descriptions ours   93 theirs   81 ok
+  11-919 Misc. Managers                   resumes ours  205 theirs  112      descriptions ours  132 theirs   92   
+  13-107 Human Resources Workers          resumes ours   40 theirs   22      descriptions ours   34 theirs   27   
+  13-201 Accountants and Auditors         resumes ours   59 theirs  133      descriptions ours  108 theirs   99 ok
+  17-219 Misc. Engineers                  resumes ours   11 theirs   28      descriptions ours  172 theirs  112   
+  25-203 Secondary School Teachers        resumes ours    1 theirs   20      descriptions ours   65 theirs   52   
+  27-102 Designers                        resumes ours   28 theirs   87      descriptions ours   72 theirs   55   
+  41-909 Misc. Sales and Related Workers  resumes ours    6 theirs   52      descriptions ours   27 theirs   20   
+  kept but not in Table 1: ['13-116', '15-124', '15-125']
+  counts within 20 percent: 3 of 18   fail
+
+reading D: occupations kept 2; same nine as Table 1: False
+  11-101 Chief Executives                 resumes ours   17 theirs   49      descriptions ours   44 theirs   33   
+  11-202 Marketing and Sales Managers     resumes ours    9 theirs   51      descriptions ours   74 theirs   81 ok
+  11-919 Misc. Managers                   resumes ours   52 theirs  112      descriptions ours   87 theirs   92 ok
+  13-107 Human Resources Workers          resumes ours    6 theirs   22      descriptions ours   29 theirs   27 ok
+  13-201 Accountants and Auditors         resumes ours    9 theirs  133      descriptions ours   97 theirs   99 ok
+  17-219 Misc. Engineers                  resumes ours    1 theirs   28      descriptions ours  103 theirs  112 ok
+  25-203 Secondary School Teachers        resumes ours    1 theirs   20      descriptions ours   52 theirs   52 ok
+  27-102 Designers                        resumes ours    4 theirs   87      descriptions ours   46 theirs   55 ok
+  41-909 Misc. Sales and Related Workers  resumes ours    4 theirs   52      descriptions ours   20 theirs   20 ok
+  kept but not in Table 1: ['15-125']
+  counts within 20 percent: 8 of 18   fail
+
+reading E: occupations kept 8; same nine as Table 1: False
+  11-101 Chief Executives                 resumes ours   18 theirs   49      descriptions ours   44 theirs   33   
+  11-202 Marketing and Sales Managers     resumes ours  115 theirs   51      descriptions ours   74 theirs   81 ok
+  11-919 Misc. Managers                   resumes ours  218 theirs  112      descriptions ours   87 theirs   92 ok
+  13-107 Human Resources Workers          resumes ours   38 theirs   22      descriptions ours   29 theirs   27 ok
+  13-201 Accountants and Auditors         resumes ours   54 theirs  133      descriptions ours   97 theirs   99 ok
+  17-219 Misc. Engineers                  resumes ours   10 theirs   28      descriptions ours  103 theirs  112 ok
+  25-203 Secondary School Teachers        resumes ours    0 theirs   20      descriptions ours   52 theirs   52 ok
+  27-102 Designers                        resumes ours   30 theirs   87      descriptions ours   46 theirs   55 ok
+  41-909 Misc. Sales and Related Workers  resumes ours    4 theirs   52      descriptions ours   20 theirs   20 ok
+  kept but not in Table 1: ['13-116', '15-124', '15-125']
+  counts within 20 percent: 8 of 18   fail
+
+reading F: occupations kept 8; same nine as Table 1: False
+  11-101 Chief Executives                 resumes ours   18 theirs   49      descriptions ours   44 theirs   33   
+  11-202 Marketing and Sales Managers     resumes ours  115 theirs   51      descriptions ours   74 theirs   81 ok
+  11-919 Misc. Managers                   resumes ours  218 theirs  112      descriptions ours   87 theirs   92 ok
+  13-107 Human Resources Workers          resumes ours   38 theirs   22      descriptions ours   29 theirs   27 ok
+  13-201 Accountants and Auditors         resumes ours   54 theirs  133      descriptions ours   97 theirs   99 ok
+  17-219 Misc. Engineers                  resumes ours   10 theirs   28      descriptions ours  103 theirs  112 ok
+  25-203 Secondary School Teachers        resumes ours    0 theirs   20      descriptions ours   52 theirs   52 ok
+  27-102 Designers                        resumes ours   30 theirs   87      descriptions ours   46 theirs   55 ok
+  41-909 Misc. Sales and Related Workers  resumes ours    4 theirs   52      descriptions ours   20 theirs   20 ok
+  kept but not in Table 1: ['13-116', '15-124', '15-125']
+  counts within 20 percent: 8 of 18   fail
+
+reading G: occupations kept 9; same nine as Table 1: False
+  11-101 Chief Executives                 resumes ours   20 theirs   49      descriptions ours   44 theirs   33   
+  11-202 Marketing and Sales Managers     resumes ours  110 theirs   51      descriptions ours   74 theirs   81 ok
+  11-919 Misc. Managers                   resumes ours  205 theirs  112      descriptions ours   87 theirs   92 ok
+  13-107 Human Resources Workers          resumes ours   40 theirs   22      descriptions ours   29 theirs   27 ok
+  13-201 Accountants and Auditors         resumes ours   69 theirs  133      descriptions ours   97 theirs   99 ok
+  17-219 Misc. Engineers                  resumes ours   13 theirs   28      descriptions ours  103 theirs  112 ok
+  25-203 Secondary School Teachers        resumes ours    1 theirs   20      descriptions ours   52 theirs   52 ok
+  27-102 Designers                        resumes ours   32 theirs   87      descriptions ours   46 theirs   55 ok
+  41-909 Misc. Sales and Related Workers  resumes ours    9 theirs   52      descriptions ours   20 theirs   20 ok
+  kept but not in Table 1: ['13-116', '15-124', '15-125']
+  counts within 20 percent: 8 of 18   fail
+
+VERDICT 0a: FAIL: reading A used, differences stated
+==============================================================================

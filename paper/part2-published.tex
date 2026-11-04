@@ -1,0 +1,149 @@
+% Part II of the merged paper: the floor check on published instruments.
+% Draft of 2026-10-06. Inputs after "The rest of the design", before "Discussion".
+% Every number here comes from a RESULT document in experiments/r*/results/.
+
+\section{A neutral arm on two rerunnable published instruments}
+
+The floor check above is applied to instruments we built. A reasonable objection
+is that four of the five instruments not meeting the preregistered
+neutral-floor criterion may be a fact about our implementation rather than
+about the field. This section answers it by running a neutral comparison on published work with
+the authors' own code.
+
+\paragraph{What these reruns rest on.} Every result in Part~II and Part~III
+rests on public materials alone: released code, released data, released prompts,
+released models. Nothing reported here depends on anything supplied privately,
+and where an artifact was not in a release we worked from what was, rather than
+reporting a number that rests on something a later reader could not obtain. That
+is deliberate, because the question is what a release on its own supports.
+
+The procedure is fixed in a preregistration separate from the one governing
+Part~I, with thirteen dated addenda, and it has two steps. \textbf{Step~0, fidelity:} reproduce one published number with the authors' released code and data, under a
+rule written before the output is read. Where our rebuild of an instrument does not match theirs at step~0, no neutral arm
+is built on it, because an instrument that does not match theirs cannot be used
+to read their claim. \textbf{Step~1, the neutral arm:} add attributes that are socially
+neutral but otherwise built the same way, in the same slots, and read the
+published claim against them.
+
+Seven targets were selected from thirty-one screened papers. Two passed step~0
+and carry a complete neutral-arm result; they are reported here. One passed on the
+authors' data and came in outside tolerance on our own regeneration. On four we
+could not assemble everything a rerun needs, and that is
+Section~\ref{sec:materials}.
+
+\subsection{Kirk et al.: what the statistic returns for neutral adjectives}
+
+Kirk et al. report that in a regression of predicted occupation on identity
+terms, ``Interactions are significant in approximately one third of
+regressions''~\cite{kirk2021}. We regenerated their completions with GPT-2
+124M, 38 templates and 7{,}000 completions per template, extracted job titles
+with the same CoreNLP version, and ran their regression functions unchanged.
+
+Step~0 passed: the mean share of significant woman-by-religion terms is 0.242
+against their 0.203, inside the centred interval of their own released data,
+$[0.167, 0.245]$.
+
+The neutral arm replaces the identity descriptors with neutral adjectives
+(hungry, sleepy, thirsty, busy) in the same positions, and reads the share
+against the groups that can be formed from that pool.
+
+\begin{center}
+\begin{tabular}{lccccl}
+\toprule
+group & terms & social & neutral & neutral interval & verdict \\
+\midrule
+religion & 5 & 0.242 & 0.247 & $[0.199, 0.290]$ & inside the neutral range \\
+ethnicity & 4 & 0.224 & 0.221 & $[0.178, 0.270]$ & inside the neutral range \\
+sexuality & 2 & 0.289 & 0.216 & $[0.147, 0.287]$ & above the neutral range \\
+political & 2 & 0.291 & 0.216 & $[0.147, 0.287]$ & above the neutral range \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The reading is in the two right-hand columns. For neutral adjectives such as
+\emph{hungry} and \emph{sleepy} this statistic returns 0.22 to 0.25, where
+nominal chance is 0.05. For religion and ethnicity the identity share sits in
+the same range. For sexuality and political affiliation the identity share sits above the
+neutral interval, by 0.002 and 0.004. \textbf{The preregistered rule that decides this is the one stated in the
+registration: a group counts as above the neutral range when its mean lies above
+the neutral interval at every matched group size.} Both do, so both are above the range under that rule, by a margin of
+two to four thousandths and against a single neutral pair of the same size.
+
+A second test was registered as secondary and decides nothing: a randomisation
+over every size-two group formable from the neutral pool gives $p = 0.33$ and
+$0.27$, at a resolution of 0.067, so it does not separate these two groups from
+the groups the neutral pool can form. It is reported because it was registered,
+and it should not be read as support for the result, only as a statement that
+it cannot distinguish them either way at that resolution.
+
+One possible source of the number is visible in the data. Many per-job regressions have an empty
+category-by-gender cell: 41 of 64 for the neutral religion group, 41 of 67 for the identity one, and 38 of 63 in the released data. Logistic regression
+with an empty cell separates, and separated terms return extreme $p$-values.
+We read this as a property of the regression rather than of the words in the
+slot, which would explain why the share is of similar size for the neutral
+adjectives. That reading is our own, offered as a possible mechanism; the
+reproduced numbers above stand apart from it and do not depend on it.
+
+\subsection{WinoIdentity: where the neutral markers fall}
+
+WinoIdentity augments WinoBias referents with identity markers and reports
+finding ``coreference confidence disparities higher than 20\% in 7 out of 10
+demographic attributes''~\cite{winoidentity2025}. We scored one of their five models,
+Mistral-7B-Instruct-v0.2 at 4-bit, with their prompt format. Step~0 passed:
+Spearman 0.905 against their 22 published values, mean absolute difference
+0.029.
+
+The neutral arm puts neutral markers in the marker slot. Of twenty
+attribute-by-sentence-type cells, eleven sit above every neutral set and nine
+are not distinguishable from one. The number to read beside them is the neutral pair itself: \emph{early-rising} and \emph{late-rising} reach a disparity of
+\textbf{0.350} on type~2 sentences, and a three-marker neutral set reaches
+0.340. On type~2 sentences, a neutral marker produces a disparity above 20 percent on its own. Four of the eleven cells above the neutral range clear their neutral set by
+less than the width of their own bootstrap interval.
+
+The second measurement concerns the pattern read as exacerbated bias towards
+doubly-disadvantaged identities. Writing $D$
+for the mean feminine-minus-masculine coreference confidence on male-dominated
+occupations, more negative meaning the feminine version loses more:
+
+\begin{center}
+\begin{tabular}{lc}
+\toprule
+marker & $D$ \\
+\midrule
+\textbf{no marker at all} & $\mathbf{-0.721}$ \\
+neutral markers & $-0.489$ to $-0.676$ \\
+able-bodied & $-0.677$ \\
+non-English-speaking & $-0.718$ \\
+white & $-0.264$ \\
+Asian & $-0.241$ \\
+neurodivergent & $-0.245$ \\
+transgender & $-0.179$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+What the table shows, as measured: the feminine disadvantage is largest before
+any marker is added, and adding one, identity or neutral, mostly reduces it. By
+the preregistered rule, eight of ten attributes fall in the registered category
+of a gender pattern carried through any marker. For the two remaining
+attributes the most negative marker for disability is \emph{able-bodied}, and
+non-English-speaking is no more negative than no marker at all.
+
+How we read it, which is separate from the measurement: in this model and this
+evaluation setting the observed pattern is consistent with the gender asymmetry
+present in the underlying sentences. That is one reading of these numbers and
+not the only one, and further tests would be needed to determine how much
+additional variation is attributable to identity markers.
+
+\subsection{What these two reruns do not establish}
+
+Both are single-model. R1 uses GPT-2 124M, as their released regressions do, and
+says nothing about their larger models. R2 uses one of five models at 4-bit. In
+R1 our social data are regenerated, and fidelity passed on religion, the group
+whose released regressions reproduce exactly; the two groups that nominally exceed the neutral range share one neutral pair,
+and a second pair of that size was not registered. In R2 the
+preregistration asked for a paired bootstrap interval on $D$ which the analyser
+does not yet print, and the rule decides on point values as registered. Neither rerun shows that a published claim is false, and neither is offered as
+one. What both show is that in these reruns the statistics alone did not clearly
+separate the reported effect from responses to a detail carrying no social
+content, which is why a neutral arm is worth adding before an effect is sized.

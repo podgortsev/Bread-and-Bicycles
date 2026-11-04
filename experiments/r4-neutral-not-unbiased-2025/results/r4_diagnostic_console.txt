@@ -1,0 +1,11 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  98%|#########8| 101/103 [00:00<00:00, 959.54it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 978.54it/s]
+========================================================================
+R4 DIAGNOSTIC (Addendum 9): original -> gender, scenarios 1 to 30
+========================================================================
+  theirs            0.8583  (se 0.0073, n 150)
+  ours, 4 parallel  0.8680  (se 0.0083, n 150)   diff +0.0097
+  ours, 1 at a time 0.8721  (se 0.0078, n 150)   diff +0.0137
+
+  serial within 0.02 of theirs: True;  parallel within 0.02: True
+  NOT LICENSED: R4 stays as reported (fidelity failed)
+========================================================================

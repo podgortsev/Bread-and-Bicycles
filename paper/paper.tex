@@ -1,0 +1,800 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+\usepackage{enumitem}
+
+% The default itemize bullet is drawn from a bitmap face, which carries no text
+% and shows up as a Type 3 font in the built file. The maths bullet comes from
+% an outline face that is embedded anyway.
+\setlist[itemize,1]{label={-}}
+
+\hypersetup{
+  pdftitle={Bread and Bicycles: What Happens to an Interaction Claim When the
+            Second Detail Means Nothing},
+  pdfauthor={Michael Podgortsev},
+  pdfsubject={Measurement validity in audits of language-model bias: a floor
+              check for interaction claims},
+  pdfkeywords={language models, bias audit, interaction, intersectionality,
+               neutral control, preregistration, reproduction}
+}
+
+\title{\textbf{Bread and Bicycles}\\[0.3em]
+\large What Happens to an Interaction Claim When the Second Detail Means Nothing}
+\author{Michael Podgortsev\\ \small podgortsev@gmail.com}
+\date{November 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+When a person tells a language model two things about themselves rather than
+one, does the model treat them worse than the sum of the parts? The published
+literature is split: one camp reports compounding disadvantage at an
+intersection, a newer camp reports sub-additivity and a threshold past a few
+attributes. We put the same stacked signals through five outcome measures on
+three open models (Qwen2.5-7B, Llama-3.1-8B, Mistral-7B), with clause count held
+constant so that ``two signals'' never also means ``one more sentence''.
+
+Alongside every audited pair we stack pairs of socially \emph{neutral} details
+built the same way, in the same slots: cycling to work and baking bread, walking
+a dog and learning guitar, making tea and reading history books. Their interaction should be zero. On four of the five instruments it is not.
+Trait log probability, the rebuilt head-to-head choice and the log probability
+of the correct answer report significant interactions between two meaningless
+details, on all three models, on the last of those only within difficulty strata
+for Qwen, and in places as large as the social ones; the
+mechanism is visible in the data, in that the effect of a clause depends on the
+clause beside it. The original head-to-head choice is counted for a different
+reason: its interaction contrast is invalid by construction, so it yields no
+interaction result at all, and its floor moves as well. Only one instrument, whether the model
+solves the person's own arithmetic task, holds a clean zero, on all three models
+and within difficulty strata.
+
+On that instrument, one interaction of twenty-four survives correction: on
+Llama, in one slot order, two stated disclosures together cost 7.2 accuracy
+points \emph{less} than
+the sum of their separate costs. It is sub-additive, the opposite of
+compounding, and it is the size of the spread the same measurement shows across
+six neutral wrappers. Stacking depth produces no shape on any of six ladders. A
+credential recovers zero to nine percent of the penalty for stating one's age.
+Asked which of two signals moved them, the models cannot say.
+
+We registered before collection what would confirm and what would refute the
+hypothesis that signals changing the \emph{text} compound while signals that
+merely \emph{state} a fact do not. Form-by-form compounding is not detected on any model or instrument that can
+identify it, which gives no support to half of that hypothesis but falls short
+of refuting it, since the one clean instrument cannot see small effects; the
+other half is unreadable on the instruments that fail their floor check.
+
+Four failing instruments could be a fact about our implementation, so we then
+ran a neutral comparison on published work with the authors' own code, under a
+second preregistration, reproducing one published number before adding
+anything. Two
+targets carry a complete result. In a widely cited study reporting that identity interactions are significant in
+about a third of regressions, the same statistic returns 0.22 to 0.25 for the
+adjectives \emph{hungry} and \emph{sleepy}, against a nominal 0.05; two of its four identity groups sit in that range, and two nominally exceed the
+preregistered neutral-range threshold, by 0.002 and 0.004, against a single
+shared neutral pair of that size, with no second pair registered; a secondary
+randomisation test does not separate them from the neutral pool ($p = 0.33$ and
+$0.27$). A 2025 benchmark reports coreference disparities above 20 percent, and in our
+rerun of one of its five models a pair of neutral markers reaches 0.350 on
+type-2 sentences; eleven of twenty attribute-by-sentence-type cells still sit above every neutral
+set, four of them by less than their own interval width. In that same rerun, on point estimates, its
+doubly-disadvantaged pattern is largest with no identity marker at all, and
+adding one mostly reduces it. On four further targets we could not assemble everything a rerun needs, and we
+report the five artifacts such a rerun turns out to depend on.
+
+The contribution we can defend is methodological: a compounding result from an
+instrument without a floor check cannot be distinguished from the instrument
+responding to more text. Four of the five instruments we built do not return zero on that check, and on
+both published instruments we were able to rerun, neutral details move the
+statistic as far as many of the social ones. The floor check is released as a
+standalone tool.
+\end{abstract}
+
+\section{Introduction}
+
+This is the third paper in a programme about what systems cost the people they
+were not built around. Paper~1 defined the average-fit loss, the cost of sitting
+far from the configuration a system was designed for \cite{p1}. Paper~2 asked
+what changes when a language model learns \emph{one} thing about a person, and
+measured it through seven channels on the same three models and the same one
+hundred people \cite{p2}. This paper asks what happens when there are two.
+
+The question matters because the literature is split, and both camps are
+plausible. A large body of work reports that disadvantage compounds at an
+intersection: Guo and Caliskan define an \emph{emergent} intersectional bias as
+one not predicted from its constituent categories \cite{guo2020}, Lalor et al.
+report amplification at intersections across ten downstream tasks
+\cite{lalor2022}, ABLEIST reports up to 58-fold ableist harm amplified for
+multiply-marginalised candidates \cite{ableist2025}, and Compounding
+Disadvantage reports variance rising with each added demographic dimension
+\cite{gupta2026}. A smaller and newer body reports the opposite: Fu et al. state
+that when two signals are present their effects are ``generally sub-additive
+rather than simply additive'' \cite{fu2026}, and Kamruzzaman et al. report an
+over-specification threshold past one to three attributes
+\cite{kamruzzaman2026}. Paper~2's accumulation method sat in the second camp
+with a null.
+
+The literature has not yet directly compared these claims using the same
+signals, the same models, the same people and the same outcome measures. That is what this paper
+does, and the adjudication turns out to depend on something prior to the
+question: whether the instrument can tell two meaningful details from two
+meaningless ones.
+
+The paper therefore has three parts. Part~I puts two stacked signals through
+five outcome measures on three open models, with a neutral pair stacked the same
+way beside every audited pair. Four of the five instruments do not meet that criterion.
+Part~II takes up a reasonable objection, that five instruments we built
+are five instruments we built, and runs a neutral comparison on published work
+with the authors' own code, under a second preregistration that requires one of
+their numbers to be reproduced before anything is added. Two targets passed that gate, and in both, neutral details move the statistic
+well above zero. Part~III lists what a rerun of this kind turns out to depend on. On four of the
+seven targets we could not assemble all of it, and the list is what we now ship
+with our own work.
+
+What the reader is asked to take away is one sentence, and it is methodological
+rather than about any particular group: an interaction claim produced by an
+instrument that has not been shown to return zero for two meaningless details
+cannot be told apart from the instrument responding to more text.
+
+\paragraph{Terminology.} We say \emph{signal stacking} rather than
+intersectionality. The literature above is about identity categories crossing.
+Our catalogue is organised by type of deviation and contains items that are not
+identity categories at all: writing as a non-native speaker, imprecise typing
+whose cause is unknown, first-time use of a tool. Borrowing a term with a
+specific social-theory meaning for that set would be wrong, and the distinction
+earns its place because the variable of interest here is the type of signal,
+with identity categories as one type among several.
+
+\section{Related work, and what this paper concedes}
+
+The design is not novel and we do not claim it. Hoffmann et al. apply a full
+factorial to an LLM hiring audit \cite{hoffmann2026}, and Leyva-Vazquez and
+Smarandache run three factorial studies with bootstrap intervals on interaction
+magnitudes, documenting a rescue effect in which a prestigious publication
+compensates for a low-prestige institution \cite{leyva2026}. Sub-additivity is
+not a discovery: Fu et al. published it for identity and opinion \cite{fu2026},
+and Liu et al. report that two form corruptions of the task text together cost
+more than either alone but, in most settings, less than the sum \cite{liu2026}. The over
+specification threshold is published \cite{kamruzzaman2026}. What is new here is
+the \emph{contrast} between signal types in one design, the floor check applied
+to every instrument, and the finding that most of them do not meet the
+preregistered criterion.
+
+Three prior results shape the methodology. First, instrument validity: Wang et
+al. show that first-token probabilities mismatch the text an instruction-tuned
+model actually emits at rates above 60 percent \cite{wang2024a}, and argue that
+the text is the more robust read \cite{wang2024b}. We answer this rather than
+assume it: every probability read in this paper records the mass on the answer
+tokens, the gate is applied in the analysis, and every reported comparison is a
+difference between two conditions in the same slot, so the slot term cancels.
+Second, order effects: Yin et al. report that position bias is generally
+stronger than gender bias and cannot be removed by averaging or randomising
+presentation \cite{yin2025}. That is the external account of why Paper~2's
+forced-choice method failed at a position ceiling, and it is why pairs carrying
+a stated signal run in both slot orders here. Third, cue instability: Tonneau et
+al. report over 14.8 million prompts that both the magnitude and the direction
+of a group difference vary with how the group is cued \cite{tonneau2026}. Our
+wrapper experiment is the neutral-text version of that warning, and it is the
+error bar around every other number we report.
+
+\paragraph{The surrounding literature, in one place.} The question of how
+subgroups should be audited at all predates language models: Kearns et al. show
+that fairness holding on each attribute separately can fail on their
+intersections, and audit subgroups directly \cite{kearns2017}, and Gohar and
+Cheng survey the notions and the mitigations that followed \cite{gohar2023}.
+Within language models the measurements take several shapes: Boufaied et al.
+study intersectional fairness directly \cite{boufaied2026}, Reddy et al. test it
+by metamorphic relations \cite{reddy2025}, and Maltbie and Raval report that
+false validation of a user's claim varies with the demographics the model
+perceives \cite{maltbie2026}. A second group asks what a stated persona does to
+the model rather than to its verdict on a person: Gupta et al. find implicit
+reasoning deficits in persona-assigned models \cite{guptapersona2023}, and
+Occhipinti et al. report that sociodemographic prompting helps some groups and
+hurts others \cite{occhipinti2026}. A third concerns signals that are carried by
+the text rather than stated, which is our form-against-stated distinction from
+the other side: Haq and Saldias separate bias from implicit linguistic signals
+from bias from explicit profiles \cite{haq2026}. A fourth measures what
+disclosure costs the person who discloses: Kamruzzaman and Kim on disability
+disclosure in candidate selection \cite{kamruzzaman2025}, Yildirim on mental
+health disclosure to personalised agents \cite{yildirim2026}, Poole-Dayan et al.
+on underperformance falling disproportionately on vulnerable users
+\cite{poole2024}, and Panda et al.'s disability benchmark across 21 models
+\cite{panda2025}. Finally, on the statistics of designs like ours, Pashley et
+al. give sample-size determination for $2^K$ audit experiments with a binary
+response \cite{pashley2025}, which is the family our channel~A belongs to and
+the reason its minimum detectable interaction is printed beside every null.
+
+\paragraph{Controls closest to the floor check.} Three recent works come
+closest, and none of them, to our reading, tests an interaction. Vohra and Ravikiran add a placebo to LLM decision
+audits in which candidates differ only in a decision-irrelevant detail, a hobby
+or a neighbourhood, and find that under a forced-choice probe the placebo reads
+as unfair 74 percent of the time, against 5 percent under open-ended scoring
+\cite{vohra2026}; their placebo varies one detail and protects a single contrast.
+WinoIdentity includes a non-demographic augmentation baseline, adjectives such as
+``confused'' and ``relaxed'' in the same slots, used for single-axis gender
+disparity rather than for its doubly-disadvantaged claim \cite{winoidentity2025}.
+Rennard and Xypolopoulos calibrate intersectional persona effects against
+sampling noise and against a random unrelated demographic dimension, and find
+that models keep one to two identity dimensions and discard the rest
+\cite{rennard2026}; their null is demographic rather than neutral. The pattern our answer-probability channel shows, a second clause adding less
+than the first, has the same shape as the sub-additivity Fu et al. report, who
+state that ``When both signals are present, their effects are generally
+sub-additive rather than simply additive'' \cite{fu2026}; on our instrument that
+channel does not pass the floor check, which is the point of Section~4. What none of these does, and what
+the floor check adds, is stack two socially neutral details in the structural
+positions of the two audited signals and require their interaction to be zero
+before any social interaction is read. Magee et al. show why it matters: in their data prompt length and the number of
+terms both correlate with sentiment, and they conclude that intersectional bias
+``cannot be easily estimated from single-category bias'' \cite{magee2021}.
+Separating those two is what a neutral pair in the same slots is for.
+
+\section{Design}
+
+\paragraph{Terms.} Four words recur and are easy to confuse, so they are fixed
+here. The \emph{neutral floor} is the interaction estimate for a pair of neutral
+details; it should be zero. The \emph{floor check} tests whether it is, and an
+instrument whose floor check rejects is \emph{contaminated}. In Part~II, where
+the published statistic is not an interaction, the \emph{neutral range} is the
+interval that statistic takes for neutral attributes; it is a comparison band,
+not a test of zero. The \emph{wrapper spread} is the variation of an estimate
+across six neutral opening sentences; it measures sensitivity to wording, not
+contamination.
+
+
+\paragraph{Models.} Qwen2.5-7B-Instruct, Llama-3.1-8B-Instruct and
+Mistral-7B-Instruct-v0.3, loaded at 4-bit on a single free-tier T4. Different
+developers, different countries, different training data. An effect present in
+one model only is a fact about that model, and is reported that way.
+
+\paragraph{Signals.} Four, drawn from the programme's axes catalogue. Two
+\textsc{form} signals, which change the text the model must read: writing as a
+non-native speaker (F01) and typing errors (F04). Two \textsc{stated} signals,
+which leave the task byte-identical and only assert something about the person:
+``I use a screen reader for everything on my computer'' (S01) and ``I am
+seventy-four and not very confident with computers'' (S08). Four 2x2 pairs:
+form-by-form, stated-by-stated, and two cross pairs.
+
+\paragraph{Clause count is held constant.} Every lead-in is exactly two clauses
+in every condition. A signal takes a slot that a neutral clause would otherwise
+hold. Without this, ``two signals'' also means ``one more sentence'', and the
+experiment measures verbosity. Paper~2 measured what that costs: a 40-word
+preamble moved Llama's accuracy by ten points regardless of content.
+
+\paragraph{The interaction.} Per item,
+\[
+d = (\text{both} - A) - (B - \text{none}),
+\]
+paired within item. Negative is super-additive, the pair costing more than the
+sum of its parts, which is the compounding claim. Positive is sub-additive.
+
+\paragraph{The floor.} Alongside the audited pairs we stack pairs of socially
+neutral but distinctive details in the same slots under the same arithmetic:
+cycling to work with baking bread, walking a dog with learning guitar, making
+tea with reading history books. Each was checked at build time against a cue-word
+list; a first draft used ``crime novels'' and was rewritten because an instrument
+that reads text reads words. Three floors, not one, because a single neutral pair
+can itself be unusual.
+
+\paragraph{Instruments.} Five, all reading the same conditions.
+
+\begin{center}
+\begin{tabular}{llll}
+\toprule
+ & what it reads & items & outcome \\
+\midrule
+A & does the model solve the person's task & 600 tasks & binary \\
+A2 & log P(correct answer) on A's prompts & 600 tasks & continuous \\
+B & log prob of six favourable words & 100 profiles & continuous \\
+C & head-to-head margin against a twin & 200 pairs & continuous \\
+C2 & head-to-head, both-cell against each single & 200 pairs & continuous \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\paragraph{Statistics.} Every estimate is a mean with a percentile bootstrap
+interval and a minimum detectable effect, because an interaction is a difference
+of differences and carries about twice the variance of a single difference. Each
+outcome is tested twice: signed rank, and a sign-flip permutation test on the
+mean, which is the quantity the interval describes. On outcomes with a ceiling
+the two disagree, and choosing between them after seeing the data would be a
+forking path, so the rule is fixed in advance and can only remove claims: a
+floor moves if \emph{either} test rejects, and an effect is claimed only if
+\emph{both} reject and the mean leans with the signed ranks. Floors are corrected family-wise (Holm) as their own family, one per model and
+instrument and never together with the contrasts they protect; audited
+contrasts get Benjamini-Hochberg. The task set
+was extended from Paper~2's 200 items to 600 after a power analysis measured 20
+percent power for the interaction at $n=200$; rows T001 to T200 are Paper~2's
+items byte for byte, enforced by a provenance check.
+
+\paragraph{Registered expectations.} Written before the first run.
+\emph{Confirmation:} form-by-form super-additive and clearing the wrapper
+spread, \emph{and} stated-by-stated indistinguishable from zero, in at least two
+of three models on at least two of three channels. \emph{Refutation:}
+stated-by-stated super-additive, or form-by-form absent, in two of three models
+on channels powered for it. \emph{A null that is still the paper:} no
+interaction of either type anywhere, with the floor showing that clause count
+explains what movement there is.
+
+\section{The floor result}
+
+The three difficulty strata are fixed cuts on each task's mean answer
+probability across all conditions, at 0.8 and 0.2, and a stratum is used only
+if it holds at least thirty tasks. The cuts are round probabilities rather than
+quantiles of these data, but they were chosen after the first A2 analysis, at
+the same time as the stratified check itself, and the limitations say so. The
+standalone \emph{Interaction Floor Test} instead splits each floor's items into
+thirds by the mean of that floor's own four cells, which is a different
+stratification, and reaches the same verdicts.
+
+Table~\ref{tab:floors} is the paper's central result.
+
+\begin{table}[h]
+\centering
+\caption{Floor verdicts. Three neutral pairs per instrument per model,
+corrected within one family per model and instrument: Holm over every floor
+test, overall and within three difficulty strata, then Bonferroni across the two
+tests. Twelve families, twelve tests in each of the task channels. The fraction
+counts the floors that move \emph{in aggregate}; the correction and the verdict
+also use the stratum tests, which is why Qwen's A2, quiet in aggregate, is
+marked clean in aggregate only. On A2 a further floor moves within a stratum on
+Llama and on Mistral without moving in aggregate. Every test behind this table
+is listed in Appendix~A.}
+\label{tab:floors}
+\begin{tabular}{lllll}
+\toprule
+model & A accuracy & A2 answer log prob & B traits & C2 choice pairs \\
+\midrule
+qwen & clean & clean in aggregate only & contaminated 3/3 & contaminated 6/6 \\
+llama & clean & contaminated 2/3 & contaminated 3/3 & contaminated 6/6 \\
+mistral & clean & contaminated 2/3 & contaminated 3/3 & contaminated 5/5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Channel C is absent from the table because its interaction contrast is invalid
+by construction: differencing two margins measured against a shared reference
+does not isolate the extra cost of a second signal. Its floor is large anyway,
+at $+0.50$, $+1.35$ and $+3.56$ on the three models.
+
+On channel B the floors run from $-0.25$ to $+0.59$ and every one of nine is
+significant. On Llama they do not even share a sign, so the contamination is not
+an offset that a correction could subtract. For scale, Qwen's neutral floor of
+$+0.553$ is larger than its stated-by-stated social interaction of $+0.400$. On
+C2 every floor is significant on every model, from $+0.35$ to $+6.44$.
+
+Channel A2 fails in a subtler way, and it is the reason the floors are also
+tested within strata. On Qwen the three floors are quiet in aggregate
+($+0.18$, $+0.13$, $-0.02$ against a minimum detectable effect near $0.17$), yet
+floor 1 moves inside the near-ceiling stratum ($-0.03$, decision $p$ $0.038$,
+Appendix~A) while far
+from the ceiling floors 1 and 2 sit at $+0.51$ and $+0.40$. Two movements in
+opposite directions cancel in the average.
+
+\paragraph{It is not run-to-run noise.} The signal-free condition was collected
+twice, in separate sessions. Channel A gives the same right-or-wrong outcome on
+100.0 percent of tasks on all three models; channel B's largest per-profile
+difference between runs is 0.0053, 0.0024 and 0.0020 log probability, against
+floor movements of 0.09 to 0.59.
+
+\paragraph{The mechanism.} Re-derived independently of the analysers: the effect
+of a clause depends on the clause beside it. Adding ``I cycle to work'' to an
+otherwise neutral message moves Qwen's choice margin by $-4.39$ logits; adding
+the same clause to the message that already mentions baking bread moves it by
+$+2.05$. On Llama, $-0.33$ and $+0.38$. An instrument with that property will report an interaction for any pair whose
+clauses interact this way, and on these three instruments every neutral pair
+tested did.
+
+\section{What survives: the person's own task}
+
+Channel A is the only instrument whose floor is clean on all three models and in
+every stratum. It is also the least sensitive: at $n=600$ it detects an
+interaction of fifteen accuracy points with 90 percent power and one of five
+points with 13 percent. Every estimate below carries its own minimum detectable
+effect.
+
+\paragraph{Main effects.} Only Llama moves. A stated disclosure costs that model
+3.3 to 6.5 accuracy points on the person's own arithmetic (screen reader
+$-0.050$ and $-0.063$ by slot, age $-0.065$ and $-0.033$, all
+$p \le 0.015$ by exact McNemar), and typing errors cost $2.7$ points. On Qwen
+and Mistral nothing moves, so on those models there is no main effect for an
+interaction to modify, and the interaction nulls describe the instrument rather
+than the person's treatment.
+
+\paragraph{Interactions.} One of twenty-four survives correction:
+stated-by-stated on Llama, $+0.072$ accuracy (adjusted $p=0.004$, minimum
+detectable effect $0.036$), agreeing in sign with the other slot order
+($+0.038$, not claimed on its own). It is \emph{sub-additive}: two disclosures
+together cost seven points less than the sum of their separate costs.
+Form-by-form is indistinguishable from zero on all three models, with the
+estimate below the minimum detectable effect in every case.
+
+\section{The other instruments, and why they are still reported}
+
+Channel B is kept in the paper as a demonstrated failure rather than as a
+result. It measures a common thing in a common way, the readiness to apply
+favourable words to a person, and its own floor check rejects on all three models. Its coherence check fails too: on Mistral and Llama several conditions
+move the favourable words and their opposites in the same direction, which is a
+scale shift rather than a judgement. Deleting it would leave the methodological
+argument resting on an assertion about other people's instruments; keeping it
+makes the argument a measurement.
+
+The main effects of these instruments are unaffected by the floor result,
+because a single clause replacing a neutral clause has no second clause to
+interact with. They replicate Paper~2: disclosing a screen reader lowers the
+readiness to apply favourable words on all three models, by up to two log
+probability units. Neutral details also lower it, by as much, which is a caution
+about reading any single-signal penalty against silence rather than against
+another detail.
+
+\section{The rest of the design}
+
+\paragraph{Depth (e2).} Two ladders, form and stated, at depths 0 to 3, clause
+count constant. The shape quantity is the second difference
+$(D_3-D_2)-(D_2-D_1)$, bootstrapped over tasks. Six ladders, six intervals
+covering zero: no shape can be claimed anywhere. Two cells of eighteen move at
+all, both on Qwen's stated ladder, where two or three signals cost about three
+accuracy points against none while one costs nothing measurable. That is a
+threshold rather than a slope, and it sits inside the wrapper spread below.
+
+\paragraph{Wrappers (e1w).} Every e1 interaction measured six times, changing
+only the neutral opening sentence. The spread across wrappers is three to
+fifteen times the mean, and eight of nine interactions change sign between one
+neutral opening and another. Nothing clears its own wrapper spread. The one
+surviving channel A interaction, $+0.072$, is the size of that contrast's
+wrapper spread, $0.080$, which is why it is reported as a direction with a
+stated limit.
+
+\paragraph{Legibility (e2b).} Liu et al. stack two form corruptions of the task text
+and report a combined drop larger than either factor alone but, in most settings,
+smaller than the sum, with occasional super-additive cases \cite{liu2026}. Both of
+their factors corrupt the text
+the model must read, so we ran the same form-by-form pair in two arms: the
+signal in the person's message with the task byte-identical, and the styling
+applied to the task as well. Neither arm is super-additive on any model. On
+Llama the corrupted-task arm is significantly \emph{sub}-additive ($+0.053$,
+$p \le 0.0005$ on both tests), which is the direction Liu et al. report in their
+own design, and the two arms differ by $+0.063$. With the task byte-identical the
+interaction is null on all three models. So their sub-additive direction appears
+on one model of three when the task is corrupted, and nothing appears when only
+the person's message carries the form signal, with minimum detectable effects of
+0.025 to 0.035 stating what this run could have seen.
+
+\paragraph{Offsetting (e3).} Does a credential buy back a disclosure? On Llama's
+three usable numeric measures, stating fifteen years of experience recovers zero
+to nine percent of the penalty for stating one's age, and in two of six cells
+the recovery is negative. On the choice channel the answer is slot-dependent:
+51 percent recovery on Llama when the credential comes first, nothing on any
+model when it comes second. The credential is not neutral on its own: on Qwen a
+candidate who states fifteen years of experience is chosen \emph{less} often
+than one who says nothing distinctive.
+
+\paragraph{Attribution (e5).} Replay the exchange, then ask the model how much
+each of the two signals changed its answer. Llama answers zero to all 840
+ratings: its self-report is a constant and says nothing, the second time a model
+in this programme has failed that way. Qwen ranks the two signals correctly in
+16 of 22 informative items, which does not separate from chance after
+correction. One of six testable item-level correlations is significant
+($\rho=-0.229$). Qwen attributes 9.65 of 10 to cues the person never mentioned, against 3.15 for
+what the person actually said. Mistral ranks the two signals correctly in 2 of 9
+informative items, 22 percent, which does not separate from guessing.
+
+\paragraph{Refusal (e6).} Between zero and two refusals per 10,200 generations,
+at every signal count, on every model. Refusal does not stack on this task.
+
+\input{part2-published}
+
+\input{part3-materials}
+
+\section{Discussion}
+
+\paragraph{The registered expectations, answered.} Form-by-form compounding is not detected on any model or instrument that can
+identify an interaction. That provides no support for the half of the hypothesis
+that says text-changing signals compound, and it is weaker than a refutation:
+the registration asked for absence on channels powered for it, and the one
+instrument with a clean floor detects fifteen accuracy points with 90 percent
+power and five points with 13 percent, so a small compounding effect would not
+have been seen. The other half, that stated signals do not compound, is not
+contradicted, but it is not confirmed either. Only one instrument can identify
+an interaction, it is powered for large effects only, and on one model it finds
+a stated-by-stated interaction that is non-zero and sub-additive, which does not
+meet the registered criterion of indistinguishable from zero. On the other four
+instruments the question cannot be answered. The outcome that matches the data is the third registered one: no compounding
+is detected on the instruments that pass the floor check, and the floor check
+indicates that, for several instruments in this
+study, the observed movement cannot be cleanly separated from responses to
+additional text.
+
+\paragraph{What the split in the literature might be.} Our data are consistent
+with a simpler account than either camp's. On channel A2, on every model, the
+interaction takes the sign opposite to the two single effects: neutral clauses
+cost and two of them cost less than the sum; stated signals raise the answer
+probability on two models and two of them raise it less than the sum. Of twelve
+interactions that pass both tests on that channel, seven are a benefit that does
+not add, two are a cost that does not add, three have singles pointing opposite
+ways, and none is compounding harm. A second clause adds less than the first,
+whichever way the clauses push. An instrument that moves for any pair of clauses would produce a pattern of this
+shape whatever the clauses said, with the sign set by the direction of its single
+effects. That is a reason to add a neutral arm before sizing an interaction, rather than
+a reason to doubt any particular result.
+
+None of this is evidence for a general sub-additive effect. The one interaction
+on a clean instrument is one model, one instrument and one slot-order pair, and
+it is the size of its own wrapper spread. The A2 pattern is offered as the shape
+a text-sensitive instrument would produce, not as a finding about how signals
+combine.
+
+\paragraph{What the published reruns add.} A reasonable objection to Part~I is
+that five instruments we built are five instruments we built. Part~II answers it in the most direct way available, by running a neutral
+comparison on other people's published instruments with their own code, after
+reproducing one of their numbers first.
+In both targets that passed that gate, neutral details move the statistic well
+above zero: a statistic whose neutral value is five times nominal chance, and a
+threshold that a neutral marker reaches. In the second, in our rerun of one of its five models and on point estimates,
+the pattern read as compounding at an intersection is largest before any
+identity marker is added. We do not claim either
+published result is false. In these reruns the statistics alone did not clearly separate the reported
+effects from responses to socially neutral details. Neutral-condition
+comparisons may therefore help clarify the interpretation of such results.
+
+\paragraph{What a failed floor check does not show.} It does not show that a
+social interaction is an artifact. It shows that the instrument has a non-zero
+baseline interaction, which has to be accounted for before the social one can be
+sized; on channel B even that is not possible, because its floors do not share a
+sign.
+
+\paragraph{What a reader should take from this.} Before reporting that two
+characteristics compound, stack two socially meaningless details the same way
+and show that nothing happens. On four of the five instruments here the neutral pair moves the outcome, and on
+both published instruments we were able to rerun it moves the outcome too.
+The check costs one extra condition set, and it adds a useful diagnostic for
+assessing whether an observed interaction reflects the target phenomenon or
+sensitivity to additional text.
+
+\section{Limitations}
+
+\begin{itemize}[nosep]
+\item Three open models at 4-bit, one task family for the behavioural channel,
+four signals, two of each type. Nothing here speaks to proprietary models,
+longer conversations, or signals outside this catalogue.
+\item Single-wrapper estimates carry the spread measured in e1w as unreported
+uncertainty. That includes every number in this paper except the wrapper
+experiment itself.
+\item Channel A is not powered for small interactions: five accuracy points are
+invisible at this $n$, and the paper says so beside every null rather than
+calling them zero.
+\item The one surviving interaction is one model, one channel, one slot order
+pair, and the size of its own wrapper spread.
+\item The stratified floor check was added after seeing the first A2 analysis.
+It can only remove claims, and it was validated on synthetic data built to
+reproduce the failure before being applied, but it was not registered in
+advance. The standalone \emph{Interaction Floor Test}, which stratifies
+differently, reaches the same verdicts.
+\item Mistral's letter-probability reads are heavily gated (32 percent of C2
+reads carry less than half the mass on the two letters), so its numbers on that
+channel rest on as few as twelve items and are reported with their $n$.
+\item Part~II rests on two reruns, not on a survey. Both are single-model: one
+uses the 124M model whose regressions its authors released, the other one of
+five models at 4-bit. Neither says anything about the larger models in either
+paper, and two cases cannot show how common the problem is.
+\item In the first rerun the two groups that nominally exceed the neutral range share
+a single neutral pair, and a second neutral pair of that size was not registered. In the
+second, the preregistration asked for a paired bootstrap interval on the
+doubly-disadvantaged statistic which the analyser does not yet print; the rule decides on point values, as registered, and four of the eleven cells
+above the neutral range clear their neutral set by less than the width of their
+own bootstrap interval.
+\item Part~III lists five artifacts a rerun of this kind depends on, drawn from
+seven targets. Seven cases
+selected for a different purpose support no rate, and nothing there should be
+read as one.
+\end{itemize}
+
+\section{Reproduction}
+
+Every number in this paper is produced by scripts in the accompanying
+repository from the collected CSVs, with no manual steps. The analysis is
+reproduced by running the analysers in \texttt{experiments/*/scripts/} against
+\texttt{experiments/*/outputs/}; the offline validation suite
+(\mbox{\path{validate_*.py}}, \path{reverify_findings.py},
+\path{check_provenance.py}) runs without a GPU and checks the statistics on
+synthetic data with known answers, re-derives every headline number
+independently of the analysers, and verifies that the items inherited from
+Paper~2 are unchanged. The floor check is also released as a standalone tool,
+\emph{Interaction Floor Test}, which reaches the same verdicts on these data
+through a different stratification.
+
+Part~I and Part~II are governed by two separate preregistrations,
+\texttt{PREREGISTRATION.md} and \texttt{PREREGISTRATION-PART2.md}, the second
+with thirteen dated addenda. They are published as written and are not merged
+retroactively, which is the point of having them: every reading tried is in
+them, including the ones that failed, and the order in which they were tried was
+fixed before the data were seen. Each carries the date and the commit hash of the commit that first contained
+it, in a private working repository that is not published, because its history
+also holds material that is not ours to publish. Both documents are archived
+with their own DOI, which makes them immutable from the date of that deposit
+onward. Neither that deposit nor a commit hash proves the earlier date on which
+each was written: that much is asserted, supported by a history we can show on
+request, and the paper claims no more than that. Each target's reruns live in
+\texttt{experiments/r*/}, beside the \texttt{e*} experiments of Part~I, with the
+same shape: scripts, outputs, and a result document stating what cannot be
+claimed.
+
+\section*{Acknowledgements}
+
+Part~II of this paper exists only because seven research groups released their
+work in a form that someone else could run. We reran instruments built by Kirk
+et al.~\cite{kirk2021}, by the authors of WinoIdentity~\cite{winoidentity2025},
+by Wan and Chang~\cite{wan2025}, by Wilson and Caliskan~\cite{wilson2024}, by
+Ghanbari Haez and Dragoni~\cite{ghanbari2025}, by the authors of
+ABLEIST~\cite{ableist2025}, and by Beck et al.~\cite{beck2024}. In every case we
+used their code, their prompts, their data or their released model, unchanged
+wherever we could. Releasing those materials is what made an independent check possible at all.
+
+Section~\ref{sec:materials} lists the artifacts a rerun of this kind depends on.
+It is a list of what is easy to leave out, written by an author who left several
+of them out of earlier releases of this work, and it is not a comment on the
+generosity of the releases above.
+
+\input{appendix-a}
+
+\begin{thebibliography}{99}
+
+\bibitem{kirk2021} H. Kirk, Y. Jun, H. Iqbal, et al. \emph{Bias Out-of-the-Box:
+An Empirical Analysis of Intersectional Occupational Biases in Popular
+Generative Language Models.} Advances in Neural Information Processing Systems
+34, 2021. arXiv:2102.04130. Code: \url{https://github.com/oxai/intersectional_gpt2}.
+
+\bibitem{wan2025} Y. Wan, K.-W. Chang. \emph{White Men Lead, Black Women Help?
+Uncovering Gender, Racial, and Intersectional Bias in Language Agency.}
+Proceedings of the 63rd Annual Meeting of the Association for Computational
+Linguistics, 2025, 2025.acl-long.445. Code:
+\url{https://github.com/elainew728/labe-agency}.
+
+\bibitem{wilson2024} K. Wilson, A. Caliskan. \emph{Gender, Race, and
+Intersectional Bias in Resume Screening via Language Model Retrieval.}
+Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, 2024.
+arXiv:2407.20371. Code: \url{https://github.com/kyrawilson/Resume-Screening-Bias}.
+
+\bibitem{beck2024} T. Beck, H. Schuff, A. Lauscher, I. Gurevych.
+\emph{Sensitivity, Performance, Robustness: Deconstructing the Effect of
+Sociodemographic Prompting.} Proceedings of the 18th Conference of the European
+Chapter of the Association for Computational Linguistics, 2024.
+arXiv:2309.07034. Code:
+\url{https://github.com/UKPLab/arxiv2023-sociodemographic-prompting}.
+
+\bibitem{ghanbari2025} S. Ghanbari Haez, M. Dragoni. \emph{Neutral Is Not
+Unbiased: Evaluating Sociodemographic Shifts in Language Model Responses.}
+Findings of the Association for Computational Linguistics: EMNLP 2025,
+2025.findings-emnlp.814. Code:
+\url{https://github.com/Saba-Gh-H/Neutral_isnot_unbiased}.
+
+\bibitem{p1} M. Podgortsev. \emph{The Average-Fit Loss: A Unifying Metric for
+the Cost of One-Size-Fits-All Systems.} 2026. Concept DOI
+10.5281/zenodo.22364499.
+
+\bibitem{p2} M. Podgortsev. \emph{Single Human-AI Fit: One Attribute, Seven
+Channels, Two Directions.} 2026. Concept DOI 10.5281/zenodo.22364497.
+
+\bibitem{kearns2017} M. Kearns, S. Neel, A. Roth, Z. S. Wu. \emph{Preventing
+Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness.}
+arXiv:1711.05144; ICML 2018.
+
+\bibitem{guo2020} W. Guo, A. Caliskan. \emph{Detecting Emergent Intersectional
+Biases: Contextualized Word Embeddings Contain a Distribution of Human-like
+Biases.} arXiv:2006.03955; AIES 2021.
+
+\bibitem{lalor2022} J. P. Lalor, Y. Yang, K. Smith, N. Forsgren, A. Abbasi.
+\emph{Benchmarking Intersectional Biases in NLP.} NAACL 2022, 3598--3609.
+
+\bibitem{gohar2023} U. Gohar, L. Cheng. \emph{A Survey on Intersectional
+Fairness in Machine Learning: Notions, Mitigation, and Challenges.}
+arXiv:2305.06969; IJCAI 2023.
+
+\bibitem{winoidentity2025} F. Arif Khan, K. Sivakumar, J. Wang, et al.
+\emph{Investigating Intersectional Bias in Large Language Models using
+Confidence Disparities in Coreference Resolution.} arXiv:2508.07111; COLM 2025.
+
+\bibitem{reddy2025} S. Reddy, S. Srinivasan, U. Kanewala. \emph{Metamorphic
+Testing for Fairness Evaluation in Large Language Models: Identifying
+Intersectional Bias in LLaMA and GPT.} arXiv:2504.07982.
+
+\bibitem{gupta2026} A. Gupta, P. Patil, S. Ghosh, R. Gaikwad. \emph{Compounding
+Disadvantage: Auditing Intersectional Bias in LLM-Generated Explanations Across
+Indian and American STEM Education.} arXiv:2601.14506.
+
+\bibitem{ableist2025} M. Phutane, H. Jung, S. Kim, T. Mitra, A. Vashistha.
+\emph{ABLEIST: Intersectional Disability Bias in LLM-Generated Hiring
+Scenarios.} arXiv:2510.10998.
+
+\bibitem{boufaied2026} A. Boufaied, D. De Souza Santos, A. Barcomb.
+\emph{Intersectional Fairness in Large Language Models.} arXiv:2604.20677.
+
+\bibitem{maltbie2026} N. Maltbie, A. Raval. \emph{Intersectional Sycophancy: How
+Perceived User Demographics Shape False Validation in Large Language Models.}
+arXiv:2604.11609.
+
+\bibitem{fu2026} Y. Fu, C. Meng, X. Chen, Y. Huang, T. Wu. \emph{How Identity
+and Opinion Shape Political Sycophancy in LLMs.} arXiv:2608.29198; EMNLP 2026.
+
+\bibitem{kamruzzaman2026} M. Kamruzzaman, A. Das, G. L. Kim. \emph{Demographic
+Prompting at Scale: When More Attributes Hurt LLM-Human Agreement.}
+arXiv:2607.10590.
+
+\bibitem{occhipinti2026} D. Occhipinti, M. Piergentili, M. Guerini.
+\emph{LLM-as-a-Demographic: Whom Sociodemographic Prompting Helps, and Whom It
+Hurts.} arXiv:2609.00222.
+
+\bibitem{liu2026} Y. Liu, Z. Yang, P. Sheth, et al. \emph{Individual and
+Combined Effects of English as a Second Language and Typos on LLM Performance.}
+arXiv:2604.04723.
+
+\bibitem{haq2026} S. Haq, B. Saldías. \emph{Dialect vs Demographics:
+Quantifying LLM Bias from Implicit Linguistic Signals vs. Explicit User
+Profiles.} arXiv:2604.21152; FAccT 2026.
+
+\bibitem{tonneau2026} M. Tonneau, S. Sehgal, M. Malhotra, et al.
+\emph{Different Demographic Cues Yield Inconsistent Conclusions About LLM
+Personalization and Bias.} arXiv:2601.18486; EMNLP 2026.
+
+\bibitem{guptapersona2023} S. Gupta, V. Shrivastava, A. Deshpande, et al.
+\emph{Bias Runs Deep: Implicit Reasoning Biases in Persona-Assigned LLMs.}
+arXiv:2311.04892; ICLR 2024.
+
+\bibitem{poole2024} M. Poole-Dayan, D. Roy, J. Kabbara. \emph{LLM Targeted
+Underperformance Disproportionately Impacts Vulnerable Users.} arXiv:2406.17737;
+AAAI 2026.
+
+\bibitem{kamruzzaman2025} M. Kamruzzaman, G. L. Kim. \emph{The Impact of
+Disability Disclosure on Fairness and Bias in LLM-Driven Candidate Selection.}
+arXiv:2506.00256; FLAIRS 2025.
+
+\bibitem{panda2025} S. Panda, A. Agarwal, P. Patel. \emph{AccessEval:
+Benchmarking Disability Bias in Large Language Models.} arXiv:2509.22703.
+
+\bibitem{wang2024a} X. Wang, B. Ma, C. Hu, L. Weber-Genzel, P. Röttger, F.
+Kreuter, D. Hovy, B. Plank. \emph{``My Answer is C'': First-Token Probabilities
+Do Not Match Text Answers in Instruction-Tuned Language Models.}
+arXiv:2402.14499; Findings of ACL 2024.
+
+\bibitem{wang2024b} X. Wang, C. Hu, B. Ma, P. Röttger, B. Plank. \emph{Look at
+the Text: Instruction-Tuned Language Models are More Robust Multiple Choice
+Selectors than You Think.} arXiv:2404.08382; COLM 2024.
+
+\bibitem{yin2025} H. Yin, M. Y. Vardi, V. Choudhary. \emph{Fragile Preferences:
+A Deep Dive Into Order Effects in Large Language Models.} arXiv:2506.14092; PNAS
+Nexus.
+
+\bibitem{yildirim2026} S. Yildirim. \emph{Differential Harm Propensity in
+Personalized LLM Agents: The Curious Case of Mental Health Disclosure.}
+arXiv:2603.16734.
+
+\bibitem{pashley2025} N. E. Pashley, B. Libgober, T. Dasgupta. \emph{Analysis
+and sample-size determination for $2^K$ audit experiments with binary response.}
+arXiv:2503.10591.
+
+\bibitem{hoffmann2026} M. Hoffmann, C. Jouffroy, J. Jouanneau, M. Palyart, P.
+Pebereau. \emph{Evaluating LLM Behavior in Hiring: Implicit Weights, Fairness
+Across Groups, and Alignment with Human Preferences.} arXiv:2601.11379.
+
+\bibitem{leyva2026} M. Leyva-Vazquez, F. Smarandache. \emph{Institutional
+Prestige as Geographic Bias in Large Language Models: Evidence from Three
+Factorial Experiments with Bootstrap Confidence Intervals.} arXiv:2608.18107.
+
+\bibitem{vohra2026} S. Vohra, M. Ravikiran. \emph{The Audit Decides the Verdict:
+Instrument Effects Rival Demographic Bias in LLM Decision Audits.} arXiv:2609.09048.
+
+\bibitem{rennard2026} V. Rennard, C. Xypolopoulos. \emph{Large language models
+simulate intersectional synthetic identities with a budget of one to two
+dimensions.} arXiv:2608.23005.
+
+\bibitem{magee2021} L. Magee, L. Ghahremanlou, K. Soldatic, S. Robertson.
+\emph{Intersectional Bias in Causal Language Models.} arXiv:2107.07691.
+
+\end{thebibliography}
+
+\end{document}

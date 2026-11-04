@@ -1,0 +1,11 @@
+{
+  "source": "github/paper-2-single-human-ai-fit/experiments/shared",
+  "files": {
+    "profiles/profiles.json": "fea8aa95c8cbc45d3a4c43600816b1f5bcf64ca1e716a5fa326cb7e9eaa7c66b",
+    "profiles/profiles.csv": "ff4dab890c9d4379fe74daa33a76db85726889388ad03c29a9f8c0215e49a1e3",
+    "axes/axes.json": "4f0581cb707f08bd86347253a480fef5f16cd2856fea0b40aee5deffe0b5eca0",
+    "axes/axes.csv": "877c122081b6f5651d11638a4ac3c64c4b38d0289e3121608515181ac49f60d0",
+    "axes/axes_design.md": "b4e6dd506d3565f1c28aa54d1f62111ba84ea63e75db0994f272ecce4cd98d79",
+    "tasks/tasks_p2_200.json": "d6920e1bdaa969d0eb0b6928f1ccf6d03f1cf7055246685fd45128a523c79c38"
+  }
+}

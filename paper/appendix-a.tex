@@ -1,0 +1,130 @@
+\appendix
+\section{Every floor test behind Table~\ref{tab:floors}}
+
+Ninety-eight rows, each carrying both tests: each of three neutral pairs
+on each instrument and model, in aggregate, and on the two task channels within
+each difficulty stratum as well. One family per model and instrument, Holm
+within a family for each test and Bonferroni across the two, exactly as
+Section~4 describes. The two Holm columns are the per-test values \emph{before}
+the Bonferroni step; the decision is made on the last column, which is twice the smaller of those
+two, capped at 1, and a floor moves when that value is below 0.05. The rows are written out by
+\path{analyse_e1_floors.py} itself, after the correction that produced
+Table~\ref{tab:floors}, so the two cannot drift apart; the same rows are in
+\path{appendix_a_floor_tests.csv} in the repository.
+
+\begin{center}
+\footnotesize
+\begin{longtable}{llllrrrrrrr}
+\toprule
+model & ch. & neutral pair & scope & $n$ & interaction & \multicolumn{2}{c}{raw $p$} & \multicolumn{2}{c}{Holm $p$} & decision \\
+& & & & & & rank & mean & rank & mean & $p$ \\
+\midrule
+\endfirsthead
+\toprule
+model & ch. & neutral pair & scope & $n$ & interaction & \multicolumn{2}{c}{raw $p$} & \multicolumn{2}{c}{Holm $p$} & decision \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+llama & A & cycling, bread & aggregate & 600 & +0.0100 & 0.508 & 0.587 & 1.000 & 1.000 & 1.000 \\
+llama & A & dog, guitar & aggregate & 600 & -0.0133 & 0.404 & 0.468 & 1.000 & 1.000 & 1.000 \\
+llama & A & tea, history & aggregate & 600 & +0.0150 & 0.401 & 0.461 & 1.000 & 1.000 & 1.000 \\
+llama & A & cycling, bread & near ceiling & 160 & +0.0125 & 0.727 & 0.728 & 1.000 & 1.000 & 1.000 \\
+llama & A & cycling, bread & middle & 98 & +0.0000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+llama & A & cycling, bread & far from ceiling & 342 & +0.0117 & 0.433 & 0.556 & 1.000 & 1.000 & 1.000 \\
+llama & A & dog, guitar & near ceiling & 177 & -0.0056 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+llama & A & tea, history & near ceiling & 177 & +0.0565 & 0.025 & 0.042 & 0.279 & 0.460 & 0.558 \\
+llama & A & dog, guitar & middle & 96 & -0.0104 & 0.906 & 1.000 & 1.000 & 1.000 & 1.000 \\
+llama & A & tea, history & middle & 96 & +0.1250 & 0.159 & 0.199 & 1.000 & 1.000 & 1.000 \\
+llama & A & dog, guitar & far from ceiling & 327 & -0.0183 & 0.109 & 0.107 & 1.000 & 1.000 & 1.000 \\
+llama & A & tea, history & far from ceiling & 327 & -0.0398 & 0.007 & 0.011 & 0.081 & 0.134 & 0.161 \\
+llama & A2 & cycling, bread & aggregate & 600 & +0.1401 & 0.009 & 0.008 & 0.027 & 0.041 & 0.054 \\
+llama & A2 & dog, guitar & aggregate & 600 & +0.1353 & $<$0.001 & $<$0.001 & $<$0.001 & 0.003 & $<$0.001\,$\star$ \\
+llama & A2 & tea, history & aggregate & 600 & +0.2139 & $<$0.001 & $<$0.001 & $<$0.001 & 0.001 & $<$0.001\,$\star$ \\
+llama & A2 & cycling, bread & near ceiling & 59 & +0.0213 & $<$0.001 & 0.015 & $<$0.001 & 0.060 & $<$0.001\,$\star$ \\
+llama & A2 & dog, guitar & near ceiling & 59 & +0.0270 & $<$0.001 & 0.003 & $<$0.001 & 0.017 & $<$0.001\,$\star$ \\
+llama & A2 & tea, history & near ceiling & 59 & +0.0713 & $<$0.001 & $<$0.001 & $<$0.001 & 0.001 & $<$0.001\,$\star$ \\
+llama & A2 & cycling, bread & middle & 123 & -0.1567 & 0.034 & 0.033 & 0.067 & 0.098 & 0.134 \\
+llama & A2 & dog, guitar & middle & 123 & -0.0174 & 0.080 & 0.783 & 0.080 & 0.783 & 0.160 \\
+llama & A2 & tea, history & middle & 123 & +0.1248 & $<$0.001 & 0.103 & 0.001 & 0.207 & 0.002\,$\star$ \\
+llama & A2 & cycling, bread & far from ceiling & 418 & +0.2442 & $<$0.001 & $<$0.001 & 0.003 & 0.006 & 0.005\,$\star$ \\
+llama & A2 & dog, guitar & far from ceiling & 418 & +0.1955 & $<$0.001 & $<$0.001 & $<$0.001 & 0.002 & $<$0.001\,$\star$ \\
+llama & A2 & tea, history & far from ceiling & 418 & +0.2603 & $<$0.001 & $<$0.001 & $<$0.001 & 0.001 & $<$0.001\,$\star$ \\
+llama & B & cycling, bread & aggregate & 100 & -0.0908 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+llama & B & dog, guitar & aggregate & 100 & -0.2535 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+llama & B & tea, history & aggregate & 100 & +0.2080 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+llama & C2 & cycling, bread & aggregate, vs a & 200 & +0.6303 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+llama & C2 & cycling, bread & aggregate, vs b & 200 & +0.7013 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+llama & C2 & dog, guitar & aggregate, vs a & 200 & +0.7966 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+llama & C2 & dog, guitar & aggregate, vs b & 200 & +0.4688 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+llama & C2 & tea, history & aggregate, vs a & 200 & +0.3509 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+llama & C2 & tea, history & aggregate, vs b & 200 & +0.3822 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+mistral & A & cycling, bread & aggregate & 600 & +0.0217 & 0.221 & 0.252 & 1.000 & 1.000 & 1.000 \\
+mistral & A & dog, guitar & aggregate & 600 & +0.0033 & 0.843 & 0.921 & 1.000 & 1.000 & 1.000 \\
+mistral & A & tea, history & aggregate & 600 & -0.0183 & 0.300 & 0.341 & 1.000 & 1.000 & 1.000 \\
+mistral & A & cycling, bread & near ceiling & 263 & +0.0228 & 0.273 & 0.362 & 1.000 & 1.000 & 1.000 \\
+mistral & A & cycling, bread & middle & 98 & +0.0510 & 0.531 & 0.592 & 1.000 & 1.000 & 1.000 \\
+mistral & A & cycling, bread & far from ceiling & 239 & +0.0084 & 0.637 & 0.819 & 1.000 & 1.000 & 1.000 \\
+mistral & A & dog, guitar & near ceiling & 249 & +0.0120 & 0.491 & 0.650 & 1.000 & 1.000 & 1.000 \\
+mistral & A & tea, history & near ceiling & 249 & +0.0201 & 0.225 & 0.330 & 1.000 & 1.000 & 1.000 \\
+mistral & A & dog, guitar & middle & 102 & +0.0196 & 0.811 & 0.893 & 1.000 & 1.000 & 1.000 \\
+mistral & A & tea, history & middle & 102 & -0.0588 & 0.502 & 0.568 & 1.000 & 1.000 & 1.000 \\
+mistral & A & dog, guitar & far from ceiling & 249 & -0.0120 & 0.439 & 0.607 & 1.000 & 1.000 & 1.000 \\
+mistral & A & tea, history & far from ceiling & 249 & -0.0402 & 0.012 & 0.024 & 0.149 & 0.286 & 0.298 \\
+mistral & A2 & cycling, bread & aggregate & 600 & +0.1474 & 0.607 & 0.129 & 1.000 & 0.450 & 0.900 \\
+mistral & A2 & dog, guitar & aggregate & 600 & +0.3698 & $<$0.001 & $<$0.001 & $<$0.001 & 0.001 & $<$0.001\,$\star$ \\
+mistral & A2 & tea, history & aggregate & 600 & +0.2782 & $<$0.001 & 0.011 & 0.004 & 0.063 & 0.008\,$\star$ \\
+mistral & A2 & cycling, bread & near ceiling & 52 & +0.0162 & $<$0.001 & $<$0.001 & $<$0.001 & 0.007 & 0.002\,$\star$ \\
+mistral & A2 & dog, guitar & near ceiling & 52 & +0.0195 & $<$0.001 & 0.005 & $<$0.001 & 0.033 & $<$0.001\,$\star$ \\
+mistral & A2 & tea, history & near ceiling & 52 & +0.1377 & $<$0.001 & $<$0.001 & $<$0.001 & 0.001 & $<$0.001\,$\star$ \\
+mistral & A2 & cycling, bread & middle & 191 & +0.0944 & 0.316 & 0.098 & 1.000 & 0.450 & 0.900 \\
+mistral & A2 & dog, guitar & middle & 191 & +0.1080 & 0.714 & 0.090 & 1.000 & 0.450 & 0.900 \\
+mistral & A2 & tea, history & middle & 191 & +0.3261 & $<$0.001 & $<$0.001 & 0.005 & 0.002 & 0.004\,$\star$ \\
+mistral & A2 & cycling, bread & far from ceiling & 357 & +0.1949 & 0.371 & 0.223 & 1.000 & 0.450 & 0.900 \\
+mistral & A2 & dog, guitar & far from ceiling & 357 & +0.5608 & $<$0.001 & $<$0.001 & $<$0.001 & 0.002 & $<$0.001\,$\star$ \\
+mistral & A2 & tea, history & far from ceiling & 357 & +0.2729 & 0.075 & 0.124 & 0.376 & 0.450 & 0.752 \\
+mistral & B & cycling, bread & aggregate & 100 & +0.4278 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+mistral & B & dog, guitar & aggregate & 100 & +0.5859 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+mistral & B & tea, history & aggregate & 100 & +0.2515 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+mistral & C2 & cycling, bread & aggregate, vs a & 15 & +2.6417 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+mistral & C2 & dog, guitar & aggregate, vs a & 33 & +3.3366 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+mistral & C2 & dog, guitar & aggregate, vs b & 12 & +1.2018 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+mistral & C2 & tea, history & aggregate, vs a & 127 & +4.0434 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+mistral & C2 & tea, history & aggregate, vs b & 29 & +0.7942 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & A & cycling, bread & aggregate & 600 & +0.0000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+qwen & A & dog, guitar & aggregate & 600 & +0.0050 & 0.750 & 0.829 & 1.000 & 1.000 & 1.000 \\
+qwen & A & tea, history & aggregate & 600 & -0.0150 & 0.361 & 0.425 & 1.000 & 1.000 & 1.000 \\
+qwen & A & cycling, bread & near ceiling & 304 & -0.0164 & 0.180 & 0.183 & 1.000 & 1.000 & 1.000 \\
+qwen & A & cycling, bread & middle & 86 & +0.1047 & 0.160 & 0.209 & 1.000 & 1.000 & 1.000 \\
+qwen & A & cycling, bread & far from ceiling & 210 & -0.0190 & 0.317 & 0.456 & 1.000 & 1.000 & 1.000 \\
+qwen & A & dog, guitar & near ceiling & 291 & -0.0241 & 0.065 & 0.063 & 0.720 & 0.693 & 1.000 \\
+qwen & A & tea, history & near ceiling & 291 & +0.0137 & 0.346 & 0.469 & 1.000 & 1.000 & 1.000 \\
+qwen & A & dog, guitar & middle & 89 & +0.0562 & 0.520 & 0.602 & 1.000 & 1.000 & 1.000 \\
+qwen & A & tea, history & middle & 89 & -0.1798 & 0.044 & 0.054 & 0.529 & 0.648 & 1.000 \\
+qwen & A & dog, guitar & far from ceiling & 220 & +0.0227 & 0.225 & 0.332 & 1.000 & 1.000 & 1.000 \\
+qwen & A & tea, history & far from ceiling & 220 & +0.0136 & 0.467 & 0.634 & 1.000 & 1.000 & 1.000 \\
+qwen & A2 & cycling, bread & aggregate & 600 & +0.1818 & 0.867 & 0.038 & 1.000 & 0.378 & 0.756 \\
+qwen & A2 & dog, guitar & aggregate & 600 & +0.1331 & 0.483 & 0.121 & 1.000 & 0.848 & 1.000 \\
+qwen & A2 & tea, history & aggregate & 600 & -0.0150 & 0.731 & 0.859 & 1.000 & 1.000 & 1.000 \\
+qwen & A2 & cycling, bread & near ceiling & 264 & -0.0281 & 0.130 & 0.002 & 1.000 & 0.019 & 0.038\,$\star$ \\
+qwen & A2 & dog, guitar & near ceiling & 264 & -0.0217 & 0.908 & 0.060 & 1.000 & 0.478 & 0.955 \\
+qwen & A2 & tea, history & near ceiling & 264 & -0.0173 & 0.205 & 0.457 & 1.000 & 1.000 & 1.000 \\
+qwen & A2 & cycling, bread & middle & 86 & -0.1237 & 0.407 & 0.424 & 1.000 & 1.000 & 1.000 \\
+qwen & A2 & dog, guitar & middle & 86 & -0.1576 & 0.100 & 0.409 & 1.000 & 1.000 & 1.000 \\
+qwen & A2 & tea, history & middle & 86 & -0.0600 & 0.571 & 0.772 & 1.000 & 1.000 & 1.000 \\
+qwen & A2 & cycling, bread & far from ceiling & 250 & +0.5087 & 0.060 & 0.013 & 0.656 & 0.140 & 0.279 \\
+qwen & A2 & dog, guitar & far from ceiling & 250 & +0.3965 & 0.052 & 0.040 & 0.618 & 0.378 & 0.756 \\
+qwen & A2 & tea, history & far from ceiling & 250 & +0.0029 & 0.633 & 0.988 & 1.000 & 1.000 & 1.000 \\
+qwen & B & cycling, bread & aggregate & 100 & +0.5533 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & B & dog, guitar & aggregate & 100 & +0.3794 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & B & tea, history & aggregate & 100 & +0.4640 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & C2 & cycling, bread & aggregate, vs a & 200 & +0.6469 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & C2 & cycling, bread & aggregate, vs b & 200 & +6.4400 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & C2 & dog, guitar & aggregate, vs a & 200 & +2.6731 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & C2 & dog, guitar & aggregate, vs b & 200 & +5.2081 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & C2 & tea, history & aggregate, vs a & 200 & +4.8869 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+qwen & C2 & tea, history & aggregate, vs b & 200 & +5.4903 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001\,$\star$ \\
+\end{longtable}
+\end{center}
+A star marks a floor that moves: decision $p$ below 0.05.
+

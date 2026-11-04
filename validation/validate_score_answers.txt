@@ -1,0 +1,54 @@
+==========================================================================
+1. THE SCORER AGAINST AN INDEPENDENT REFERENCE
+==========================================================================
+  [ok  ] answer '42': 2 tokens, matches the reference  -8.494730 vs -8.494730
+  [ok  ] answer '5': 1 tokens, matches the reference  -4.195744 vs -4.195744
+  [ok  ] answer '11:15': 5 tokens, matches the reference  -21.195387 vs -21.195387
+  [ok  ] answer '12345': 5 tokens, matches the reference  -21.303532 vs -21.303531
+  [ok  ] answer '597': 3 tokens, matches the reference  -12.542321 vs -12.542321
+  [ok  ] scores are not trivially equal to each other
+
+==========================================================================
+2. A SCORE DOES NOT DEPEND ON ITS NEIGHBOURS
+==========================================================================
+  [ok  ] each answer alone gives what it gave among others
+  [ok  ] reversing the call order changes nothing
+  [ok  ] a different answer to the same prompt gets a different score
+
+==========================================================================
+3. THE FALLBACK PATH
+==========================================================================
+  [ok  ] without logits_to_keep the scores are identical
+
+==========================================================================
+4. AN EMPTY ANSWER
+==========================================================================
+  [ok  ] gives NaN and zero tokens
+
+==========================================================================
+5. THE GPU GATE HAS TEETH
+==========================================================================
+    answer 42             tokens 2  scorer   -8.4947  rerun   -8.4947  reference   -8.4947
+    answer 5              tokens 1  scorer   -4.1957  rerun   -4.1957  reference   -4.1957
+    answer 11:15          tokens 5  scorer  -21.1954  rerun  -21.1954  reference  -21.1954
+    answer 12345          tokens 5  scorer  -21.3035  rerun  -21.3035  reference  -21.3035
+    answer 597            tokens 3  scorer  -12.5423  rerun  -12.5423  reference  -12.5423
+    answer scoring agrees with the reference, largest gap 0.0000
+  [ok  ] check_answer_scoring passes the real scorer
+    answer 42             tokens 2  scorer   -8.4215  rerun   -8.4215  reference   -8.4947
+    answer 5              tokens 1  scorer   -4.4643  rerun   -4.4643  reference   -4.1957
+    answer 11:15          tokens 5  scorer  -21.1035  rerun  -21.1035  reference  -21.1954
+    answer 12345          tokens 5  scorer  -21.3757  rerun  -21.3757  reference  -21.3035
+    answer 597            tokens 3  scorer  -12.8798  rerun  -12.8798  reference  -12.5423
+  [ok  ] check_answer_scoring STOPS an off-by-one scorer
+    answer 42             tokens 2  scorer   -8.4947  rerun   -8.4647  reference   -8.4947
+    answer 5              tokens 1  scorer   -4.1957  rerun   -4.1657  reference   -4.1957
+    answer 11:15          tokens 5  scorer  -21.1954  rerun  -21.1654  reference  -21.1954
+    answer 12345          tokens 5  scorer  -21.3035  rerun  -21.2735  reference  -21.3035
+    answer 597            tokens 3  scorer  -12.5423  rerun  -12.5123  reference  -12.5423
+  [ok  ] check_answer_scoring STOPS a scorer that depends on call order  the failure the batched version showed on the GPU
+
+==========================================================================
+14 passed, 0 failed
+the A2 scorer reads the right logits for the right tokens.
+==========================================================================

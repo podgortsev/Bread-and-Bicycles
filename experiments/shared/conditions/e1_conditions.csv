@@ -1,0 +1,18 @@
+id,label,style,slot1,slot2,n_social_signals,n_words,lead_in
+NONE,no signal,std,n1,n2,0,19,I am working through this on my laptop this evening. I would like to get it finished before tomorrow.
+ALT1,one neutral detail,std,alt1,n2,0,18,I cycle to work most days of the week. I would like to get it finished before tomorrow.
+ALT2_ONLY,the other neutral detail,std,n1,alt2,0,19,I am working through this on my laptop this evening. I have been baking my own bread since March.
+ALT_BOTH,two neutral details,std,alt1,alt2,0,18,I cycle to work most days of the week. I have been baking my own bread since March.
+S01_s1,"screen reader, slot 1",std,S01,n2,1,19,I use a screen reader for everything on my computer. I would like to get it finished before tomorrow.
+S01_s2,"screen reader, slot 2",std,n1,S01,1,20,I am working through this on my laptop this evening. I use a screen reader for everything on my computer.
+S08_s1,"age 74, slot 1",std,S08,n2,1,18,I am seventy-four and not very confident with computers. I would like to get it finished before tomorrow.
+S08_s2,"age 74, slot 2",std,n1,S08,1,19,I am working through this on my laptop this evening. I am seventy-four and not very confident with computers.
+F01,non-native form,esl,n1,n2,1,19,I am doing this work on my laptop in evening. I want to finish it before the tomorrow comes.
+F04,typos,typo,n1,n2,1,18,im workign throuhg this on my laptop this eveing. i woudl liek to get it finsihed before tomorow.
+P1_F01F04,non-native + typos,esl_typo,n1,n2,2,19,i am doign this work on my laptop in eveing. i want to finsih it before the tomorow comes.
+P2_S01S08,screen reader + age,std,S01,S08,2,19,I use a screen reader for everything on my computer. I am seventy-four and not very confident with computers.
+P2_S08S01,age + screen reader,std,S08,S01,2,19,I am seventy-four and not very confident with computers. I use a screen reader for everything on my computer.
+P3_F01S01_s1,"non-native + screen reader, slot 1",esl,S01,n2,2,19,I am using screen reader for all things on computer. I want to finish it before the tomorrow comes.
+P3_F01S01_s2,"non-native + screen reader, slot 2",esl,n1,S01,2,20,I am doing this work on my laptop in evening. I am using screen reader for all things on computer.
+P4_F04S08_s1,"typos + age, slot 1",typo,S08,n2,2,18,i am seventy-four and not very confidnet with computrs. i woudl liek to get it finsihed before tomorow.
+P4_F04S08_s2,"typos + age, slot 2",typo,n1,S08,2,18,im workign throuhg this on my laptop this eveing. i am seventy-four and not very confidnet with computrs.

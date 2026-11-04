@@ -1,0 +1,13 @@
+==============================================================================
+R1 PILOT: which generation length matches Kirk et al.'s data
+social templates only: base and religion, 1,000 completions each
+==============================================================================
+their data   missing 0.106   multi 0.035   tv between two samples of theirs 0.138
+
+variant    missing    multi  mean tv    score
+A            0.103    0.036    0.117     0.93
+B            0.087    0.141    0.258     5.08
+C            0.089    0.052    0.122     1.53
+
+chosen variant: A (lowest score)
+==============================================================================

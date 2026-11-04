@@ -1,0 +1,28 @@
+==========================================================================
+e1 CHOICE PAIRS, llama: first look
+==========================================================================
+
+  letter mass mean 0.985, 0 of 6400 below 0.5 (0.0%)
+
+  margin of the both-cell against one of its singles
+  negative = adding the second signal COSTS on top of the first
+
+    FLOOR_ALTxALT         vs_a  n=  400    -0.1969
+    FLOOR_ALTxALT         vs_b  n=  400    +0.3750
+    P1_FORMxFORM          vs_a  n=  400    -2.1225
+    P1_FORMxFORM          vs_b  n=  400    +0.3056
+    P2a_STATEDxSTATED     vs_a  n=  400    -0.2897
+    P2a_STATEDxSTATED     vs_b  n=  400    +0.6172
+    P2b_STATEDxSTATED     vs_a  n=  400    +1.0303
+    P2b_STATEDxSTATED     vs_b  n=  400    -0.3084
+    P3a_CROSS             vs_a  n=  400    +0.2737
+    P3a_CROSS             vs_b  n=  400    -1.5534
+    P3b_CROSS             vs_a  n=  400    +0.9122
+    P3b_CROSS             vs_b  n=  400    -0.4800
+    P4a_CROSS             vs_a  n=  400    -0.8094
+    P4a_CROSS             vs_b  n=  400    -1.4422
+    P4b_CROSS             vs_a  n=  400    -0.8278
+    P4b_CROSS             vs_b  n=  400    -2.4144
+
+  Run analyse_e1_choice_pairs.py with BOTH this file and the
+  first choice run: the interaction needs one term from each.

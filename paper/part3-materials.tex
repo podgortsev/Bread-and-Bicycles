@@ -1,0 +1,125 @@
+% Part III of the merged paper: what could not be rerun, and why.
+% Draft of 2026-10-06. Inputs after part2-published.tex.
+% The R6 subsection has a slot for reading B, which is still collecting.
+
+\section{What a rerun needs}
+\label{sec:materials}
+
+The seven targets were chosen because each released prompts, or data and code.
+On four of them we could not assemble everything a rerun needs. This section
+lists what was missing in each case, because it is the cost of Part~II and
+because the same list is what we now ship with our own work.
+
+The claim here is deliberately small. Reproducibility has been measured at
+scale, on samples of hundreds and thousands of papers, and this is not that. Our
+seven targets were selected for a different purpose, and seven cases support no
+rate. What they can offer is a concrete list of the artifacts a rerun of this kind
+turns out to depend on, which is more useful than a percentage.
+
+\subsection{Five artifacts a rerun of this kind depends on}
+
+\paragraph{Classifier weights.} The LABE metric is computed with three trained classifiers~\cite{wan2025}. The released folder carries configuration, scheduler and trainer state for each.
+The weight files are not part of the public release, so we retrained all three
+with their own script, reaching validation accuracies of 0.944, 0.933 and 0.941
+against the reported 0.933, 0.933 and 0.917. Step~0 then came in at a median absolute relative difference of 0.286 against a
+registered tolerance of 0.25, and that difference cannot be separated from
+retraining noise: three classifiers of near-identical accuracy produce variances
+on the same generations differing by up to a factor of four. The reported ordering, with the intersectional variance largest, appears in 14
+of 18 per-classifier rows. That ordering may also be expected from an eight-cell
+variance containing both the gender and the race spread, which is one reason the
+neutral arm was designed for this target. With the original weights the
+question the neutral arm was built for could be settled; without them it stays
+open.
+
+\paragraph{The input to a preprocessing tool.} Wilson and Caliskan code resumes and job descriptions to occupations with a
+public coding tool~\cite{wilson2024}. A rerun needs to know which text was sent
+to that tool, and we could not determine it. We coded 4{,}859 distinct texts
+through that tool's API and tried seven readings of the resume side, three
+registered before the first attempt and four after it failed and before they
+were computed. None of the seven reproduces the published counts, and the difference has the
+same shape every time, concentrated in three of the nine occupations. The
+consistency of that shape is what suggests a single preprocessing choice we did
+not recover, rather than scattered noise. The job-description side reproduces under the first reading, 8 of 9 counts
+within 20 percent, so what we were missing is specifically the resume-side
+input.
+
+\paragraph{A runtime version.} Ghanbari Haez and Dragoni generated their answers through a local model
+server~\cite{ghanbari2025}. Which version of it produced the released answers
+is something we were unable to establish, and generation is sensitive to it. Our
+regeneration missed the registered fidelity tolerance by 0.0006. A serial rerun,
+registered as a diagnostic before it was run, did not close the gap: their step
+is 0.8583, our parallel run 0.8680, our serial run 0.8721. Request batching is
+therefore not the explanation, and no conclusion about their claim is drawn. What our own generation does show is
+reported separately and is a statement about our answers only.
+
+\paragraph{How the comparison groups were formed.} ABLEIST reports compounding
+harm across stacked attributes~\cite{ableist2025}. Its Table~6 caption leaves
+several groupings open, and all three of our registered readings came in at best
+6 of 12 numbers per model against a rule of 10. One mixed reading, which we
+reconstructed by search over the readings the caption leaves open, reproduces
+all 24 numbers exactly on both models: the three single-and-double columns are
+unrestricted, covering every gender and both castes, while the triple-stacked
+column is restricted to the marginalised values. Since that reading reproduces every published number to the second decimal on
+two independent models, it is very likely the computation behind the table,
+though we cannot establish that from the released materials alone. It also
+indicates that the composition of the comparison groups may influence the
+observed increase, and that this is worth considering when interpreting that
+row. The reconstruction did not satisfy the preregistered reproduction criterion, and
+the reconstructed interpretation is reported alongside that outcome.
+
+\paragraph{The frame a fine-tuned model expects.} The same work releases a
+fine-tuned labeller. Running it needs the instruction string it was trained
+with, which we inferred from the released inference code. The labeller could not
+in the end be run at the scale our check needed, which is a compute limit on our
+side and is reported as one.
+
+\subsection{Beck et al.: how close the reproduction comes}
+
+Beck et al. report that combining all sociodemographic attributes produces the
+largest change in predictions for most of their datasets~\cite{beck2024}. Their
+code, their sampling notebook and six small open models make this the one target
+that is fully runnable, and we ran their pipeline unchanged over six models and
+seven conditions.
+
+The registered reading required the printed winner to be ours and our combined
+share to be within five percentage points, on at least four of six models.
+Three of the six meet both conditions. On a fourth the combination is also the
+most influential condition, so the direction of the claim holds on four of the
+six, but our share for that model is 13.02 against 7.00 and so misses the
+five-point band. The two remaining models put a single attribute first instead:
+one changes between 0.0 and 0.1 percent of labels in every condition, so its
+ordering turns on a single label, and the other is inside the five-point band on
+size while ordering gender first by 2.1 points.
+
+The preregistration names a fallback reading, the same comparison averaged over
+all three of their prompt formats, to be used if the first fails. \textbf{It is not reported here, because its collection was not finished in
+time.} The first
+format is complete and is what the paragraph above rests on; the other two are
+partial. No number from them appears in this paper, and the fallback reading
+stays open rather than being decided on part of its data.
+
+What the first format does carry is a check on this work rather than on theirs.
+The collection was lost to a deleted working directory in October and rebuilt
+from nothing: a new environment at a new path from the versions the authors pin,
+the source data downloaded again, the sample rebuilt from their notebook. All
+thirty-six cells of the recollection reproduce the first to the second decimal,
+and the verdict is unchanged. The distilled predictions are in the repository
+with a manifest of checksums, so the table above can be recomputed without the
+raw collection.
+
+\subsection{What this section is for}
+
+It is not a reproducibility audit and it is not a judgement on any of these
+studies, none of which is shown here to be wrong. Of the five artifact types listed above, two could be reconstructed or inferred
+from what was released, with different levels of confidence and neither fully
+verified: the grouping behind the published cells, which reproduces every
+published number but was found by search after the registered readings did not
+match and which did not meet the preregistered criterion, and the frame a
+fine-tuned model expects, which we inferred from the released inference code but
+could not verify at the scale our check needed. The other three could not, which
+is worth knowing in both directions. The point is forward-looking and applies first to us: a
+rerun of an interaction claim turns out to depend on a short and predictable
+list, namely the trained weights behind any learned metric, the exact input to
+any preprocessing tool, the runtime version used for generation, the grouping
+behind each published cell, and the frame a fine-tuned model expects. Part~I and Part~II of this paper ship each of these that applies to them, and
+that is the habit we would encourage.

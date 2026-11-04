@@ -1,0 +1,107 @@
+==============================================================================
+e3 CHANNEL C: does a credential buy back a disclosure
+models: llama, mistral, qwen   unit: logits of choice margin against NONE
+==============================================================================
+
+------------------------------------------------------------------------------
+0. GATES. Nothing below is read until these are.
+------------------------------------------------------------------------------
+  llama    mean letter mass 0.986   gated out 0 of 4000 (0.0%)
+  mistral  mean letter mass 0.715   gated out 836 of 4000 (20.9%)
+  qwen     mean letter mass 1.000   gated out 0 of 4000 (0.0%)
+
+------------------------------------------------------------------------------
+1. MAIN EFFECTS against NONE, paired within profile.
+------------------------------------------------------------------------------
+
+  llama  CHOICE
+    CRED_S01    n= 200       +0.2903 [    +0.2341,    +0.3475]  p rank 5.242e-16 mean 9.999e-05
+    CRED_S08    n= 200       -0.6362 [    -0.7137,    -0.5584]  p rank 5.943e-29 mean 9.999e-05
+    CRED_s1     n= 200       -0.1500 [    -0.1869,    -0.1109]  p rank 1.791e-11 mean 9.999e-05
+    CRED_s2     n= 200       -0.1288 [    -0.1744,    -0.0819]  p rank 4.748e-07 mean 9.999e-05
+    S01_CRED    n= 200       +0.6731 [    +0.6066,    +0.7397]  p rank 4.428e-32 mean 9.999e-05
+    S01_s1      n= 200       +0.0075 [    -0.0294,    +0.0447]  p rank 0.6535 mean 0.6947
+    S01_s2      n= 200       +0.5466 [    +0.4906,    +0.6016]  p rank 2.211e-32 mean 9.999e-05
+    S08_CRED    n= 200       -0.9150 [    -1.0016,    -0.8269]  p rank 1.113e-33 mean 9.999e-05
+    S08_s1      n= 200       -1.3053 [    -1.3694,    -1.2400]  p rank 1.373e-34 mean 9.999e-05
+    S08_s2      n= 200       -0.8003 [    -0.8603,    -0.7422]  p rank 1.326e-34 mean 9.999e-05
+
+  mistral  CHOICE
+    CRED_S01    n=  92       +6.0788 [    +5.8176,    +6.3380]  p rank 8.132e-17 mean 9.999e-05
+    CRED_S08    n= 200       -8.3898 [    -8.6516,    -8.1209]  p rank 1.434e-34 mean 9.999e-05
+    CRED_s1     n=  80       +3.4813 [    +3.1523,    +3.8203]  p rank 7.842e-15 mean 9.999e-05
+    CRED_s2     n= 172       +2.5360 [    +2.1422,    +2.9232]  p rank 2.618e-17 mean 9.999e-05
+    S01_CRED    n= 104       +8.3060 [    +7.9771,    +8.5783]  p rank 8.503e-19 mean 9.999e-05
+    S01_s1      n=  16       +3.7520 [    +3.2460,    +4.2422]  p rank 0.0004368 mean 9.999e-05
+    S01_s2      n= 109       +7.1454 [    +6.7285,    +7.5327]  p rank 1.274e-19 mean 9.999e-05
+    S08_CRED    n= 200       -6.7751 [    -7.0233,    -6.5223]  p rank 1.434e-34 mean 9.999e-05
+    S08_s1      n= 200       -5.9745 [    -6.1507,    -5.8001]  p rank 1.434e-34 mean 9.999e-05
+    S08_s2      n= 200       -5.2980 [    -5.4674,    -5.1253]  p rank 1.432e-34 mean 9.999e-05
+
+  qwen  CHOICE
+    CRED_S01    n= 200       -2.6397 [    -2.9788,    -2.2881]  p rank 1.022e-25 mean 9.999e-05
+    CRED_S08    n= 200       -4.9447 [    -5.1531,    -4.7400]  p rank 1.425e-34 mean 9.999e-05
+    CRED_s1     n= 200       -5.0050 [    -5.2576,    -4.7500]  p rank 1.422e-34 mean 9.999e-05
+    CRED_s2     n= 200       -3.7384 [    -4.1234,    -3.3533]  p rank 7.474e-34 mean 9.999e-05
+    S01_CRED    n= 200       -2.4025 [    -2.7400,    -2.0537]  p rank 1.045e-21 mean 9.999e-05
+    S01_s1      n= 200       -2.1350 [    -2.2437,    -2.0200]  p rank 1.987e-34 mean 9.999e-05
+    S01_s2      n= 200       -0.9981 [    -1.3332,    -0.6503]  p rank 3.562e-09 mean 9.999e-05
+    S08_CRED    n= 200       -5.0622 [    -5.2591,    -4.8613]  p rank 1.424e-34 mean 9.999e-05
+    S08_s1      n= 200       -5.3191 [    -5.4378,    -5.2056]  p rank 1.416e-34 mean 9.999e-05
+    S08_s2      n= 200       -1.1778 [    -1.2934,    -1.0578]  p rank 2.175e-30 mean 9.999e-05
+
+------------------------------------------------------------------------------
+2. INTERACTION. Is the combination worth more than its parts.
+------------------------------------------------------------------------------
+
+  model    measure  contrast            n   interaction         MDE        BH
+  llama    CHOICE   OFFSET_S01_a      200       -0.1062      0.0383    0.0001 *
+  llama    CHOICE   OFFSET_S01_b      200       +0.7944      0.0319    0.0001 *
+  llama    CHOICE   OFFSET_S08_a      200       +0.3141      0.0397    0.0001 *
+  llama    CHOICE   OFFSET_S08_b      200       +0.5191      0.0374    0.0001 *
+  mistral  CHOICE   OFFSET_S01_a       76       -5.1320      0.3819    0.0001 *
+  mistral  CHOICE   OFFSET_S01_b       16       +0.6484      0.6234    0.0622
+  mistral  CHOICE   OFFSET_S08_a       80       -5.5307      0.2944    0.0001 *
+  mistral  CHOICE   OFFSET_S08_b      172       -2.9801      0.1922    0.0001 *
+  qwen     CHOICE   OFFSET_S01_a      200       +3.3634      0.2176    0.0001 *
+  qwen     CHOICE   OFFSET_S01_b      200       +3.4709      0.1437    0.0001 *
+  qwen     CHOICE   OFFSET_S08_a      200       +1.2381      0.2152    0.0001 *
+  qwen     CHOICE   OFFSET_S08_b      200       +3.9953      0.2234    0.0001 *
+
+------------------------------------------------------------------------------
+3. RESTORATION. Is the person back at the control.
+   recovered = 1 - (combined - NONE) / (disclosure alone - NONE)
+   Only computed where the disclosure had an effect to recover from.
+------------------------------------------------------------------------------
+
+  llama  CHOICE
+    S01  CRED_S01    gap to NONE    +0.2903 [  +0.2341,  +0.3475] p rank 5.24e-16 mean 0.0001   alone   +0.0075   recovered   n/a   (the disclosure alone had no effect to recover)
+    S01  S01_CRED    gap to NONE    +0.6731 [  +0.6066,  +0.7397] p rank 4.43e-32 mean 0.0001   alone   +0.5466   recovered  -0.23
+    S08  CRED_S08    gap to NONE    -0.6362 [  -0.7137,  -0.5584] p rank 5.94e-29 mean 0.0001   alone   -1.3053   recovered   0.51
+    S08  S08_CRED    gap to NONE    -0.9150 [  -1.0016,  -0.8269] p rank 1.11e-33 mean 0.0001   alone   -0.8003   recovered  -0.14
+
+  mistral  CHOICE
+    S01  CRED_S01    gap to NONE    +6.0788 [  +5.8176,  +6.3380] p rank 8.13e-17 mean 0.0001   alone   +3.7520   recovered  -0.62
+    S01  S01_CRED    gap to NONE    +8.3060 [  +7.9771,  +8.5783] p rank 8.5e-19 mean 0.0001   alone   +7.1454   recovered  -0.16
+    S08  CRED_S08    gap to NONE    -8.3898 [  -8.6516,  -8.1209] p rank 1.43e-34 mean 0.0001   alone   -5.9745   recovered  -0.40
+    S08  S08_CRED    gap to NONE    -6.7751 [  -7.0233,  -6.5223] p rank 1.43e-34 mean 0.0001   alone   -5.2980   recovered  -0.28
+
+  qwen  CHOICE
+    S01  CRED_S01    gap to NONE    -2.6397 [  -2.9788,  -2.2881] p rank 1.02e-25 mean 0.0001   alone   -2.1350   recovered  -0.24
+    S01  S01_CRED    gap to NONE    -2.4025 [  -2.7400,  -2.0537] p rank 1.05e-21 mean 0.0001   alone   -0.9981   recovered  -1.41
+    S08  CRED_S08    gap to NONE    -4.9447 [  -5.1531,  -4.7400] p rank 1.43e-34 mean 0.0001   alone   -5.3191   recovered   0.07
+    S08  S08_CRED    gap to NONE    -5.0622 [  -5.2591,  -4.8613] p rank 1.42e-34 mean 0.0001   alone   -1.1778   recovered  -3.30
+
+------------------------------------------------------------------------------
+4. SYMMETRY. The same credential against two disclosures.
+------------------------------------------------------------------------------
+  llama    CHOICE   S01 gap +0.4817  S08 gap -0.7756   difference +1.2573
+  mistral  CHOICE   S01 gap +7.1924  S08 gap -7.5825   difference +14.7749
+  qwen     CHOICE   S01 gap -2.5211  S08 gap -5.0034   difference +2.4823
+
+==============================================================================
+Read section 3 before section 2. The interaction says whether the
+combination beat the sum of its parts; restoration says whether the
+person got their treatment back, which is the question that gets
+repeated back outside this field.
+==============================================================================

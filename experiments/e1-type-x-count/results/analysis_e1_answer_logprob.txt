@@ -1,0 +1,162 @@
+==============================================================================
+e1 CHANNEL A2: log probability of the correct answer
+models: llama, mistral, qwen
+==============================================================================
+
+------------------------------------------------------------------------------
+0. VALIDITY. Does a higher answer probability mean the task was
+   actually solved? AUC on the NONE condition, 0.5 = no relation.
+------------------------------------------------------------------------------
+  llama    AUC 0.914  (227 solved, 373 failed)  strong
+  mistral  AUC 0.896  (305 solved, 295 failed)  strong
+  qwen     AUC 0.995  (355 solved, 245 failed)  strong
+
+  ceiling: share of NONE tasks answered with P(correct) above 0.95.
+  Those cannot move up, so every contrast is read mostly on the rest.
+  llama    12% of 600 tasks at the ceiling
+  mistral  6% of 600 tasks at the ceiling
+  qwen     46% of 600 tasks at the ceiling
+
+------------------------------------------------------------------------------
+1. FLOORS FIRST. Three neutral pairs, overall and within three
+   difficulty strata, as ONE family per model: Holm per test, then
+   x2 across the two tests. One floor moving anywhere is enough.
+------------------------------------------------------------------------------
+                                      mean              95% CI        HL     MDE  Holm rank  Holm mean
+  llama    FLOOR_ALTxALT   n= 600  +0.1401 [ +0.0318, +0.2405]   +0.0673  0.1049     0.0268     0.0405
+  llama    FLOOR2_ALTxALT  n= 600  +0.1353 [ +0.0571, +0.2110]   +0.1402  0.0774   9.19e-08     0.0032 *
+  llama    FLOOR3_ALTxALT  n= 600  +0.2139 [ +0.1186, +0.3048]   +0.1773  0.0940   4.89e-08     0.0012 *
+  llama    floor verdict: CONTAMINATED, 2 of 3 floors significant; 3 of 3 floor means positive
+  mistral  FLOOR_ALTxALT   n= 600  +0.1474 [ -0.0465, +0.3326]   +0.0174  0.1904          1       0.45
+  mistral  FLOOR2_ALTxALT  n= 600  +0.3698 [ +0.2148, +0.5233]   +0.2101  0.1590   0.000163     0.0012 *
+  mistral  FLOOR3_ALTxALT  n= 600  +0.2782 [ +0.0655, +0.4819]   +0.1624  0.2119    0.00388      0.063 *
+  mistral  floor verdict: CONTAMINATED, 2 of 3 floors significant; 3 of 3 floor means positive
+  qwen     FLOOR_ALTxALT   n= 600  +0.1818 [ +0.0085, +0.3530]   +0.0000  0.1718          1      0.378
+  qwen     FLOOR2_ALTxALT  n= 600  +0.1331 [ -0.0368, +0.2978]   +0.0000  0.1657          1      0.848
+  qwen     FLOOR3_ALTxALT  n= 600  -0.0150 [ -0.1749, +0.1533]   +0.0000  0.1618          1          1
+  qwen     floor verdict: CLEAN IN AGGREGATE ONLY, all 3 floors quiet; 2 of 3 floor means positive
+
+  1b. the same floors WITHIN difficulty strata, corrected in the
+      same family as above. Movements that cancel in the average
+      show here.
+  llama    tasks per stratum: near ceiling 59, middle 123, far from ceiling 418
+    FLOOR_ALTxALT   near ceiling      n=  59  +0.0213  Holm 0.000359 *
+    FLOOR2_ALTxALT  near ceiling      n=  59  +0.0270  Holm 2.49e-06 *
+    FLOOR3_ALTxALT  near ceiling      n=  59  +0.0713  Holm 2.11e-07 *
+    FLOOR_ALTxALT   middle            n= 123  -0.1567  Holm 0.134
+    FLOOR2_ALTxALT  middle            n= 123  -0.0174  Holm 0.16
+    FLOOR3_ALTxALT  middle            n= 123  +0.1248  Holm 0.00215 *
+    FLOOR_ALTxALT   far from ceiling  n= 418  +0.2442  Holm 0.00541 *
+    FLOOR2_ALTxALT  far from ceiling  n= 418  +0.1955  Holm 1.53e-06 *
+    FLOOR3_ALTxALT  far from ceiling  n= 418  +0.2603  Holm 8.13e-05 *
+  mistral  tasks per stratum: near ceiling 52, middle 191, far from ceiling 357
+    FLOOR_ALTxALT   near ceiling      n=  52  +0.0162  Holm 0.00174 *
+    FLOOR2_ALTxALT  near ceiling      n=  52  +0.0195  Holm 4.81e-05 *
+    FLOOR3_ALTxALT  near ceiling      n=  52  +0.1377  Holm 4.69e-08 *
+    FLOOR_ALTxALT   middle            n= 191  +0.0944  Holm 0.9
+    FLOOR2_ALTxALT  middle            n= 191  +0.1080  Holm 0.9
+    FLOOR3_ALTxALT  middle            n= 191  +0.3261  Holm 0.004 *
+    FLOOR_ALTxALT   far from ceiling  n= 357  +0.1949  Holm 0.9
+    FLOOR2_ALTxALT  far from ceiling  n= 357  +0.5608  Holm 0.000129 *
+    FLOOR3_ALTxALT  far from ceiling  n= 357  +0.2729  Holm 0.752
+  qwen     tasks per stratum: near ceiling 264, middle 86, far from ceiling 250
+    FLOOR_ALTxALT   near ceiling      n= 264  -0.0281  Holm 0.0384 *
+    FLOOR2_ALTxALT  near ceiling      n= 264  -0.0217  Holm 0.955
+    FLOOR3_ALTxALT  near ceiling      n= 264  -0.0173  Holm 1
+    FLOOR_ALTxALT   middle            n=  86  -0.1237  Holm 1
+    FLOOR2_ALTxALT  middle            n=  86  -0.1576  Holm 1
+    FLOOR3_ALTxALT  middle            n=  86  -0.0600  Holm 1
+    FLOOR_ALTxALT   far from ceiling  n= 250  +0.5087  Holm 0.279
+    FLOOR2_ALTxALT  far from ceiling  n= 250  +0.3965  Holm 0.756
+    FLOOR3_ALTxALT  far from ceiling  n= 250  +0.0029  Holm 1
+  qwen     floors quiet in aggregate but 1 move within a stratum: CLEAN IN AGGREGATE ONLY
+
+------------------------------------------------------------------------------
+2. MAIN EFFECTS against NONE, paired within task.
+   negative = the condition makes the right answer LESS likely
+------------------------------------------------------------------------------
+   * = both tests reject after BH, and the mean and the signed ranks
+       lean the same way
+
+  llama
+    F01         n= 600    -0.0884 [ -0.1544, -0.0225]  HL -0.0473  BH rank 0.0242    mean 0.0146    *
+    F04         n= 600    +0.2054 [ +0.1501, +0.2638]  HL +0.1385  BH rank 1.38e-09  mean 0.0003    *
+    S01_s1      n= 600    +0.1486 [ +0.0506, +0.2503]  HL +0.0413  BH rank 0.296     mean 0.0058     (one test only)
+    S01_s2      n= 600    -0.0646 [ -0.1652, +0.0412]  HL -0.0962  BH rank 0.00599   mean 0.266      (one test only)
+    S08_s1      n= 600    -0.6443 [ -0.7461, -0.5367]  HL -0.6243  BH rank 6.33e-30  mean 0.0003    *
+    S08_s2      n= 600    -0.2389 [ -0.3419, -0.1322]  HL -0.2501  BH rank 3.38e-08  mean 0.0003    *
+    ALT1        n= 600    +0.0069 [ -0.1064, +0.1266]  HL -0.0146  BH rank 0.603     mean 0.904    
+    ALT2_ONLY   n= 600    +0.3430 [ +0.2426, +0.4482]  HL +0.2544  BH rank 2.09e-16  mean 0.0003    *
+    ALT3        n= 600    -0.1655 [ -0.2571, -0.0723]  HL -0.1553  BH rank 6.68e-06  mean 0.000831  *
+    ALT4_ONLY   n= 600    +0.3208 [ +0.2460, +0.3958]  HL +0.2422  BH rank 1.27e-17  mean 0.0003    *
+    ALT5        n= 600    -0.2859 [ -0.3908, -0.1760]  HL -0.2470  BH rank 9.84e-09  mean 0.0003    *
+    ALT6_ONLY   n= 600    +0.3505 [ +0.2601, +0.4420]  HL +0.2058  BH rank 3.08e-13  mean 0.0003    *
+
+  mistral
+    F01         n= 600    +0.1375 [ -0.0077, +0.2867]  HL +0.0639  BH rank 0.0891    mean 0.0947   
+    F04         n= 600    +0.3627 [ +0.2466, +0.4878]  HL +0.2008  BH rank 1.35e-09  mean 0.0003    *
+    S01_s1      n= 600    +0.3016 [ +0.1091, +0.4972]  HL +0.0964  BH rank 0.0734    mean 0.0045     (one test only)
+    S01_s2      n= 600    -0.0360 [ -0.2015, +0.1341]  HL -0.0306  BH rank 0.44      mean 0.709    
+    S08_s1      n= 600    +0.1796 [ -0.0221, +0.3842]  HL +0.1251  BH rank 0.00269   mean 0.114      (one test only)
+    S08_s2      n= 600    +0.2515 [ +0.1005, +0.4062]  HL +0.1145  BH rank 0.000572  mean 0.00288   *
+    ALT1        n= 600    +0.4152 [ +0.2066, +0.6205]  HL +0.2795  BH rank 4.91e-08  mean 0.00103   *
+    ALT2_ONLY   n= 600    +0.1527 [ -0.0332, +0.3449]  HL +0.0347  BH rank 0.374     mean 0.148    
+    ALT3        n= 600    +0.2664 [ +0.0561, +0.4873]  HL +0.2510  BH rank 2.88e-05  mean 0.0232    *
+    ALT4_ONLY   n= 600    -0.0812 [ -0.2375, +0.0709]  HL -0.0084  BH rank 0.795     mean 0.337    
+    ALT5        n= 600    +0.0981 [ -0.1268, +0.3210]  HL +0.0958  BH rank 0.136     mean 0.422    
+    ALT6_ONLY   n= 600    -0.0816 [ -0.2559, +0.0866]  HL +0.0567  BH rank 0.104     mean 0.405    
+
+  qwen
+    F01         n= 600    -0.1027 [ -0.2146, +0.0213]  HL -0.0008  BH rank 0.00118   mean 0.117      (one test only)
+    F04         n= 600    +0.1190 [ +0.0375, +0.2034]  HL +0.0000  BH rank 0.104     mean 0.00864    (one test only)
+    S01_s1      n= 600    +0.1998 [ +0.0583, +0.3373]  HL +0.0000  BH rank 0.706     mean 0.00943    (one test only)
+    S01_s2      n= 600    +0.2027 [ +0.0766, +0.3393]  HL +0.0006  BH rank 0.0734    mean 0.0058     (one test only)
+    S08_s1      n= 600    +0.1530 [ +0.0225, +0.2896]  HL -0.0000  BH rank 0.666     mean 0.0423     (one test only)
+    S08_s2      n= 600    +0.0373 [ -0.0961, +0.1767]  HL -0.0001  BH rank 0.0734    mean 0.627    
+    ALT1        n= 600    -0.4735 [ -0.6803, -0.2615]  HL -0.0240  BH rank 3.59e-06  mean 0.0003    *
+    ALT2_ONLY   n= 600    -0.1299 [ -0.3088, +0.0488]  HL -0.0001  BH rank 0.0734    mean 0.207    
+    ALT3        n= 600    -0.4997 [ -0.7001, -0.2936]  HL -0.0331  BH rank 5.11e-07  mean 0.0003    *
+    ALT4_ONLY   n= 600    -0.3767 [ -0.5402, -0.2071]  HL -0.0080  BH rank 0.000291  mean 0.0003    *
+    ALT5        n= 600    -0.9297 [ -1.1683, -0.6904]  HL -0.2289  BH rank 5.12e-14  mean 0.0003    *
+    ALT6_ONLY   n= 600    -0.1868 [ -0.3102, -0.0665]  HL -0.0120  BH rank 2.55e-05  mean 0.00663   *
+
+------------------------------------------------------------------------------
+3. INTERACTIONS. NEGATIVE = super-additive. Only read where the
+   floor verdict above is CLEAN.
+------------------------------------------------------------------------------
+   the single effects of each pair are printed beside it: a negative
+   interaction is compounding harm only when both singles are costs
+
+  llama   floor CONTAMINATED
+    P1_FORMxFORM        n= 600  singles -0.09 +0.21  interaction  +0.0365  HL +0.0165  MDE 0.0591  BH rank 0.308    mean 0.293   
+    P2a_STATEDxSTATED   n= 600  singles +0.15 -0.24  interaction  -0.1173  HL -0.0852  MDE 0.1024  BH rank 0.0594   mean 0.0426    (one test only)
+    P2b_STATEDxSTATED   n= 600  singles -0.64 -0.06  interaction  +0.4131  HL +0.3862  MDE 0.1035  BH rank 1.84e-15 mean 0.000233 *  cost does not add
+    P3a_CROSS           n= 600  singles -0.09 +0.15  interaction  +0.1062  HL +0.0420  MDE 0.0778  BH rank 0.18     mean 0.0108    (one test only)
+    P3b_CROSS           n= 600  singles -0.09 -0.06  interaction  +0.3191  HL +0.2451  MDE 0.0749  BH rank 3.1e-18  mean 0.000233 *  cost does not add
+    P4a_CROSS           n= 600  singles +0.21 -0.64  interaction  +0.0279  HL +0.0037  MDE 0.0776  BH rank 0.907    mean 0.488   
+    P4b_CROSS           n= 600  singles +0.21 -0.24  interaction  +0.0701  HL -0.0117  MDE 0.0829  BH rank 0.546    mean 0.155   
+
+  mistral   floor CONTAMINATED
+    P1_FORMxFORM        n= 600  singles +0.14 +0.36  interaction  -0.1088  HL -0.0310  MDE 0.1573  BH rank 0.308    mean 0.244   
+    P2a_STATEDxSTATED   n= 600  singles +0.30 +0.25  interaction  -0.6409  HL -0.5182  MDE 0.1659  BH rank 2.73e-20 mean 0.000233 *  benefit does not add
+    P2b_STATEDxSTATED   n= 600  singles +0.18 -0.04  interaction  +0.0855  HL -0.0718  MDE 0.1712  BH rank 0.18     mean 0.396   
+    P3a_CROSS           n= 600  singles +0.14 +0.30  interaction  -0.4496  HL -0.3035  MDE 0.1915  BH rank 2.11e-10 mean 0.000233 *  benefit does not add
+    P3b_CROSS           n= 600  singles +0.14 -0.04  interaction  -0.4198  HL -0.2918  MDE 0.1723  BH rank 1.62e-08 mean 0.000233 *  singles point opposite ways: no direction label
+    P4a_CROSS           n= 600  singles +0.36 +0.18  interaction  -0.5713  HL -0.4059  MDE 0.1746  BH rank 4.55e-16 mean 0.000233 *  benefit does not add
+    P4b_CROSS           n= 600  singles +0.36 +0.25  interaction  -0.2838  HL -0.2055  MDE 0.1282  BH rank 2.58e-13 mean 0.000233 *  benefit does not add
+
+  qwen   floor CLEAN IN AGGREGATE ONLY
+    P1_FORMxFORM        n= 600  singles -0.10 +0.12  interaction  -0.1653  HL -0.0049  MDE 0.0933  BH rank 0.0075   mean 0.00063  *  singles point opposite ways: no direction label
+    P2a_STATEDxSTATED   n= 600  singles +0.20 +0.04  interaction  -0.2549  HL -0.0223  MDE 0.1246  BH rank 0.000318 mean 0.000233 *  benefit does not add
+    P2b_STATEDxSTATED   n= 600  singles +0.15 +0.20  interaction  -0.5371  HL -0.1045  MDE 0.1638  BH rank 1.06e-08 mean 0.000233 *  benefit does not add
+    P3a_CROSS           n= 600  singles -0.10 +0.20  interaction  +0.0559  HL +0.0001  MDE 0.1357  BH rank 0.18     mean 0.456   
+    P3b_CROSS           n= 600  singles -0.10 +0.20  interaction  -0.0430  HL +0.0000  MDE 0.1138  BH rank 0.546    mean 0.478   
+    P4a_CROSS           n= 600  singles +0.12 +0.15  interaction  -0.1619  HL -0.0050  MDE 0.0876  BH rank 0.00181  mean 0.000764 *  benefit does not add
+    P4b_CROSS           n= 600  singles +0.12 +0.04  interaction  -0.0371  HL +0.0000  MDE 0.0862  BH rank 0.907    mean 0.456   
+
+==============================================================================
+VERDICT
+==============================================================================
+  llama    floor CONTAMINATED: channel A2 cannot identify an interaction on this model
+  mistral  floor CONTAMINATED: channel A2 cannot identify an interaction on this model
+  qwen     floor CLEAN IN AGGREGATE ONLY: floors move within difficulty strata, so no interaction is identified on this model
