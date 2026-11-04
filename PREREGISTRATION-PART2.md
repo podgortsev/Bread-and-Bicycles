@@ -4,8 +4,8 @@
 a private working repository. That repository is not published, because its
 history also holds material that is not ours to publish, so the commit that
 first contained each section is printed here instead. This document is archived
-with its own DOI, which makes it immutable from the date of that deposit
-onward. Neither the deposit nor a hash proves the earlier date on which a
+with its own DOI, 10.5281/zenodo.23960058, which makes it immutable from the date of
+that deposit onward. Neither the deposit nor a hash proves the earlier date on which a
 section was written; that is asserted, and the history can be shown on request.
 
 | registered | date | commit |

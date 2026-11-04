@@ -13,8 +13,8 @@ copied here so that this repository is self-contained.
 
 The research repository that holds the original history is not published,
 because that history also holds material that is not ours to publish. This
-document is archived with its own DOI instead, which makes it immutable from
-the date of that deposit onward. The deposit does not prove the earlier date on
+document is archived with its own DOI instead, 10.5281/zenodo.23959847, which makes it
+immutable from the date of that deposit onward. The deposit does not prove the earlier date on
 which the text was written; that is asserted, and the history can be shown on
 request.
 

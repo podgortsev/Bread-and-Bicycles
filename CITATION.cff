@@ -9,8 +9,23 @@ authors:
     given-names: Michael
     email: podgortsev@gmail.com
     orcid: 'https://orcid.org/0009-0007-5561-1916'
+identifiers:
+  - type: doi
+    value: '10.5281/zenodo.23959679'
+    description: >-
+      Concept DOI. Always resolves to the newest version. Cite this one.
+  - type: doi
+    value: '10.5281/zenodo.23959680'
+    description: Version DOI for v1.0.0.
+  - type: doi
+    value: '10.5281/zenodo.23959847'
+    description: Preregistration, Part I. Concept DOI.
+  - type: doi
+    value: '10.5281/zenodo.23960058'
+    description: Preregistration, Parts II and III. Concept DOI.
 repository-code: https://github.com/podgortsev/Bread-and-Bicycles
 license: MIT
+date-released: '2026-11-04'
 keywords:
   - fairness
   - large language models

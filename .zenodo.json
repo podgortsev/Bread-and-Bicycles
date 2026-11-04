@@ -30,6 +30,16 @@
       "identifier": "https://github.com/podgortsev/Bread-and-Bicycles",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23959847",
+      "relation": "documents",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23960058",
+      "relation": "documents",
+      "scheme": "doi"
     }
   ]
 }
